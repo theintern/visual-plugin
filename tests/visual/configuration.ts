@@ -1,5 +1,8 @@
 import * as registerSuite from 'intern!object';
-import { visualTest } from 'src/index';
+import { visualTest } from 'intern-visual/index';
+
+import { IRequire } from 'dojo/loader';
+declare const require: IRequire;
 
 const basicPageUrl = require.toUrl('../support/pages/basic.html');
 

@@ -4,11 +4,14 @@ import { existsSync } from 'fs';
 import { join as joinPath } from 'path';
 import * as registerSuite from 'intern!object';
 import * as assert from 'intern/chai!assert';
-import { config, assertVisuals, util } from 'src/index';
+import { config, assertVisuals, util } from 'intern-visual/index';
 import * as Test from 'intern/lib/Test';
-import { getBaselineFilename, getTestDirectory, remove as removeFile } from 'src/util/file';
-import { AssertionResult, VisualRegressionTest } from 'src/assert';
-import resizeWindow from 'src/helpers/resizeWindow';
+import { getBaselineFilename, getTestDirectory, remove as removeFile } from 'intern-visual/util/file';
+import { AssertionResult, VisualRegressionTest } from 'intern-visual/assert';
+import resizeWindow from 'intern-visual/helpers/resizeWindow';
+
+import { IRequire } from 'dojo/loader';
+declare const require: IRequire;
 
 const basicPageUrl = require.toUrl('../support/pages/basic.html');
 

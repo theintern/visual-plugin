@@ -7,9 +7,9 @@ var TASKS = [
 	'grunt-contrib-watch',
 	'grunt-contrib-jshint',
 	'grunt-contrib-stylus',
+	'grunt-shell',
 	'grunt-jscs',
 	'grunt-text-replace',
-	'grunt-ts',
 	'grunt-tslint',
 	'intern'
 ];
@@ -79,14 +79,12 @@ module.exports = function (grunt) {
 	// Parse some information from tsconfig.json for the grunt configuration
 	var tsconfigContent = grunt.file.read('tsconfig.json');
 	var tsconfig = JSON.parse(tsconfigContent);
-	var compilerOptions = mixin({}, tsconfig.compilerOptions);
 
-	if (tsconfig.filesGlob) {
-		tsconfig.filesGlob = formatGlob(tsconfig.filesGlob);
-	}
-	else {
-		tsconfig.include = formatGlob(tsconfig.include);
-	}
+	var tsconfigDistContent = grunt.file.read('tsconfig.dist.json');
+	var tsconfigDist = JSON.parse(tsconfigDistContent);
+
+	tsconfig.include = formatGlob(tsconfig.include);
+	tsconfigDist.include = formatGlob(tsconfigDist.include);
 
 	// parse some information from package.json for grunt
 	var packageJson = grunt.file.readJSON('package.json');
@@ -95,15 +93,16 @@ module.exports = function (grunt) {
 		name: packageJson.name,
 		version: packageJson.version,
 		tsconfig: tsconfig,
+		tsconfigDist: tsconfigDist,
 		istanbulIgnoreNext: '/* istanbul ignore next */',
-		filesGlob: tsconfig.filesGlob || tsconfig.include,
+		filesGlob: tsconfig.include,
 		all: [ '<%= filesGlob %>' ],
 		skipTests: [ '<%= all %>', '!tests/**/*.ts' ],
 		staticTestFiles: 'tests/**/*.{html,css}',
 		srcDirectory: 'src',
 		siteDirectory: '.',
 		devDirectory: '<%= tsconfig.compilerOptions.outDir %>',
-		distDirectory: 'dist',
+		distDirectory: '<%= tsconfigDist.compilerOptions.outDir %>',
 		testDirectory: 'test',
 		targetDirectory: '<%= devDirectory %>',
 
@@ -150,7 +149,7 @@ module.exports = function (grunt) {
 			staticDistFiles: {
 				expand: true,
 				cwd: '.',
-				src: [ 'README.md', 'LICENSE', 'package.json' ],
+				src: [ 'README.md', 'LICENSE.txt', 'package.json' ],
 				dest: '<%= distDirectory %>'
 			},
 			nodeModules: {
@@ -241,25 +240,12 @@ module.exports = function (grunt) {
 			}
 		},
 
-		ts: {
-			options: mixin(
-				compilerOptions,
-				{
-					failOnTypeErrors: true,
-					fast: 'never',
-					additionalFlags: '--baseUrl .'
-				}
-			),
+		shell: {
 			dev: {
-				outDir: '<%= devDirectory %>',
-				src: [ '<%= all %>' ]
+				command: 'tsc'
 			},
 			dist: {
-				options: {
-					mapRoot: '../<%= distDirectory %>/_debug'
-				},
-				outDir: '<%= distDirectory %>/src',
-				src: [ '<%= skipTests %>' ]
+				command: 'tsc --project tsconfig.dist.json'
 			}
 		},
 
@@ -350,7 +336,7 @@ module.exports = function (grunt) {
 	 * Perform a minimum, complete build
 	 */
 	grunt.registerTask('build-quick', [
-		'ts:dev',
+		'shell:dev',
 		'copy:staticSiteFiles'
 	]);
 
@@ -358,11 +344,11 @@ module.exports = function (grunt) {
 	 * Dev build
 	 */
 	grunt.registerTask('build', [
-		'ts:dev',
+		'shell:dev',
 		'stylus',
 		'copy:staticSiteFiles',
-		'copy:staticTestFiles',
-		'replace:addIstanbulIgnore'
+		'copy:staticTestFiles'/*,
+		'replace:addIstanbulIgnore'*/
 	]);
 
 	/**
@@ -371,7 +357,7 @@ module.exports = function (grunt) {
 	grunt.registerTask('dist', [
 		'settarget:dist',
 		'clean:dist',
-		'ts:dist',
+		'shell:dist',
 		'copy:staticSiteFiles',
 		'copy:staticDistFiles',
 		'copy:libs'

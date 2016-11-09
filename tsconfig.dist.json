@@ -7,10 +7,11 @@
 		"moduleResolution": "node",
 		"noImplicitAny": true,
 		"noImplicitThis": false,
-		"outDir": "_build/",
+		"outDir": "dist/",
 		"rootDir": ".",
 		"removeComments": true,
 		"sourceMap": true,
+		"inlineSources": true,
 		"strictNullChecks": false,
 		"noEmitHelpers": true,
 		"target": "es5",
@@ -20,19 +21,13 @@
 			"es2015.promise"
 		],
 		"baseUrl": ".",
-		"types": [],
-		"paths": {
-			"intern-visual/*": [
-				"./src/*"
-			]
-		}
+		"types": []
 	},
 	"files": [
 		"./node_modules/intern/typings/node/node.d.ts",
 		"./node_modules/intern/typings/intern/intern.d.ts"
 	],
 	"include": [
-		"./src/**/*.ts",
-		"./tests/**/*.ts"
+		"./src/**/*.ts"
 	]
 }

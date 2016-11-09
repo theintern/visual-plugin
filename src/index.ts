@@ -1,5 +1,7 @@
 /* tslint:disable:no-unused-variable */
 
+import 'ts-helpers';
+
 import { default as assertVisuals } from './assert';
 import { default as config } from './config';
 import { default as visualTest } from './test';

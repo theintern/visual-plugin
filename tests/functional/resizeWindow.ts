@@ -1,6 +1,9 @@
 import * as registerSuite from 'intern!object';
 import * as assert from 'intern/chai!assert';
-import resizeWindow, { waitForWindowResize } from 'src/helpers/resizeWindow';
+import resizeWindow, { waitForWindowResize } from 'intern-visual/helpers/resizeWindow';
+
+import { IRequire } from 'dojo/loader';
+declare const require: IRequire;
 
 const CHROME_THRESHOLD = 20;
 const basicPageUrl = require.toUrl('../support/pages/basic.html');

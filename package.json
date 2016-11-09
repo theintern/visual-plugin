@@ -6,9 +6,6 @@
   "license": "MPL-2.0",
   "homepage": "https://github.com/devpaul/visual-regression#readme",
   "main": "src/main",
-  "scripts": {
-    "install": "typings install"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/devpaul/visual-regression.git"
@@ -23,6 +20,8 @@
     "intern": ">=3.0.0"
   },
   "devDependencies": {
+    "@types/mkdirp": "^0.3.29",
+    "@types/sinon": "^1.16.31",
     "dojo-loader": "^2.0.0-beta.7",
     "grunt": "^1.0.1",
     "grunt-contrib-clean": "^1.0.0",
@@ -31,8 +30,8 @@
     "grunt-contrib-stylus": "^1.2.0",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-jscs": "^3.0.1",
+    "grunt-shell": "^2.1.0",
     "grunt-text-replace": "^0.4.0",
-    "grunt-ts": "^6.0.0-beta.3",
     "grunt-tslint": "^3.2.1",
     "intern": "^3.3.1",
     "sinon": "^1.17.6",
@@ -41,6 +40,7 @@
   },
   "dependencies": {
     "mkdirp": "^0.5.1",
-    "pngjs": "^2.3.1"
+    "pngjs": "^2.3.1",
+    "ts-helpers": "^1.1.2"
   }
 }

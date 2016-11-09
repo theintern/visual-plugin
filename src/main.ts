@@ -2,6 +2,11 @@
  * @module main Provies an AMD loader plugin for use with Intern
  */
 
+import { IRequire } from 'dojo/loader';
+declare const require: IRequire;
+
+import 'ts-helpers';
+
 export const configuration = {
 	nodeModule: 'intern/dojo/node!'
 };

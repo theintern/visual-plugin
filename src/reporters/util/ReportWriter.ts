@@ -11,6 +11,9 @@ import WritableStream = NodeJS.WritableStream;
 import Suite = require('intern/lib/Suite');
 import Test = require('intern/lib/Test');
 
+import { IRequire } from 'dojo/loader';
+declare const require: IRequire;
+
 export interface Options {
 	baselineLocation?: string;
 	errorColor?: ColorDescriptor;

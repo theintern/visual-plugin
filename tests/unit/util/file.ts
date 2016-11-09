@@ -1,7 +1,7 @@
 import * as registerSuite from 'intern!object';
 import * as assert from 'intern/chai!assert';
 import { getTestDirectory, getBaselineFilename }
-	from 'src/util/file';
+	from 'intern-visual/util/file';
 import Test = require('intern/lib/Test');
 import Suite = require('intern/lib/Suite');
 

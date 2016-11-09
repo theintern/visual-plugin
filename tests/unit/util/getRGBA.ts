@@ -1,7 +1,7 @@
 import * as registerSuite from 'intern!object';
 import * as assert from 'intern/chai!assert';
-import getRGBA from 'src/util/getRGBA';
-import { RGBAColorArray } from 'src/interfaces';
+import getRGBA from 'intern-visual/util/getRGBA';
+import { RGBAColorArray } from 'intern-visual/interfaces';
 
 registerSuite({
 	'name': 'getRGBA',

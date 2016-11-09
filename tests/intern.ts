@@ -19,7 +19,8 @@ export const loaders = {
 export const loaderOptions = {
 	baseUrl: `${ destination }`,
 	packages: [
-		{ name: 'src', location: `src` },
+		{ name: 'ts-helpers', location: `../node_modules/ts-helpers`, main: 'index.js' },
+		{ name: 'intern-visual', location: `src` },
 		{ name: 'tests', location: `tests` }
 	]
 };
@@ -28,4 +29,4 @@ export const suites: string[] = [ 'tests/unit/all' ];
 
 export const functionalSuites: string[] = [ 'tests/functional/all', 'tests/visual/all' ];
 
-export const excludeInstrumentation = /^(?:tests|node_modules)\//;
+export const excludeInstrumentation = /^(?:_build\/tests|node_modules)\//;
