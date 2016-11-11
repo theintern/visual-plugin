@@ -1,19 +1,19 @@
 import Suite = require('intern/lib/Suite');
 import { getErrorMessage } from 'intern/lib/util';
 import { VisualRegressionTest } from '../assert';
-import ReportWriter from './util/ReportWriter';
-import { ReportConfig } from './util/ReportWriter';
+import ReportWriter, { ReportConfig } from './util/ReportWriter';
 
 /**
  * A Visual Regression Test HTML reporter
+ *
+ * NOTE: This module proxies all functionality to the ReportWriter because a reporter must be provided to Intern
+ * using CJS (export =) syntax. Because this module can only have one export all types, interfaces, and
+ * implementation are in the ReportWriter module.
  */
 class VisualRegression {
-	protected config: ReportConfig;
-
 	protected reportWriter: ReportWriter;
 
 	constructor(config: ReportConfig) {
-		this.config = config;
 		this.reportWriter = new ReportWriter(config);
 	}
 
@@ -42,20 +42,6 @@ class VisualRegression {
 	}
 
 	/**
-	 * This method is called when a new test suite is created.
-	 * @param suite
-	 */
-	newSuite(suite: Suite): void {
-	}
-
-	/**
-	 * This method is called when a new test is created.
-	 * @param test
-	 */
-	newTest(test: VisualRegressionTest): void {
-	}
-
-	/**
 	 * This method is called when a reporter throws an error during execution of a command.
 	 */
 	reporterError(reporter: any, error: Error): void {
@@ -73,15 +59,6 @@ class VisualRegression {
 	 */
 	runEnd(): void {
 		this.reportWriter.end();
-	}
-
-	/**
-	 * This method is called after all tests have been registered and the test system is about to begin running
-	 * tests.
-	 * @param executor
-	 */
-	runStart(): void {
-
 	}
 
 	/**
@@ -104,12 +81,6 @@ class VisualRegression {
 			type: 'suite error'
 
 		});
-	}
-
-	suiteStart(suite: Suite): void {
-	}
-
-	testEnd(test: VisualRegressionTest): void {
 	}
 
 	/**
@@ -136,9 +107,6 @@ class VisualRegression {
 	 */
 	testSkip(test: VisualRegressionTest): Promise<any> {
 		return this.reportWriter.writeTest(test);
-	}
-
-	testStart(test: VisualRegressionTest): void {
 	}
 }
 

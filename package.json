@@ -1,20 +1,26 @@
 {
-  "name": "intern-visual-regression",
+  "name": "intern-visual",
   "version": "0.1.0-pre",
-  "description": "Visual regression testing in Intern",
+  "description": "Visual regression testing plugin for Intern",
   "author": "Paul Shannon",
   "license": "MPL-2.0",
-  "homepage": "https://github.com/devpaul/visual-regression#readme",
-  "main": "src/main",
+  "homepage": "https://github.com/theintern/intern-visual#readme",
+  "main": "src",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/devpaul/visual-regression.git"
+    "url": "git+https://github.com/theintern/intern-visual.git"
   },
   "keywords": [
-    "intern"
+    "intern",
+    "plugin",
+    "visual",
+    "testing",
+    "test",
+    "visual regression",
+    "visual testing"
   ],
   "bugs": {
-    "url": "https://github.com/devpaul/visual-regression/issues"
+    "url": "https://github.com/theintern/intern-visual/issues"
   },
   "peerDependencies": {
     "intern": ">=3.0.0"

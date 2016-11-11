@@ -368,6 +368,5 @@ module.exports = function (grunt) {
 	grunt.registerTask('test-quick', [ 'build', 'intern:client' ]);
 	grunt.registerTask('test-ci', [ 'clean', 'lint', 'build', 'intern:ci' ]);
 	grunt.registerTask('test-self', [ 'clean', 'lint', 'build', 'intern:self' ]);
-	grunt.registerTask('publish', [ 'dist', 'gh-pages:publish' ]);
 	grunt.registerTask('default', [ 'clean', 'lint', 'build' ]);
 };

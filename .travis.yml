@@ -3,8 +3,8 @@ node_js:
 - '6'
 env:
   global:
-  - SAUCE_USERNAME=devpaul
-  - secure: G54I/3SrYeesCOoOQEKPGEq8AhOrQWOpjCqZ9zf4vrG1SgUnAPm+wnb84YqTplj7NQDnkYNUytynYURFcNN3DkLTtPIOYbSyTSo3yi+o/yMiVClTSkTviPF/C5KDYh1GjihT9LzNMzn7kV3yFkbygSbrOzvmz7cCgIrL1AKbDp7IeeeTUQaNqrPE6/f9EbVz18M1ukohtPM5TU+au0rS+wGjMCga+kAiETSKT3JclZ2zV1BNv5UN/Hi+Qyave2G3qg1c43KMzhvZJgd7v/c4lDBGJCpLfPas2nNpQBKVGbFGJGdM77OqIdKIKSup6nvFcR7P0g6QihLMreb6fh5Q0HVCzAD+sUBFCtTreK0QFkPqIrRTmjWFtjJWxTITUIPL5zFKrpgJDEAq5e0DlQhl1hytMQthGSJo00a2WClnbAhciZuvzbSwAiKJhL+K2H7jMFqcDuIycNw5XNYbh5Yswler6qMMYCcXeCAi7HGnPUotcHs4lgWjQjTSMR3Hh0p4yl1jDM/HM/0+gaixFLEYpTVKK5K2a3lD79zzy8AQZwHkBqiZY/GYL3JpWJ9IRnRPPrmGSnwDH7MOfvbdkPbuPOnlhKerizfapv7o3Oy3W5n9LAhCp92uuCa//JM2m5S0/+MKvkSu8OX253oaVGpC/gPYyjCuXOxZN5tNa91mC6E=
+  - SAUCE_USERNAME=dojo2-ts-ci
+  - SAUCE_ACCESS_KEY=e92610e3-834e-4bec-a3b5-6f7b9d874601
 before_install:
 - npm install -g typings
 before_script:
