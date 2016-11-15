@@ -1,6 +1,6 @@
 {
   "name": "intern-visual",
-  "version": "0.1.0-pre",
+  "version": "0.1.0",
   "description": "Visual regression testing plugin for Intern",
   "author": "Paul Shannon",
   "license": "MPL-2.0",

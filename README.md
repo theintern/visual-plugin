@@ -2,6 +2,8 @@
 
 This project adds support for visual regression testing in [Intern](https://github.com/theintern/intern).
 
+[![Build Status](https://travis-ci.org/theintern/intern-visual.svg?branch=master)](https://travis-ci.org/theintern/intern-visual)
+
 ## Overview
 
 A visual regression test compares a screenshot of a webpage with a previously generated baseline providing the ability
