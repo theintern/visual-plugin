@@ -134,11 +134,14 @@ module.exports = function (grunt) {
 		},
 
 		copy: {
-			staticSiteFiles: {
+			libs: {
+				files: createCopyConfiguration('<%= distDirectory %>/libs/')
+			},
+			nodeModules: {
 				expand: true,
 				cwd: '.',
-				src: [ '<%= siteDirectory %>/*.html' ],
-				dest: '<%= targetDirectory %>'
+				src: [ 'node_modules/**/*' ],
+				dest: '<%= distDirectory %>'
 			},
 			staticTestFiles: {
 				expand: true,
@@ -152,14 +155,11 @@ module.exports = function (grunt) {
 				src: [ 'README.md', 'LICENSE.txt', 'package.json' ],
 				dest: '<%= distDirectory %>'
 			},
-			nodeModules: {
+			tsDefinitions: {
 				expand: true,
 				cwd: '.',
-				src: [ 'node_modules/**/*' ],
-				dest: '<%= distDirectory %>'
-			},
-			libs: {
-				files: createCopyConfiguration('<%= distDirectory %>/libs/')
+				src: [ '<%= srcDirectory %>/**/*.d.ts' ],
+				dest: '<%= targetDirectory %>'
 			}
 		},
 
@@ -246,6 +246,9 @@ module.exports = function (grunt) {
 			},
 			dist: {
 				command: 'tsc --project tsconfig.dist.json'
+			},
+			test: {
+				command: 'tsc --project tsconfig.js.json'
 			}
 		},
 
@@ -336,8 +339,7 @@ module.exports = function (grunt) {
 	 * Perform a minimum, complete build
 	 */
 	grunt.registerTask('build-quick', [
-		'shell:dev',
-		'copy:staticSiteFiles'
+		'shell:dev'
 	]);
 
 	/**
@@ -346,7 +348,6 @@ module.exports = function (grunt) {
 	grunt.registerTask('build', [
 		'shell:dev',
 		'stylus',
-		'copy:staticSiteFiles',
 		'copy:staticTestFiles'/*,
 		'replace:addIstanbulIgnore'*/
 	]);
@@ -358,9 +359,10 @@ module.exports = function (grunt) {
 		'settarget:dist',
 		'clean:dist',
 		'shell:dist',
-		'copy:staticSiteFiles',
 		'copy:staticDistFiles',
-		'copy:libs'
+		'copy:tsDefinitions',
+		'copy:libs',
+		'shell:test'
 	]);
 
 	grunt.registerTask('lint', [ 'jshint', 'jscs', 'tslint' ]);

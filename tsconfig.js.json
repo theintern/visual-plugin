@@ -1,8 +1,11 @@
+// This configuration file builds tests
+
 {
 	"version": "2.0.0",
 	"compilerOptions": {
 		"baseUrl": ".",
 		"declaration": true,
+		"inlineSources": true,
 		"module": "umd",
 		"moduleResolution": "node",
 		"noEmitHelpers": true,
@@ -22,7 +25,7 @@
 		"types": [],
 		"paths": {
 			"intern-visual/*": [
-				"./src/*"
+				"./dist/src/*"
 			]
 		}
 	},
@@ -31,7 +34,6 @@
 		"./node_modules/intern/typings/intern/intern.d.ts"
 	],
 	"include": [
-		"./src/**/*.ts",
 		"./tests/**/*.ts"
 	]
 }

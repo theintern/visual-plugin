@@ -5,6 +5,7 @@
 		"declaration": true,
 		"module": "umd",
 		"moduleResolution": "node",
+		"noEmitHelpers": true,
 		"noImplicitAny": true,
 		"noImplicitThis": false,
 		"outDir": "dist/",
@@ -13,14 +14,12 @@
 		"sourceMap": true,
 		"inlineSources": true,
 		"strictNullChecks": false,
-		"noEmitHelpers": true,
 		"target": "es5",
 		"lib": [
 			"dom",
 			"es5",
 			"es2015.promise"
 		],
-		"baseUrl": ".",
 		"types": []
 	},
 	"files": [
