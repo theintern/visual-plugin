@@ -368,7 +368,7 @@ module.exports = function (grunt) {
 	grunt.registerTask('lint', [ 'jshint', 'jscs', 'tslint' ]);
 	grunt.registerTask('test', [ 'clean', 'build', 'intern:all' ]);
 	grunt.registerTask('test-quick', [ 'build', 'intern:client' ]);
-	grunt.registerTask('test-ci', [ 'clean', 'lint', 'build', 'intern:ci' ]);
+	grunt.registerTask('test-ci', [ 'clean', 'lint', 'build', 'intern:ci', 'dist' ]);
 	grunt.registerTask('test-self', [ 'clean', 'lint', 'build', 'intern:self' ]);
 	grunt.registerTask('default', [ 'clean', 'lint', 'build' ]);
 };

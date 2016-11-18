@@ -1,6 +1,6 @@
 {
   "name": "intern-visual",
-  "version": "0.1.0",
+  "version": "0.1.1-pre",
   "description": "Visual regression testing plugin for Intern",
   "author": "Paul Shannon",
   "license": "MPL-2.0",
@@ -27,6 +27,7 @@
   },
   "devDependencies": {
     "@types/mkdirp": "^0.3.29",
+    "@types/node": "^6.0.48",
     "@types/sinon": "^1.16.31",
     "dojo-loader": "^2.0.0-beta.7",
     "grunt": "^1.0.1",

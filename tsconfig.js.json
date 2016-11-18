@@ -30,7 +30,6 @@
 		}
 	},
 	"files": [
-		"./node_modules/intern/typings/node/node.d.ts",
 		"./node_modules/intern/typings/intern/intern.d.ts"
 	],
 	"include": [

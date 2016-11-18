@@ -18,7 +18,7 @@ export default class {
 
 	private _error: Error;
 
-	private _start: number[];
+	private _start: [number, number];
 
 	private _runningTime: number[];
 
