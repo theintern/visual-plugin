@@ -168,6 +168,11 @@ module.exports = function (grunt) {
 				files: {
 					'<%= devDirectory %>/src/reporters/util/assets/main.css': 'src/reporters/util/assets/main.styl'
 				}
+			},
+			dist: {
+				files: {
+					'<%= distDirectory %>/src/reporters/util/assets/main.css': 'src/reporters/util/assets/main.styl'
+				}
 			}
 		},
 
@@ -359,6 +364,7 @@ module.exports = function (grunt) {
 		'settarget:dist',
 		'clean:dist',
 		'shell:dist',
+		'stylus:dist',
 		'copy:staticDistFiles',
 		'copy:tsDefinitions',
 		'copy:libs',
