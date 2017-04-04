@@ -32,7 +32,7 @@ const defaults: Config = {
 	report: {
 		reportLocation: 'report',
 
-		reportUnusedBaselines: false,
+		reportUnusedBaselines: false
 	}
 };
 

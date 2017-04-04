@@ -31,7 +31,7 @@ looking in the `tests/visual` directory.
 To run our visual regression tests
 
 1. clone this project
-1. install some tools `npm install -g grunt-cli typings`
+1. install some tools `npm install -g grunt-cli`
 1. `npm install`
 1. start selenium
 1. `grunt test`

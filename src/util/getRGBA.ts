@@ -21,11 +21,11 @@ function normalize(color: number[]): RGBAColorArray {
 }
 
 function fromHex(color: string): number[] {
-	var rgb: string[] = [];
+	const rgb: string[] = [];
 	color = color.replace(/[^0-9]/, '');
 
-	var digits = color.length >= 6 ? 2 : 1;
-	for (var i = 0; i < color.length; i += digits) {
+	const digits = color.length >= 6 ? 2 : 1;
+	for (let i = 0; i < color.length; i += digits) {
 		rgb.push(color.substring(i, i + digits));
 	}
 	return rgb.map(stringToInt(16));
@@ -52,7 +52,7 @@ function fromString(color: string): number[] {
 }
 
 function fromObject(color: ColorObject): RGBAColorArray {
-	var rgba: number[] = [];
+	const rgba: number[] = [];
 
 	rgba.push(color.red || defaultColors[0]);
 	rgba.push(color.green || defaultColors[1]);

@@ -73,7 +73,7 @@ export default class {
 	/**
 	 * If the reporter should scan for and report unused baseline images
 	 */
-	private reportUnusedBaselines: boolean = false;
+	private reportUnusedBaselines = false;
 
 	/**
 	 * Notes exported to index.html

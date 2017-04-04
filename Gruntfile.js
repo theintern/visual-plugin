@@ -104,6 +104,10 @@ module.exports = function (grunt) {
 		devDirectory: '<%= tsconfig.compilerOptions.outDir %>',
 		distDirectory: '<%= tsconfigDist.compilerOptions.outDir %>',
 		testDirectory: 'test',
+		/**
+		 * The target directory is used to target either the devDirectory or distDirectory depending on the
+		 * the `settarget` task.
+		 */
 		targetDirectory: '<%= devDirectory %>',
 
 		clean: {
@@ -166,12 +170,7 @@ module.exports = function (grunt) {
 		stylus: {
 			compile: {
 				files: {
-					'<%= devDirectory %>/src/reporters/util/assets/main.css': 'src/reporters/util/assets/main.styl'
-				}
-			},
-			dist: {
-				files: {
-					'<%= distDirectory %>/src/reporters/util/assets/main.css': 'src/reporters/util/assets/main.styl'
+					'<%= targetDirectory %>/src/reporters/util/assets/main.css': 'src/reporters/util/assets/main.styl'
 				}
 			}
 		},
@@ -259,7 +258,7 @@ module.exports = function (grunt) {
 
 		tslint: {
 			options: {
-				configuration: grunt.file.readJSON('tslint.json')
+				configuration: 'tslint.json'
 			},
 			src: {
 				src: [
@@ -364,7 +363,7 @@ module.exports = function (grunt) {
 		'settarget:dist',
 		'clean:dist',
 		'shell:dist',
-		'stylus:dist',
+		'stylus',
 		'copy:staticDistFiles',
 		'copy:tsDefinitions',
 		'copy:libs',

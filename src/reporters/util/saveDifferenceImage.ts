@@ -30,7 +30,7 @@ function savePng(filename: string, png: PNG): Promise<void> {
 				reject(err);
 			}
 			else {
-				var stream = createWriteStream(filename);
+				const stream = createWriteStream(filename);
 				stream.on('finish', function () {
 					resolve();
 				});
@@ -49,7 +49,7 @@ export default function (report: Report, filename: string, options: Options): Pr
 		const height = report.baseline.height;
 		let error: Error = null;
 
-		var png = createImage(width, height, options);
+		const png = createImage(width, height, options);
 		png.on('error', function (err) {
 			error = err;
 		});

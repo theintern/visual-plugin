@@ -25,7 +25,7 @@ export interface Hierarchy {
  * @param includeBrowser if the current browser should be returned
  */
 export function getTestDirectory(current: Hierarchy, includeBrowser: boolean = false): string {
-	var name: string[] = [];
+	const name: string[] = [];
 
 	for (; current.parent; current = current.parent) {
 		name.unshift(current.name);
