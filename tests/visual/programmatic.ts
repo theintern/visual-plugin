@@ -182,7 +182,7 @@ registerSuite({
 				.then(initializePage())
 				.then(generateBaseline(getBaselinePath(test)))
 				.execute(function () {
-					var p = document.querySelector('#container > p');
+					const p = document.querySelector('#container > p');
 					p.textContent = 'hello';
 				})
 				.then(generateBaseline(getBaselinePath(test, '.actual')))

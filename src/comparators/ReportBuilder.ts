@@ -47,7 +47,7 @@ export default class {
 			height,
 			isPassing: percentMatching >= this.matchRatio,
 			numDifferences,
-			width,
+			width
 		};
 	}
 

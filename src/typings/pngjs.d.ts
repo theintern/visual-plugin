@@ -52,9 +52,9 @@ declare module 'pngjs' {
 		pipe(destination: fs.WriteStream): PNG;
 
 		static bitblt(src: PNG, dst: PNG, srcX: number, srcY: number,
-					  width: number, height: number, deltaX: number, deltaY: number): void;
+			width: number, height: number, deltaX: number, deltaY: number): void;
 
 		bitblt(dst: PNG, srcX: number, srcY: number,
-			   width: number, height: number, deltaX: number, deltaY: number): PNG;
+			width: number, height: number, deltaX: number, deltaY: number): PNG;
 	}
 }
