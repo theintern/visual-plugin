@@ -42,7 +42,7 @@
     "grunt-tslint": "^4.0.1",
     "intern": "^3.3.1",
     "sinon": "^1.17.6",
-    "tslint": "^3.15.1",
+    "tslint": "^4.5.1",
     "tslint-sitepen": "^0.1.0",
     "typescript": "^2.2.2"
   },
