@@ -1,8 +1,9 @@
-# Intern Visual Regression Testing
+# intern-visual
 
-This project adds support for visual regression testing in [Intern](https://github.com/theintern/intern).
+This project adds support for visual regression testing to [Intern](https://github.com/theintern/intern).
 
-[![Build Status](https://travis-ci.org/theintern/intern-visual.svg?branch=master)](https://travis-ci.org/theintern/intern-visual)
+<!-- start-github-only -->
+[![Build Status](https://travis-ci.org/theintern/intern-visual.svg?branch=master)](https://travis-ci.org/theintern/intern-visual)<!-- end-github-only --> [![Intern](http://theintern.github.io/images/intern-v3.svg)](https://github.com/theintern/intern/tree/3.4/)
 
 ## Overview
 
@@ -30,11 +31,20 @@ looking in the `tests/visual` directory.
 
 To run our visual regression tests
 
-1. clone this project
-1. install some tools `npm install -g grunt-cli`
-1. `npm install`
-1. start selenium
-1. `grunt test`
+1. Clone this project
+1. Install some tools
+   ```
+   npm install -g grunt-cli
+   ```
+1. Instal package dependencies
+   ```
+   npm install`
+   ```
+1. Start a Selenium server
+1. Run the tests
+   ```
+   grunt test
+   ```
 
 ## APIs and Architecture
 
