@@ -1,15 +1,11 @@
-import Command = require('leadfoot/Command');
-
-export interface Resizer {
-	(width: number, height: number): () => Promise<any>;
-}
+import * as Command from 'leadfoot/Command';
 
 /**
  * Wait until the browser stops changing in size and report back the last stable width and height
  * @return an array in the shape of [ width, height ]
  */
 export function waitForWindowResize(): () => Command<[ number, number ]> {
-	return function () {
+	return function (this: Command<any>) {
 		return this.parent
 			.setExecuteAsyncTimeout(5000)
 			.executeAsync(function (done: (result: [ number, number ]) => void) {
@@ -43,8 +39,8 @@ export function waitForWindowResize(): () => Command<[ number, number ]> {
  * @param height the desired height
  * @return [ widthDifference, heightDifference ] describing the difference between requested and actual document size
  */
-export function findDifference(width: number, height: number): () => Command<[ number, number ]> {
-	return function () {
+export function findDifference(width: number, height: number) {
+	return function (this: Command<any>) {
 		return this.parent
 			.setWindowSize(width, height)
 			.then(waitForWindowResize())
@@ -61,11 +57,11 @@ export function findDifference(width: number, height: number): () => Command<[ n
  * Create a resize method that caches the difference in width and height
  * @return {(width:number, height:number)=>Promise<any>}
  */
-export function createResizer(widthDifference?: number, heightDifference?: number): Resizer {
+export function createResizer(widthDifference?: number, heightDifference?: number) {
 	return function (width: number, height: number) {
-		return function () {
+		return function (this: Command<any>) {
 			return this.parent
-				.then(function () {
+				.then(function (this: Command<any>) {
 					if (widthDifference == null || heightDifference == null) {
 						return this.parent
 							.then(findDifference(width, height))
@@ -74,9 +70,9 @@ export function createResizer(widthDifference?: number, heightDifference?: numbe
 							});
 					}
 				})
-				.then(function () {
-					width += widthDifference;
-					height += heightDifference;
+				.then(function (this: Command<any>) {
+					width += widthDifference!;
+					height += heightDifference!;
 
 					return this.parent
 						.setWindowSize(width, height);
@@ -89,7 +85,7 @@ export function createResizer(widthDifference?: number, heightDifference?: numbe
 /**
  * A command helper for resizing a window
  */
-export default function (width: number, height: number): () => Promise<any> {
+export default function (width: number, height: number) {
 	const resizer = createResizer();
 	return resizer(width, height);
 }

@@ -1,4 +1,4 @@
-import { PNG } from 'pngjs';
+import { PNG } from 'intern/dojo/node!pngjs';
 import { ImageComparator, ImageReference, RGBColor, RGBColorArray, Report, ImageMetadata } from '../interfaces';
 import ImageComparison from './ReportBuilder';
 import config from '../config';
@@ -16,8 +16,8 @@ export default class PngJsImageComparator implements ImageComparator {
 	pixelTolerance: RGBColorArray;
 
 	constructor(options: Options = {}) {
-		this.pixelTolerance = getRGBA(options.pixelTolerance || config.comparator.pixelTolerance);
-		this.pixelSkip = options.pixelSkip || config.comparator.pixelSkip;
+		this.pixelTolerance = getRGBA(options.pixelTolerance || config!.comparator!.pixelTolerance!)!;
+		this.pixelSkip = (options.pixelSkip || config.comparator.pixelSkip)!;
 	}
 
 	compare(baseline: ImageReference, actual: ImageReference): Promise<Report> {

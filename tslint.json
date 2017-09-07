@@ -1,5 +1,1 @@
-{
-	"extends": "tslint-sitepen",
-	"rules": {
-	}
-}
+{ "extends": "@theintern/dev/tslint.json" }

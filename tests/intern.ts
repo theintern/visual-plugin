@@ -12,16 +12,15 @@ export const maxConcurrency = 1;
 export const tunnel = 'NullTunnel';
 
 export const loaders = {
-	'host-browser': 'node_modules/dojo-loader/loader.js',
-	'host-node': 'dojo-loader'
+	'host-browser': 'node_modules/@dojo/loader/loader.js',
+	'host-node': '@dojo/loader'
 };
 
 export const loaderOptions = {
 	baseUrl: `${ destination }`,
 	packages: [
-		{ name: 'ts-helpers', location: `../node_modules/ts-helpers`, main: 'index.js' },
-		{ name: 'intern-visual', location: `src` },
-		{ name: 'tests', location: `tests` }
+		{ name: 'intern-visual', location: 'src' },
+		{ name: 'tests', location: 'tests' }
 	]
 };
 

@@ -1,5 +1,6 @@
 /src/**/*.js.map
 /src/**/*.js
+/src/**/*.css
 dist
 _build
 /node_modules

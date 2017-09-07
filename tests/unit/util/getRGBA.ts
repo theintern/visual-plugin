@@ -1,35 +1,34 @@
 import * as registerSuite from 'intern!object';
 import * as assert from 'intern/chai!assert';
 import getRGBA from 'intern-visual/util/getRGBA';
-import { RGBAColorArray } from 'intern-visual/interfaces';
 
 registerSuite({
 	'name': 'getRGBA',
 
 	'color is a number; a grayscale with full opacity is returned'() {
 		const color = 0x33;
-		const actual: RGBAColorArray = getRGBA(color);
+		const actual = getRGBA(color);
 		assert.deepEqual(actual, [ color, color, color, 0XFF ]);
 	},
 
 	'color is a string': {
 		'three-value hex color'() {
-			const actual: RGBAColorArray = getRGBA('#123');
+			const actual = getRGBA('#123');
 			assert.deepEqual(actual, [ 0x11, 0x22, 0x33, 0xFF ]);
 		},
 
 		'six-value hex color'() {
-			const actual: RGBAColorArray = getRGBA('#123ABC');
+			const actual = getRGBA('#123ABC');
 			assert.deepEqual(actual, [ 0x12, 0x3A, 0xBC, 0xFF ]);
 		},
 
 		'rgb color format'() {
-			const actual: RGBAColorArray = getRGBA('rgb(0, 64, 128)');
+			const actual = getRGBA('rgb(0, 64, 128)');
 			assert.deepEqual(actual, [ 0, 64, 128, 0xFF ]);
 		},
 
 		'rgba color format'() {
-			const actual: RGBAColorArray = getRGBA('rgb(16, 32, 255, 0.5)');
+			const actual = getRGBA('rgb(16, 32, 255, 0.5)');
 			assert.deepEqual(actual, [ 16, 32, 255, 128 ]);
 		},
 

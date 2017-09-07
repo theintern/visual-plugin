@@ -23,7 +23,7 @@ class VisualRegression {
 			type: 'deprecated',
 			message: `${ name } is deprecated.${ replacement ?
 				` Use ${ replacement } instead.` :
-				` Please open a ticket if you require access to this feature.`
+				' Please open a ticket if you require access to this feature.'
 				}${ extra ? ` ${ extra }` : ''}`
 		});
 	}
@@ -44,7 +44,7 @@ class VisualRegression {
 	/**
 	 * This method is called when a reporter throws an error during execution of a command.
 	 */
-	reporterError(reporter: any, error: Error): void {
+	reporterError(_reporter: any, error: Error): void {
 		this.reportWriter.addNote({
 			level: 'error',
 			type: 'reporter error',
@@ -74,7 +74,7 @@ class VisualRegression {
 	 * @param suite
 	 * @param error
 	 */
-	suiteError(suite: Suite, error: Error): void {
+	suiteError(_suite: Suite, error: Error): void {
 		this.reportWriter.addNote({
 			level: 'error',
 			message: getErrorMessage(error),

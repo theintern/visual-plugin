@@ -5,8 +5,4 @@ env:
   global:
   - SAUCE_USERNAME=dojo2-ts-ci
   - SAUCE_ACCESS_KEY=e92610e3-834e-4bec-a3b5-6f7b9d874601
-before_install:
-- npm install -g typings
-before_script:
-- npm install -g grunt-cli
-script: grunt test-ci
+script: npm run ci

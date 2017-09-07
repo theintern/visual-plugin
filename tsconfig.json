@@ -1,36 +1,16 @@
 {
-	"version": "2.0.0",
+	"extends": "./node_modules/@theintern/dev/tsconfig-base.json",
 	"compilerOptions": {
-		"baseUrl": ".",
 		"declaration": true,
 		"module": "umd",
-		"moduleResolution": "node",
-		"noEmitHelpers": true,
-		"noImplicitAny": true,
-		"noImplicitThis": false,
 		"outDir": "_build/",
 		"rootDir": ".",
-		"removeComments": true,
-		"sourceMap": true,
-		"strictNullChecks": false,
-		"target": "es5",
-		"lib": [
-			"dom",
-			"es5",
-			"es2015.promise"
-		],
-		"types": [],
-		"paths": {
-			"intern-visual/*": [
-				"./src/*"
-			]
-		}
+		"lib": ["dom", "es5", "es2015.promise"],
+		"typeRoots": ["./node_modules/@types", "./types"],
+		"types": ["pngjs"]
 	},
 	"files": [
-		"./node_modules/intern/typings/intern/intern.d.ts"
+		"./types/extras.d.ts"
 	],
-	"include": [
-		"./src/**/*.ts",
-		"./tests/**/*.ts"
-	]
+	"include": ["./src/**/*.ts"]
 }

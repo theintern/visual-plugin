@@ -1,10 +1,6 @@
-/* tslint:disable:no-unused-variable */
-
-import 'ts-helpers';
-
-import { default as assertVisuals } from './assert';
-import { default as config } from './config';
-import { default as visualTest } from './test';
+import assertVisuals from './assert';
+import config from './config';
+import visualTest from './test';
 import * as file from './util/file';
 import getRGBA, { ColorDescriptor } from './util/getRGBA';
 import * as resizeWindow from './helpers/resizeWindow';
@@ -24,5 +20,5 @@ export {
 	config,
 	helpers,
 	util,
-	visualTest,
+	visualTest
 };

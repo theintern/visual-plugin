@@ -4,7 +4,7 @@ export type ColorDescriptor = string | RGBColor | RGBAColor | number[] | number;
 
 const defaultColors = [0, 0, 0, 0xFF];
 
-function stringToInt(radix: number = 10) {
+function stringToInt(radix = 10) {
 	return function (str: string) {
 		if (str.length === 1) {
 			str = str + str;
@@ -13,14 +13,14 @@ function stringToInt(radix: number = 10) {
 	};
 }
 
-function normalize(color: number[]): RGBAColorArray {
+function normalize(color: number[]) {
 	while (color.length < 4) {
 		color.push(defaultColors[color.length]);
 	}
-	return <RGBAColorArray> color;
+	return color;
 }
 
-function fromHex(color: string): number[] {
+function fromHex(color: string) {
 	const rgb: string[] = [];
 	color = color.replace(/[^0-9]/, '');
 
@@ -31,7 +31,7 @@ function fromHex(color: string): number[] {
 	return rgb.map(stringToInt(16));
 }
 
-function fromString(color: string): number[] {
+function fromString(color: string) {
 	if (color.charAt(0) === '#') {
 		return fromHex(color);
 	}
@@ -51,7 +51,7 @@ function fromString(color: string): number[] {
 	}
 }
 
-function fromObject(color: ColorObject): RGBAColorArray {
+function fromObject(color: ColorObject) {
 	const rgba: number[] = [];
 
 	rgba.push(color.red || defaultColors[0]);
@@ -59,20 +59,20 @@ function fromObject(color: ColorObject): RGBAColorArray {
 	rgba.push(color.blue || defaultColors[2]);
 	rgba.push((<RGBAColor> color).alpha || defaultColors[3]);
 
-	return <RGBAColorArray> rgba;
+	return rgba;
 }
 
-export default function getRGBA(color: ColorDescriptor): RGBAColorArray {
+export default function getRGBA(color: ColorDescriptor): RGBAColorArray | undefined {
 	if (typeof color === 'number') {
 		return [color, color, color, defaultColors[3]];
 	}
 	if (typeof color === 'string') {
-		return normalize(fromString(color));
+		return <RGBAColorArray>normalize(fromString(color)!);
 	}
 	if (Array.isArray(color)) {
-		return normalize(<number[]> color);
+		return <RGBAColorArray>normalize(<number[]> color);
 	}
 	if (typeof color === 'object') {
-		return fromObject(<RGBColor> color);
+		return <RGBAColorArray>fromObject(color);
 	}
 }

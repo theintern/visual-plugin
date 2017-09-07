@@ -1,8 +1,8 @@
-import { PNG, PNGOptions } from 'pngjs';
+import { PNG, PNGOptions } from 'intern/dojo/node!pngjs';
 import { Report, RGBAColorArray, RGBColor, RGBAColor } from '../../interfaces';
-import { dirname } from 'path';
+import { dirname } from 'intern/dojo/node!path';
 import { createWriteStream } from 'fs';
-import mkdirp = require('mkdirp');
+import { mkdir } from '../../util/file';
 
 export interface Options {
 	errorColor: RGBAColorArray;
@@ -23,31 +23,26 @@ function createImage(width: number, height: number, options: Options): PNG {
 	return new PNG(pngOptions);
 }
 
-function savePng(filename: string, png: PNG): Promise<void> {
-	return new Promise<void>(function (resolve, reject) {
-		mkdirp(dirname(filename), function (err) {
-			if (err) {
-				reject(err);
-			}
-			else {
-				const stream = createWriteStream(filename);
-				stream.on('finish', function () {
-					resolve();
-				});
-				stream.on('error', function (error: Error) {
-					reject(error);
-				});
-				png.pack().pipe(stream);
-			}
+function savePng(filename: string, png: PNG) {
+	return mkdir(dirname(filename)).then(() => {
+		return new Promise((resolve, reject) => {
+			const stream = createWriteStream(filename);
+			stream.on('finish', function () {
+				resolve();
+			});
+			stream.on('error', function (error: Error) {
+				reject(error);
+			});
+			(<NodeJS.ReadableStream><any>png.pack()).pipe(stream);
 		});
 	});
 }
 
-export default function (report: Report, filename: string, options: Options): Promise<void> {
-	return new Promise<void>(function (resolve, reject) {
+export default function (report: Report, filename: string, options: Options) {
+	return new Promise(function (resolve, reject) {
 		const width = report.baseline.width;
 		const height = report.baseline.height;
-		let error: Error = null;
+		let error: Error | undefined;
 
 		const png = createImage(width, height, options);
 		png.on('error', function (err) {

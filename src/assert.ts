@@ -1,9 +1,10 @@
-import { existsSync } from 'fs';
-import { join as pathJoin } from 'path';
+import { existsSync } from 'intern/dojo/node!fs';
+import { Thenable } from 'dojo/Promise';
+import { join as pathJoin } from 'intern/dojo/node!path';
 import { getTestDirectory, getBaselineFilename, save } from './util/file';
 import Test = require('intern/lib/Test');
 import ImageComparator from './comparators/PngJsImageComparator';
-import LeadfootCommand = require('leadfoot/Command');
+import * as Command from 'leadfoot/Command';
 import { Report } from './interfaces';
 import config from './config';
 import VisualRegressionError from './VisualRegressionError';
@@ -22,7 +23,7 @@ export interface AssertionResult {
 	count: number;
 	generatedBaseline: boolean;
 	options: Options;
-	report: Report;
+	report?: Report;
 	screenshot: Buffer | string;
 }
 
@@ -30,29 +31,36 @@ export interface VisualRegressionTest extends Test {
 	visualResults?: AssertionResult[];
 }
 
-function generateBaseline(baseline: string, screenshot: Buffer, result: AssertionResult): Promise<AssertionResult> {
-	return save(baseline, screenshot)
-		.then(function () {
-			result.generatedBaseline = true;
-			return result;
-		});
+function generateBaseline(
+	baseline: string,
+	screenshot: Buffer,
+	result: AssertionResult
+) {
+	return save(baseline, screenshot).then(function() {
+		result.generatedBaseline = true;
+		return result;
+	});
 }
 
-function compareVisuals(baseline: string, screenshot: Buffer, result: AssertionResult): Promise<AssertionResult> {
+function compareVisuals(
+	baseline: string,
+	screenshot: Buffer,
+	result: AssertionResult
+) {
 	const comparator = new ImageComparator();
 
-	return comparator.compare(baseline, screenshot)
-		.then(function (report) {
-			// Add the report to the current test for later processing by the Reporter
-			result.report = report;
+	return comparator.compare(baseline, screenshot).then(function(report) {
+		// Add the report to the current test for later processing by the Reporter
+		result.report = report;
 
-			if (!report.isPassing) {
-				throw new VisualRegressionError('failed visual regression', report);
-			}
+		if (!report.isPassing) {
+			throw new VisualRegressionError('failed visual regression', report);
+		}
 
-			return result;
-		});
+		return result;
+	});
 }
+
 /**
  * A LeadFoot Helper for asserting visual regression against a baseline. This helper is responsible for
  * determining if the test should pass, fail, or be skipped and provide enough metadata to the reporter
@@ -62,8 +70,14 @@ function compareVisuals(baseline: string, screenshot: Buffer, result: AssertionR
  * @param options execution options overriding defaults
  * @return {(screenshot:Buffer)=>Promise<TResult>}
  */
-export default function assertVisuals(test: VisualRegressionTest, options: Options = config) {
-	return function (this: LeadfootCommand<any>, screenshot: Buffer): Promise<AssertionResult> | never {
+export default function assertVisuals(
+	test: VisualRegressionTest,
+	options: Options = config
+) {
+	return function(
+		this: Command<any>,
+		screenshot: Buffer
+	): Thenable<AssertionResult> {
 		if (!test.visualResults) {
 			test.visualResults = [];
 		}
@@ -72,40 +86,42 @@ export default function assertVisuals(test: VisualRegressionTest, options: Optio
 
 		let baseline = options.baseline;
 		if (!baseline) {
-			const directory: string = options.directory || config.directory;
+			const directory = options.directory || config.directory!;
 			const baselineName = getBaselineFilename(test, count);
-			const baselineLocation: string = options.baselineLocation || config.baselineLocation;
-			const baselineRelative: string = pathJoin(baselineLocation, testDirectory, baselineName);
+			const baselineLocation =
+				options.baselineLocation || config.baselineLocation!;
+			const baselineRelative: string = pathJoin(
+				baselineLocation,
+				testDirectory,
+				baselineName
+			);
 			baseline = pathJoin(directory, baselineRelative);
 		}
 
-		const baselineExists: boolean = existsSync(baseline);
-		const result: AssertionResult = {
+		const baselineExists = existsSync(baseline);
+		const result = {
 			baseline,
 			baselineExists,
 			count,
 			generatedBaseline: false,
 			options,
-			report: null,
 			screenshot
 		};
 
 		test.visualResults.push(result);
 
 		if (options.regenerateBaselines) {
-			return generateBaseline(baseline, screenshot, result);
-		}
-		else if (baselineExists) {
-			return compareVisuals(baseline, screenshot, result);
-		}
-		else {
+			return <Thenable<AssertionResult>>generateBaseline(baseline, screenshot, result);
+		} else if (baselineExists) {
+			return <Thenable<AssertionResult>>compareVisuals(baseline, screenshot, result);
+		} else {
 			switch (options.missingBaseline || config.missingBaseline) {
 				case 'ignore':
-					return Promise.resolve(result);
+					return <Thenable<AssertionResult>>Promise.resolve(result);
 				case 'skip':
 					throw test.skip('missing baseline');
 				case 'snapshot':
-					return generateBaseline(baseline, screenshot, result);
+					return <Thenable<AssertionResult>>generateBaseline(baseline, screenshot, result);
 				default:
 					throw new Error('missing baseline');
 			}

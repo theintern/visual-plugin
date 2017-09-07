@@ -6,6 +6,7 @@ import * as registerSuite from 'intern!object';
 import * as assert from 'intern/chai!assert';
 import { config, assertVisuals, util } from 'intern-visual/index';
 import * as Test from 'intern/lib/Test';
+import * as Command from 'leadfoot/Command';
 import { getBaselineFilename, getTestDirectory, remove as removeFile } from 'intern-visual/util/file';
 import { AssertionResult, VisualRegressionTest } from 'intern-visual/assert';
 import resizeWindow from 'intern-visual/helpers/resizeWindow';
@@ -21,19 +22,19 @@ function getBaselinePath(test: Test, suffix?: string) {
 	if (suffix) {
 		baselineName = baselineName.slice(0, -4) + suffix + '.png';
 	}
-	return joinPath(config.directory, config.baselineLocation, testDirectory, baselineName);
+	return joinPath(config.directory!, config.baselineLocation!, testDirectory, baselineName);
 }
 
 function initializePage(url: string = basicPageUrl) {
-	return function () {
+	return function (this: Command<any>) {
 		return this.parent
 			.get(url)
 			.then(resizeWindow(640, 480));
 	};
 }
 
-function generateBaseline(baseline: string): () => Promise<Buffer> {
-	return function () {
+function generateBaseline(baseline: string) {
+	return function (this: Command<any>) {
 		return this.parent
 			.takeScreenshot()
 			.then(function (screenshot: Buffer) {
@@ -67,16 +68,16 @@ registerSuite({
 	name: 'programmatic',
 
 	'no baselines generated': {
-		'defaults missingBaseline = skip; test is skipped'() {
+		'defaults missingBaseline = skip; test is skipped'(this: Test) {
 			const test: VisualRegressionTest = this;
 
 			return this.remote
 				.then(removeBaseline(test))
 				.then(initializePage())
 				.takeScreenshot()
-				.then(function (snapshot: Buffer) {
+				.then(function (this: Command<any>, snapshot: Buffer) {
 					const action = assertVisuals(test);
-					let exception: Error = null;
+					let exception: Error | undefined;
 					try {
 						action.call(this, snapshot);
 					}
@@ -90,18 +91,18 @@ registerSuite({
 				.then(doesBaselineExist(test, false));
 		},
 
-		'missingBaseline = skip; test is skipped'() {
+		'missingBaseline = skip; test is skipped'(this: Test) {
 			const test: VisualRegressionTest = this;
 
 			return this.remote
 				.then(removeBaseline(test))
 				.then(initializePage())
 				.takeScreenshot()
-				.then(function (snapshot: Buffer) {
+				.then(function (this: Command<any>, snapshot: Buffer) {
 					const action = assertVisuals(test, {
 						missingBaseline: 'skip'
 					});
-					let exception: Error = null;
+					let exception: Error | undefined;
 					try {
 						action.call(this, snapshot);
 					}
@@ -115,7 +116,7 @@ registerSuite({
 				.then(doesBaselineExist(test, false));
 		},
 
-		'missingBaseline = snapshop; test passes, a snapshot is generated'() {
+		'missingBaseline = snapshop; test passes, a snapshot is generated'(this: VisualRegressionTest) {
 			const test = this;
 
 			return this.remote
@@ -129,20 +130,20 @@ registerSuite({
 					assert.lengthOf(test.visualResults, 1);
 					assert.isFalse(result.baselineExists);
 					assert.isTrue(result.generatedBaseline);
-					assert.isNull(result.report);
+					assert.isUndefined(result.report);
 				})
 				.then(doesBaselineExist(test, true));
 		},
 
-		'missingBaseline = fail; tests fails'() {
+		'missingBaseline = fail; tests fails'(this: VisualRegressionTest) {
 			const test = this;
 
 			return this.remote
 				.then(removeBaseline(test))
 				.then(initializePage())
 				.takeScreenshot()
-				.then(function (snapshot: Buffer) {
-					assert.throws(function () {
+				.then(function (this: Command<any>, snapshot: Buffer) {
+					assert.throws(() => {
 						const action = assertVisuals(test, {
 							missingBaseline: 'fail'
 						});
@@ -155,7 +156,7 @@ registerSuite({
 	},
 
 	'preexisting baselines': {
-		'snapshot matches baseline; test passes'() {
+		'snapshot matches baseline; test passes'(this: VisualRegressionTest) {
 			const test = this;
 
 			return this.remote
@@ -169,26 +170,24 @@ registerSuite({
 					const report = result.report;
 					assert.property(test, 'visualResults');
 					assert.lengthOf(test.visualResults, 1);
-					assert.isTrue(report.isPassing);
-					assert.strictEqual(report.numDifferences, 0);
+					assert.isTrue(report!.isPassing);
+					assert.strictEqual(report!.numDifferences, 0);
 					assert.lengthOf(test.visualResults, 1);
 				});
 		},
 
-		'snapshot does not match baseline; test fails'() {
+		'snapshot does not match baseline; test fails'(this: VisualRegressionTest) {
 			const test = this;
 
 			return this.remote
 				.then(initializePage())
 				.then(generateBaseline(getBaselinePath(test)))
 				.execute(function () {
-					const p = document.querySelector('#container > p');
+					const p = document.querySelector('#container > p')!;
 					p.textContent = 'hello';
 				})
 				.then(generateBaseline(getBaselinePath(test, '.actual')))
-				.then(assertVisuals(this, {
-					missingBaseline: 'fail'
-				}))
+				.then(assertVisuals(this, { missingBaseline: 'fail' }))
 				.then(function () {
 					throw('Expected mismatch');
 				}, function (error: Error) {

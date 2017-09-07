@@ -1,5 +1,5 @@
 import resizeWindow from './helpers/resizeWindow';
-import assertVisuals, { Options as AssertVisualOptions, AssertionResult } from './assert';
+import assertVisuals, { Options as AssertVisualOptions, AssertionResult, VisualRegressionTest } from './assert';
 import * as Command  from 'leadfoot/Command';
 
 export interface Options extends AssertVisualOptions {
@@ -15,11 +15,11 @@ export interface Options extends AssertVisualOptions {
  * @param options.url the destination url for the visual regression test
  * @return {Function} a visual regression test
  */
-export default function (options: Options): () => Command<any> {
-	return function () {
+export default function (options: Options) {
+	return (function (this: VisualRegressionTest) {
 		return this.remote
 			.get(options.url)
-			.then(function () {
+			.then(function (this: Command<string>) {
 				if (options.width && options.height) {
 					return resizeWindow(options.width, options.height).apply(this);
 				}
@@ -31,5 +31,5 @@ export default function (options: Options): () => Command<any> {
 					return options.callback(result);
 				}
 			});
-	};
+	});
 }

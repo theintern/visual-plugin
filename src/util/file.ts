@@ -1,8 +1,6 @@
-import { writeFile, createReadStream, createWriteStream, unlink } from 'fs';
-import * as mkdirp from 'mkdirp';
-import { dirname } from 'path';
-import Test = require('intern/lib/Test');
-import WritableStream = NodeJS.WritableStream;
+import { mkdirSync, existsSync, writeFile, createReadStream, createWriteStream, unlink } from 'intern/dojo/node!fs';
+import { dirname, join, normalize, sep } from 'intern/dojo/node!path';
+import * as Test from 'intern/lib/Test';
 
 export function sanatizeFilename(name: string): string {
 	// TODO sanatize strings to a valid filename
@@ -32,7 +30,7 @@ export function getTestDirectory(current: Hierarchy, includeBrowser: boolean = f
 	}
 
 	if (includeBrowser) {
-		name.unshift(current._remote.environmentType.browserName);
+		name.unshift(current._remote!.environmentType.browserName);
 	}
 
 	return sanatizeFilename(name.join('/'));
@@ -43,12 +41,16 @@ export function getBaselineFilename(test: Test, count: number = 0) {
 	return sanatizeFilename(`${ test.name }${ suffix }.png`);
 }
 
-export function mkdir(directory: string): Promise<any> {
-	return new Promise(function (resolve, reject) {
-		mkdirp(directory, function (err) {
-			err ? reject(err) : resolve();
-		});
-	});
+export function mkdir(directory: string) {
+	const parts = normalize(directory).split(sep);
+	let dir = '';
+	while (parts.length > 0) {
+		dir = join(dir, parts.shift()!);
+		if (!existsSync(dir)) {
+			mkdirSync(dir);
+		}
+	}
+	return Promise.resolve();
 }
 
 export function save(filename: string, buffer: Buffer | string): Promise<any> {
@@ -64,7 +66,7 @@ export function save(filename: string, buffer: Buffer | string): Promise<any> {
 
 export function copy(source: string, target: string): Promise<string> {
 	return mkdir(dirname(target))
-		.then(function () {
+		.then<string>(function () {
 			return new Promise(function (resolve, reject) {
 				const inStream = createReadStream(source);
 				const outStream = createWriteStream(target);
@@ -85,7 +87,7 @@ export function copy(source: string, target: string): Promise<string> {
 		});
 }
 
-export function load<T extends WritableStream>(source: string, target: WritableStream): Promise<T> {
+export function load<T extends NodeJS.WritableStream>(source: string, target: T) {
 	return new Promise(function (resolve, reject) {
 		const inStream = createReadStream(source);
 		inStream.on('error', function (error: Error) {

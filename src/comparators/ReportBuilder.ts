@@ -25,7 +25,7 @@ export default class {
 	constructor(baseline: ImageMetadata, actual: ImageMetadata, options: Options = {}) {
 		this.baseline = baseline;
 		this.actual = actual;
-		this.matchRatio = options.matchRatio || config.comparator.matchRatio;
+		this.matchRatio = (options.matchRatio || config.comparator.matchRatio)!;
 	}
 
 	get error(): Error {

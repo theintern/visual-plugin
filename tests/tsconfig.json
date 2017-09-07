@@ -1,0 +1,11 @@
+{
+	"extends": "../tsconfig.json",
+	"compilerOptions": {
+		"baseUrl": "..",
+		"moduleResolution": "node",
+		"paths": {
+			"intern-visual/*": ["./_build/src/*", "./src/*"]
+		}
+	},
+	"include": ["./**/*.ts"]
+}

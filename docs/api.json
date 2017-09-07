@@ -1,0 +1,8913 @@
+{
+	"id": 0,
+	"name": "intern-visual",
+	"kind": 0,
+	"flags": {
+		"__visited__": true
+	},
+	"children": [
+		{
+			"id": 200,
+			"name": "\"VisualRegressionError\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true,
+				"__visited__": true
+			},
+			"originalName": "src/VisualRegressionError.ts",
+			"children": [
+				{
+					"id": 201,
+					"name": "VisualRegressionError",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {
+						"isExported": true,
+						"__visited__": true
+					},
+					"children": [
+						{
+							"id": 203,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"signatures": [
+								{
+									"id": 204,
+									"name": "new VisualRegressionError",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {
+										"__visited__": true
+									},
+									"parameters": [
+										{
+											"id": 205,
+											"name": "message",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"__visited__": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										},
+										{
+											"id": 206,
+											"name": "report",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"__visited__": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "Report"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "VisualRegressionError",
+										"id": 201
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "VisualRegressionError.ts",
+									"line": 4,
+									"character": 25
+								}
+							]
+						},
+						{
+							"id": 202,
+							"name": "report",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "VisualRegressionError.ts",
+									"line": 4,
+									"character": 16
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "Report"
+							}
+						},
+						{
+							"id": 210,
+							"name": "Error",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isStatic": true,
+								"isExported": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 884,
+									"character": 19
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "ErrorConstructor"
+							}
+						},
+						{
+							"id": 208,
+							"name": "message",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isStatic": true,
+								"isExported": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 874,
+									"character": 11
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Error.message"
+							}
+						},
+						{
+							"id": 207,
+							"name": "name",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isStatic": true,
+								"isExported": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 873,
+									"character": 8
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Error.name"
+							}
+						},
+						{
+							"id": 209,
+							"name": "stack",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isStatic": true,
+								"isExported": true,
+								"isOptional": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 875,
+									"character": 9
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "undefined"
+									},
+									{
+										"type": "intrinsic",
+										"name": "string"
+									}
+								]
+							},
+							"overwrites": {
+								"type": "reference",
+								"name": "Error.stack"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Error.stack"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								203
+							]
+						},
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								202,
+								210,
+								208,
+								207,
+								209
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "VisualRegressionError.ts",
+							"line": 3,
+							"character": 42
+						}
+					],
+					"extendedTypes": [
+						{
+							"type": "reference",
+							"name": "Error"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"kind": 128,
+					"children": [
+						201
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "VisualRegressionError.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 211,
+			"name": "\"assert\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true,
+				"__visited__": true
+			},
+			"originalName": "src/assert.ts",
+			"children": [
+				{
+					"id": 218,
+					"name": "AssertionResult",
+					"kind": 256,
+					"kindString": "Interface",
+					"flags": {
+						"isExported": true,
+						"__visited__": true
+					},
+					"children": [
+						{
+							"id": 219,
+							"name": "baseline",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "assert.ts",
+									"line": 21,
+									"character": 9
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 220,
+							"name": "baselineExists",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "assert.ts",
+									"line": 22,
+									"character": 15
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							}
+						},
+						{
+							"id": 221,
+							"name": "count",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "assert.ts",
+									"line": 23,
+									"character": 6
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						},
+						{
+							"id": 222,
+							"name": "generatedBaseline",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "assert.ts",
+									"line": 24,
+									"character": 18
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							}
+						},
+						{
+							"id": 223,
+							"name": "options",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "assert.ts",
+									"line": 25,
+									"character": 8
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "Options",
+								"id": 212
+							}
+						},
+						{
+							"id": 224,
+							"name": "report",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isOptional": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "assert.ts",
+									"line": 26,
+									"character": 7
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "Report"
+							}
+						},
+						{
+							"id": 225,
+							"name": "screenshot",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "assert.ts",
+									"line": 27,
+									"character": 11
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "reference",
+										"name": "Buffer"
+									},
+									{
+										"type": "intrinsic",
+										"name": "string"
+									}
+								]
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								219,
+								220,
+								221,
+								222,
+								223,
+								224,
+								225
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "assert.ts",
+							"line": 20,
+							"character": 32
+						}
+					]
+				},
+				{
+					"id": 212,
+					"name": "Options",
+					"kind": 256,
+					"kindString": "Interface",
+					"flags": {
+						"isExported": true,
+						"__visited__": true
+					},
+					"children": [
+						{
+							"id": 213,
+							"name": "baseline",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isOptional": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "assert.ts",
+									"line": 13,
+									"character": 9
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "undefined"
+									},
+									{
+										"type": "intrinsic",
+										"name": "string"
+									}
+								]
+							}
+						},
+						{
+							"id": 214,
+							"name": "baselineLocation",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isOptional": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "assert.ts",
+									"line": 14,
+									"character": 17
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "undefined"
+									},
+									{
+										"type": "intrinsic",
+										"name": "string"
+									}
+								]
+							}
+						},
+						{
+							"id": 215,
+							"name": "directory",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isOptional": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "assert.ts",
+									"line": 15,
+									"character": 10
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "undefined"
+									},
+									{
+										"type": "intrinsic",
+										"name": "string"
+									}
+								]
+							}
+						},
+						{
+							"id": 217,
+							"name": "missingBaseline",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isOptional": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "assert.ts",
+									"line": 17,
+									"character": 16
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "stringLiteral",
+										"value": "fail"
+									},
+									{
+										"type": "stringLiteral",
+										"value": "ignore"
+									},
+									{
+										"type": "stringLiteral",
+										"value": "skip"
+									},
+									{
+										"type": "stringLiteral",
+										"value": "snapshot"
+									}
+								]
+							}
+						},
+						{
+							"id": 216,
+							"name": "regenerateBaselines",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isOptional": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "assert.ts",
+									"line": 16,
+									"character": 20
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "undefined"
+									},
+									{
+										"type": "intrinsic",
+										"name": "true"
+									},
+									{
+										"type": "intrinsic",
+										"name": "false"
+									}
+								]
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								213,
+								214,
+								215,
+								217,
+								216
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "assert.ts",
+							"line": 12,
+							"character": 24
+						}
+					],
+					"extendedBy": [
+						{
+							"type": "reference",
+							"name": "Config",
+							"id": 131
+						},
+						{
+							"type": "reference",
+							"name": "Options",
+							"id": 334
+						}
+					]
+				},
+				{
+					"id": 226,
+					"name": "VisualRegressionTest",
+					"kind": 256,
+					"kindString": "Interface",
+					"flags": {
+						"isExported": true,
+						"__visited__": true
+					},
+					"children": [
+						{
+							"id": 257,
+							"name": "Test",
+							"kind": 2,
+							"kindString": "Module",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"children": [
+								{
+									"id": 258,
+									"name": "Deferred",
+									"kind": 256,
+									"kindString": "Interface",
+									"flags": {
+										"isExported": true,
+										"__visited__": true
+									},
+									"typeParameter": [
+										{
+											"id": 259,
+											"name": "T",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {
+												"__visited__": true
+											}
+										}
+									],
+									"children": [
+										{
+											"id": 269,
+											"name": "constructor",
+											"kind": 512,
+											"kindString": "Constructor",
+											"flags": {
+												"isExported": true,
+												"__visited__": true
+											},
+											"signatures": [
+												{
+													"id": 270,
+													"name": "new Deferred",
+													"kind": 16384,
+													"kindString": "Constructor signature",
+													"flags": {
+														"__visited__": true
+													},
+													"parameters": [
+														{
+															"id": 271,
+															"name": "canceler",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {
+																"isOptional": true,
+																"__visited__": true
+															},
+															"type": {
+																"type": "reference",
+																"name": "Promise.Canceler"
+															}
+														}
+													],
+													"type": {
+														"type": "reference",
+														"name": "Deferred",
+														"id": 258
+													},
+													"inheritedFrom": {
+														"type": "reference",
+														"name": "Deferred.__constructor"
+													}
+												}
+											],
+											"sources": [
+												{
+													"fileName": "node_modules/intern/typings/dojo2/dojo.d.ts",
+													"line": 444,
+													"character": 29
+												}
+											],
+											"inheritedFrom": {
+												"type": "reference",
+												"name": "Deferred.__constructor"
+											}
+										},
+										{
+											"id": 272,
+											"name": "progress",
+											"kind": 1024,
+											"kindString": "Property",
+											"flags": {
+												"isExported": true,
+												"__visited__": true
+											},
+											"comment": {
+												"shortText": "Sends progress information for the underlying promise.",
+												"tags": [
+													{
+														"tag": "method",
+														"text": ""
+													},
+													{
+														"tag": "param",
+														"text": "Additional information about the asynchronous operation’s progress.\n",
+														"param": "data"
+													}
+												]
+											},
+											"sources": [
+												{
+													"fileName": "node_modules/intern/typings/dojo2/dojo.d.ts",
+													"line": 452,
+													"character": 17
+												}
+											],
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 273,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"__visited__": true
+													},
+													"signatures": [
+														{
+															"id": 274,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"__visited__": true
+															},
+															"parameters": [
+																{
+																	"id": 275,
+																	"name": "data",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isOptional": true,
+																		"__visited__": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "any"
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/intern/typings/dojo2/dojo.d.ts",
+															"line": 452,
+															"character": 18
+														}
+													]
+												}
+											},
+											"inheritedFrom": {
+												"type": "reference",
+												"name": "Deferred.progress"
+											}
+										},
+										{
+											"id": 268,
+											"name": "promise",
+											"kind": 1024,
+											"kindString": "Property",
+											"flags": {
+												"isExported": true,
+												"__visited__": true
+											},
+											"comment": {
+												"shortText": "The underlying promise for the Deferred."
+											},
+											"sources": [
+												{
+													"fileName": "node_modules/intern/typings/dojo2/dojo.d.ts",
+													"line": 444,
+													"character": 16
+												}
+											],
+											"type": {
+												"type": "reference",
+												"name": "Promise",
+												"typeArguments": [
+													{
+														"type": "typeParameter",
+														"name": "T"
+													}
+												]
+											},
+											"inheritedFrom": {
+												"type": "reference",
+												"name": "Deferred.promise"
+											}
+										},
+										{
+											"id": 276,
+											"name": "reject",
+											"kind": 1024,
+											"kindString": "Property",
+											"flags": {
+												"isExported": true,
+												"__visited__": true
+											},
+											"comment": {
+												"shortText": "Rejects the underlying promise with an error.",
+												"tags": [
+													{
+														"tag": "method",
+														"text": ""
+													},
+													{
+														"tag": "param",
+														"text": "The error that should be used as the fulfilled value for the promise.\n",
+														"param": "error"
+													}
+												]
+											},
+											"sources": [
+												{
+													"fileName": "node_modules/intern/typings/dojo2/dojo.d.ts",
+													"line": 459,
+													"character": 15
+												}
+											],
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 277,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"__visited__": true
+													},
+													"signatures": [
+														{
+															"id": 278,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"__visited__": true
+															},
+															"parameters": [
+																{
+																	"id": 279,
+																	"name": "error",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isOptional": true,
+																		"__visited__": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "Error",
+																		"id": 210
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/intern/typings/dojo2/dojo.d.ts",
+															"line": 459,
+															"character": 16
+														}
+													]
+												}
+											},
+											"inheritedFrom": {
+												"type": "reference",
+												"name": "Deferred.reject"
+											}
+										},
+										{
+											"id": 280,
+											"name": "resolve",
+											"kind": 1024,
+											"kindString": "Property",
+											"flags": {
+												"isExported": true,
+												"__visited__": true
+											},
+											"comment": {
+												"shortText": "Resolves the underlying promise with a value.",
+												"tags": [
+													{
+														"tag": "method",
+														"text": ""
+													},
+													{
+														"tag": "param",
+														"text": "The value that should be used as the fulfilled value for the promise.\n",
+														"param": "value"
+													}
+												]
+											},
+											"sources": [
+												{
+													"fileName": "node_modules/intern/typings/dojo2/dojo.d.ts",
+													"line": 466,
+													"character": 16
+												}
+											],
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 281,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"__visited__": true
+													},
+													"signatures": [
+														{
+															"id": 282,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"__visited__": true
+															},
+															"parameters": [
+																{
+																	"id": 283,
+																	"name": "value",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isOptional": true,
+																		"__visited__": true
+																	},
+																	"type": {
+																		"type": "union",
+																		"types": [
+																			{
+																				"type": "reference",
+																				"name": "Thenable",
+																				"typeArguments": [
+																					{
+																						"type": "typeParameter",
+																						"name": "T"
+																					}
+																				]
+																			},
+																			{
+																				"type": "typeParameter",
+																				"name": "T"
+																			}
+																		]
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/intern/typings/dojo2/dojo.d.ts",
+															"line": 466,
+															"character": 17
+														}
+													]
+												}
+											},
+											"inheritedFrom": {
+												"type": "reference",
+												"name": "Deferred.resolve"
+											}
+										},
+										{
+											"id": 260,
+											"name": "callback",
+											"kind": 2048,
+											"kindString": "Method",
+											"flags": {
+												"isExported": true,
+												"__visited__": true
+											},
+											"signatures": [
+												{
+													"id": 261,
+													"name": "callback",
+													"kind": 4096,
+													"kindString": "Call signature",
+													"flags": {
+														"__visited__": true
+													},
+													"typeParameter": [
+														{
+															"id": 262,
+															"name": "U",
+															"kind": 131072,
+															"kindString": "Type parameter",
+															"flags": {
+																"__visited__": true
+															},
+															"type": {
+																"type": "reference",
+																"name": "Function"
+															}
+														}
+													],
+													"parameters": [
+														{
+															"id": 263,
+															"name": "callback",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {
+																"__visited__": true
+															},
+															"type": {
+																"type": "typeParameter",
+																"name": "U",
+																"constraint": {
+																	"type": "reference",
+																	"name": "Function"
+																}
+															}
+														}
+													],
+													"type": {
+														"type": "typeParameter",
+														"name": "U",
+														"constraint": {
+															"type": "reference",
+															"name": "Function"
+														}
+													}
+												}
+											],
+											"sources": [
+												{
+													"fileName": "node_modules/intern/typings/intern/intern.d.ts",
+													"line": 350,
+													"character": 11
+												}
+											]
+										},
+										{
+											"id": 264,
+											"name": "rejectOnError",
+											"kind": 2048,
+											"kindString": "Method",
+											"flags": {
+												"isExported": true,
+												"__visited__": true
+											},
+											"signatures": [
+												{
+													"id": 265,
+													"name": "rejectOnError",
+													"kind": 4096,
+													"kindString": "Call signature",
+													"flags": {
+														"__visited__": true
+													},
+													"typeParameter": [
+														{
+															"id": 266,
+															"name": "U",
+															"kind": 131072,
+															"kindString": "Type parameter",
+															"flags": {
+																"__visited__": true
+															},
+															"type": {
+																"type": "reference",
+																"name": "Function"
+															}
+														}
+													],
+													"parameters": [
+														{
+															"id": 267,
+															"name": "callback",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {
+																"__visited__": true
+															},
+															"type": {
+																"type": "typeParameter",
+																"name": "U",
+																"constraint": {
+																	"type": "reference",
+																	"name": "Function"
+																}
+															}
+														}
+													],
+													"type": {
+														"type": "typeParameter",
+														"name": "U",
+														"constraint": {
+															"type": "reference",
+															"name": "Function"
+														}
+													}
+												}
+											],
+											"sources": [
+												{
+													"fileName": "node_modules/intern/typings/intern/intern.d.ts",
+													"line": 351,
+													"character": 16
+												}
+											]
+										}
+									],
+									"groups": [
+										{
+											"title": "Constructors",
+											"kind": 512,
+											"children": [
+												269
+											]
+										},
+										{
+											"title": "Properties",
+											"kind": 1024,
+											"children": [
+												272,
+												268,
+												276,
+												280
+											]
+										},
+										{
+											"title": "Methods",
+											"kind": 2048,
+											"children": [
+												260,
+												264
+											]
+										}
+									],
+									"sources": [
+										{
+											"fileName": "node_modules/intern/typings/intern/intern.d.ts",
+											"line": 349,
+											"character": 27
+										}
+									]
+								},
+								{
+									"id": 284,
+									"name": "KwArgs",
+									"kind": 256,
+									"kindString": "Interface",
+									"flags": {
+										"isExported": true,
+										"__visited__": true
+									},
+									"children": [
+										{
+											"id": 285,
+											"name": "name",
+											"kind": 1024,
+											"kindString": "Property",
+											"flags": {
+												"isExported": true,
+												"__visited__": true
+											},
+											"sources": [
+												{
+													"fileName": "node_modules/intern/typings/intern/intern.d.ts",
+													"line": 355,
+													"character": 7
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										},
+										{
+											"id": 286,
+											"name": "parent",
+											"kind": 1024,
+											"kindString": "Property",
+											"flags": {
+												"isExported": true,
+												"isOptional": true,
+												"__visited__": true
+											},
+											"sources": [
+												{
+													"fileName": "node_modules/intern/typings/intern/intern.d.ts",
+													"line": 356,
+													"character": 9
+												}
+											],
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "undefined"
+													},
+													{
+														"type": "reference",
+														"name": "Suite"
+													}
+												]
+											}
+										},
+										{
+											"id": 288,
+											"name": "reporterManager",
+											"kind": 1024,
+											"kindString": "Property",
+											"flags": {
+												"isExported": true,
+												"isOptional": true,
+												"__visited__": true
+											},
+											"sources": [
+												{
+													"fileName": "node_modules/intern/typings/intern/intern.d.ts",
+													"line": 358,
+													"character": 18
+												}
+											],
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "undefined"
+													},
+													{
+														"type": "reference",
+														"name": "ReporterManager"
+													}
+												]
+											}
+										},
+										{
+											"id": 287,
+											"name": "timeout",
+											"kind": 1024,
+											"kindString": "Property",
+											"flags": {
+												"isExported": true,
+												"isOptional": true,
+												"__visited__": true
+											},
+											"sources": [
+												{
+													"fileName": "node_modules/intern/typings/intern/intern.d.ts",
+													"line": 357,
+													"character": 10
+												}
+											],
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "undefined"
+													},
+													{
+														"type": "intrinsic",
+														"name": "number"
+													}
+												]
+											}
+										}
+									],
+									"groups": [
+										{
+											"title": "Properties",
+											"kind": 1024,
+											"children": [
+												285,
+												286,
+												288,
+												287
+											]
+										}
+									],
+									"sources": [
+										{
+											"fileName": "node_modules/intern/typings/intern/intern.d.ts",
+											"line": 354,
+											"character": 25
+										}
+									]
+								},
+								{
+									"id": 289,
+									"name": "Serialized",
+									"kind": 256,
+									"kindString": "Interface",
+									"flags": {
+										"isExported": true,
+										"__visited__": true
+									},
+									"children": [
+										{
+											"id": 297,
+											"name": "error",
+											"kind": 1024,
+											"kindString": "Property",
+											"flags": {
+												"isExported": true,
+												"__visited__": true
+											},
+											"sources": [
+												{
+													"fileName": "node_modules/intern/typings/intern/intern.d.ts",
+													"line": 369,
+													"character": 8
+												}
+											],
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 298,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"__visited__": true
+													},
+													"children": [
+														{
+															"id": 300,
+															"name": "message",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {
+																"__visited__": true
+															},
+															"sources": [
+																{
+																	"fileName": "node_modules/intern/typings/intern/intern.d.ts",
+																	"line": 371,
+																	"character": 11
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "string"
+															}
+														},
+														{
+															"id": 299,
+															"name": "name",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {
+																"__visited__": true
+															},
+															"sources": [
+																{
+																	"fileName": "node_modules/intern/typings/intern/intern.d.ts",
+																	"line": 370,
+																	"character": 8
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "string"
+															}
+														},
+														{
+															"id": 301,
+															"name": "stack",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {
+																"__visited__": true
+															},
+															"sources": [
+																{
+																	"fileName": "node_modules/intern/typings/intern/intern.d.ts",
+																	"line": 372,
+																	"character": 9
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "string"
+															}
+														}
+													],
+													"groups": [
+														{
+															"title": "Variables",
+															"kind": 32,
+															"children": [
+																300,
+																299,
+																301
+															]
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/intern/typings/intern/intern.d.ts",
+															"line": 369,
+															"character": 9
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 295,
+											"name": "hasPassed",
+											"kind": 1024,
+											"kindString": "Property",
+											"flags": {
+												"isExported": true,
+												"__visited__": true
+											},
+											"sources": [
+												{
+													"fileName": "node_modules/intern/typings/intern/intern.d.ts",
+													"line": 367,
+													"character": 12
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										},
+										{
+											"id": 292,
+											"name": "id",
+											"kind": 1024,
+											"kindString": "Property",
+											"flags": {
+												"isExported": true,
+												"__visited__": true
+											},
+											"sources": [
+												{
+													"fileName": "node_modules/intern/typings/intern/intern.d.ts",
+													"line": 364,
+													"character": 5
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										},
+										{
+											"id": 290,
+											"name": "name",
+											"kind": 1024,
+											"kindString": "Property",
+											"flags": {
+												"isExported": true,
+												"__visited__": true
+											},
+											"sources": [
+												{
+													"fileName": "node_modules/intern/typings/intern/intern.d.ts",
+													"line": 362,
+													"character": 7
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										},
+										{
+											"id": 291,
+											"name": "sessionId",
+											"kind": 1024,
+											"kindString": "Property",
+											"flags": {
+												"isExported": true,
+												"__visited__": true
+											},
+											"sources": [
+												{
+													"fileName": "node_modules/intern/typings/intern/intern.d.ts",
+													"line": 363,
+													"character": 12
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										},
+										{
+											"id": 296,
+											"name": "skipped",
+											"kind": 1024,
+											"kindString": "Property",
+											"flags": {
+												"isExported": true,
+												"__visited__": true
+											},
+											"sources": [
+												{
+													"fileName": "node_modules/intern/typings/intern/intern.d.ts",
+													"line": 368,
+													"character": 10
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										},
+										{
+											"id": 294,
+											"name": "timeElapsed",
+											"kind": 1024,
+											"kindString": "Property",
+											"flags": {
+												"isExported": true,
+												"__visited__": true
+											},
+											"sources": [
+												{
+													"fileName": "node_modules/intern/typings/intern/intern.d.ts",
+													"line": 366,
+													"character": 14
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										},
+										{
+											"id": 293,
+											"name": "timeout",
+											"kind": 1024,
+											"kindString": "Property",
+											"flags": {
+												"isExported": true,
+												"__visited__": true
+											},
+											"sources": [
+												{
+													"fileName": "node_modules/intern/typings/intern/intern.d.ts",
+													"line": 365,
+													"character": 10
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										}
+									],
+									"groups": [
+										{
+											"title": "Properties",
+											"kind": 1024,
+											"children": [
+												297,
+												295,
+												292,
+												290,
+												291,
+												296,
+												294,
+												293
+											]
+										}
+									],
+									"sources": [
+										{
+											"fileName": "node_modules/intern/typings/intern/intern.d.ts",
+											"line": 361,
+											"character": 29
+										}
+									]
+								}
+							],
+							"groups": [
+								{
+									"title": "Interfaces",
+									"kind": 256,
+									"children": [
+										258,
+										284,
+										289
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/intern/typings/intern/intern.d.ts",
+									"line": 348,
+									"character": 12
+								}
+							]
+						},
+						{
+							"id": 228,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"signatures": [
+								{
+									"id": 229,
+									"name": "new VisualRegressionTest",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {
+										"__visited__": true
+									},
+									"parameters": [
+										{
+											"id": 230,
+											"name": "kwArgs",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isOptional": true,
+												"__visited__": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "Test.KwArgs",
+												"id": 284
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "VisualRegressionTest",
+										"id": 226
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "Test.__constructor"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/intern/typings/intern/intern.d.ts",
+									"line": 286,
+									"character": 13
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Test.__constructor"
+							}
+						},
+						{
+							"id": 241,
+							"name": "error",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/intern/typings/intern/intern.d.ts",
+									"line": 297,
+									"character": 7
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "Error"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Test.error"
+							}
+						},
+						{
+							"id": 239,
+							"name": "hasPassed",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/intern/typings/intern/intern.d.ts",
+									"line": 295,
+									"character": 11
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Test.hasPassed"
+							}
+						},
+						{
+							"id": 242,
+							"name": "id",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"comment": {
+								"shortText": "The unique identifier of the test, assuming all combinations of suite + test are unique.",
+								"tags": [
+									{
+										"tag": "readonly",
+										"text": "\n"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/intern/typings/intern/intern.d.ts",
+									"line": 304,
+									"character": 4
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Test.id"
+							}
+						},
+						{
+							"id": 237,
+							"name": "isAsync",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/intern/typings/intern/intern.d.ts",
+									"line": 293,
+									"character": 9
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Test.isAsync"
+							}
+						},
+						{
+							"id": 231,
+							"name": "name",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/intern/typings/intern/intern.d.ts",
+									"line": 289,
+									"character": 6
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Test.name"
+							}
+						},
+						{
+							"id": 235,
+							"name": "parent",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/intern/typings/intern/intern.d.ts",
+									"line": 291,
+									"character": 8
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "Suite"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Test.parent"
+							}
+						},
+						{
+							"id": 243,
+							"name": "remote",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"comment": {
+								"shortText": "The WebDriver interface for driving a remote environment.",
+								"tags": [
+									{
+										"tag": "see",
+										"text": "module:intern/lib/Suite#remote"
+									},
+									{
+										"tag": "readonly",
+										"text": "\n"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/intern/typings/intern/intern.d.ts",
+									"line": 312,
+									"character": 8
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "Command",
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "void"
+									}
+								]
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Test.remote"
+							}
+						},
+						{
+							"id": 244,
+							"name": "reporterManager",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/intern/typings/intern/intern.d.ts",
+									"line": 314,
+									"character": 17
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "ReporterManager"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Test.reporterManager"
+							}
+						},
+						{
+							"id": 245,
+							"name": "sessionId",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/intern/typings/intern/intern.d.ts",
+									"line": 316,
+									"character": 11
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Test.sessionId"
+							}
+						},
+						{
+							"id": 240,
+							"name": "skipped",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/intern/typings/intern/intern.d.ts",
+									"line": 296,
+									"character": 9
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Test.skipped"
+							}
+						},
+						{
+							"id": 232,
+							"name": "test",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/intern/typings/intern/intern.d.ts",
+									"line": 290,
+									"character": 6
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 233,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {
+										"__visited__": true
+									},
+									"signatures": [
+										{
+											"id": 234,
+											"name": "__call",
+											"kind": 4096,
+											"kindString": "Call signature",
+											"flags": {
+												"__visited__": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"sources": [
+										{
+											"fileName": "node_modules/intern/typings/intern/intern.d.ts",
+											"line": 290,
+											"character": 7
+										}
+									]
+								}
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Test.test"
+							}
+						},
+						{
+							"id": 238,
+							"name": "timeElapsed",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/intern/typings/intern/intern.d.ts",
+									"line": 294,
+									"character": 13
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Test.timeElapsed"
+							}
+						},
+						{
+							"id": 236,
+							"name": "timeout",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/intern/typings/intern/intern.d.ts",
+									"line": 292,
+									"character": 9
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Test.timeout"
+							}
+						},
+						{
+							"id": 227,
+							"name": "visualResults",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isOptional": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "assert.ts",
+									"line": 31,
+									"character": 14
+								}
+							],
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "reference",
+									"name": "AssertionResult",
+									"id": 218
+								}
+							}
+						},
+						{
+							"id": 246,
+							"name": "async",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"signatures": [
+								{
+									"id": 247,
+									"name": "async",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"__visited__": true
+									},
+									"comment": {
+										"shortText": "A convenience function that generates and returns a special Deferred that can be used for asynchronous\ntesting.\nOnce called, a test is assumed to be asynchronous no matter its return value (the generated Deferred's\npromise will always be used as the implied return value if a promise is not returned by the test function)."
+									},
+									"parameters": [
+										{
+											"id": 248,
+											"name": "timeout",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isOptional": true,
+												"__visited__": true
+											},
+											"comment": {
+												"text": "\nIf provided, the amount of time to wait before rejecting the test with a timeout error, in milliseconds.\n"
+											},
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "undefined"
+													},
+													{
+														"type": "intrinsic",
+														"name": "number"
+													}
+												]
+											}
+										},
+										{
+											"id": 249,
+											"name": "numCallsUntilResolution",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isOptional": true,
+												"__visited__": true
+											},
+											"comment": {
+												"text": "\nThe number of times that resolve needs to be called before the Deferred is actually resolved.\n"
+											},
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "undefined"
+													},
+													{
+														"type": "intrinsic",
+														"name": "number"
+													}
+												]
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "Deferred",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "void"
+											}
+										]
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "Test.async"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/intern/typings/intern/intern.d.ts",
+									"line": 330,
+									"character": 7
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Test.async"
+							}
+						},
+						{
+							"id": 250,
+							"name": "run",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"signatures": [
+								{
+									"id": 251,
+									"name": "run",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"__visited__": true
+									},
+									"comment": {
+										"shortText": "Runs the test."
+									},
+									"type": {
+										"type": "reference",
+										"name": "Promise",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "void"
+											}
+										]
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "Test.run"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/intern/typings/intern/intern.d.ts",
+									"line": 335,
+									"character": 5
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Test.run"
+							}
+						},
+						{
+							"id": 252,
+							"name": "skip",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"signatures": [
+								{
+									"id": 253,
+									"name": "skip",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"__visited__": true
+									},
+									"comment": {
+										"shortText": "Skips this test."
+									},
+									"parameters": [
+										{
+											"id": 254,
+											"name": "message",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isOptional": true,
+												"__visited__": true
+											},
+											"comment": {
+												"text": "\nIf provided, will be stored in this test's `skipped` property.\n"
+											},
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "undefined"
+													},
+													{
+														"type": "intrinsic",
+														"name": "string"
+													}
+												]
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "Test.skip"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/intern/typings/intern/intern.d.ts",
+									"line": 343,
+									"character": 6
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Test.skip"
+							}
+						},
+						{
+							"id": 255,
+							"name": "toJSON",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"signatures": [
+								{
+									"id": 256,
+									"name": "toJSON",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"__visited__": true
+									},
+									"type": {
+										"type": "reference",
+										"name": "Serialized"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "Test.toJSON"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/intern/typings/intern/intern.d.ts",
+									"line": 345,
+									"character": 8
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Test.toJSON"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Modules",
+							"kind": 2,
+							"children": [
+								257
+							]
+						},
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								228
+							]
+						},
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								241,
+								239,
+								242,
+								237,
+								231,
+								235,
+								243,
+								244,
+								245,
+								240,
+								232,
+								238,
+								236,
+								227
+							]
+						},
+						{
+							"title": "Methods",
+							"kind": 2048,
+							"children": [
+								246,
+								250,
+								252,
+								255
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "assert.ts",
+							"line": 30,
+							"character": 37
+						}
+					],
+					"extendedTypes": [
+						{
+							"type": "reference",
+							"name": "Test"
+						}
+					]
+				},
+				{
+					"id": 312,
+					"name": "assertVisuals",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true,
+						"__visited__": true
+					},
+					"signatures": [
+						{
+							"id": 313,
+							"name": "assertVisuals",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"__visited__": true
+							},
+							"comment": {
+								"shortText": "A LeadFoot Helper for asserting visual regression against a baseline. This helper is responsible for\ndetermining if the test should pass, fail, or be skipped and provide enough metadata to the reporter\nso it may generate any of the necessary data (including baselines).",
+								"returns": "\n"
+							},
+							"parameters": [
+								{
+									"id": 314,
+									"name": "test",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"__visited__": true
+									},
+									"comment": {
+										"text": "the Intern test where this helper is running"
+									},
+									"type": {
+										"type": "reference",
+										"name": "VisualRegressionTest",
+										"id": 226
+									}
+								},
+								{
+									"id": 315,
+									"name": "options",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"__visited__": true
+									},
+									"comment": {
+										"text": "execution options overriding defaults"
+									},
+									"type": {
+										"type": "reference",
+										"name": "Options",
+										"id": 212
+									},
+									"defaultValue": " config"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "(Anonymous function)"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "assert.ts",
+							"line": 73,
+							"character": 37
+						}
+					]
+				},
+				{
+					"id": 307,
+					"name": "compareVisuals",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"__visited__": true
+					},
+					"signatures": [
+						{
+							"id": 308,
+							"name": "compareVisuals",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"__visited__": true
+							},
+							"parameters": [
+								{
+									"id": 309,
+									"name": "baseline",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"__visited__": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 310,
+									"name": "screenshot",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"__visited__": true
+									},
+									"type": {
+										"type": "reference",
+										"name": "Buffer"
+									}
+								},
+								{
+									"id": 311,
+									"name": "result",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"__visited__": true
+									},
+									"type": {
+										"type": "reference",
+										"name": "AssertionResult",
+										"id": 218
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "Promise",
+								"typeArguments": [
+									{
+										"type": "reference",
+										"name": "AssertionResult",
+										"id": 218
+									}
+								]
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "assert.ts",
+							"line": 45,
+							"character": 23
+						}
+					]
+				},
+				{
+					"id": 302,
+					"name": "generateBaseline",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"__visited__": true
+					},
+					"signatures": [
+						{
+							"id": 303,
+							"name": "generateBaseline",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"__visited__": true
+							},
+							"parameters": [
+								{
+									"id": 304,
+									"name": "baseline",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"__visited__": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 305,
+									"name": "screenshot",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"__visited__": true
+									},
+									"type": {
+										"type": "reference",
+										"name": "Buffer"
+									}
+								},
+								{
+									"id": 306,
+									"name": "result",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"__visited__": true
+									},
+									"type": {
+										"type": "reference",
+										"name": "AssertionResult",
+										"id": 218
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "Promise",
+								"typeArguments": [
+									{
+										"type": "reference",
+										"name": "AssertionResult",
+										"id": 218
+									}
+								]
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "assert.ts",
+							"line": 34,
+							"character": 25
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Interfaces",
+					"kind": 256,
+					"children": [
+						218,
+						212,
+						226
+					]
+				},
+				{
+					"title": "Functions",
+					"kind": 64,
+					"children": [
+						312,
+						307,
+						302
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "assert.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 186,
+			"name": "\"comparators/PngJsImageComparator\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true,
+				"__visited__": true
+			},
+			"originalName": "src/comparators/PngJsImageComparator.ts",
+			"children": [
+				{
+					"id": 190,
+					"name": "PngJsImageComparator",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {
+						"isExported": true,
+						"__visited__": true
+					},
+					"children": [
+						{
+							"id": 193,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"signatures": [
+								{
+									"id": 194,
+									"name": "new PngJsImageComparator",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {
+										"__visited__": true
+									},
+									"parameters": [
+										{
+											"id": 195,
+											"name": "options",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"__visited__": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "Options",
+												"id": 187
+											},
+											"defaultValue": " {}"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "PngJsImageComparator",
+										"id": 190
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "comparators/PngJsImageComparator.ts",
+									"line": 16,
+									"character": 31
+								}
+							]
+						},
+						{
+							"id": 191,
+							"name": "pixelSkip",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "comparators/PngJsImageComparator.ts",
+									"line": 14,
+									"character": 10
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						},
+						{
+							"id": 192,
+							"name": "pixelTolerance",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "comparators/PngJsImageComparator.ts",
+									"line": 16,
+									"character": 15
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "RGBColorArray"
+							}
+						},
+						{
+							"id": 196,
+							"name": "compare",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"signatures": [
+								{
+									"id": 197,
+									"name": "compare",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"__visited__": true
+									},
+									"parameters": [
+										{
+											"id": 198,
+											"name": "baseline",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"__visited__": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "ImageReference"
+											}
+										},
+										{
+											"id": 199,
+											"name": "actual",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"__visited__": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "ImageReference"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "Promise",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "Report"
+											}
+										]
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "comparators/PngJsImageComparator.ts",
+									"line": 23,
+									"character": 8
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								193
+							]
+						},
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								191,
+								192
+							]
+						},
+						{
+							"title": "Methods",
+							"kind": 2048,
+							"children": [
+								196
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "comparators/PngJsImageComparator.ts",
+							"line": 13,
+							"character": 41
+						}
+					],
+					"implementedTypes": [
+						{
+							"type": "reference",
+							"name": "ImageComparator"
+						}
+					]
+				},
+				{
+					"id": 187,
+					"name": "Options",
+					"kind": 256,
+					"kindString": "Interface",
+					"flags": {
+						"isExported": true,
+						"__visited__": true
+					},
+					"children": [
+						{
+							"id": 188,
+							"name": "pixelSkip",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isOptional": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "comparators/PngJsImageComparator.ts",
+									"line": 9,
+									"character": 10
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "undefined"
+									},
+									{
+										"type": "intrinsic",
+										"name": "number"
+									}
+								]
+							}
+						},
+						{
+							"id": 189,
+							"name": "pixelTolerance",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isOptional": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "comparators/PngJsImageComparator.ts",
+									"line": 10,
+									"character": 15
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "number"
+									},
+									{
+										"type": "reference",
+										"name": "RGBColor"
+									}
+								]
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								188,
+								189
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "comparators/PngJsImageComparator.ts",
+							"line": 8,
+							"character": 24
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"kind": 128,
+					"children": [
+						190
+					]
+				},
+				{
+					"title": "Interfaces",
+					"kind": 256,
+					"children": [
+						187
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "comparators/PngJsImageComparator.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 154,
+			"name": "\"comparators/ReportBuilder\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true,
+				"__visited__": true
+			},
+			"originalName": "src/comparators/ReportBuilder.ts",
+			"children": [
+				{
+					"id": 157,
+					"name": "default",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {
+						"isExported": true,
+						"__visited__": true
+					},
+					"children": [
+						{
+							"id": 162,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"signatures": [
+								{
+									"id": 163,
+									"name": "new default",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {
+										"__visited__": true
+									},
+									"parameters": [
+										{
+											"id": 164,
+											"name": "baseline",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"__visited__": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "ImageMetadata"
+											}
+										},
+										{
+											"id": 165,
+											"name": "actual",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"__visited__": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "ImageMetadata"
+											}
+										},
+										{
+											"id": 166,
+											"name": "options",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"__visited__": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "Options",
+												"id": 155
+											},
+											"defaultValue": " {}"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "default",
+										"id": 157
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "comparators/ReportBuilder.ts",
+									"line": 23,
+									"character": 32
+								}
+							]
+						},
+						{
+							"id": 159,
+							"name": "actual",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "comparators/ReportBuilder.ts",
+									"line": 11,
+									"character": 16
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "ImageMetadata"
+							}
+						},
+						{
+							"id": 160,
+							"name": "baseline",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "comparators/ReportBuilder.ts",
+									"line": 13,
+									"character": 18
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "ImageMetadata"
+							}
+						},
+						{
+							"id": 161,
+							"name": "log",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "comparators/ReportBuilder.ts",
+									"line": 15,
+									"character": 13
+								}
+							],
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "string"
+								}
+							},
+							"defaultValue": " []"
+						},
+						{
+							"id": 158,
+							"name": "matchRatio",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "comparators/ReportBuilder.ts",
+									"line": 9,
+									"character": 11
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						},
+						{
+							"id": 167,
+							"name": "error",
+							"kind": 262144,
+							"kindString": "Accessor",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"getSignature": [
+								{
+									"id": 168,
+									"name": "__get",
+									"kind": 524288,
+									"kindString": "Get signature",
+									"flags": {
+										"__visited__": true
+									},
+									"type": {
+										"type": "reference",
+										"name": "Error"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "comparators/ReportBuilder.ts",
+									"line": 31,
+									"character": 10
+								}
+							]
+						},
+						{
+							"id": 169,
+							"name": "report",
+							"kind": 262144,
+							"kindString": "Accessor",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"getSignature": [
+								{
+									"id": 170,
+									"name": "__get",
+									"kind": 524288,
+									"kindString": "Get signature",
+									"flags": {
+										"__visited__": true
+									},
+									"type": {
+										"type": "reference",
+										"name": "Report"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "comparators/ReportBuilder.ts",
+									"line": 35,
+									"character": 11
+								}
+							]
+						},
+						{
+							"id": 171,
+							"name": "runningTime",
+							"kind": 262144,
+							"kindString": "Accessor",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"getSignature": [
+								{
+									"id": 172,
+									"name": "__get",
+									"kind": 524288,
+									"kindString": "Get signature",
+									"flags": {
+										"__visited__": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "comparators/ReportBuilder.ts",
+									"line": 54,
+									"character": 16
+								}
+							]
+						},
+						{
+							"id": 184,
+							"name": "recordEnd",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"signatures": [
+								{
+									"id": 185,
+									"name": "recordEnd",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"__visited__": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "comparators/ReportBuilder.ts",
+									"line": 75,
+									"character": 10
+								}
+							]
+						},
+						{
+							"id": 176,
+							"name": "recordError",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"signatures": [
+								{
+									"id": 177,
+									"name": "recordError",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"__visited__": true
+									},
+									"parameters": [
+										{
+											"id": 178,
+											"name": "error",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"__visited__": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "Error"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "comparators/ReportBuilder.ts",
+									"line": 62,
+									"character": 12
+								}
+							]
+						},
+						{
+							"id": 173,
+							"name": "recordLog",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"signatures": [
+								{
+									"id": 174,
+									"name": "recordLog",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"__visited__": true
+									},
+									"parameters": [
+										{
+											"id": 175,
+											"name": "item",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"__visited__": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "comparators/ReportBuilder.ts",
+									"line": 58,
+									"character": 10
+								}
+							]
+						},
+						{
+							"id": 179,
+							"name": "recordPixelDifference",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"signatures": [
+								{
+									"id": 180,
+									"name": "recordPixelDifference",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"__visited__": true
+									},
+									"parameters": [
+										{
+											"id": 181,
+											"name": "pixel",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"__visited__": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "comparators/ReportBuilder.ts",
+									"line": 67,
+									"character": 22
+								}
+							]
+						},
+						{
+							"id": 182,
+							"name": "recordStart",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"signatures": [
+								{
+									"id": 183,
+									"name": "recordStart",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"__visited__": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "comparators/ReportBuilder.ts",
+									"line": 71,
+									"character": 12
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								162
+							]
+						},
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								159,
+								160,
+								161,
+								158
+							]
+						},
+						{
+							"title": "Accessors",
+							"kind": 262144,
+							"children": [
+								167,
+								169,
+								171
+							]
+						},
+						{
+							"title": "Methods",
+							"kind": 2048,
+							"children": [
+								184,
+								176,
+								173,
+								179,
+								182
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "comparators/ReportBuilder.ts",
+							"line": 6,
+							"character": 1
+						}
+					]
+				},
+				{
+					"id": 155,
+					"name": "Options",
+					"kind": 256,
+					"kindString": "Interface",
+					"flags": {
+						"isExported": true,
+						"__visited__": true
+					},
+					"children": [
+						{
+							"id": 156,
+							"name": "matchRatio",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isOptional": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "comparators/ReportBuilder.ts",
+									"line": 5,
+									"character": 11
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "undefined"
+									},
+									{
+										"type": "intrinsic",
+										"name": "number"
+									}
+								]
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								156
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "comparators/ReportBuilder.ts",
+							"line": 4,
+							"character": 24
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"kind": 128,
+					"children": [
+						157
+					]
+				},
+				{
+					"title": "Interfaces",
+					"kind": 256,
+					"children": [
+						155
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "comparators/ReportBuilder.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 130,
+			"name": "\"config\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true,
+				"__visited__": true
+			},
+			"originalName": "src/config.ts",
+			"children": [
+				{
+					"id": 131,
+					"name": "Config",
+					"kind": 256,
+					"kindString": "Interface",
+					"flags": {
+						"isExported": true,
+						"__visited__": true
+					},
+					"children": [
+						{
+							"id": 134,
+							"name": "baseline",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isOptional": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "assert.ts",
+									"line": 13,
+									"character": 9
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "undefined"
+									},
+									{
+										"type": "intrinsic",
+										"name": "string"
+									}
+								]
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Options.baseline",
+								"id": 213
+							}
+						},
+						{
+							"id": 135,
+							"name": "baselineLocation",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isOptional": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "assert.ts",
+									"line": 14,
+									"character": 17
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "undefined"
+									},
+									{
+										"type": "intrinsic",
+										"name": "string"
+									}
+								]
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Options.baselineLocation",
+								"id": 214
+							}
+						},
+						{
+							"id": 132,
+							"name": "comparator",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "config.ts",
+									"line": 11,
+									"character": 11
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "ComparatorConfig",
+								"id": 139
+							}
+						},
+						{
+							"id": 136,
+							"name": "directory",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isOptional": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "assert.ts",
+									"line": 15,
+									"character": 10
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "undefined"
+									},
+									{
+										"type": "intrinsic",
+										"name": "string"
+									}
+								]
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Options.directory",
+								"id": 215
+							}
+						},
+						{
+							"id": 138,
+							"name": "missingBaseline",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isOptional": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "assert.ts",
+									"line": 17,
+									"character": 16
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "stringLiteral",
+										"value": "fail"
+									},
+									{
+										"type": "stringLiteral",
+										"value": "ignore"
+									},
+									{
+										"type": "stringLiteral",
+										"value": "skip"
+									},
+									{
+										"type": "stringLiteral",
+										"value": "snapshot"
+									}
+								]
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Options.missingBaseline",
+								"id": 217
+							}
+						},
+						{
+							"id": 137,
+							"name": "regenerateBaselines",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isOptional": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "assert.ts",
+									"line": 16,
+									"character": 20
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "undefined"
+									},
+									{
+										"type": "intrinsic",
+										"name": "true"
+									},
+									{
+										"type": "intrinsic",
+										"name": "false"
+									}
+								]
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Options.regenerateBaselines",
+								"id": 216
+							}
+						},
+						{
+							"id": 133,
+							"name": "report",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "config.ts",
+									"line": 12,
+									"character": 7
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "ReportOptions"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								134,
+								135,
+								132,
+								136,
+								138,
+								137,
+								133
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "config.ts",
+							"line": 10,
+							"character": 23
+						}
+					],
+					"extendedTypes": [
+						{
+							"type": "reference",
+							"name": "Options",
+							"id": 212
+						}
+					]
+				},
+				{
+					"id": 139,
+					"name": "ComparatorConfig",
+					"kind": 4194304,
+					"kindString": "Type alias",
+					"flags": {
+						"isExported": true,
+						"__visited__": true
+					},
+					"sources": [
+						{
+							"fileName": "config.ts",
+							"line": 8,
+							"character": 28
+						}
+					],
+					"type": {
+						"type": "intersection",
+						"types": [
+							{
+								"type": "reference",
+								"name": "ComparatorOptions"
+							},
+							{
+								"type": "reference",
+								"name": "ComparisonOptions"
+							}
+						]
+					}
+				},
+				{
+					"id": 153,
+					"name": "config",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"__visited__": true
+					},
+					"sources": [
+						{
+							"fileName": "config.ts",
+							"line": 39,
+							"character": 12
+						}
+					],
+					"type": {
+						"type": "reference",
+						"name": "Config",
+						"id": 131
+					},
+					"defaultValue": " mixin<Config>({}, defaults, visualConfig)"
+				},
+				{
+					"id": 140,
+					"name": "internConfig",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"__visited__": true
+					},
+					"sources": [
+						{
+							"fileName": "config.ts",
+							"line": 15,
+							"character": 18
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": " (<any> intern).config || {}"
+				},
+				{
+					"id": 141,
+					"name": "visualConfig",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"__visited__": true
+					},
+					"sources": [
+						{
+							"fileName": "config.ts",
+							"line": 16,
+							"character": 18
+						}
+					],
+					"type": {
+						"type": "reference",
+						"name": "Config",
+						"id": 131
+					},
+					"defaultValue": " internConfig.visual || {}"
+				},
+				{
+					"id": 142,
+					"name": "defaults",
+					"kind": 2097152,
+					"kindString": "Object literal",
+					"flags": {
+						"__visited__": true
+					},
+					"children": [
+						{
+							"id": 143,
+							"name": "baselineLocation",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "config.ts",
+									"line": 18,
+									"character": 17
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							},
+							"defaultValue": "\"baselines\""
+						},
+						{
+							"id": 148,
+							"name": "directory",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "config.ts",
+									"line": 28,
+									"character": 10
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							},
+							"defaultValue": "\"visual-test\""
+						},
+						{
+							"id": 149,
+							"name": "missingBaseline",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "config.ts",
+									"line": 30,
+									"character": 16
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							},
+							"defaultValue": "\"skip\""
+						},
+						{
+							"id": 144,
+							"name": "comparator",
+							"kind": 2097152,
+							"kindString": "Object literal",
+							"flags": {
+								"__visited__": true
+							},
+							"children": [
+								{
+									"id": 147,
+									"name": "matchRatio",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"__visited__": true
+									},
+									"sources": [
+										{
+											"fileName": "config.ts",
+											"line": 25,
+											"character": 12
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "1"
+								},
+								{
+									"id": 145,
+									"name": "pixelSkip",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"__visited__": true
+									},
+									"sources": [
+										{
+											"fileName": "config.ts",
+											"line": 21,
+											"character": 11
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "2"
+								},
+								{
+									"id": 146,
+									"name": "pixelTolerance",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"__visited__": true
+									},
+									"sources": [
+										{
+											"fileName": "config.ts",
+											"line": 23,
+											"character": 16
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "8"
+								}
+							],
+							"groups": [
+								{
+									"title": "Variables",
+									"kind": 32,
+									"children": [
+										147,
+										145,
+										146
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "config.ts",
+									"line": 20,
+									"character": 11
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "object"
+							}
+						},
+						{
+							"id": 150,
+							"name": "report",
+							"kind": 2097152,
+							"kindString": "Object literal",
+							"flags": {
+								"__visited__": true
+							},
+							"children": [
+								{
+									"id": 151,
+									"name": "reportLocation",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"__visited__": true
+									},
+									"sources": [
+										{
+											"fileName": "config.ts",
+											"line": 33,
+											"character": 16
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									},
+									"defaultValue": "\"report\""
+								},
+								{
+									"id": 152,
+									"name": "reportUnusedBaselines",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"__visited__": true
+									},
+									"sources": [
+										{
+											"fileName": "config.ts",
+											"line": 35,
+											"character": 23
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									},
+									"defaultValue": "false"
+								}
+							],
+							"groups": [
+								{
+									"title": "Variables",
+									"kind": 32,
+									"children": [
+										151,
+										152
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "config.ts",
+									"line": 32,
+									"character": 7
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "object"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Variables",
+							"kind": 32,
+							"children": [
+								143,
+								148,
+								149
+							]
+						},
+						{
+							"title": "Object literals",
+							"kind": 2097152,
+							"children": [
+								144,
+								150
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "config.ts",
+							"line": 17,
+							"character": 14
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "object"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Interfaces",
+					"kind": 256,
+					"children": [
+						131
+					]
+				},
+				{
+					"title": "Type aliases",
+					"kind": 4194304,
+					"children": [
+						139
+					]
+				},
+				{
+					"title": "Variables",
+					"kind": 32,
+					"children": [
+						153,
+						140,
+						141
+					]
+				},
+				{
+					"title": "Object literals",
+					"kind": 2097152,
+					"children": [
+						142
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "config.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 316,
+			"name": "\"helpers/resizeWindow\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true,
+				"__visited__": true
+			},
+			"originalName": "src/helpers/resizeWindow.ts",
+			"children": [
+				{
+					"id": 325,
+					"name": "createResizer",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true,
+						"__visited__": true
+					},
+					"signatures": [
+						{
+							"id": 326,
+							"name": "createResizer",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"__visited__": true
+							},
+							"comment": {
+								"shortText": "Create a resize method that caches the difference in width and height",
+								"returns": "\n"
+							},
+							"parameters": [
+								{
+									"id": 327,
+									"name": "widthDifference",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isOptional": true,
+										"__visited__": true
+									},
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "undefined"
+											},
+											{
+												"type": "intrinsic",
+												"name": "number"
+											}
+										]
+									}
+								},
+								{
+									"id": 328,
+									"name": "heightDifference",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isOptional": true,
+										"__visited__": true
+									},
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "undefined"
+											},
+											{
+												"type": "intrinsic",
+												"name": "number"
+											}
+										]
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "(Anonymous function)"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "helpers/resizeWindow.ts",
+							"line": 60,
+							"character": 29
+						}
+					]
+				},
+				{
+					"id": 329,
+					"name": "default",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true,
+						"__visited__": true
+					},
+					"signatures": [
+						{
+							"id": 330,
+							"name": "default",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"__visited__": true
+							},
+							"comment": {
+								"shortText": "A command helper for resizing a window"
+							},
+							"parameters": [
+								{
+									"id": 331,
+									"name": "width",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"__visited__": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								},
+								{
+									"id": 332,
+									"name": "height",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"__visited__": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "(Anonymous function)"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "helpers/resizeWindow.ts",
+							"line": 83,
+							"character": 1
+						}
+					]
+				},
+				{
+					"id": 321,
+					"name": "findDifference",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true,
+						"__visited__": true
+					},
+					"signatures": [
+						{
+							"id": 322,
+							"name": "findDifference",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"__visited__": true
+							},
+							"comment": {
+								"shortText": "Determine the difference between the window size and the inner window (document) size. This method will resize\nthe window in the process of determining the difference.",
+								"returns": "describing the difference between requested and actual document size\n"
+							},
+							"parameters": [
+								{
+									"id": 323,
+									"name": "width",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"__visited__": true
+									},
+									"comment": {
+										"text": "the desired width"
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								},
+								{
+									"id": 324,
+									"name": "height",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"__visited__": true
+									},
+									"comment": {
+										"text": "the desired height"
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "(Anonymous function)"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "helpers/resizeWindow.ts",
+							"line": 42,
+							"character": 30
+						}
+					]
+				},
+				{
+					"id": 317,
+					"name": "waitForWindowResize",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true,
+						"__visited__": true
+					},
+					"signatures": [
+						{
+							"id": 318,
+							"name": "waitForWindowResize",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"__visited__": true
+							},
+							"comment": {
+								"shortText": "Wait until the browser stops changing in size and report back the last stable width and height",
+								"returns": "an array in the shape of [ width, height ]\n"
+							},
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 319,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {
+										"__visited__": true
+									},
+									"signatures": [
+										{
+											"id": 320,
+											"name": "__call",
+											"kind": 4096,
+											"kindString": "Call signature",
+											"flags": {
+												"__visited__": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "Command",
+												"typeArguments": [
+													{
+														"type": "tuple",
+														"elements": [
+															{
+																"type": "intrinsic",
+																"name": "number"
+															},
+															{
+																"type": "intrinsic",
+																"name": "number"
+															}
+														]
+													}
+												]
+											}
+										}
+									],
+									"sources": [
+										{
+											"fileName": "helpers/resizeWindow.ts",
+											"line": 7,
+											"character": 38
+										}
+									]
+								}
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "helpers/resizeWindow.ts",
+							"line": 7,
+							"character": 35
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Functions",
+					"kind": 64,
+					"children": [
+						325,
+						329,
+						321,
+						317
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "helpers/resizeWindow.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 350,
+			"name": "\"index\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true,
+				"__visited__": true
+			},
+			"originalName": "src/index.ts",
+			"children": [
+				{
+					"id": 354,
+					"name": "helpers",
+					"kind": 2097152,
+					"kindString": "Object literal",
+					"flags": {
+						"__visited__": true
+					},
+					"children": [
+						{
+							"id": 355,
+							"name": "resizeWindow",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "index.ts",
+									"line": 14,
+									"character": 13
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "\"/Users/jason/Documents/Work/src/intern/intern-visual/src/helpers/resizeWindow\"",
+								"id": 316
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Variables",
+							"kind": 32,
+							"children": [
+								355
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "index.ts",
+							"line": 13,
+							"character": 13
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "object"
+					}
+				},
+				{
+					"id": 351,
+					"name": "util",
+					"kind": 2097152,
+					"kindString": "Object literal",
+					"flags": {
+						"__visited__": true
+					},
+					"children": [
+						{
+							"id": 352,
+							"name": "file",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "index.ts",
+									"line": 9,
+									"character": 5
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "\"/Users/jason/Documents/Work/src/intern/intern-visual/src/util/file\"",
+								"id": 1
+							}
+						},
+						{
+							"id": 353,
+							"name": "getRGBA",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "index.ts",
+									"line": 10,
+									"character": 8
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "getRGBA",
+								"id": 58
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Variables",
+							"kind": 32,
+							"children": [
+								352,
+								353
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "index.ts",
+							"line": 8,
+							"character": 10
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "object"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Object literals",
+					"kind": 2097152,
+					"children": [
+						354,
+						351
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "index.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 356,
+			"name": "\"main\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true,
+				"__visited__": true
+			},
+			"originalName": "src/main.ts",
+			"sources": [
+				{
+					"fileName": "main.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 357,
+			"name": "\"reporters/VisualRegression\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true,
+				"__visited__": true
+			},
+			"originalName": "src/reporters/VisualRegression.ts",
+			"children": [
+				{
+					"id": 358,
+					"name": "VisualRegression",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {
+						"isExported": true,
+						"hasExportAssignment": true,
+						"__visited__": true
+					},
+					"comment": {
+						"shortText": "A Visual Regression Test HTML reporter",
+						"text": "NOTE: This module proxies all functionality to the ReportWriter because a reporter must be provided to Intern\nusing CJS (export =) syntax. Because this module can only have one export all types, interfaces, and\nimplementation are in the ReportWriter module.\n"
+					},
+					"children": [
+						{
+							"id": 360,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"signatures": [
+								{
+									"id": 361,
+									"name": "new VisualRegression",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {
+										"__visited__": true
+									},
+									"parameters": [
+										{
+											"id": 362,
+											"name": "config",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"__visited__": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "ReportConfig",
+												"id": 86
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "VisualRegression",
+										"id": 358
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "reporters/VisualRegression.ts",
+									"line": 14,
+									"character": 38
+								}
+							]
+						},
+						{
+							"id": 359,
+							"name": "reportWriter",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isProtected": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "reporters/VisualRegression.ts",
+									"line": 14,
+									"character": 23
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "ReportWriter"
+							}
+						},
+						{
+							"id": 363,
+							"name": "deprecated",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"signatures": [
+								{
+									"id": 364,
+									"name": "deprecated",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"__visited__": true
+									},
+									"parameters": [
+										{
+											"id": 365,
+											"name": "name",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"__visited__": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										},
+										{
+											"id": 366,
+											"name": "replacement",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isOptional": true,
+												"__visited__": true
+											},
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "undefined"
+													},
+													{
+														"type": "intrinsic",
+														"name": "string"
+													}
+												]
+											}
+										},
+										{
+											"id": 367,
+											"name": "extra",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isOptional": true,
+												"__visited__": true
+											},
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "undefined"
+													},
+													{
+														"type": "intrinsic",
+														"name": "string"
+													}
+												]
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "reporters/VisualRegression.ts",
+									"line": 20,
+									"character": 11
+								}
+							]
+						},
+						{
+							"id": 368,
+							"name": "fatalError",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"signatures": [
+								{
+									"id": 369,
+									"name": "fatalError",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"__visited__": true
+									},
+									"comment": {
+										"shortText": "This method is called when an error occurs within the test system that is non-recoverable\n(for example, a bug within Intern)."
+									},
+									"parameters": [
+										{
+											"id": 370,
+											"name": "error",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"__visited__": true
+											},
+											"comment": {
+												"text": "\n"
+											},
+											"type": {
+												"type": "reference",
+												"name": "Error"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "reporters/VisualRegression.ts",
+									"line": 36,
+									"character": 11
+								}
+							]
+						},
+						{
+							"id": 371,
+							"name": "reporterError",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"signatures": [
+								{
+									"id": 372,
+									"name": "reporterError",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"__visited__": true
+									},
+									"comment": {
+										"shortText": "This method is called when a reporter throws an error during execution of a command."
+									},
+									"parameters": [
+										{
+											"id": 373,
+											"name": "_reporter",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"__visited__": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										},
+										{
+											"id": 374,
+											"name": "error",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"__visited__": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "Error"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "reporters/VisualRegression.ts",
+									"line": 47,
+									"character": 14
+								}
+							]
+						},
+						{
+							"id": 375,
+							"name": "runEnd",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"signatures": [
+								{
+									"id": 376,
+									"name": "runEnd",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"__visited__": true
+									},
+									"comment": {
+										"shortText": "This method is called after all test suites have finished running and the test system is preparing\nto shut down."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "reporters/VisualRegression.ts",
+									"line": 60,
+									"character": 7
+								}
+							]
+						},
+						{
+							"id": 377,
+							"name": "suiteEnd",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"signatures": [
+								{
+									"id": 378,
+									"name": "suiteEnd",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"__visited__": true
+									},
+									"comment": {
+										"shortText": "This method is called when a test suite has finished running."
+									},
+									"parameters": [
+										{
+											"id": 379,
+											"name": "suite",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"__visited__": true
+											},
+											"comment": {
+												"text": "\n"
+											},
+											"type": {
+												"type": "reference",
+												"name": "Suite"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "Promise",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										]
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "reporters/VisualRegression.ts",
+									"line": 68,
+									"character": 9
+								}
+							]
+						},
+						{
+							"id": 380,
+							"name": "suiteError",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"signatures": [
+								{
+									"id": 381,
+									"name": "suiteError",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"__visited__": true
+									},
+									"comment": {
+										"shortText": "This method is called when an error occurs within one of the suite’s lifecycle methods (setup, beforeEach, afterEach, or teardown), or when an error occurs when a suite attempts to run a child test."
+									},
+									"parameters": [
+										{
+											"id": 382,
+											"name": "_suite",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"__visited__": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "Suite"
+											}
+										},
+										{
+											"id": 383,
+											"name": "error",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"__visited__": true
+											},
+											"comment": {
+												"text": "\n"
+											},
+											"type": {
+												"type": "reference",
+												"name": "Error"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "reporters/VisualRegression.ts",
+									"line": 77,
+									"character": 11
+								}
+							]
+						},
+						{
+							"id": 384,
+							"name": "testFail",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"signatures": [
+								{
+									"id": 385,
+									"name": "testFail",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"__visited__": true
+									},
+									"comment": {
+										"shortText": "1. write the diff image\n2. optionally write the screenshot\n3. write report"
+									},
+									"parameters": [
+										{
+											"id": 386,
+											"name": "test",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"__visited__": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "VisualRegressionTest",
+												"id": 226
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "Promise",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										]
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "reporters/VisualRegression.ts",
+									"line": 91,
+									"character": 9
+								}
+							]
+						},
+						{
+							"id": 387,
+							"name": "testPass",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"signatures": [
+								{
+									"id": 388,
+									"name": "testPass",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"__visited__": true
+									},
+									"comment": {
+										"shortText": "1. optionally write the diff image\n2. optionally write the screenshot\n3. write report"
+									},
+									"parameters": [
+										{
+											"id": 389,
+											"name": "test",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"__visited__": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "VisualRegressionTest",
+												"id": 226
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "Promise",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										]
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "reporters/VisualRegression.ts",
+									"line": 100,
+									"character": 9
+								}
+							]
+						},
+						{
+							"id": 390,
+							"name": "testSkip",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"signatures": [
+								{
+									"id": 391,
+									"name": "testSkip",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"__visited__": true
+									},
+									"comment": {
+										"shortText": "1. write baseline\n2. write report"
+									},
+									"parameters": [
+										{
+											"id": 392,
+											"name": "test",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"__visited__": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "VisualRegressionTest",
+												"id": 226
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "Promise",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										]
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "reporters/VisualRegression.ts",
+									"line": 108,
+									"character": 9
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								360
+							]
+						},
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								359
+							]
+						},
+						{
+							"title": "Methods",
+							"kind": 2048,
+							"children": [
+								363,
+								368,
+								371,
+								375,
+								377,
+								380,
+								384,
+								387,
+								390
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "reporters/VisualRegression.ts",
+							"line": 13,
+							"character": 22
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"kind": 128,
+					"children": [
+						358
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "reporters/VisualRegression.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 79,
+			"name": "\"reporters/util/ReportWriter\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true,
+				"__visited__": true
+			},
+			"originalName": "src/reporters/util/ReportWriter.ts",
+			"children": [
+				{
+					"id": 105,
+					"name": "default",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {
+						"isExported": true,
+						"__visited__": true
+					},
+					"children": [
+						{
+							"id": 106,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"signatures": [
+								{
+									"id": 107,
+									"name": "new default",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {
+										"__visited__": true
+									},
+									"parameters": [
+										{
+											"id": 108,
+											"name": "config",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"__visited__": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "ReportConfig",
+												"id": 86
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "default",
+										"id": 105
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "reporters/util/ReportWriter.ts",
+									"line": 84,
+									"character": 65
+								}
+							]
+						},
+						{
+							"id": 109,
+							"name": "addNote",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"signatures": [
+								{
+									"id": 110,
+									"name": "addNote",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"__visited__": true
+									},
+									"parameters": [
+										{
+											"id": 111,
+											"name": "note",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"__visited__": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "Note",
+												"id": 94
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "reporters/util/ReportWriter.ts",
+									"line": 98,
+									"character": 8
+								}
+							]
+						},
+						{
+							"id": 118,
+							"name": "end",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"signatures": [
+								{
+									"id": 119,
+									"name": "end",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"__visited__": true
+									},
+									"type": {
+										"type": "reference",
+										"name": "Promise",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										]
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "reporters/util/ReportWriter.ts",
+									"line": 283,
+									"character": 4
+								}
+							]
+						},
+						{
+							"id": 115,
+							"name": "writeSuite",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"signatures": [
+								{
+									"id": 116,
+									"name": "writeSuite",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"__visited__": true
+									},
+									"parameters": [
+										{
+											"id": 117,
+											"name": "suite",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"__visited__": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "Suite"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "Promise",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										]
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "reporters/util/ReportWriter.ts",
+									"line": 168,
+									"character": 11
+								}
+							]
+						},
+						{
+							"id": 112,
+							"name": "writeTest",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"signatures": [
+								{
+									"id": 113,
+									"name": "writeTest",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"__visited__": true
+									},
+									"parameters": [
+										{
+											"id": 114,
+											"name": "test",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"__visited__": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "VisualRegressionTest",
+												"id": 226
+											}
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "reference",
+												"name": "Promise",
+												"typeArguments": [
+													{
+														"type": "intrinsic",
+														"name": "void"
+													}
+												]
+											},
+											{
+												"type": "reference",
+												"name": "Promise",
+												"typeArguments": [
+													{
+														"type": "array",
+														"elementType": {
+															"type": "intrinsic",
+															"name": "void"
+														}
+													}
+												]
+											}
+										]
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "reporters/util/ReportWriter.ts",
+									"line": 107,
+									"character": 10
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								106
+							]
+						},
+						{
+							"title": "Methods",
+							"kind": 2048,
+							"children": [
+								109,
+								118,
+								115,
+								112
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "reporters/util/ReportWriter.ts",
+							"line": 60,
+							"character": 31
+						}
+					]
+				},
+				{
+					"id": 94,
+					"name": "Note",
+					"kind": 256,
+					"kindString": "Interface",
+					"flags": {
+						"isExported": true,
+						"__visited__": true
+					},
+					"children": [
+						{
+							"id": 95,
+							"name": "level",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "reporters/util/ReportWriter.ts",
+									"line": 31,
+									"character": 6
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "stringLiteral",
+										"value": "info"
+									},
+									{
+										"type": "stringLiteral",
+										"value": "warn"
+									},
+									{
+										"type": "stringLiteral",
+										"value": "error"
+									},
+									{
+										"type": "stringLiteral",
+										"value": "fatal"
+									}
+								]
+							}
+						},
+						{
+							"id": 96,
+							"name": "message",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "reporters/util/ReportWriter.ts",
+									"line": 32,
+									"character": 8
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 97,
+							"name": "type",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "reporters/util/ReportWriter.ts",
+									"line": 33,
+									"character": 5
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								95,
+								96,
+								97
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "reporters/util/ReportWriter.ts",
+							"line": 30,
+							"character": 21
+						}
+					]
+				},
+				{
+					"id": 80,
+					"name": "Options",
+					"kind": 256,
+					"kindString": "Interface",
+					"flags": {
+						"isExported": true,
+						"__visited__": true
+					},
+					"children": [
+						{
+							"id": 81,
+							"name": "baselineLocation",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isOptional": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "reporters/util/ReportWriter.ts",
+									"line": 18,
+									"character": 17
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "undefined"
+									},
+									{
+										"type": "intrinsic",
+										"name": "string"
+									}
+								]
+							}
+						},
+						{
+							"id": 84,
+							"name": "directory",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isOptional": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "reporters/util/ReportWriter.ts",
+									"line": 21,
+									"character": 10
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "undefined"
+									},
+									{
+										"type": "intrinsic",
+										"name": "string"
+									}
+								]
+							}
+						},
+						{
+							"id": 82,
+							"name": "errorColor",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isOptional": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "reporters/util/ReportWriter.ts",
+									"line": 19,
+									"character": 11
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "ColorDescriptor",
+								"id": 41
+							}
+						},
+						{
+							"id": 83,
+							"name": "reportLocation",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isOptional": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "reporters/util/ReportWriter.ts",
+									"line": 20,
+									"character": 15
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "undefined"
+									},
+									{
+										"type": "intrinsic",
+										"name": "string"
+									}
+								]
+							}
+						},
+						{
+							"id": 85,
+							"name": "reportUnusedBaselines",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isOptional": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "reporters/util/ReportWriter.ts",
+									"line": 22,
+									"character": 22
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "undefined"
+									},
+									{
+										"type": "intrinsic",
+										"name": "true"
+									},
+									{
+										"type": "intrinsic",
+										"name": "false"
+									}
+								]
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								81,
+								84,
+								82,
+								83,
+								85
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "reporters/util/ReportWriter.ts",
+							"line": 17,
+							"character": 24
+						}
+					],
+					"extendedBy": [
+						{
+							"type": "reference",
+							"name": "ReportConfig",
+							"id": 86
+						}
+					]
+				},
+				{
+					"id": 86,
+					"name": "ReportConfig",
+					"kind": 256,
+					"kindString": "Interface",
+					"flags": {
+						"isExported": true,
+						"__visited__": true
+					},
+					"children": [
+						{
+							"id": 89,
+							"name": "baselineLocation",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isOptional": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "reporters/util/ReportWriter.ts",
+									"line": 18,
+									"character": 17
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "undefined"
+									},
+									{
+										"type": "intrinsic",
+										"name": "string"
+									}
+								]
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Options.baselineLocation",
+								"id": 81
+							}
+						},
+						{
+							"id": 87,
+							"name": "console",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "reporters/util/ReportWriter.ts",
+									"line": 26,
+									"character": 8
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "any"
+							}
+						},
+						{
+							"id": 92,
+							"name": "directory",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isOptional": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "reporters/util/ReportWriter.ts",
+									"line": 21,
+									"character": 10
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "undefined"
+									},
+									{
+										"type": "intrinsic",
+										"name": "string"
+									}
+								]
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Options.directory",
+								"id": 84
+							}
+						},
+						{
+							"id": 90,
+							"name": "errorColor",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isOptional": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "reporters/util/ReportWriter.ts",
+									"line": 19,
+									"character": 11
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "ColorDescriptor",
+								"id": 41
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Options.errorColor",
+								"id": 82
+							}
+						},
+						{
+							"id": 88,
+							"name": "output",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "reporters/util/ReportWriter.ts",
+									"line": 27,
+									"character": 7
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "WritableStream"
+							}
+						},
+						{
+							"id": 91,
+							"name": "reportLocation",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isOptional": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "reporters/util/ReportWriter.ts",
+									"line": 20,
+									"character": 15
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "undefined"
+									},
+									{
+										"type": "intrinsic",
+										"name": "string"
+									}
+								]
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Options.reportLocation",
+								"id": 83
+							}
+						},
+						{
+							"id": 93,
+							"name": "reportUnusedBaselines",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isOptional": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "reporters/util/ReportWriter.ts",
+									"line": 22,
+									"character": 22
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "undefined"
+									},
+									{
+										"type": "intrinsic",
+										"name": "true"
+									},
+									{
+										"type": "intrinsic",
+										"name": "false"
+									}
+								]
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Options.reportUnusedBaselines",
+								"id": 85
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								89,
+								87,
+								92,
+								90,
+								88,
+								91,
+								93
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "reporters/util/ReportWriter.ts",
+							"line": 25,
+							"character": 29
+						}
+					],
+					"extendedTypes": [
+						{
+							"type": "reference",
+							"name": "Options",
+							"id": 80
+						}
+					]
+				},
+				{
+					"id": 98,
+					"name": "TestMetadata",
+					"kind": 256,
+					"kindString": "Interface",
+					"flags": {
+						"__visited__": true
+					},
+					"children": [
+						{
+							"id": 101,
+							"name": "baseline",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isOptional": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "reporters/util/ReportWriter.ts",
+									"line": 39,
+									"character": 9
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "undefined"
+									},
+									{
+										"type": "intrinsic",
+										"name": "string"
+									}
+								]
+							}
+						},
+						{
+							"id": 102,
+							"name": "difference",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isOptional": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "reporters/util/ReportWriter.ts",
+									"line": 40,
+									"character": 11
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "undefined"
+									},
+									{
+										"type": "intrinsic",
+										"name": "string"
+									}
+								]
+							}
+						},
+						{
+							"id": 100,
+							"name": "directory",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "reporters/util/ReportWriter.ts",
+									"line": 38,
+									"character": 10
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 99,
+							"name": "result",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "reporters/util/ReportWriter.ts",
+									"line": 37,
+									"character": 7
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "AssertionResult",
+								"id": 218
+							}
+						},
+						{
+							"id": 103,
+							"name": "screenshot",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isOptional": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "reporters/util/ReportWriter.ts",
+									"line": 41,
+									"character": 11
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "undefined"
+									},
+									{
+										"type": "intrinsic",
+										"name": "string"
+									}
+								]
+							}
+						},
+						{
+							"id": 104,
+							"name": "testDirectory",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "reporters/util/ReportWriter.ts",
+									"line": 42,
+									"character": 14
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								101,
+								102,
+								100,
+								99,
+								103,
+								104
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "reporters/util/ReportWriter.ts",
+							"line": 36,
+							"character": 22
+						}
+					]
+				},
+				{
+					"id": 129,
+					"name": "TestMember",
+					"kind": 4194304,
+					"kindString": "Type alias",
+					"flags": {
+						"__visited__": true
+					},
+					"sources": [
+						{
+							"fileName": "reporters/util/ReportWriter.ts",
+							"line": 60,
+							"character": 15
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "reference",
+								"name": "Test"
+							},
+							{
+								"type": "reference",
+								"name": "Suite"
+							}
+						]
+					}
+				},
+				{
+					"id": 120,
+					"name": "require",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"__visited__": true
+					},
+					"sources": [
+						{
+							"fileName": "reporters/util/ReportWriter.ts",
+							"line": 15,
+							"character": 21
+						}
+					],
+					"type": {
+						"type": "reference",
+						"name": "IRequire"
+					}
+				},
+				{
+					"id": 121,
+					"name": "addSuffix",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true,
+						"__visited__": true
+					},
+					"signatures": [
+						{
+							"id": 122,
+							"name": "addSuffix",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"__visited__": true
+							},
+							"parameters": [
+								{
+									"id": 123,
+									"name": "filename",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"__visited__": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 124,
+									"name": "suffix",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"__visited__": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									},
+									"defaultValue": "\"\""
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "reporters/util/ReportWriter.ts",
+							"line": 45,
+							"character": 25
+						}
+					]
+				},
+				{
+					"id": 125,
+					"name": "constructDirectory",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"__visited__": true
+					},
+					"signatures": [
+						{
+							"id": 126,
+							"name": "constructDirectory",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"__visited__": true
+							},
+							"parameters": [
+								{
+									"id": 127,
+									"name": "base",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"__visited__": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 128,
+									"name": "location",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"__visited__": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "reporters/util/ReportWriter.ts",
+							"line": 51,
+							"character": 27
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"kind": 128,
+					"children": [
+						105
+					]
+				},
+				{
+					"title": "Interfaces",
+					"kind": 256,
+					"children": [
+						94,
+						80,
+						86,
+						98
+					]
+				},
+				{
+					"title": "Type aliases",
+					"kind": 4194304,
+					"children": [
+						129
+					]
+				},
+				{
+					"title": "Variables",
+					"kind": 32,
+					"children": [
+						120
+					]
+				},
+				{
+					"title": "Functions",
+					"kind": 64,
+					"children": [
+						121,
+						125
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "reporters/util/ReportWriter.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 61,
+			"name": "\"reporters/util/saveDifferenceImage\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true,
+				"__visited__": true
+			},
+			"originalName": "src/reporters/util/saveDifferenceImage.ts",
+			"children": [
+				{
+					"id": 62,
+					"name": "Options",
+					"kind": 256,
+					"kindString": "Interface",
+					"flags": {
+						"isExported": true,
+						"__visited__": true
+					},
+					"children": [
+						{
+							"id": 64,
+							"name": "backgroundColor",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isOptional": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "reporters/util/saveDifferenceImage.ts",
+									"line": 9,
+									"character": 16
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "reference",
+										"name": "RGBColor"
+									},
+									{
+										"type": "reference",
+										"name": "RGBAColor"
+									},
+									{
+										"type": "intrinsic",
+										"name": "null"
+									}
+								]
+							}
+						},
+						{
+							"id": 63,
+							"name": "errorColor",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "reporters/util/saveDifferenceImage.ts",
+									"line": 8,
+									"character": 11
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "RGBAColorArray"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								64,
+								63
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "reporters/util/saveDifferenceImage.ts",
+							"line": 7,
+							"character": 24
+						}
+					]
+				},
+				{
+					"id": 65,
+					"name": "createImage",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"__visited__": true
+					},
+					"signatures": [
+						{
+							"id": 66,
+							"name": "createImage",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"__visited__": true
+							},
+							"parameters": [
+								{
+									"id": 67,
+									"name": "width",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"__visited__": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								},
+								{
+									"id": 68,
+									"name": "height",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"__visited__": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								},
+								{
+									"id": 69,
+									"name": "options",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"__visited__": true
+									},
+									"type": {
+										"type": "reference",
+										"name": "Options",
+										"id": 62
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "PNG"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "reporters/util/saveDifferenceImage.ts",
+							"line": 12,
+							"character": 20
+						}
+					]
+				},
+				{
+					"id": 74,
+					"name": "default",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true,
+						"__visited__": true
+					},
+					"signatures": [
+						{
+							"id": 75,
+							"name": "default",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"__visited__": true
+							},
+							"parameters": [
+								{
+									"id": 76,
+									"name": "report",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"__visited__": true
+									},
+									"type": {
+										"type": "reference",
+										"name": "Report"
+									}
+								},
+								{
+									"id": 77,
+									"name": "filename",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"__visited__": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 78,
+									"name": "options",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"__visited__": true
+									},
+									"type": {
+										"type": "reference",
+										"name": "Options",
+										"id": 62
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "Promise",
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "Object"
+									}
+								]
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "reporters/util/saveDifferenceImage.ts",
+							"line": 39,
+							"character": 1
+						}
+					]
+				},
+				{
+					"id": 70,
+					"name": "savePng",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"__visited__": true
+					},
+					"signatures": [
+						{
+							"id": 71,
+							"name": "savePng",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"__visited__": true
+							},
+							"parameters": [
+								{
+									"id": 72,
+									"name": "filename",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"__visited__": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 73,
+									"name": "png",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"__visited__": true
+									},
+									"type": {
+										"type": "reference",
+										"name": "PNG"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "Promise",
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "Object"
+									}
+								]
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "reporters/util/saveDifferenceImage.ts",
+							"line": 26,
+							"character": 16
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Interfaces",
+					"kind": 256,
+					"children": [
+						62
+					]
+				},
+				{
+					"title": "Functions",
+					"kind": 64,
+					"children": [
+						65,
+						74,
+						70
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "reporters/util/saveDifferenceImage.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 333,
+			"name": "\"test\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true,
+				"__visited__": true
+			},
+			"originalName": "src/test.ts",
+			"children": [
+				{
+					"id": 334,
+					"name": "Options",
+					"kind": 256,
+					"kindString": "Interface",
+					"flags": {
+						"isExported": true,
+						"__visited__": true
+					},
+					"children": [
+						{
+							"id": 342,
+							"name": "baseline",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isOptional": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "assert.ts",
+									"line": 13,
+									"character": 9
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "undefined"
+									},
+									{
+										"type": "intrinsic",
+										"name": "string"
+									}
+								]
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Options.baseline",
+								"id": 213
+							}
+						},
+						{
+							"id": 343,
+							"name": "baselineLocation",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isOptional": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "assert.ts",
+									"line": 14,
+									"character": 17
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "undefined"
+									},
+									{
+										"type": "intrinsic",
+										"name": "string"
+									}
+								]
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Options.baselineLocation",
+								"id": 214
+							}
+						},
+						{
+							"id": 338,
+							"name": "callback",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isOptional": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "test.ts",
+									"line": 9,
+									"character": 9
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "undefined"
+									},
+									{
+										"type": "reflection",
+										"declaration": {
+											"id": 339,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {
+												"__visited__": true
+											},
+											"signatures": [
+												{
+													"id": 340,
+													"name": "__call",
+													"kind": 4096,
+													"kindString": "Call signature",
+													"flags": {
+														"__visited__": true
+													},
+													"parameters": [
+														{
+															"id": 341,
+															"name": "report",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {
+																"__visited__": true
+															},
+															"type": {
+																"type": "reference",
+																"name": "AssertionResult",
+																"id": 218
+															}
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "any"
+													}
+												}
+											]
+										}
+									}
+								]
+							}
+						},
+						{
+							"id": 344,
+							"name": "directory",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isOptional": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "assert.ts",
+									"line": 15,
+									"character": 10
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "undefined"
+									},
+									{
+										"type": "intrinsic",
+										"name": "string"
+									}
+								]
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Options.directory",
+								"id": 215
+							}
+						},
+						{
+							"id": 337,
+							"name": "height",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isOptional": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "test.ts",
+									"line": 8,
+									"character": 7
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "undefined"
+									},
+									{
+										"type": "intrinsic",
+										"name": "number"
+									}
+								]
+							}
+						},
+						{
+							"id": 346,
+							"name": "missingBaseline",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isOptional": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "assert.ts",
+									"line": 17,
+									"character": 16
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "stringLiteral",
+										"value": "fail"
+									},
+									{
+										"type": "stringLiteral",
+										"value": "ignore"
+									},
+									{
+										"type": "stringLiteral",
+										"value": "skip"
+									},
+									{
+										"type": "stringLiteral",
+										"value": "snapshot"
+									}
+								]
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Options.missingBaseline",
+								"id": 217
+							}
+						},
+						{
+							"id": 345,
+							"name": "regenerateBaselines",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isOptional": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "assert.ts",
+									"line": 16,
+									"character": 20
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "undefined"
+									},
+									{
+										"type": "intrinsic",
+										"name": "true"
+									},
+									{
+										"type": "intrinsic",
+										"name": "false"
+									}
+								]
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Options.regenerateBaselines",
+								"id": 216
+							}
+						},
+						{
+							"id": 335,
+							"name": "url",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "test.ts",
+									"line": 6,
+									"character": 4
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 336,
+							"name": "width",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isOptional": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "test.ts",
+									"line": 7,
+									"character": 6
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "undefined"
+									},
+									{
+										"type": "intrinsic",
+										"name": "number"
+									}
+								]
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								342,
+								343,
+								338,
+								344,
+								337,
+								346,
+								345,
+								335,
+								336
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "test.ts",
+							"line": 5,
+							"character": 24
+						}
+					],
+					"extendedTypes": [
+						{
+							"type": "reference",
+							"name": "Options",
+							"id": 212
+						}
+					]
+				},
+				{
+					"id": 347,
+					"name": "default",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true,
+						"__visited__": true
+					},
+					"signatures": [
+						{
+							"id": 348,
+							"name": "default",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"__visited__": true
+							},
+							"comment": {
+								"shortText": "Create an Intern test from a series of options",
+								"returns": "a visual regression test\n"
+							},
+							"parameters": [
+								{
+									"id": 349,
+									"name": "options",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"__visited__": true
+									},
+									"comment": {
+										"text": "options for the test"
+									},
+									"type": {
+										"type": "reference",
+										"name": "Options",
+										"id": 334
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "(Anonymous function)"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "test.ts",
+							"line": 10,
+							"character": 1
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Interfaces",
+					"kind": 256,
+					"children": [
+						334
+					]
+				},
+				{
+					"title": "Functions",
+					"kind": 64,
+					"children": [
+						347
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "test.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 1,
+			"name": "\"util/file\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true,
+				"__visited__": true
+			},
+			"originalName": "src/util/file.ts",
+			"children": [
+				{
+					"id": 2,
+					"name": "Hierarchy",
+					"kind": 256,
+					"kindString": "Interface",
+					"flags": {
+						"isExported": true,
+						"__visited__": true
+					},
+					"children": [
+						{
+							"id": 3,
+							"name": "_remote",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isOptional": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "util/file.ts",
+									"line": 11,
+									"character": 8
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "undefined"
+									},
+									{
+										"type": "reflection",
+										"declaration": {
+											"id": 4,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {
+												"__visited__": true
+											},
+											"children": [
+												{
+													"id": 5,
+													"name": "environmentType",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"__visited__": true
+													},
+													"sources": [
+														{
+															"fileName": "util/file.ts",
+															"line": 12,
+															"character": 17
+														}
+													],
+													"type": {
+														"type": "reflection",
+														"declaration": {
+															"id": 6,
+															"name": "__type",
+															"kind": 65536,
+															"kindString": "Type literal",
+															"flags": {
+																"__visited__": true
+															},
+															"children": [
+																{
+																	"id": 7,
+																	"name": "browserName",
+																	"kind": 32,
+																	"kindString": "Variable",
+																	"flags": {
+																		"__visited__": true
+																	},
+																	"sources": [
+																		{
+																			"fileName": "util/file.ts",
+																			"line": 13,
+																			"character": 14
+																		}
+																	],
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "string"
+																	}
+																}
+															],
+															"groups": [
+																{
+																	"title": "Variables",
+																	"kind": 32,
+																	"children": [
+																		7
+																	]
+																}
+															],
+															"sources": [
+																{
+																	"fileName": "util/file.ts",
+																	"line": 12,
+																	"character": 18
+																}
+															]
+														}
+													}
+												}
+											],
+											"groups": [
+												{
+													"title": "Variables",
+													"kind": 32,
+													"children": [
+														5
+													]
+												}
+											]
+										}
+									}
+								]
+							}
+						},
+						{
+							"id": 8,
+							"name": "name",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "util/file.ts",
+									"line": 16,
+									"character": 5
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 9,
+							"name": "parent",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isOptional": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "util/file.ts",
+									"line": 17,
+									"character": 7
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "Hierarchy",
+								"id": 2
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								3,
+								8,
+								9
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "util/file.ts",
+							"line": 10,
+							"character": 26
+						}
+					]
+				},
+				{
+					"id": 28,
+					"name": "copy",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true,
+						"__visited__": true
+					},
+					"signatures": [
+						{
+							"id": 29,
+							"name": "copy",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"__visited__": true
+							},
+							"parameters": [
+								{
+									"id": 30,
+									"name": "source",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"__visited__": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 31,
+									"name": "target",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"__visited__": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "Promise",
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "string"
+									}
+								]
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "util/file.ts",
+							"line": 67,
+							"character": 20
+						}
+					]
+				},
+				{
+					"id": 17,
+					"name": "getBaselineFilename",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true,
+						"__visited__": true
+					},
+					"signatures": [
+						{
+							"id": 18,
+							"name": "getBaselineFilename",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"__visited__": true
+							},
+							"parameters": [
+								{
+									"id": 19,
+									"name": "test",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"__visited__": true
+									},
+									"type": {
+										"type": "reference",
+										"name": "Test"
+									}
+								},
+								{
+									"id": 20,
+									"name": "count",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"__visited__": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "0"
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "util/file.ts",
+							"line": 39,
+							"character": 35
+						}
+					]
+				},
+				{
+					"id": 13,
+					"name": "getTestDirectory",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true,
+						"__visited__": true
+					},
+					"signatures": [
+						{
+							"id": 14,
+							"name": "getTestDirectory",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"__visited__": true
+							},
+							"comment": {
+								"shortText": "Given an Intern test, create a unique filename path to store and retrieve a baseline"
+							},
+							"parameters": [
+								{
+									"id": 15,
+									"name": "current",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"__visited__": true
+									},
+									"type": {
+										"type": "reference",
+										"name": "Hierarchy",
+										"id": 2
+									}
+								},
+								{
+									"id": 16,
+									"name": "includeBrowser",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"__visited__": true
+									},
+									"comment": {
+										"text": "if the current browser should be returned\n"
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									},
+									"defaultValue": "false"
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "util/file.ts",
+							"line": 25,
+							"character": 32
+						}
+					]
+				},
+				{
+					"id": 32,
+					"name": "load",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true,
+						"__visited__": true
+					},
+					"signatures": [
+						{
+							"id": 33,
+							"name": "load",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"__visited__": true
+							},
+							"typeParameter": [
+								{
+									"id": 34,
+									"name": "T",
+									"kind": 131072,
+									"kindString": "Type parameter",
+									"flags": {
+										"__visited__": true
+									},
+									"type": {
+										"type": "reference",
+										"name": "WritableStream"
+									}
+								}
+							],
+							"parameters": [
+								{
+									"id": 35,
+									"name": "source",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"__visited__": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 36,
+									"name": "target",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"__visited__": true
+									},
+									"type": {
+										"type": "typeParameter",
+										"name": "T",
+										"constraint": {
+											"type": "reference",
+											"name": "WritableStream"
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "Promise",
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "Object"
+									}
+								]
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "util/file.ts",
+							"line": 90,
+							"character": 20
+						}
+					]
+				},
+				{
+					"id": 21,
+					"name": "mkdir",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true,
+						"__visited__": true
+					},
+					"signatures": [
+						{
+							"id": 22,
+							"name": "mkdir",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"__visited__": true
+							},
+							"parameters": [
+								{
+									"id": 23,
+									"name": "directory",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"__visited__": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "Promise",
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "void"
+									}
+								]
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "util/file.ts",
+							"line": 44,
+							"character": 21
+						}
+					]
+				},
+				{
+					"id": 37,
+					"name": "remove",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true,
+						"__visited__": true
+					},
+					"signatures": [
+						{
+							"id": 38,
+							"name": "remove",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"__visited__": true
+							},
+							"parameters": [
+								{
+									"id": 39,
+									"name": "target",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"__visited__": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "Promise",
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									}
+								]
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "util/file.ts",
+							"line": 104,
+							"character": 22
+						}
+					]
+				},
+				{
+					"id": 10,
+					"name": "sanatizeFilename",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true,
+						"__visited__": true
+					},
+					"signatures": [
+						{
+							"id": 11,
+							"name": "sanatizeFilename",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"__visited__": true
+							},
+							"parameters": [
+								{
+									"id": 12,
+									"name": "name",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"__visited__": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "util/file.ts",
+							"line": 5,
+							"character": 32
+						}
+					]
+				},
+				{
+					"id": 24,
+					"name": "save",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true,
+						"__visited__": true
+					},
+					"signatures": [
+						{
+							"id": 25,
+							"name": "save",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"__visited__": true
+							},
+							"parameters": [
+								{
+									"id": 26,
+									"name": "filename",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"__visited__": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 27,
+									"name": "buffer",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"__visited__": true
+									},
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "reference",
+												"name": "Buffer"
+											},
+											{
+												"type": "intrinsic",
+												"name": "string"
+											}
+										]
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "Promise",
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									}
+								]
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "util/file.ts",
+							"line": 56,
+							"character": 20
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Interfaces",
+					"kind": 256,
+					"children": [
+						2
+					]
+				},
+				{
+					"title": "Functions",
+					"kind": 64,
+					"children": [
+						28,
+						17,
+						13,
+						32,
+						21,
+						37,
+						10,
+						24
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "util/file.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 40,
+			"name": "\"util/getRGBA\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true,
+				"__visited__": true
+			},
+			"originalName": "src/util/getRGBA.ts",
+			"children": [
+				{
+					"id": 41,
+					"name": "ColorDescriptor",
+					"kind": 4194304,
+					"kindString": "Type alias",
+					"flags": {
+						"isExported": true,
+						"__visited__": true
+					},
+					"sources": [
+						{
+							"fileName": "util/getRGBA.ts",
+							"line": 3,
+							"character": 27
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "string"
+							},
+							{
+								"type": "reference",
+								"name": "RGBColor"
+							},
+							{
+								"type": "reference",
+								"name": "RGBAColor"
+							},
+							{
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "number"
+								}
+							},
+							{
+								"type": "intrinsic",
+								"name": "number"
+							}
+						]
+					}
+				},
+				{
+					"id": 42,
+					"name": "defaultColors",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"__visited__": true
+					},
+					"sources": [
+						{
+							"fileName": "util/getRGBA.ts",
+							"line": 5,
+							"character": 19
+						}
+					],
+					"type": {
+						"type": "array",
+						"elementType": {
+							"type": "intrinsic",
+							"name": "number"
+						}
+					},
+					"defaultValue": " [0, 0, 0, 0xFF]"
+				},
+				{
+					"id": 49,
+					"name": "fromHex",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"__visited__": true
+					},
+					"signatures": [
+						{
+							"id": 50,
+							"name": "fromHex",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"__visited__": true
+							},
+							"parameters": [
+								{
+									"id": 51,
+									"name": "color",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"__visited__": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "number"
+								}
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "util/getRGBA.ts",
+							"line": 23,
+							"character": 16
+						}
+					]
+				},
+				{
+					"id": 55,
+					"name": "fromObject",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"__visited__": true
+					},
+					"signatures": [
+						{
+							"id": 56,
+							"name": "fromObject",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"__visited__": true
+							},
+							"parameters": [
+								{
+									"id": 57,
+									"name": "color",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"__visited__": true
+									},
+									"type": {
+										"type": "reference",
+										"name": "ColorObject"
+									}
+								}
+							],
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "number"
+								}
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "util/getRGBA.ts",
+							"line": 54,
+							"character": 19
+						}
+					]
+				},
+				{
+					"id": 52,
+					"name": "fromString",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"__visited__": true
+					},
+					"signatures": [
+						{
+							"id": 53,
+							"name": "fromString",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"__visited__": true
+							},
+							"parameters": [
+								{
+									"id": 54,
+									"name": "color",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"__visited__": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "undefined"
+									},
+									{
+										"type": "array",
+										"elementType": {
+											"type": "intrinsic",
+											"name": "number"
+										}
+									}
+								]
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "util/getRGBA.ts",
+							"line": 34,
+							"character": 19
+						}
+					]
+				},
+				{
+					"id": 58,
+					"name": "getRGBA",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true,
+						"__visited__": true
+					},
+					"signatures": [
+						{
+							"id": 59,
+							"name": "getRGBA",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"__visited__": true
+							},
+							"parameters": [
+								{
+									"id": 60,
+									"name": "color",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"__visited__": true
+									},
+									"type": {
+										"type": "reference",
+										"name": "ColorDescriptor",
+										"id": 41
+									}
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "reference",
+										"name": "RGBAColorArray"
+									},
+									{
+										"type": "intrinsic",
+										"name": "undefined"
+									}
+								]
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "util/getRGBA.ts",
+							"line": 65,
+							"character": 31
+						}
+					]
+				},
+				{
+					"id": 46,
+					"name": "normalize",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"__visited__": true
+					},
+					"signatures": [
+						{
+							"id": 47,
+							"name": "normalize",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"__visited__": true
+							},
+							"parameters": [
+								{
+									"id": 48,
+									"name": "color",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"__visited__": true
+									},
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "intrinsic",
+											"name": "number"
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "number"
+								}
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "util/getRGBA.ts",
+							"line": 16,
+							"character": 18
+						}
+					]
+				},
+				{
+					"id": 43,
+					"name": "stringToInt",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"__visited__": true
+					},
+					"signatures": [
+						{
+							"id": 44,
+							"name": "stringToInt",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"__visited__": true
+							},
+							"parameters": [
+								{
+									"id": 45,
+									"name": "radix",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"__visited__": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "10"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "(Anonymous function)"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "util/getRGBA.ts",
+							"line": 7,
+							"character": 20
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Type aliases",
+					"kind": 4194304,
+					"children": [
+						41
+					]
+				},
+				{
+					"title": "Variables",
+					"kind": 32,
+					"children": [
+						42
+					]
+				},
+				{
+					"title": "Functions",
+					"kind": 64,
+					"children": [
+						49,
+						55,
+						52,
+						58,
+						46,
+						43
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "util/getRGBA.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		}
+	],
+	"groups": [
+		{
+			"title": "External modules",
+			"kind": 1,
+			"children": [
+				200,
+				211,
+				186,
+				154,
+				130,
+				316,
+				350,
+				356,
+				357,
+				79,
+				61,
+				333,
+				1,
+				40
+			]
+		}
+	]
+}
