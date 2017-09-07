@@ -1,7 +1,5 @@
 # intern-visual
 
-[![Intern](https://theintern.io/images/intern-v3.svg)](https://github.com/theintern/intern/tree/3.4/)
-
 This project adds support for visual regression testing to [Intern](https://theintern.io).
 
 <!-- start-github-only -->
