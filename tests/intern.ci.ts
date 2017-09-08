@@ -4,13 +4,15 @@ export const capabilities = {
 
 export const environments = [
 	{ browserName: 'internet explorer', version: ['10', '11'] },
-	{ browserName: 'firefox', version: ['33', 'latest'], platform: [ 'Windows 7', 'OS X 10.11' ] },
-	{ browserName: 'chrome', version: ['38', 'latest'], platform: [ 'Windows 7', 'OS X 10.11' ] },
-	{ browserName: 'safari', version: ['9', '10'] }
+	{ browserName: 'firefox', version: ['33', 'latest'], platform: [ 'WINDOWS', 'MAC' ] },
+	{ browserName: 'chrome', version: ['38', 'latest'], platform: [ 'WINDOWS', 'MAC' ] },
+	// Use Safari 'dev' version (Developer Preview) because normal Safari 10
+	// has poor WebDriver support
+	{ browserName: 'safari', version: ['9', 'dev'] }
 ];
 
 export const maxConcurrency = 1;
 
-export const tunnel = 'SauceLabsTunnel';
+export const tunnel = 'BrowserStackTunnel';
 
 export * from './intern';

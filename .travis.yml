@@ -1,8 +1,13 @@
+sudo: false
 language: node_js
 node_js:
-- '6'
+  - 'lts/*'
 env:
   global:
-  - SAUCE_USERNAME=dojo2-ts-ci
-  - SAUCE_ACCESS_KEY=e92610e3-834e-4bec-a3b5-6f7b9d874601
-script: npm run ci
+    - SAUCE_USERNAME=dojo2-ts-ci
+    - SAUCE_ACCESS_KEY=e92610e3-834e-4bec-a3b5-6f7b9d874601
+    # Please get your own free key if you want to test yourself
+    - BROWSERSTACK_USERNAME=sitepenlabs1
+    - BROWSERSTACK_ACCESS_KEY=836y5xDYPeFudz5HvZyp
+script:
+  - npm run ci
