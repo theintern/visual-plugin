@@ -64,7 +64,11 @@ export function createResizer(widthDifference?: number, heightDifference?: numbe
 				.then(function (this: Command<any>) {
 					if (widthDifference == null || heightDifference == null) {
 						return this.parent
-							.then(findDifference(width, height))
+							// The difference check needs to assign a slightly
+							// different size than the eventual target value
+							// since at least Firefox + geckodriver will ignore
+							// multiple calls to set the same size.
+							.then(findDifference(width - 1, height - 1))
 							.then(function (result: [ number, number ]) {
 								[ widthDifference, heightDifference ] = result;
 							});

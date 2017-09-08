@@ -4581,7 +4581,7 @@
 					"sources": [
 						{
 							"fileName": "helpers/resizeWindow.ts",
-							"line": 83,
+							"line": 87,
 							"character": 1
 						}
 					]
