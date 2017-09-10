@@ -35,6 +35,7 @@
 		"sinon": "^1.17.6"
 	},
 	"dependencies": {
+		"@types/pngjs": "~3.3.0",
 		"pngjs": "~3.3.0"
 	},
 	"scripts": {
