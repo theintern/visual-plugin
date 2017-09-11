@@ -117,3 +117,9 @@ export reporters = [
 We would love to hear your feedback and welcome PRs. Please take a look at 
  [Intern's Contribution Guidelines](https://github.com/theintern/intern/blob/master/CONTRIBUTING.md) for some info
  and tips. Thanks!
+
+<!-- doc-viewer-config
+{
+    "api": "docs/api.json"
+}
+-->
