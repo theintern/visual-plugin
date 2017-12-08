@@ -38,7 +38,7 @@ To run our visual regression tests
    ```
 1. Instal package dependencies
    ```
-   npm install`
+   npm install
    ```
 1. Start a Selenium server
 1. Run the tests
