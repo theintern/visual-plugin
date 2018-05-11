@@ -1,35 +1,46 @@
+import Command from '@theintern/leadfoot/Command';
+import assertVisuals, {
+	Options as AssertVisualOptions,
+	AssertionResult,
+	VisualRegressionTest
+} from './assert';
 import resizeWindow from './helpers/resizeWindow';
-import assertVisuals, { Options as AssertVisualOptions, AssertionResult, VisualRegressionTest } from './assert';
-import * as Command  from 'leadfoot/Command';
-
-export interface Options extends AssertVisualOptions {
-	url: string;
-	width?: number;
-	height?: number;
-	callback?: (report: AssertionResult) => any;
-}
 
 /**
- * Create an Intern test from a series of options
- * @param options options for the test
- * @param options.url the destination url for the visual regression test
- * @return {Function} a visual regression test
+ * Create a visual regression test from a series of options.
  */
-export default function (options: Options) {
-	return (function (this: VisualRegressionTest) {
-		return this.remote
-			.get(options.url)
-			.then(function (this: Command<string>) {
-				if (options.width && options.height) {
-					return resizeWindow(options.width, options.height).apply(this);
-				}
-			})
+export default function visualTest(options: Options) {
+	return function(this: VisualRegressionTest) {
+		let page: Command<any> = this.remote.get(options.url);
+
+		if (options.width && options.height) {
+			page = page.then(resizeWindow(options.width, options.height));
+		}
+
+		return page
 			.takeScreenshot()
 			.then(assertVisuals(this, options))
-			.then(function (result: AssertionResult) {
+			.then(result => {
 				if (options.callback) {
 					return options.callback(result);
 				}
 			});
-	});
+	};
+}
+
+/**
+ * Options for a visual regression test
+ */
+export interface Options extends AssertVisualOptions {
+	/** The URL of the page that should be loaded */
+	url: string;
+
+	/** Desired browser width */
+	width?: number;
+
+	/** Desired browser height */
+	height?: number;
+
+	/** A callback to be called with the test result */
+	callback?: (report: AssertionResult) => any;
 }

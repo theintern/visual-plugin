@@ -1,11 +1,6 @@
-import * as registerSuite from 'intern!object';
-import * as assert from 'intern/chai!assert';
-import { getTestDirectory, getBaselineFilename }
-	from 'intern-visual/util/file';
-import Test = require('intern/lib/Test');
-import Suite = require('intern/lib/Suite');
+import { getTestDirectory, getBaselineFilename } from '../../../src/util/file';
 
-const test: Test = <any> {
+const test = {
 	name: 'test', // Test
 	parent: {
 		name: 'one', // Suite
@@ -13,7 +8,7 @@ const test: Test = <any> {
 			name: 'two', // Parent Suite
 			parent: {
 				name: 'three', // Ancestor Suite
-				_remote: {
+				remote: {
 					environmentType: {
 						browserName: 'Netscape Navigator' // Browser
 					}
@@ -23,11 +18,9 @@ const test: Test = <any> {
 	}
 };
 
-const suite: Suite = <any> test.parent;
+const suite = test.parent;
 
-registerSuite({
-	name: 'file',
-
+registerSuite('file', {
 	'.getTestDirectory': {
 		'no extra options'() {
 			const actual = getTestDirectory(suite);

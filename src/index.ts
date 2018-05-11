@@ -1,24 +1,25 @@
 import assertVisuals from './assert';
-import config from './config';
+import config, { Config } from './config';
 import visualTest from './test';
-import * as file from './util/file';
-import getRGBA, { ColorDescriptor } from './util/getRGBA';
-import * as resizeWindow from './helpers/resizeWindow';
-
-const util = {
-	file,
-	getRGBA
-};
+import resizeWindow from './helpers/resizeWindow';
+import VisualRegression from './reporters/VisualRegression';
 
 const helpers = {
 	resizeWindow
 };
 
-export {
-	assertVisuals,
-	ColorDescriptor,
-	config,
-	helpers,
-	util,
-	visualTest
-};
+export { assertVisuals, config, helpers, visualTest };
+
+intern.registerPlugin('intern-visual', options => {
+	const opts: Config = <Config>options || {};
+	Object.assign(config, opts);
+
+	let reporter: VisualRegression | undefined;
+	if (config.report !== false) {
+		reporter = new VisualRegression(intern, config);
+	}
+
+	return {
+		reporter
+	};
+});

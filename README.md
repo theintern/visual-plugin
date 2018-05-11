@@ -1,122 +1,195 @@
 # intern-visual
 
-This project adds support for visual regression testing to [Intern](https://theintern.io).
+This project adds support for visual regression testing to
+[Intern](https://theintern.io).
 
 <!-- start-github-only -->
-[![Build Status](https://travis-ci.org/theintern/intern-visual.svg?branch=master)](https://travis-ci.org/theintern/intern-visual)<!-- end-github-only --> [![Intern](http://theintern.github.io/images/intern-v3.svg)](https://github.com/theintern/intern/tree/3.4/)
+
+[![Build Status](https://travis-ci.org/theintern/intern-visual.svg?branch=master)](https://travis-ci.org/theintern/intern-visual)<!-- end-github-only -->
+[![Intern](http://theintern.github.io/images/intern-v4.svg)](https://github.com/theintern/intern/)
+
+<!-- vim-markdown-toc GFM -->
+
+* [Overview](#overview)
+* [Installation](#installation)
+* [Quick start](#quick-start)
+* [API and architecture](#api-and-architecture)
+	* [visualTest](#visualtest)
+	* [assertVisuals](#assertvisuals)
+	* [helpers](#helpers)
+	* [Reporting results](#reporting-results)
+* [Contributing](#contributing)
+
+<!-- vim-markdown-toc -->
 
 ## Overview
 
-A visual regression test compares a screenshot of a webpage with a previously generated baseline providing the ability
-to make automated comparisons against a known-good version to ensure nothing has changed.
+A visual regression test compares a screenshot of a webpage with a previously
+generated baseline providing the ability to make automated comparisons against a
+known-good version to ensure nothing has changed.
 
 These tests can help engineers
 
-* ensure a page is rendered identically on various browsers
-* identify when a css change has an undesired effect elsewhere
-* put a quick set of visual tests around legacy code to identify regressions 
+*   ensure a page is rendered identically on various browsers
+*   identify when a css change has an undesired effect elsewhere
+*   put a quick set of visual tests around legacy code to identify regressions
+
+This plugin takes image snapshots of pages when they’re known to be rendering
+properly, and then compares those images to how the page looks at later points
+to detect visual regressions.
+
+For example, here's a simple login page:
+
+<img alt="good login page" src="./docs/good.png" width="245" />
+
+Assume you’ve created a visual test called “login page” for this page. The first
+time the test is run it will save a snapshot image (a _baseline_) of the page.
+
+At some point, someone may change a style that has a side effect of making `h1`
+tags use a serif font. Now the the login page looks like this:
+
+<img alt="bad login page" src="./docs/bad.png" width="245" />
+
+Normal unit tests aren‘t going to see anything wrong here, because the content
+is the same. However, the next time the visual test is run for that page it will
+fail because the page no longer looks the same. A report will be generated that
+highlights the changes:
+
+<img alt="visual assertion report" src="./docs/report.png" />
 
 ## Installation
 
 The `intern-visual` package should be installed as a peer of Intern
 
 ```
-$ npm install intern intern-visual
+$ npm install intern intern-visual --save-dev
 ```
 
-## Quick Start
+## Quick start
 
-Ok! You want to see all the great things Visual Regression Testing can do and how to do it! See real test code by
-looking in the `tests/visual` directory.
+Ok! You want to see all the great things visual regression testing can do and
+how to do it! See some real test code by looking in the
+[tests/visual](./tests/visual) directory.
 
-To run our visual regression tests
+To run our visual regression tests:
 
-1. Clone this project
-1. Install some tools
-   ```
-   npm install -g grunt-cli
-   ```
-1. Instal package dependencies
-   ```
-   npm install
-   ```
-1. Start a Selenium server
-1. Run the tests
-   ```
-   grunt test
-   ```
+1.  Clone this project
+1.  Install package dependencies
+    ```
+    npm install
+    ```
+1.  Run the tests
+    ```
+    npm test
+    ```
 
-## APIs and Architecture
+## API and architecture
 
-This Intern plugin can be broken down into three main pieces of functionality. The assertion layer is made up of
-`assert` and `test`; they provide a programmatic and configuration based approach, respectively. The comparison layer
-is used by the assertion layer to identify differences between the baseline and snapshot images. And the reporting
-layer is used by Intern to generate HTML reports.
+Intern-visual exports four modules:
 
-### assert
+*   `test` is a function that will create a complete visual regression test
+    based on an options obect
+*   `assert` is a function that can be used to make visual assertions in tests
+*   `helpers` is an object of functional test helper functions
+*   `config` is the current config of the plugin
 
-`assert` is a module that allows you to compare two sets of images (a baseline and snapshot). It is also responsible
-for generating baselines as necessary for future test runs. The method is called during functional testing like this:
+### visualTest
 
-```typescript
-import assertVisuals from 'visual/assert';
+`visualTest` is a function that creates a complete visual regression test from a
+set of options.
 
-registerSuite({
-    test() {
-        this.remote()
-            .get('https://sitepen.com')
-            .setWindowSize(1024, 768)  // set the window size
-            .takeScreenshot()
-            .then(assertVisuals(this, {
-                missingBaseline: 'snapshot'
-            }));
-    }
-})
-```
+```ts
+import { visualTest }  from 'intern-visual';
 
-There are a number of options that can be passed to `assert` or set globally. The complete list of options can be 
-seen in the module.
-
-*baseline*: explicitly point to a baseline png to use. When this is not defined the test name is used to generate
- a path to a baseline
- 
-*regenerateBaselines*: when set to true, a new baseline will be automatically generated
-
-
-### test
-
-`test` provides a wrapper around the `assert` module that will create a visual regression test from configuration.
-
-```typescript
-import visualTest from 'visual/test';
-
-registerSuite({
-	test: visualTest({
-		url: 'https://sitepen.com',
-		width: 1024,
-		height: 768,
-		missingBaseline: 'snapshot',
-	});
+registerSuite('mySuite', {
+    test: visualTest({
+        url: 'https://sitepen.com',
+        width: 1024,
+        height: 768,
+        missingBaseline: 'snapshot',
+    });
 });
 ```
 
-### reporters/VisualRegression
+See the API docs for the full set of
+[options](https://theintern.io/docs.html#intern-visual/1/api/test/options).
 
-The `VisualRegression` reporter is responsible for creating a HTML report that reports (only) on the visual
-regression tests. It can be used in combination with other Intern reporters.
+### assertVisuals
 
-```typescript
-export reporters = [
-    'Runner',
-    { id: 'visual/reporters/VisualRegression', baselineLocation: './baselines', reportLocation: './reports' }
-]
+`assertVisuals` is a Leadfoot helper function that can be used to provide visual
+assertion functionality within an existing Intern test. It provides the
+assertion functionality of `visualTest` but without the surrounding logic.
+
+```ts
+import { assertVisuals } from 'intern-visual';
+
+registerSuite('mySuite', {
+    test() {
+        return this.remote()
+            .get('https://sitepen.com')
+            .setWindowSize(1024, 768)
+            .takeScreenshot()
+            .then(
+                assertVisuals(this, {
+                    missingBaseline: 'snapshot'
+                })
+            );
+    }
+});
+```
+
+See the API docs for the full set of
+[options](https://theintern.io/docs.html#intern-visual/1/api/assert/options-1).
+
+### helpers
+
+The `helpers` export currently contains one function,
+[resizeWindow](https://theintern.io/docs.html#intern-visual/1/api/helpers%2FresizeWindow/resizeWindow).
+This is a convenience function that will resize a browser window and wait for
+the resize operation to complete.
+
+### Reporting results
+
+By default intern-visual will generate an HTML report of visual regression test
+results in the plugin’s output directory. The reporter supports a couple of
+options:
+
+*   `reportLocation`: A directory under the base output directory to write the
+    report, defaults to "report"
+*   `errorColor`: The color to use when highlighting image differences, defaults
+    to "#F00"
+
+```json
+"plugins": {
+	"script": "intern-visual",
+	"options": {
+		"missingBaseline": "snapshot",
+		"directory": "visual",
+		"reportLocation": "htmlreport",
+		"errorColor": "#FF7200"
+	}
+}
+```
+
+The reporter can be disabled by setting the `report` configuration option to
+`false`.
+
+```json
+"plugins": {
+	"script": "intern-visual",
+	"options": {
+		"missingBaseline": "snapshot",
+		"directory": "visual",
+		"report": false
+	}
+}
 ```
 
 ## Contributing
 
-We would love to hear your feedback and welcome PRs. Please take a look at 
- [Intern's Contribution Guidelines](https://github.com/theintern/intern/blob/master/CONTRIBUTING.md) for some info
- and tips. Thanks!
+We would love to hear your feedback and welcome PRs. Please take a look at
+[Intern’s Contribution Guidelines](https://github.com/theintern/intern/blob/master/CONTRIBUTING.md)
+for some info and tips. Thanks!
 
 <!-- doc-viewer-config
 {

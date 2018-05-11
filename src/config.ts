@@ -1,5 +1,3 @@
-import * as intern from 'intern';
-import { mixin } from 'intern/dojo/lang';
 import { Options as ComparatorOptions } from './comparators/PngJsImageComparator';
 import { Options as ComparisonOptions } from './comparators/ReportBuilder';
 import { Options as AssertOptions } from './assert';
@@ -7,34 +5,30 @@ import { Options as ReportOptions } from './reporters/util/ReportWriter';
 
 export type ComparatorConfig = ComparatorOptions & ComparisonOptions;
 
-export interface Config extends AssertOptions {
+export interface Config extends AssertOptions, ReportOptions {
+	/** Options for the image comparator */
 	comparator: ComparatorConfig;
-	report: ReportOptions;
+
+	/** If set to false, disable the reporter */
+	report?: false;
+
+	/** The base output directory where baselines and reports are written */
+	directory: string;
 }
 
-const internConfig: any = (<any> intern).config || {};
-const visualConfig: Config = internConfig.visual || {};
-const defaults: Config = {
+const config: Config = {
 	baselineLocation: 'baselines',
 
 	comparator: {
 		pixelSkip: 2,
-
 		pixelTolerance: 8,
-
 		matchRatio: 1
 	},
 
 	directory: 'visual-test',
-
 	missingBaseline: 'skip',
 
-	report: {
-		reportLocation: 'report',
-
-		reportUnusedBaselines: false
-	}
+	reportLocation: 'report'
 };
 
-const config: Config = mixin<Config>({}, defaults, visualConfig);
 export default config;

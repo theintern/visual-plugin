@@ -2,7 +2,8 @@
 /src/**/*.js
 /src/**/*.css
 dist
-_build
+_build/
+_tests/
 /node_modules
 .baseDir.ts
 .tsconfig*.json

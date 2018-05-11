@@ -2,10 +2,9 @@
 	"extends": "../tsconfig.json",
 	"compilerOptions": {
 		"baseUrl": "..",
-		"moduleResolution": "node",
-		"paths": {
-			"intern-visual/*": ["./_build/src/*", "./src/*"]
-		}
+		"module": "commonjs",
+		"outDir": "../_tests/",
+		"removeComments": false
 	},
 	"include": ["./**/*.ts"]
 }

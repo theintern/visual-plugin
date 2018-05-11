@@ -1,0 +1,60 @@
+{
+	"capabilities": {
+		"fixSessionCapabilities": false
+	},
+	"coverage": ["_tests/src/**/*.js"],
+	"environments": [
+		"node",
+		{
+			"browserName": "chrome",
+			"fixSesssionCapabilities": "no-detect",
+			"goog:chromeOptions": {
+				"args": ["headless", "no-gpu"]
+			}
+		}
+	],
+	"filterErrorStack": true,
+	"functionalCoverage": true,
+	"functionalSuites": [
+		"_tests/tests/functional/**/*.js",
+		"_tests/tests/visual/**/*.js"
+	],
+	"plugins": "_tests/tests/globalUi.js",
+	"reporters": [
+		{
+			"name": "runner",
+			"options": { "hideSkipped": false, "hidePassed": true }
+		}
+	],
+
+	"node": {
+		"suites": "_tests/tests/unit/**/*.js"
+	},
+
+	"configs": {
+		"ci": {
+			"environments": [
+				"node",
+				{
+					"browserName": "internet explorer",
+					"version": ["10", "11"]
+				},
+				{
+					"browserName": "firefox",
+					"version": ["33", "latest"],
+					"platform": ["WINDOWS", "MAC"]
+				},
+				{
+					"browserName": "chrome",
+					"version": ["38", "latest"],
+					"platform": ["WINDOWS", "MAC"]
+				},
+				{
+					"browserName": "safari"
+				}
+			],
+			"tunnel": "browserstack",
+			"maxConcurrency": 1
+		}
+	}
+}

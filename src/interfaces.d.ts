@@ -1,4 +1,4 @@
-import Command = require('leadfoot/Command');
+import Command from '@theintern/leadfoot/Command';
 
 declare type CommandHelper = () => Command<any>;
 
@@ -17,8 +17,8 @@ export interface RGBAColor {
 
 export type ColorObject = RGBColor | RGBAColor;
 
-export type RGBColorArray = [ number, number, number ];
-export type RGBAColorArray = [ number, number, number, number ];
+export type RGBColorArray = [number, number, number];
+export type RGBAColorArray = [number, number, number, number];
 export type ColorArray = RGBAColorArray | RGBColor;
 
 export interface ImageAdapter {

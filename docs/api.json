@@ -7,7 +7,7 @@
 	},
 	"children": [
 		{
-			"id": 200,
+			"id": 189,
 			"name": "\"VisualRegressionError\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -18,7 +18,7 @@
 			"originalName": "src/VisualRegressionError.ts",
 			"children": [
 				{
-					"id": 201,
+					"id": 190,
 					"name": "VisualRegressionError",
 					"kind": 128,
 					"kindString": "Class",
@@ -28,7 +28,7 @@
 					},
 					"children": [
 						{
-							"id": 203,
+							"id": 192,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -38,7 +38,7 @@
 							},
 							"signatures": [
 								{
-									"id": 204,
+									"id": 193,
 									"name": "new VisualRegressionError",
 									"kind": 16384,
 									"kindString": "Constructor signature",
@@ -47,7 +47,7 @@
 									},
 									"parameters": [
 										{
-											"id": 205,
+											"id": 194,
 											"name": "message",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -60,7 +60,7 @@
 											}
 										},
 										{
-											"id": 206,
+											"id": 195,
 											"name": "report",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -76,7 +76,7 @@
 									"type": {
 										"type": "reference",
 										"name": "VisualRegressionError",
-										"id": 201
+										"id": 190
 									}
 								}
 							],
@@ -89,7 +89,7 @@
 							]
 						},
 						{
-							"id": 202,
+							"id": 191,
 							"name": "report",
 							"kind": 1024,
 							"kindString": "Property",
@@ -110,7 +110,7 @@
 							}
 						},
 						{
-							"id": 210,
+							"id": 199,
 							"name": "Error",
 							"kind": 1024,
 							"kindString": "Property",
@@ -122,7 +122,7 @@
 							"sources": [
 								{
 									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
-									"line": 884,
+									"line": 896,
 									"character": 19
 								}
 							],
@@ -132,7 +132,7 @@
 							}
 						},
 						{
-							"id": 208,
+							"id": 197,
 							"name": "message",
 							"kind": 1024,
 							"kindString": "Property",
@@ -144,7 +144,7 @@
 							"sources": [
 								{
 									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
-									"line": 874,
+									"line": 886,
 									"character": 11
 								}
 							],
@@ -158,7 +158,7 @@
 							}
 						},
 						{
-							"id": 207,
+							"id": 196,
 							"name": "name",
 							"kind": 1024,
 							"kindString": "Property",
@@ -170,7 +170,7 @@
 							"sources": [
 								{
 									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
-									"line": 873,
+									"line": 885,
 									"character": 8
 								}
 							],
@@ -184,7 +184,7 @@
 							}
 						},
 						{
-							"id": 209,
+							"id": 198,
 							"name": "stack",
 							"kind": 1024,
 							"kindString": "Property",
@@ -197,7 +197,7 @@
 							"sources": [
 								{
 									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
-									"line": 875,
+									"line": 887,
 									"character": 9
 								}
 							],
@@ -229,18 +229,18 @@
 							"title": "Constructors",
 							"kind": 512,
 							"children": [
-								203
+								192
 							]
 						},
 						{
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								202,
-								210,
-								208,
-								207,
-								209
+								191,
+								199,
+								197,
+								196,
+								198
 							]
 						}
 					],
@@ -264,7 +264,7 @@
 					"title": "Classes",
 					"kind": 128,
 					"children": [
-						201
+						190
 					]
 				}
 			],
@@ -277,7 +277,7 @@
 			]
 		},
 		{
-			"id": 211,
+			"id": 200,
 			"name": "\"assert\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -288,7 +288,7 @@
 			"originalName": "src/assert.ts",
 			"children": [
 				{
-					"id": 218,
+					"id": 207,
 					"name": "AssertionResult",
 					"kind": 256,
 					"kindString": "Interface",
@@ -296,9 +296,12 @@
 						"isExported": true,
 						"__visited__": true
 					},
+					"comment": {
+						"shortText": "The result of a visual assertion"
+					},
 					"children": [
 						{
-							"id": 219,
+							"id": 208,
 							"name": "baseline",
 							"kind": 1024,
 							"kindString": "Property",
@@ -309,7 +312,7 @@
 							"sources": [
 								{
 									"fileName": "assert.ts",
-									"line": 21,
+									"line": 95,
 									"character": 9
 								}
 							],
@@ -319,7 +322,7 @@
 							}
 						},
 						{
-							"id": 220,
+							"id": 209,
 							"name": "baselineExists",
 							"kind": 1024,
 							"kindString": "Property",
@@ -330,7 +333,7 @@
 							"sources": [
 								{
 									"fileName": "assert.ts",
-									"line": 22,
+									"line": 96,
 									"character": 15
 								}
 							],
@@ -340,7 +343,7 @@
 							}
 						},
 						{
-							"id": 221,
+							"id": 210,
 							"name": "count",
 							"kind": 1024,
 							"kindString": "Property",
@@ -351,7 +354,7 @@
 							"sources": [
 								{
 									"fileName": "assert.ts",
-									"line": 23,
+									"line": 97,
 									"character": 6
 								}
 							],
@@ -361,7 +364,7 @@
 							}
 						},
 						{
-							"id": 222,
+							"id": 211,
 							"name": "generatedBaseline",
 							"kind": 1024,
 							"kindString": "Property",
@@ -372,7 +375,7 @@
 							"sources": [
 								{
 									"fileName": "assert.ts",
-									"line": 24,
+									"line": 98,
 									"character": 18
 								}
 							],
@@ -382,7 +385,7 @@
 							}
 						},
 						{
-							"id": 223,
+							"id": 212,
 							"name": "options",
 							"kind": 1024,
 							"kindString": "Property",
@@ -393,18 +396,18 @@
 							"sources": [
 								{
 									"fileName": "assert.ts",
-									"line": 25,
+									"line": 99,
 									"character": 8
 								}
 							],
 							"type": {
 								"type": "reference",
 								"name": "Options",
-								"id": 212
+								"id": 201
 							}
 						},
 						{
-							"id": 224,
+							"id": 213,
 							"name": "report",
 							"kind": 1024,
 							"kindString": "Property",
@@ -416,7 +419,7 @@
 							"sources": [
 								{
 									"fileName": "assert.ts",
-									"line": 26,
+									"line": 100,
 									"character": 7
 								}
 							],
@@ -426,7 +429,7 @@
 							}
 						},
 						{
-							"id": 225,
+							"id": 214,
 							"name": "screenshot",
 							"kind": 1024,
 							"kindString": "Property",
@@ -437,7 +440,7 @@
 							"sources": [
 								{
 									"fileName": "assert.ts",
-									"line": 27,
+									"line": 101,
 									"character": 11
 								}
 							],
@@ -461,26 +464,26 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								219,
-								220,
-								221,
-								222,
-								223,
-								224,
-								225
+								208,
+								209,
+								210,
+								211,
+								212,
+								213,
+								214
 							]
 						}
 					],
 					"sources": [
 						{
 							"fileName": "assert.ts",
-							"line": 20,
+							"line": 94,
 							"character": 32
 						}
 					]
 				},
 				{
-					"id": 212,
+					"id": 201,
 					"name": "Options",
 					"kind": 256,
 					"kindString": "Interface",
@@ -488,9 +491,12 @@
 						"isExported": true,
 						"__visited__": true
 					},
+					"comment": {
+						"shortText": "Options for visual assertions"
+					},
 					"children": [
 						{
-							"id": 213,
+							"id": 202,
 							"name": "baseline",
 							"kind": 1024,
 							"kindString": "Property",
@@ -502,7 +508,7 @@
 							"sources": [
 								{
 									"fileName": "assert.ts",
-									"line": 13,
+									"line": 84,
 									"character": 9
 								}
 							],
@@ -521,7 +527,7 @@
 							}
 						},
 						{
-							"id": 214,
+							"id": 203,
 							"name": "baselineLocation",
 							"kind": 1024,
 							"kindString": "Property",
@@ -533,7 +539,7 @@
 							"sources": [
 								{
 									"fileName": "assert.ts",
-									"line": 14,
+									"line": 85,
 									"character": 17
 								}
 							],
@@ -552,7 +558,7 @@
 							}
 						},
 						{
-							"id": 215,
+							"id": 204,
 							"name": "directory",
 							"kind": 1024,
 							"kindString": "Property",
@@ -564,7 +570,7 @@
 							"sources": [
 								{
 									"fileName": "assert.ts",
-									"line": 15,
+									"line": 86,
 									"character": 10
 								}
 							],
@@ -583,7 +589,7 @@
 							}
 						},
 						{
-							"id": 217,
+							"id": 206,
 							"name": "missingBaseline",
 							"kind": 1024,
 							"kindString": "Property",
@@ -595,7 +601,7 @@
 							"sources": [
 								{
 									"fileName": "assert.ts",
-									"line": 17,
+									"line": 88,
 									"character": 16
 								}
 							],
@@ -622,7 +628,7 @@
 							}
 						},
 						{
-							"id": 216,
+							"id": 205,
 							"name": "regenerateBaselines",
 							"kind": 1024,
 							"kindString": "Property",
@@ -634,7 +640,7 @@
 							"sources": [
 								{
 									"fileName": "assert.ts",
-									"line": 16,
+									"line": 87,
 									"character": 20
 								}
 							],
@@ -662,18 +668,18 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								213,
-								214,
-								215,
-								217,
-								216
+								202,
+								203,
+								204,
+								206,
+								205
 							]
 						}
 					],
 					"sources": [
 						{
 							"fileName": "assert.ts",
-							"line": 12,
+							"line": 83,
 							"character": 24
 						}
 					],
@@ -681,17 +687,17 @@
 						{
 							"type": "reference",
 							"name": "Config",
-							"id": 131
+							"id": 123
 						},
 						{
 							"type": "reference",
 							"name": "Options",
-							"id": 334
+							"id": 291
 						}
 					]
 				},
 				{
-					"id": 226,
+					"id": 215,
 					"name": "VisualRegressionTest",
 					"kind": 256,
 					"kindString": "Interface",
@@ -699,1034 +705,12 @@
 						"isExported": true,
 						"__visited__": true
 					},
+					"comment": {
+						"shortText": "An extension of Intern's test that adds visual assertion results"
+					},
 					"children": [
 						{
-							"id": 257,
-							"name": "Test",
-							"kind": 2,
-							"kindString": "Module",
-							"flags": {
-								"isExported": true,
-								"__visited__": true
-							},
-							"children": [
-								{
-									"id": 258,
-									"name": "Deferred",
-									"kind": 256,
-									"kindString": "Interface",
-									"flags": {
-										"isExported": true,
-										"__visited__": true
-									},
-									"typeParameter": [
-										{
-											"id": 259,
-											"name": "T",
-											"kind": 131072,
-											"kindString": "Type parameter",
-											"flags": {
-												"__visited__": true
-											}
-										}
-									],
-									"children": [
-										{
-											"id": 269,
-											"name": "constructor",
-											"kind": 512,
-											"kindString": "Constructor",
-											"flags": {
-												"isExported": true,
-												"__visited__": true
-											},
-											"signatures": [
-												{
-													"id": 270,
-													"name": "new Deferred",
-													"kind": 16384,
-													"kindString": "Constructor signature",
-													"flags": {
-														"__visited__": true
-													},
-													"parameters": [
-														{
-															"id": 271,
-															"name": "canceler",
-															"kind": 32768,
-															"kindString": "Parameter",
-															"flags": {
-																"isOptional": true,
-																"__visited__": true
-															},
-															"type": {
-																"type": "reference",
-																"name": "Promise.Canceler"
-															}
-														}
-													],
-													"type": {
-														"type": "reference",
-														"name": "Deferred",
-														"id": 258
-													},
-													"inheritedFrom": {
-														"type": "reference",
-														"name": "Deferred.__constructor"
-													}
-												}
-											],
-											"sources": [
-												{
-													"fileName": "node_modules/intern/typings/dojo2/dojo.d.ts",
-													"line": 444,
-													"character": 29
-												}
-											],
-											"inheritedFrom": {
-												"type": "reference",
-												"name": "Deferred.__constructor"
-											}
-										},
-										{
-											"id": 272,
-											"name": "progress",
-											"kind": 1024,
-											"kindString": "Property",
-											"flags": {
-												"isExported": true,
-												"__visited__": true
-											},
-											"comment": {
-												"shortText": "Sends progress information for the underlying promise.",
-												"tags": [
-													{
-														"tag": "method",
-														"text": ""
-													},
-													{
-														"tag": "param",
-														"text": "Additional information about the asynchronous operation’s progress.\n",
-														"param": "data"
-													}
-												]
-											},
-											"sources": [
-												{
-													"fileName": "node_modules/intern/typings/dojo2/dojo.d.ts",
-													"line": 452,
-													"character": 17
-												}
-											],
-											"type": {
-												"type": "reflection",
-												"declaration": {
-													"id": 273,
-													"name": "__type",
-													"kind": 65536,
-													"kindString": "Type literal",
-													"flags": {
-														"__visited__": true
-													},
-													"signatures": [
-														{
-															"id": 274,
-															"name": "__call",
-															"kind": 4096,
-															"kindString": "Call signature",
-															"flags": {
-																"__visited__": true
-															},
-															"parameters": [
-																{
-																	"id": 275,
-																	"name": "data",
-																	"kind": 32768,
-																	"kindString": "Parameter",
-																	"flags": {
-																		"isOptional": true,
-																		"__visited__": true
-																	},
-																	"type": {
-																		"type": "intrinsic",
-																		"name": "any"
-																	}
-																}
-															],
-															"type": {
-																"type": "intrinsic",
-																"name": "void"
-															}
-														}
-													],
-													"sources": [
-														{
-															"fileName": "node_modules/intern/typings/dojo2/dojo.d.ts",
-															"line": 452,
-															"character": 18
-														}
-													]
-												}
-											},
-											"inheritedFrom": {
-												"type": "reference",
-												"name": "Deferred.progress"
-											}
-										},
-										{
-											"id": 268,
-											"name": "promise",
-											"kind": 1024,
-											"kindString": "Property",
-											"flags": {
-												"isExported": true,
-												"__visited__": true
-											},
-											"comment": {
-												"shortText": "The underlying promise for the Deferred."
-											},
-											"sources": [
-												{
-													"fileName": "node_modules/intern/typings/dojo2/dojo.d.ts",
-													"line": 444,
-													"character": 16
-												}
-											],
-											"type": {
-												"type": "reference",
-												"name": "Promise",
-												"typeArguments": [
-													{
-														"type": "typeParameter",
-														"name": "T"
-													}
-												]
-											},
-											"inheritedFrom": {
-												"type": "reference",
-												"name": "Deferred.promise"
-											}
-										},
-										{
-											"id": 276,
-											"name": "reject",
-											"kind": 1024,
-											"kindString": "Property",
-											"flags": {
-												"isExported": true,
-												"__visited__": true
-											},
-											"comment": {
-												"shortText": "Rejects the underlying promise with an error.",
-												"tags": [
-													{
-														"tag": "method",
-														"text": ""
-													},
-													{
-														"tag": "param",
-														"text": "The error that should be used as the fulfilled value for the promise.\n",
-														"param": "error"
-													}
-												]
-											},
-											"sources": [
-												{
-													"fileName": "node_modules/intern/typings/dojo2/dojo.d.ts",
-													"line": 459,
-													"character": 15
-												}
-											],
-											"type": {
-												"type": "reflection",
-												"declaration": {
-													"id": 277,
-													"name": "__type",
-													"kind": 65536,
-													"kindString": "Type literal",
-													"flags": {
-														"__visited__": true
-													},
-													"signatures": [
-														{
-															"id": 278,
-															"name": "__call",
-															"kind": 4096,
-															"kindString": "Call signature",
-															"flags": {
-																"__visited__": true
-															},
-															"parameters": [
-																{
-																	"id": 279,
-																	"name": "error",
-																	"kind": 32768,
-																	"kindString": "Parameter",
-																	"flags": {
-																		"isOptional": true,
-																		"__visited__": true
-																	},
-																	"type": {
-																		"type": "reference",
-																		"name": "Error",
-																		"id": 210
-																	}
-																}
-															],
-															"type": {
-																"type": "intrinsic",
-																"name": "void"
-															}
-														}
-													],
-													"sources": [
-														{
-															"fileName": "node_modules/intern/typings/dojo2/dojo.d.ts",
-															"line": 459,
-															"character": 16
-														}
-													]
-												}
-											},
-											"inheritedFrom": {
-												"type": "reference",
-												"name": "Deferred.reject"
-											}
-										},
-										{
-											"id": 280,
-											"name": "resolve",
-											"kind": 1024,
-											"kindString": "Property",
-											"flags": {
-												"isExported": true,
-												"__visited__": true
-											},
-											"comment": {
-												"shortText": "Resolves the underlying promise with a value.",
-												"tags": [
-													{
-														"tag": "method",
-														"text": ""
-													},
-													{
-														"tag": "param",
-														"text": "The value that should be used as the fulfilled value for the promise.\n",
-														"param": "value"
-													}
-												]
-											},
-											"sources": [
-												{
-													"fileName": "node_modules/intern/typings/dojo2/dojo.d.ts",
-													"line": 466,
-													"character": 16
-												}
-											],
-											"type": {
-												"type": "reflection",
-												"declaration": {
-													"id": 281,
-													"name": "__type",
-													"kind": 65536,
-													"kindString": "Type literal",
-													"flags": {
-														"__visited__": true
-													},
-													"signatures": [
-														{
-															"id": 282,
-															"name": "__call",
-															"kind": 4096,
-															"kindString": "Call signature",
-															"flags": {
-																"__visited__": true
-															},
-															"parameters": [
-																{
-																	"id": 283,
-																	"name": "value",
-																	"kind": 32768,
-																	"kindString": "Parameter",
-																	"flags": {
-																		"isOptional": true,
-																		"__visited__": true
-																	},
-																	"type": {
-																		"type": "union",
-																		"types": [
-																			{
-																				"type": "reference",
-																				"name": "Thenable",
-																				"typeArguments": [
-																					{
-																						"type": "typeParameter",
-																						"name": "T"
-																					}
-																				]
-																			},
-																			{
-																				"type": "typeParameter",
-																				"name": "T"
-																			}
-																		]
-																	}
-																}
-															],
-															"type": {
-																"type": "intrinsic",
-																"name": "void"
-															}
-														}
-													],
-													"sources": [
-														{
-															"fileName": "node_modules/intern/typings/dojo2/dojo.d.ts",
-															"line": 466,
-															"character": 17
-														}
-													]
-												}
-											},
-											"inheritedFrom": {
-												"type": "reference",
-												"name": "Deferred.resolve"
-											}
-										},
-										{
-											"id": 260,
-											"name": "callback",
-											"kind": 2048,
-											"kindString": "Method",
-											"flags": {
-												"isExported": true,
-												"__visited__": true
-											},
-											"signatures": [
-												{
-													"id": 261,
-													"name": "callback",
-													"kind": 4096,
-													"kindString": "Call signature",
-													"flags": {
-														"__visited__": true
-													},
-													"typeParameter": [
-														{
-															"id": 262,
-															"name": "U",
-															"kind": 131072,
-															"kindString": "Type parameter",
-															"flags": {
-																"__visited__": true
-															},
-															"type": {
-																"type": "reference",
-																"name": "Function"
-															}
-														}
-													],
-													"parameters": [
-														{
-															"id": 263,
-															"name": "callback",
-															"kind": 32768,
-															"kindString": "Parameter",
-															"flags": {
-																"__visited__": true
-															},
-															"type": {
-																"type": "typeParameter",
-																"name": "U",
-																"constraint": {
-																	"type": "reference",
-																	"name": "Function"
-																}
-															}
-														}
-													],
-													"type": {
-														"type": "typeParameter",
-														"name": "U",
-														"constraint": {
-															"type": "reference",
-															"name": "Function"
-														}
-													}
-												}
-											],
-											"sources": [
-												{
-													"fileName": "node_modules/intern/typings/intern/intern.d.ts",
-													"line": 350,
-													"character": 11
-												}
-											]
-										},
-										{
-											"id": 264,
-											"name": "rejectOnError",
-											"kind": 2048,
-											"kindString": "Method",
-											"flags": {
-												"isExported": true,
-												"__visited__": true
-											},
-											"signatures": [
-												{
-													"id": 265,
-													"name": "rejectOnError",
-													"kind": 4096,
-													"kindString": "Call signature",
-													"flags": {
-														"__visited__": true
-													},
-													"typeParameter": [
-														{
-															"id": 266,
-															"name": "U",
-															"kind": 131072,
-															"kindString": "Type parameter",
-															"flags": {
-																"__visited__": true
-															},
-															"type": {
-																"type": "reference",
-																"name": "Function"
-															}
-														}
-													],
-													"parameters": [
-														{
-															"id": 267,
-															"name": "callback",
-															"kind": 32768,
-															"kindString": "Parameter",
-															"flags": {
-																"__visited__": true
-															},
-															"type": {
-																"type": "typeParameter",
-																"name": "U",
-																"constraint": {
-																	"type": "reference",
-																	"name": "Function"
-																}
-															}
-														}
-													],
-													"type": {
-														"type": "typeParameter",
-														"name": "U",
-														"constraint": {
-															"type": "reference",
-															"name": "Function"
-														}
-													}
-												}
-											],
-											"sources": [
-												{
-													"fileName": "node_modules/intern/typings/intern/intern.d.ts",
-													"line": 351,
-													"character": 16
-												}
-											]
-										}
-									],
-									"groups": [
-										{
-											"title": "Constructors",
-											"kind": 512,
-											"children": [
-												269
-											]
-										},
-										{
-											"title": "Properties",
-											"kind": 1024,
-											"children": [
-												272,
-												268,
-												276,
-												280
-											]
-										},
-										{
-											"title": "Methods",
-											"kind": 2048,
-											"children": [
-												260,
-												264
-											]
-										}
-									],
-									"sources": [
-										{
-											"fileName": "node_modules/intern/typings/intern/intern.d.ts",
-											"line": 349,
-											"character": 27
-										}
-									]
-								},
-								{
-									"id": 284,
-									"name": "KwArgs",
-									"kind": 256,
-									"kindString": "Interface",
-									"flags": {
-										"isExported": true,
-										"__visited__": true
-									},
-									"children": [
-										{
-											"id": 285,
-											"name": "name",
-											"kind": 1024,
-											"kindString": "Property",
-											"flags": {
-												"isExported": true,
-												"__visited__": true
-											},
-											"sources": [
-												{
-													"fileName": "node_modules/intern/typings/intern/intern.d.ts",
-													"line": 355,
-													"character": 7
-												}
-											],
-											"type": {
-												"type": "intrinsic",
-												"name": "string"
-											}
-										},
-										{
-											"id": 286,
-											"name": "parent",
-											"kind": 1024,
-											"kindString": "Property",
-											"flags": {
-												"isExported": true,
-												"isOptional": true,
-												"__visited__": true
-											},
-											"sources": [
-												{
-													"fileName": "node_modules/intern/typings/intern/intern.d.ts",
-													"line": 356,
-													"character": 9
-												}
-											],
-											"type": {
-												"type": "union",
-												"types": [
-													{
-														"type": "intrinsic",
-														"name": "undefined"
-													},
-													{
-														"type": "reference",
-														"name": "Suite"
-													}
-												]
-											}
-										},
-										{
-											"id": 288,
-											"name": "reporterManager",
-											"kind": 1024,
-											"kindString": "Property",
-											"flags": {
-												"isExported": true,
-												"isOptional": true,
-												"__visited__": true
-											},
-											"sources": [
-												{
-													"fileName": "node_modules/intern/typings/intern/intern.d.ts",
-													"line": 358,
-													"character": 18
-												}
-											],
-											"type": {
-												"type": "union",
-												"types": [
-													{
-														"type": "intrinsic",
-														"name": "undefined"
-													},
-													{
-														"type": "reference",
-														"name": "ReporterManager"
-													}
-												]
-											}
-										},
-										{
-											"id": 287,
-											"name": "timeout",
-											"kind": 1024,
-											"kindString": "Property",
-											"flags": {
-												"isExported": true,
-												"isOptional": true,
-												"__visited__": true
-											},
-											"sources": [
-												{
-													"fileName": "node_modules/intern/typings/intern/intern.d.ts",
-													"line": 357,
-													"character": 10
-												}
-											],
-											"type": {
-												"type": "union",
-												"types": [
-													{
-														"type": "intrinsic",
-														"name": "undefined"
-													},
-													{
-														"type": "intrinsic",
-														"name": "number"
-													}
-												]
-											}
-										}
-									],
-									"groups": [
-										{
-											"title": "Properties",
-											"kind": 1024,
-											"children": [
-												285,
-												286,
-												288,
-												287
-											]
-										}
-									],
-									"sources": [
-										{
-											"fileName": "node_modules/intern/typings/intern/intern.d.ts",
-											"line": 354,
-											"character": 25
-										}
-									]
-								},
-								{
-									"id": 289,
-									"name": "Serialized",
-									"kind": 256,
-									"kindString": "Interface",
-									"flags": {
-										"isExported": true,
-										"__visited__": true
-									},
-									"children": [
-										{
-											"id": 297,
-											"name": "error",
-											"kind": 1024,
-											"kindString": "Property",
-											"flags": {
-												"isExported": true,
-												"__visited__": true
-											},
-											"sources": [
-												{
-													"fileName": "node_modules/intern/typings/intern/intern.d.ts",
-													"line": 369,
-													"character": 8
-												}
-											],
-											"type": {
-												"type": "reflection",
-												"declaration": {
-													"id": 298,
-													"name": "__type",
-													"kind": 65536,
-													"kindString": "Type literal",
-													"flags": {
-														"__visited__": true
-													},
-													"children": [
-														{
-															"id": 300,
-															"name": "message",
-															"kind": 32,
-															"kindString": "Variable",
-															"flags": {
-																"__visited__": true
-															},
-															"sources": [
-																{
-																	"fileName": "node_modules/intern/typings/intern/intern.d.ts",
-																	"line": 371,
-																	"character": 11
-																}
-															],
-															"type": {
-																"type": "intrinsic",
-																"name": "string"
-															}
-														},
-														{
-															"id": 299,
-															"name": "name",
-															"kind": 32,
-															"kindString": "Variable",
-															"flags": {
-																"__visited__": true
-															},
-															"sources": [
-																{
-																	"fileName": "node_modules/intern/typings/intern/intern.d.ts",
-																	"line": 370,
-																	"character": 8
-																}
-															],
-															"type": {
-																"type": "intrinsic",
-																"name": "string"
-															}
-														},
-														{
-															"id": 301,
-															"name": "stack",
-															"kind": 32,
-															"kindString": "Variable",
-															"flags": {
-																"__visited__": true
-															},
-															"sources": [
-																{
-																	"fileName": "node_modules/intern/typings/intern/intern.d.ts",
-																	"line": 372,
-																	"character": 9
-																}
-															],
-															"type": {
-																"type": "intrinsic",
-																"name": "string"
-															}
-														}
-													],
-													"groups": [
-														{
-															"title": "Variables",
-															"kind": 32,
-															"children": [
-																300,
-																299,
-																301
-															]
-														}
-													],
-													"sources": [
-														{
-															"fileName": "node_modules/intern/typings/intern/intern.d.ts",
-															"line": 369,
-															"character": 9
-														}
-													]
-												}
-											}
-										},
-										{
-											"id": 295,
-											"name": "hasPassed",
-											"kind": 1024,
-											"kindString": "Property",
-											"flags": {
-												"isExported": true,
-												"__visited__": true
-											},
-											"sources": [
-												{
-													"fileName": "node_modules/intern/typings/intern/intern.d.ts",
-													"line": 367,
-													"character": 12
-												}
-											],
-											"type": {
-												"type": "intrinsic",
-												"name": "number"
-											}
-										},
-										{
-											"id": 292,
-											"name": "id",
-											"kind": 1024,
-											"kindString": "Property",
-											"flags": {
-												"isExported": true,
-												"__visited__": true
-											},
-											"sources": [
-												{
-													"fileName": "node_modules/intern/typings/intern/intern.d.ts",
-													"line": 364,
-													"character": 5
-												}
-											],
-											"type": {
-												"type": "intrinsic",
-												"name": "string"
-											}
-										},
-										{
-											"id": 290,
-											"name": "name",
-											"kind": 1024,
-											"kindString": "Property",
-											"flags": {
-												"isExported": true,
-												"__visited__": true
-											},
-											"sources": [
-												{
-													"fileName": "node_modules/intern/typings/intern/intern.d.ts",
-													"line": 362,
-													"character": 7
-												}
-											],
-											"type": {
-												"type": "intrinsic",
-												"name": "string"
-											}
-										},
-										{
-											"id": 291,
-											"name": "sessionId",
-											"kind": 1024,
-											"kindString": "Property",
-											"flags": {
-												"isExported": true,
-												"__visited__": true
-											},
-											"sources": [
-												{
-													"fileName": "node_modules/intern/typings/intern/intern.d.ts",
-													"line": 363,
-													"character": 12
-												}
-											],
-											"type": {
-												"type": "intrinsic",
-												"name": "string"
-											}
-										},
-										{
-											"id": 296,
-											"name": "skipped",
-											"kind": 1024,
-											"kindString": "Property",
-											"flags": {
-												"isExported": true,
-												"__visited__": true
-											},
-											"sources": [
-												{
-													"fileName": "node_modules/intern/typings/intern/intern.d.ts",
-													"line": 368,
-													"character": 10
-												}
-											],
-											"type": {
-												"type": "intrinsic",
-												"name": "string"
-											}
-										},
-										{
-											"id": 294,
-											"name": "timeElapsed",
-											"kind": 1024,
-											"kindString": "Property",
-											"flags": {
-												"isExported": true,
-												"__visited__": true
-											},
-											"sources": [
-												{
-													"fileName": "node_modules/intern/typings/intern/intern.d.ts",
-													"line": 366,
-													"character": 14
-												}
-											],
-											"type": {
-												"type": "intrinsic",
-												"name": "number"
-											}
-										},
-										{
-											"id": 293,
-											"name": "timeout",
-											"kind": 1024,
-											"kindString": "Property",
-											"flags": {
-												"isExported": true,
-												"__visited__": true
-											},
-											"sources": [
-												{
-													"fileName": "node_modules/intern/typings/intern/intern.d.ts",
-													"line": 365,
-													"character": 10
-												}
-											],
-											"type": {
-												"type": "intrinsic",
-												"name": "number"
-											}
-										}
-									],
-									"groups": [
-										{
-											"title": "Properties",
-											"kind": 1024,
-											"children": [
-												297,
-												295,
-												292,
-												290,
-												291,
-												296,
-												294,
-												293
-											]
-										}
-									],
-									"sources": [
-										{
-											"fileName": "node_modules/intern/typings/intern/intern.d.ts",
-											"line": 361,
-											"character": 29
-										}
-									]
-								}
-							],
-							"groups": [
-								{
-									"title": "Interfaces",
-									"kind": 256,
-									"children": [
-										258,
-										284,
-										289
-									]
-								}
-							],
-							"sources": [
-								{
-									"fileName": "node_modules/intern/typings/intern/intern.d.ts",
-									"line": 348,
-									"character": 12
-								}
-							]
-						},
-						{
-							"id": 228,
+							"id": 229,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -1736,7 +720,7 @@
 							},
 							"signatures": [
 								{
-									"id": 229,
+									"id": 230,
 									"name": "new VisualRegressionTest",
 									"kind": 16384,
 									"kindString": "Constructor signature",
@@ -1745,25 +729,123 @@
 									},
 									"parameters": [
 										{
-											"id": 230,
-											"name": "kwArgs",
+											"id": 231,
+											"name": "options",
 											"kind": 32768,
 											"kindString": "Parameter",
 											"flags": {
-												"isOptional": true,
 												"__visited__": true
 											},
 											"type": {
-												"type": "reference",
-												"name": "Test.KwArgs",
-												"id": 284
+												"type": "intersection",
+												"types": [
+													{
+														"type": "reference",
+														"name": "TestOptions"
+													},
+													{
+														"type": "reflection",
+														"declaration": {
+															"id": 232,
+															"name": "__type",
+															"kind": 65536,
+															"kindString": "Type literal",
+															"flags": {
+																"__visited__": true
+															},
+															"children": [
+																{
+																	"id": 234,
+																	"name": "hasPassed",
+																	"kind": 32,
+																	"kindString": "Variable",
+																	"flags": {
+																		"isOptional": true,
+																		"__visited__": true
+																	},
+																	"sources": [
+																		{
+																			"fileName": "node_modules/intern/lib/Test.d.ts",
+																			"line": 22,
+																			"character": 17
+																		}
+																	],
+																	"type": {
+																		"type": "union",
+																		"types": [
+																			{
+																				"type": "intrinsic",
+																				"name": "undefined"
+																			},
+																			{
+																				"type": "intrinsic",
+																				"name": "true"
+																			},
+																			{
+																				"type": "intrinsic",
+																				"name": "false"
+																			}
+																		]
+																	}
+																},
+																{
+																	"id": 233,
+																	"name": "timeElapsed",
+																	"kind": 32,
+																	"kindString": "Variable",
+																	"flags": {
+																		"isOptional": true,
+																		"__visited__": true
+																	},
+																	"sources": [
+																		{
+																			"fileName": "node_modules/intern/lib/Test.d.ts",
+																			"line": 21,
+																			"character": 19
+																		}
+																	],
+																	"type": {
+																		"type": "union",
+																		"types": [
+																			{
+																				"type": "intrinsic",
+																				"name": "undefined"
+																			},
+																			{
+																				"type": "intrinsic",
+																				"name": "number"
+																			}
+																		]
+																	}
+																}
+															],
+															"groups": [
+																{
+																	"title": "Variables",
+																	"kind": 32,
+																	"children": [
+																		234,
+																		233
+																	]
+																}
+															],
+															"sources": [
+																{
+																	"fileName": "node_modules/intern/lib/Test.d.ts",
+																	"line": 20,
+																	"character": 38
+																}
+															]
+														}
+													}
+												]
 											}
 										}
 									],
 									"type": {
 										"type": "reference",
 										"name": "VisualRegressionTest",
-										"id": 226
+										"id": 215
 									},
 									"inheritedFrom": {
 										"type": "reference",
@@ -1773,9 +855,9 @@
 							],
 							"sources": [
 								{
-									"fileName": "node_modules/intern/typings/intern/intern.d.ts",
-									"line": 286,
-									"character": 13
+									"fileName": "node_modules/intern/lib/Test.d.ts",
+									"line": 19,
+									"character": 35
 								}
 							],
 							"inheritedFrom": {
@@ -1784,7 +866,231 @@
 							}
 						},
 						{
-							"id": 241,
+							"id": 222,
+							"name": "_hasPassed",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isProtected": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/intern/lib/Test.d.ts",
+									"line": 13,
+									"character": 24
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Test._hasPassed"
+							}
+						},
+						{
+							"id": 223,
+							"name": "_isAsync",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isProtected": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/intern/lib/Test.d.ts",
+									"line": 14,
+									"character": 22
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Test._isAsync"
+							}
+						},
+						{
+							"id": 225,
+							"name": "_runTask",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isProtected": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/intern/lib/Test.d.ts",
+									"line": 16,
+									"character": 22
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "reference",
+										"name": "Task",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										]
+									},
+									{
+										"type": "intrinsic",
+										"name": "undefined"
+									}
+								]
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Test._runTask"
+							}
+						},
+						{
+							"id": 226,
+							"name": "_timeElapsed",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isProtected": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/intern/lib/Test.d.ts",
+									"line": 17,
+									"character": 26
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "number"
+									},
+									{
+										"type": "intrinsic",
+										"name": "undefined"
+									}
+								]
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Test._timeElapsed"
+							}
+						},
+						{
+							"id": 224,
+							"name": "_timeout",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isProtected": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/intern/lib/Test.d.ts",
+									"line": 15,
+									"character": 22
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "number"
+									},
+									{
+										"type": "intrinsic",
+										"name": "undefined"
+									}
+								]
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Test._timeout"
+							}
+						},
+						{
+							"id": 227,
+							"name": "_timer",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isProtected": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/intern/lib/Test.d.ts",
+									"line": 18,
+									"character": 20
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									},
+									{
+										"type": "intrinsic",
+										"name": "undefined"
+									}
+								]
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Test._timer"
+							}
+						},
+						{
+							"id": 228,
+							"name": "_usesRemote",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isProtected": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/intern/lib/Test.d.ts",
+									"line": 19,
+									"character": 25
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Test._usesRemote"
+							}
+						},
+						{
+							"id": 221,
 							"name": "error",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1794,14 +1100,23 @@
 							},
 							"sources": [
 								{
-									"fileName": "node_modules/intern/typings/intern/intern.d.ts",
-									"line": 297,
-									"character": 7
+									"fileName": "node_modules/intern/lib/Test.d.ts",
+									"line": 12,
+									"character": 9
 								}
 							],
 							"type": {
-								"type": "reference",
-								"name": "Error"
+								"type": "union",
+								"types": [
+									{
+										"type": "reference",
+										"name": "InternError"
+									},
+									{
+										"type": "intrinsic",
+										"name": "undefined"
+									}
+								]
 							},
 							"inheritedFrom": {
 								"type": "reference",
@@ -1809,7 +1124,32 @@
 							}
 						},
 						{
-							"id": 239,
+							"id": 235,
+							"name": "executor",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/intern/lib/Test.d.ts",
+									"line": 24,
+									"character": 21
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "Executor"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Test.executor"
+							}
+						},
+						{
+							"id": 236,
 							"name": "hasPassed",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1819,9 +1159,9 @@
 							},
 							"sources": [
 								{
-									"fileName": "node_modules/intern/typings/intern/intern.d.ts",
-									"line": 295,
-									"character": 11
+									"fileName": "node_modules/intern/lib/Test.d.ts",
+									"line": 25,
+									"character": 22
 								}
 							],
 							"type": {
@@ -1834,7 +1174,7 @@
 							}
 						},
 						{
-							"id": 242,
+							"id": 237,
 							"name": "id",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1842,20 +1182,11 @@
 								"isExported": true,
 								"__visited__": true
 							},
-							"comment": {
-								"shortText": "The unique identifier of the test, assuming all combinations of suite + test are unique.",
-								"tags": [
-									{
-										"tag": "readonly",
-										"text": "\n"
-									}
-								]
-							},
 							"sources": [
 								{
-									"fileName": "node_modules/intern/typings/intern/intern.d.ts",
-									"line": 304,
-									"character": 4
+									"fileName": "node_modules/intern/lib/Test.d.ts",
+									"line": 26,
+									"character": 15
 								}
 							],
 							"type": {
@@ -1868,7 +1199,7 @@
 							}
 						},
 						{
-							"id": 237,
+							"id": 238,
 							"name": "isAsync",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1878,9 +1209,9 @@
 							},
 							"sources": [
 								{
-									"fileName": "node_modules/intern/typings/intern/intern.d.ts",
-									"line": 293,
-									"character": 9
+									"fileName": "node_modules/intern/lib/Test.d.ts",
+									"line": 27,
+									"character": 20
 								}
 							],
 							"type": {
@@ -1893,7 +1224,7 @@
 							}
 						},
 						{
-							"id": 231,
+							"id": 217,
 							"name": "name",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1903,9 +1234,9 @@
 							},
 							"sources": [
 								{
-									"fileName": "node_modules/intern/typings/intern/intern.d.ts",
-									"line": 289,
-									"character": 6
+									"fileName": "node_modules/intern/lib/Test.d.ts",
+									"line": 8,
+									"character": 8
 								}
 							],
 							"type": {
@@ -1918,7 +1249,7 @@
 							}
 						},
 						{
-							"id": 235,
+							"id": 218,
 							"name": "parent",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1928,9 +1259,9 @@
 							},
 							"sources": [
 								{
-									"fileName": "node_modules/intern/typings/intern/intern.d.ts",
-									"line": 291,
-									"character": 8
+									"fileName": "node_modules/intern/lib/Test.d.ts",
+									"line": 9,
+									"character": 10
 								}
 							],
 							"type": {
@@ -1943,7 +1274,32 @@
 							}
 						},
 						{
-							"id": 243,
+							"id": 239,
+							"name": "parentId",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/intern/lib/Test.d.ts",
+									"line": 28,
+									"character": 21
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Test.parentId"
+							}
+						},
+						{
+							"id": 240,
 							"name": "remote",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1951,35 +1307,16 @@
 								"isExported": true,
 								"__visited__": true
 							},
-							"comment": {
-								"shortText": "The WebDriver interface for driving a remote environment.",
-								"tags": [
-									{
-										"tag": "see",
-										"text": "module:intern/lib/Suite#remote"
-									},
-									{
-										"tag": "readonly",
-										"text": "\n"
-									}
-								]
-							},
 							"sources": [
 								{
-									"fileName": "node_modules/intern/typings/intern/intern.d.ts",
-									"line": 312,
-									"character": 8
+									"fileName": "node_modules/intern/lib/Test.d.ts",
+									"line": 29,
+									"character": 19
 								}
 							],
 							"type": {
 								"type": "reference",
-								"name": "Command",
-								"typeArguments": [
-									{
-										"type": "intrinsic",
-										"name": "void"
-									}
-								]
+								"name": "Remote"
 							},
 							"inheritedFrom": {
 								"type": "reference",
@@ -1987,32 +1324,7 @@
 							}
 						},
 						{
-							"id": 244,
-							"name": "reporterManager",
-							"kind": 1024,
-							"kindString": "Property",
-							"flags": {
-								"isExported": true,
-								"__visited__": true
-							},
-							"sources": [
-								{
-									"fileName": "node_modules/intern/typings/intern/intern.d.ts",
-									"line": 314,
-									"character": 17
-								}
-							],
-							"type": {
-								"type": "reference",
-								"name": "ReporterManager"
-							},
-							"inheritedFrom": {
-								"type": "reference",
-								"name": "Test.reporterManager"
-							}
-						},
-						{
-							"id": 245,
+							"id": 241,
 							"name": "sessionId",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2022,9 +1334,9 @@
 							},
 							"sources": [
 								{
-									"fileName": "node_modules/intern/typings/intern/intern.d.ts",
-									"line": 316,
-									"character": 11
+									"fileName": "node_modules/intern/lib/Test.d.ts",
+									"line": 30,
+									"character": 22
 								}
 							],
 							"type": {
@@ -2037,7 +1349,7 @@
 							}
 						},
 						{
-							"id": 240,
+							"id": 219,
 							"name": "skipped",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2047,14 +1359,23 @@
 							},
 							"sources": [
 								{
-									"fileName": "node_modules/intern/typings/intern/intern.d.ts",
-									"line": 296,
-									"character": 9
+									"fileName": "node_modules/intern/lib/Test.d.ts",
+									"line": 10,
+									"character": 11
 								}
 							],
 							"type": {
-								"type": "intrinsic",
-								"name": "string"
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "string"
+									},
+									{
+										"type": "intrinsic",
+										"name": "undefined"
+									}
+								]
 							},
 							"inheritedFrom": {
 								"type": "reference",
@@ -2062,7 +1383,7 @@
 							}
 						},
 						{
-							"id": 232,
+							"id": 220,
 							"name": "test",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2072,44 +1393,14 @@
 							},
 							"sources": [
 								{
-									"fileName": "node_modules/intern/typings/intern/intern.d.ts",
-									"line": 290,
-									"character": 6
+									"fileName": "node_modules/intern/lib/Test.d.ts",
+									"line": 11,
+									"character": 8
 								}
 							],
 							"type": {
-								"type": "reflection",
-								"declaration": {
-									"id": 233,
-									"name": "__type",
-									"kind": 65536,
-									"kindString": "Type literal",
-									"flags": {
-										"__visited__": true
-									},
-									"signatures": [
-										{
-											"id": 234,
-											"name": "__call",
-											"kind": 4096,
-											"kindString": "Call signature",
-											"flags": {
-												"__visited__": true
-											},
-											"type": {
-												"type": "intrinsic",
-												"name": "any"
-											}
-										}
-									],
-									"sources": [
-										{
-											"fileName": "node_modules/intern/typings/intern/intern.d.ts",
-											"line": 290,
-											"character": 7
-										}
-									]
-								}
+								"type": "reference",
+								"name": "TestFunction"
 							},
 							"inheritedFrom": {
 								"type": "reference",
@@ -2117,7 +1408,7 @@
 							}
 						},
 						{
-							"id": 238,
+							"id": 242,
 							"name": "timeElapsed",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2127,14 +1418,23 @@
 							},
 							"sources": [
 								{
-									"fileName": "node_modules/intern/typings/intern/intern.d.ts",
-									"line": 294,
-									"character": 13
+									"fileName": "node_modules/intern/lib/Test.d.ts",
+									"line": 31,
+									"character": 24
 								}
 							],
 							"type": {
-								"type": "intrinsic",
-								"name": "number"
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "number"
+									},
+									{
+										"type": "intrinsic",
+										"name": "undefined"
+									}
+								]
 							},
 							"inheritedFrom": {
 								"type": "reference",
@@ -2142,7 +1442,7 @@
 							}
 						},
 						{
-							"id": 236,
+							"id": 243,
 							"name": "timeout",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2152,9 +1452,9 @@
 							},
 							"sources": [
 								{
-									"fileName": "node_modules/intern/typings/intern/intern.d.ts",
-									"line": 292,
-									"character": 9
+									"fileName": "node_modules/intern/lib/Test.d.ts",
+									"line": 32,
+									"character": 11
 								}
 							],
 							"type": {
@@ -2167,7 +1467,7 @@
 							}
 						},
 						{
-							"id": 227,
+							"id": 216,
 							"name": "visualResults",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2179,7 +1479,7 @@
 							"sources": [
 								{
 									"fileName": "assert.ts",
-									"line": 31,
+									"line": 108,
 									"character": 14
 								}
 							],
@@ -2188,12 +1488,12 @@
 								"elementType": {
 									"type": "reference",
 									"name": "AssertionResult",
-									"id": 218
+									"id": 207
 								}
 							}
 						},
 						{
-							"id": 246,
+							"id": 244,
 							"name": "async",
 							"kind": 2048,
 							"kindString": "Method",
@@ -2203,28 +1503,22 @@
 							},
 							"signatures": [
 								{
-									"id": 247,
+									"id": 245,
 									"name": "async",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {
 										"__visited__": true
 									},
-									"comment": {
-										"shortText": "A convenience function that generates and returns a special Deferred that can be used for asynchronous\ntesting.\nOnce called, a test is assumed to be asynchronous no matter its return value (the generated Deferred's\npromise will always be used as the implied return value if a promise is not returned by the test function)."
-									},
 									"parameters": [
 										{
-											"id": 248,
+											"id": 246,
 											"name": "timeout",
 											"kind": 32768,
 											"kindString": "Parameter",
 											"flags": {
 												"isOptional": true,
 												"__visited__": true
-											},
-											"comment": {
-												"text": "\nIf provided, the amount of time to wait before rejecting the test with a timeout error, in milliseconds.\n"
 											},
 											"type": {
 												"type": "union",
@@ -2241,16 +1535,13 @@
 											}
 										},
 										{
-											"id": 249,
+											"id": 247,
 											"name": "numCallsUntilResolution",
 											"kind": 32768,
 											"kindString": "Parameter",
 											"flags": {
 												"isOptional": true,
 												"__visited__": true
-											},
-											"comment": {
-												"text": "\nThe number of times that resolve needs to be called before the Deferred is actually resolved.\n"
 											},
 											"type": {
 												"type": "union",
@@ -2273,7 +1564,7 @@
 										"typeArguments": [
 											{
 												"type": "intrinsic",
-												"name": "void"
+												"name": "any"
 											}
 										]
 									},
@@ -2285,9 +1576,9 @@
 							],
 							"sources": [
 								{
-									"fileName": "node_modules/intern/typings/intern/intern.d.ts",
-									"line": 330,
-									"character": 7
+									"fileName": "node_modules/intern/lib/Test.d.ts",
+									"line": 33,
+									"character": 9
 								}
 							],
 							"inheritedFrom": {
@@ -2296,7 +1587,72 @@
 							}
 						},
 						{
-							"id": 250,
+							"id": 248,
+							"name": "restartTimeout",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"signatures": [
+								{
+									"id": 249,
+									"name": "restartTimeout",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"__visited__": true
+									},
+									"parameters": [
+										{
+											"id": 250,
+											"name": "timeout",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isOptional": true,
+												"__visited__": true
+											},
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "undefined"
+													},
+													{
+														"type": "intrinsic",
+														"name": "number"
+													}
+												]
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "Test.restartTimeout"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/intern/lib/Test.d.ts",
+									"line": 34,
+									"character": 18
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Test.restartTimeout"
+							}
+						},
+						{
+							"id": 251,
 							"name": "run",
 							"kind": 2048,
 							"kindString": "Method",
@@ -2306,19 +1662,16 @@
 							},
 							"signatures": [
 								{
-									"id": 251,
+									"id": 252,
 									"name": "run",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {
 										"__visited__": true
 									},
-									"comment": {
-										"shortText": "Runs the test."
-									},
 									"type": {
 										"type": "reference",
-										"name": "Promise",
+										"name": "Task",
 										"typeArguments": [
 											{
 												"type": "intrinsic",
@@ -2334,9 +1687,9 @@
 							],
 							"sources": [
 								{
-									"fileName": "node_modules/intern/typings/intern/intern.d.ts",
-									"line": 335,
-									"character": 5
+									"fileName": "node_modules/intern/lib/Test.d.ts",
+									"line": 35,
+									"character": 7
 								}
 							],
 							"inheritedFrom": {
@@ -2345,7 +1698,7 @@
 							}
 						},
 						{
-							"id": 252,
+							"id": 253,
 							"name": "skip",
 							"kind": 2048,
 							"kindString": "Method",
@@ -2355,28 +1708,22 @@
 							},
 							"signatures": [
 								{
-									"id": 253,
+									"id": 254,
 									"name": "skip",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {
 										"__visited__": true
 									},
-									"comment": {
-										"shortText": "Skips this test."
-									},
 									"parameters": [
 										{
-											"id": 254,
+											"id": 255,
 											"name": "message",
 											"kind": 32768,
 											"kindString": "Parameter",
 											"flags": {
 												"isOptional": true,
 												"__visited__": true
-											},
-											"comment": {
-												"text": "\nIf provided, will be stored in this test's `skipped` property.\n"
 											},
 											"type": {
 												"type": "union",
@@ -2405,9 +1752,9 @@
 							],
 							"sources": [
 								{
-									"fileName": "node_modules/intern/typings/intern/intern.d.ts",
-									"line": 343,
-									"character": 6
+									"fileName": "node_modules/intern/lib/Test.d.ts",
+									"line": 36,
+									"character": 8
 								}
 							],
 							"inheritedFrom": {
@@ -2416,7 +1763,7 @@
 							}
 						},
 						{
-							"id": 255,
+							"id": 256,
 							"name": "toJSON",
 							"kind": 2048,
 							"kindString": "Method",
@@ -2426,7 +1773,7 @@
 							},
 							"signatures": [
 								{
-									"id": 256,
+									"id": 257,
 									"name": "toJSON",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -2434,8 +1781,53 @@
 										"__visited__": true
 									},
 									"type": {
-										"type": "reference",
-										"name": "Serialized"
+										"type": "reflection",
+										"declaration": {
+											"id": 258,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {
+												"__visited__": true
+											},
+											"indexSignature": [
+												{
+													"id": 259,
+													"name": "__index",
+													"kind": 8192,
+													"kindString": "Index signature",
+													"flags": {
+														"__visited__": true
+													},
+													"parameters": [
+														{
+															"id": 260,
+															"name": "key",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {
+																"__visited__": true
+															},
+															"type": {
+																"type": "intrinsic",
+																"name": "string"
+															}
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "any"
+													}
+												}
+											],
+											"sources": [
+												{
+													"fileName": "node_modules/intern/lib/Test.d.ts",
+													"line": 37,
+													"character": 13
+												}
+											]
+										}
 									},
 									"inheritedFrom": {
 										"type": "reference",
@@ -2445,9 +1837,9 @@
 							],
 							"sources": [
 								{
-									"fileName": "node_modules/intern/typings/intern/intern.d.ts",
-									"line": 345,
-									"character": 8
+									"fileName": "node_modules/intern/lib/Test.d.ts",
+									"line": 37,
+									"character": 10
 								}
 							],
 							"inheritedFrom": {
@@ -2458,54 +1850,56 @@
 					],
 					"groups": [
 						{
-							"title": "Modules",
-							"kind": 2,
-							"children": [
-								257
-							]
-						},
-						{
 							"title": "Constructors",
 							"kind": 512,
 							"children": [
-								228
+								229
 							]
 						},
 						{
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								241,
-								239,
-								242,
-								237,
-								231,
+								222,
+								223,
+								225,
+								226,
+								224,
+								227,
+								228,
+								221,
 								235,
-								243,
-								244,
-								245,
-								240,
-								232,
-								238,
 								236,
-								227
+								237,
+								238,
+								217,
+								218,
+								239,
+								240,
+								241,
+								219,
+								220,
+								242,
+								243,
+								216
 							]
 						},
 						{
 							"title": "Methods",
 							"kind": 2048,
 							"children": [
-								246,
-								250,
-								252,
-								255
+								244,
+								248,
+								251,
+								253,
+								256
 							]
 						}
 					],
 					"sources": [
 						{
 							"fileName": "assert.ts",
-							"line": 30,
+							"line": 107,
 							"character": 37
 						}
 					],
@@ -2514,10 +1908,16 @@
 							"type": "reference",
 							"name": "Test"
 						}
+					],
+					"implementedTypes": [
+						{
+							"type": "reference",
+							"name": "TestProperties"
+						}
 					]
 				},
 				{
-					"id": 312,
+					"id": 261,
 					"name": "assertVisuals",
 					"kind": 64,
 					"kindString": "Function",
@@ -2527,7 +1927,7 @@
 					},
 					"signatures": [
 						{
-							"id": 313,
+							"id": 262,
 							"name": "assertVisuals",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -2535,12 +1935,11 @@
 								"__visited__": true
 							},
 							"comment": {
-								"shortText": "A LeadFoot Helper for asserting visual regression against a baseline. This helper is responsible for\ndetermining if the test should pass, fail, or be skipped and provide enough metadata to the reporter\nso it may generate any of the necessary data (including baselines).",
-								"returns": "\n"
+								"shortText": "A LeadFoot Helper for asserting visual regression against a baseline. This\nhelper is responsible for determining if the test should pass, fail, or be\nskipped and provide enough metadata to the reporter so it may generate any\nof the necessary data (including baselines)."
 							},
 							"parameters": [
 								{
-									"id": 314,
+									"id": 263,
 									"name": "test",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -2553,11 +1952,11 @@
 									"type": {
 										"type": "reference",
 										"name": "VisualRegressionTest",
-										"id": 226
+										"id": 215
 									}
 								},
 								{
-									"id": 315,
+									"id": 264,
 									"name": "options",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -2565,12 +1964,12 @@
 										"__visited__": true
 									},
 									"comment": {
-										"text": "execution options overriding defaults"
+										"text": "execution options overriding defaults\n"
 									},
 									"type": {
 										"type": "reference",
 										"name": "Options",
-										"id": 212
+										"id": 201
 									},
 									"defaultValue": " config"
 								}
@@ -2584,13 +1983,13 @@
 					"sources": [
 						{
 							"fileName": "assert.ts",
-							"line": 73,
+							"line": 21,
 							"character": 37
 						}
 					]
 				},
 				{
-					"id": 307,
+					"id": 270,
 					"name": "compareVisuals",
 					"kind": 64,
 					"kindString": "Function",
@@ -2599,7 +1998,7 @@
 					},
 					"signatures": [
 						{
-							"id": 308,
+							"id": 271,
 							"name": "compareVisuals",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -2608,7 +2007,7 @@
 							},
 							"parameters": [
 								{
-									"id": 309,
+									"id": 272,
 									"name": "baseline",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -2621,7 +2020,7 @@
 									}
 								},
 								{
-									"id": 310,
+									"id": 273,
 									"name": "screenshot",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -2634,7 +2033,7 @@
 									}
 								},
 								{
-									"id": 311,
+									"id": 274,
 									"name": "result",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -2644,7 +2043,7 @@
 									"type": {
 										"type": "reference",
 										"name": "AssertionResult",
-										"id": 218
+										"id": 207
 									}
 								}
 							],
@@ -2655,7 +2054,7 @@
 									{
 										"type": "reference",
 										"name": "AssertionResult",
-										"id": 218
+										"id": 207
 									}
 								]
 							}
@@ -2664,13 +2063,13 @@
 					"sources": [
 						{
 							"fileName": "assert.ts",
-							"line": 45,
+							"line": 122,
 							"character": 23
 						}
 					]
 				},
 				{
-					"id": 302,
+					"id": 265,
 					"name": "generateBaseline",
 					"kind": 64,
 					"kindString": "Function",
@@ -2679,7 +2078,7 @@
 					},
 					"signatures": [
 						{
-							"id": 303,
+							"id": 266,
 							"name": "generateBaseline",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -2688,7 +2087,7 @@
 							},
 							"parameters": [
 								{
-									"id": 304,
+									"id": 267,
 									"name": "baseline",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -2701,7 +2100,7 @@
 									}
 								},
 								{
-									"id": 305,
+									"id": 268,
 									"name": "screenshot",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -2714,7 +2113,7 @@
 									}
 								},
 								{
-									"id": 306,
+									"id": 269,
 									"name": "result",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -2724,7 +2123,7 @@
 									"type": {
 										"type": "reference",
 										"name": "AssertionResult",
-										"id": 218
+										"id": 207
 									}
 								}
 							],
@@ -2735,7 +2134,7 @@
 									{
 										"type": "reference",
 										"name": "AssertionResult",
-										"id": 218
+										"id": 207
 									}
 								]
 							}
@@ -2744,7 +2143,7 @@
 					"sources": [
 						{
 							"fileName": "assert.ts",
-							"line": 34,
+							"line": 111,
 							"character": 25
 						}
 					]
@@ -2755,18 +2154,18 @@
 					"title": "Interfaces",
 					"kind": 256,
 					"children": [
-						218,
-						212,
-						226
+						207,
+						201,
+						215
 					]
 				},
 				{
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						312,
-						307,
-						302
+						261,
+						270,
+						265
 					]
 				}
 			],
@@ -2779,7 +2178,7 @@
 			]
 		},
 		{
-			"id": 186,
+			"id": 175,
 			"name": "\"comparators/PngJsImageComparator\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -2790,7 +2189,7 @@
 			"originalName": "src/comparators/PngJsImageComparator.ts",
 			"children": [
 				{
-					"id": 190,
+					"id": 179,
 					"name": "PngJsImageComparator",
 					"kind": 128,
 					"kindString": "Class",
@@ -2800,7 +2199,7 @@
 					},
 					"children": [
 						{
-							"id": 193,
+							"id": 182,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -2810,7 +2209,7 @@
 							},
 							"signatures": [
 								{
-									"id": 194,
+									"id": 183,
 									"name": "new PngJsImageComparator",
 									"kind": 16384,
 									"kindString": "Constructor signature",
@@ -2819,7 +2218,7 @@
 									},
 									"parameters": [
 										{
-											"id": 195,
+											"id": 184,
 											"name": "options",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2829,7 +2228,7 @@
 											"type": {
 												"type": "reference",
 												"name": "Options",
-												"id": 187
+												"id": 176
 											},
 											"defaultValue": " {}"
 										}
@@ -2837,20 +2236,20 @@
 									"type": {
 										"type": "reference",
 										"name": "PngJsImageComparator",
-										"id": 190
+										"id": 179
 									}
 								}
 							],
 							"sources": [
 								{
 									"fileName": "comparators/PngJsImageComparator.ts",
-									"line": 16,
-									"character": 31
+									"line": 22,
+									"character": 32
 								}
 							]
 						},
 						{
-							"id": 191,
+							"id": 180,
 							"name": "pixelSkip",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2861,7 +2260,7 @@
 							"sources": [
 								{
 									"fileName": "comparators/PngJsImageComparator.ts",
-									"line": 14,
+									"line": 20,
 									"character": 10
 								}
 							],
@@ -2871,7 +2270,7 @@
 							}
 						},
 						{
-							"id": 192,
+							"id": 181,
 							"name": "pixelTolerance",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2882,17 +2281,17 @@
 							"sources": [
 								{
 									"fileName": "comparators/PngJsImageComparator.ts",
-									"line": 16,
+									"line": 22,
 									"character": 15
 								}
 							],
 							"type": {
 								"type": "reference",
-								"name": "RGBColorArray"
+								"name": "RGBAColorArray"
 							}
 						},
 						{
-							"id": 196,
+							"id": 185,
 							"name": "compare",
 							"kind": 2048,
 							"kindString": "Method",
@@ -2902,7 +2301,7 @@
 							},
 							"signatures": [
 								{
-									"id": 197,
+									"id": 186,
 									"name": "compare",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -2911,7 +2310,7 @@
 									},
 									"parameters": [
 										{
-											"id": 198,
+											"id": 187,
 											"name": "baseline",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2924,7 +2323,7 @@
 											}
 										},
 										{
-											"id": 199,
+											"id": 188,
 											"name": "actual",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2952,7 +2351,7 @@
 							"sources": [
 								{
 									"fileName": "comparators/PngJsImageComparator.ts",
-									"line": 23,
+									"line": 31,
 									"character": 8
 								}
 							]
@@ -2963,29 +2362,29 @@
 							"title": "Constructors",
 							"kind": 512,
 							"children": [
-								193
+								182
 							]
 						},
 						{
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								191,
-								192
+								180,
+								181
 							]
 						},
 						{
 							"title": "Methods",
 							"kind": 2048,
 							"children": [
-								196
+								185
 							]
 						}
 					],
 					"sources": [
 						{
 							"fileName": "comparators/PngJsImageComparator.ts",
-							"line": 13,
+							"line": 19,
 							"character": 41
 						}
 					],
@@ -2997,7 +2396,7 @@
 					]
 				},
 				{
-					"id": 187,
+					"id": 176,
 					"name": "Options",
 					"kind": 256,
 					"kindString": "Interface",
@@ -3007,7 +2406,7 @@
 					},
 					"children": [
 						{
-							"id": 188,
+							"id": 177,
 							"name": "pixelSkip",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3019,7 +2418,7 @@
 							"sources": [
 								{
 									"fileName": "comparators/PngJsImageComparator.ts",
-									"line": 9,
+									"line": 15,
 									"character": 10
 								}
 							],
@@ -3038,7 +2437,7 @@
 							}
 						},
 						{
-							"id": 189,
+							"id": 178,
 							"name": "pixelTolerance",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3050,7 +2449,7 @@
 							"sources": [
 								{
 									"fileName": "comparators/PngJsImageComparator.ts",
-									"line": 10,
+									"line": 16,
 									"character": 15
 								}
 							],
@@ -3063,7 +2462,7 @@
 									},
 									{
 										"type": "reference",
-										"name": "RGBColor"
+										"name": "RGBAColorArray"
 									}
 								]
 							}
@@ -3074,15 +2473,15 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								188,
-								189
+								177,
+								178
 							]
 						}
 					],
 					"sources": [
 						{
 							"fileName": "comparators/PngJsImageComparator.ts",
-							"line": 8,
+							"line": 14,
 							"character": 24
 						}
 					]
@@ -3093,14 +2492,14 @@
 					"title": "Classes",
 					"kind": 128,
 					"children": [
-						190
+						179
 					]
 				},
 				{
 					"title": "Interfaces",
 					"kind": 256,
 					"children": [
-						187
+						176
 					]
 				}
 			],
@@ -3113,7 +2512,7 @@
 			]
 		},
 		{
-			"id": 154,
+			"id": 143,
 			"name": "\"comparators/ReportBuilder\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -3124,7 +2523,7 @@
 			"originalName": "src/comparators/ReportBuilder.ts",
 			"children": [
 				{
-					"id": 157,
+					"id": 146,
 					"name": "default",
 					"kind": 128,
 					"kindString": "Class",
@@ -3134,7 +2533,7 @@
 					},
 					"children": [
 						{
-							"id": 162,
+							"id": 151,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -3144,7 +2543,7 @@
 							},
 							"signatures": [
 								{
-									"id": 163,
+									"id": 152,
 									"name": "new default",
 									"kind": 16384,
 									"kindString": "Constructor signature",
@@ -3153,7 +2552,7 @@
 									},
 									"parameters": [
 										{
-											"id": 164,
+											"id": 153,
 											"name": "baseline",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3166,7 +2565,7 @@
 											}
 										},
 										{
-											"id": 165,
+											"id": 154,
 											"name": "actual",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3179,7 +2578,7 @@
 											}
 										},
 										{
-											"id": 166,
+											"id": 155,
 											"name": "options",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3189,7 +2588,7 @@
 											"type": {
 												"type": "reference",
 												"name": "Options",
-												"id": 155
+												"id": 144
 											},
 											"defaultValue": " {}"
 										}
@@ -3197,7 +2596,7 @@
 									"type": {
 										"type": "reference",
 										"name": "default",
-										"id": 157
+										"id": 146
 									}
 								}
 							],
@@ -3205,12 +2604,12 @@
 								{
 									"fileName": "comparators/ReportBuilder.ts",
 									"line": 23,
-									"character": 32
+									"character": 44
 								}
 							]
 						},
 						{
-							"id": 159,
+							"id": 148,
 							"name": "actual",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3231,7 +2630,7 @@
 							}
 						},
 						{
-							"id": 160,
+							"id": 149,
 							"name": "baseline",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3252,7 +2651,7 @@
 							}
 						},
 						{
-							"id": 161,
+							"id": 150,
 							"name": "log",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3277,7 +2676,7 @@
 							"defaultValue": " []"
 						},
 						{
-							"id": 158,
+							"id": 147,
 							"name": "matchRatio",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3298,7 +2697,7 @@
 							}
 						},
 						{
-							"id": 167,
+							"id": 156,
 							"name": "error",
 							"kind": 262144,
 							"kindString": "Accessor",
@@ -3308,7 +2707,7 @@
 							},
 							"getSignature": [
 								{
-									"id": 168,
+									"id": 157,
 									"name": "__get",
 									"kind": 524288,
 									"kindString": "Get signature",
@@ -3316,21 +2715,30 @@
 										"__visited__": true
 									},
 									"type": {
-										"type": "reference",
-										"name": "Error"
+										"type": "union",
+										"types": [
+											{
+												"type": "reference",
+												"name": "Error"
+											},
+											{
+												"type": "intrinsic",
+												"name": "undefined"
+											}
+										]
 									}
 								}
 							],
 							"sources": [
 								{
 									"fileName": "comparators/ReportBuilder.ts",
-									"line": 31,
+									"line": 35,
 									"character": 10
 								}
 							]
 						},
 						{
-							"id": 169,
+							"id": 158,
 							"name": "report",
 							"kind": 262144,
 							"kindString": "Accessor",
@@ -3340,7 +2748,7 @@
 							},
 							"getSignature": [
 								{
-									"id": 170,
+									"id": 159,
 									"name": "__get",
 									"kind": 524288,
 									"kindString": "Get signature",
@@ -3356,13 +2764,13 @@
 							"sources": [
 								{
 									"fileName": "comparators/ReportBuilder.ts",
-									"line": 35,
+									"line": 39,
 									"character": 11
 								}
 							]
 						},
 						{
-							"id": 171,
+							"id": 160,
 							"name": "runningTime",
 							"kind": 262144,
 							"kindString": "Accessor",
@@ -3372,7 +2780,7 @@
 							},
 							"getSignature": [
 								{
-									"id": 172,
+									"id": 161,
 									"name": "__get",
 									"kind": 524288,
 									"kindString": "Get signature",
@@ -3380,21 +2788,30 @@
 										"__visited__": true
 									},
 									"type": {
-										"type": "intrinsic",
-										"name": "number"
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "number"
+											},
+											{
+												"type": "intrinsic",
+												"name": "undefined"
+											}
+										]
 									}
 								}
 							],
 							"sources": [
 								{
 									"fileName": "comparators/ReportBuilder.ts",
-									"line": 54,
+									"line": 58,
 									"character": 16
 								}
 							]
 						},
 						{
-							"id": 184,
+							"id": 173,
 							"name": "recordEnd",
 							"kind": 2048,
 							"kindString": "Method",
@@ -3404,7 +2821,7 @@
 							},
 							"signatures": [
 								{
-									"id": 185,
+									"id": 174,
 									"name": "recordEnd",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -3420,13 +2837,13 @@
 							"sources": [
 								{
 									"fileName": "comparators/ReportBuilder.ts",
-									"line": 75,
+									"line": 79,
 									"character": 10
 								}
 							]
 						},
 						{
-							"id": 176,
+							"id": 165,
 							"name": "recordError",
 							"kind": 2048,
 							"kindString": "Method",
@@ -3436,7 +2853,7 @@
 							},
 							"signatures": [
 								{
-									"id": 177,
+									"id": 166,
 									"name": "recordError",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -3445,7 +2862,7 @@
 									},
 									"parameters": [
 										{
-											"id": 178,
+											"id": 167,
 											"name": "error",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3467,13 +2884,13 @@
 							"sources": [
 								{
 									"fileName": "comparators/ReportBuilder.ts",
-									"line": 62,
+									"line": 66,
 									"character": 12
 								}
 							]
 						},
 						{
-							"id": 173,
+							"id": 162,
 							"name": "recordLog",
 							"kind": 2048,
 							"kindString": "Method",
@@ -3483,7 +2900,7 @@
 							},
 							"signatures": [
 								{
-									"id": 174,
+									"id": 163,
 									"name": "recordLog",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -3492,7 +2909,7 @@
 									},
 									"parameters": [
 										{
-											"id": 175,
+											"id": 164,
 											"name": "item",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3514,13 +2931,13 @@
 							"sources": [
 								{
 									"fileName": "comparators/ReportBuilder.ts",
-									"line": 58,
+									"line": 62,
 									"character": 10
 								}
 							]
 						},
 						{
-							"id": 179,
+							"id": 168,
 							"name": "recordPixelDifference",
 							"kind": 2048,
 							"kindString": "Method",
@@ -3530,7 +2947,7 @@
 							},
 							"signatures": [
 								{
-									"id": 180,
+									"id": 169,
 									"name": "recordPixelDifference",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -3539,7 +2956,7 @@
 									},
 									"parameters": [
 										{
-											"id": 181,
+											"id": 170,
 											"name": "pixel",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3561,13 +2978,13 @@
 							"sources": [
 								{
 									"fileName": "comparators/ReportBuilder.ts",
-									"line": 67,
+									"line": 71,
 									"character": 22
 								}
 							]
 						},
 						{
-							"id": 182,
+							"id": 171,
 							"name": "recordStart",
 							"kind": 2048,
 							"kindString": "Method",
@@ -3577,7 +2994,7 @@
 							},
 							"signatures": [
 								{
-									"id": 183,
+									"id": 172,
 									"name": "recordStart",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -3593,7 +3010,7 @@
 							"sources": [
 								{
 									"fileName": "comparators/ReportBuilder.ts",
-									"line": 71,
+									"line": 75,
 									"character": 12
 								}
 							]
@@ -3604,37 +3021,37 @@
 							"title": "Constructors",
 							"kind": 512,
 							"children": [
-								162
+								151
 							]
 						},
 						{
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								159,
-								160,
-								161,
-								158
+								148,
+								149,
+								150,
+								147
 							]
 						},
 						{
 							"title": "Accessors",
 							"kind": 262144,
 							"children": [
-								167,
-								169,
-								171
+								156,
+								158,
+								160
 							]
 						},
 						{
 							"title": "Methods",
 							"kind": 2048,
 							"children": [
-								184,
-								176,
 								173,
-								179,
-								182
+								165,
+								162,
+								168,
+								171
 							]
 						}
 					],
@@ -3647,7 +3064,7 @@
 					]
 				},
 				{
-					"id": 155,
+					"id": 144,
 					"name": "Options",
 					"kind": 256,
 					"kindString": "Interface",
@@ -3657,7 +3074,7 @@
 					},
 					"children": [
 						{
-							"id": 156,
+							"id": 145,
 							"name": "matchRatio",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3693,7 +3110,7 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								156
+								145
 							]
 						}
 					],
@@ -3711,14 +3128,14 @@
 					"title": "Classes",
 					"kind": 128,
 					"children": [
-						157
+						146
 					]
 				},
 				{
 					"title": "Interfaces",
 					"kind": 256,
 					"children": [
-						155
+						144
 					]
 				}
 			],
@@ -3731,7 +3148,7 @@
 			]
 		},
 		{
-			"id": 130,
+			"id": 122,
 			"name": "\"config\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -3742,7 +3159,7 @@
 			"originalName": "src/config.ts",
 			"children": [
 				{
-					"id": 131,
+					"id": 123,
 					"name": "Config",
 					"kind": 256,
 					"kindString": "Interface",
@@ -3752,7 +3169,7 @@
 					},
 					"children": [
 						{
-							"id": 134,
+							"id": 127,
 							"name": "baseline",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3764,7 +3181,7 @@
 							"sources": [
 								{
 									"fileName": "assert.ts",
-									"line": 13,
+									"line": 84,
 									"character": 9
 								}
 							],
@@ -3784,11 +3201,11 @@
 							"inheritedFrom": {
 								"type": "reference",
 								"name": "Options.baseline",
-								"id": 213
+								"id": 202
 							}
 						},
 						{
-							"id": 135,
+							"id": 128,
 							"name": "baselineLocation",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3800,7 +3217,7 @@
 							"sources": [
 								{
 									"fileName": "assert.ts",
-									"line": 14,
+									"line": 85,
 									"character": 17
 								}
 							],
@@ -3820,11 +3237,11 @@
 							"inheritedFrom": {
 								"type": "reference",
 								"name": "Options.baselineLocation",
-								"id": 214
+								"id": 203
 							}
 						},
 						{
-							"id": 132,
+							"id": 124,
 							"name": "comparator",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3832,22 +3249,54 @@
 								"isExported": true,
 								"__visited__": true
 							},
+							"comment": {
+								"shortText": "Options for the image comparator"
+							},
 							"sources": [
 								{
 									"fileName": "config.ts",
-									"line": 11,
+									"line": 10,
 									"character": 11
 								}
 							],
 							"type": {
 								"type": "reference",
 								"name": "ComparatorConfig",
-								"id": 139
+								"id": 133
 							}
 						},
 						{
-							"id": 136,
+							"id": 126,
 							"name": "directory",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"comment": {
+								"shortText": "The base output directory where baselines and reports are written"
+							},
+							"sources": [
+								{
+									"fileName": "config.ts",
+									"line": 16,
+									"character": 10
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							},
+							"overwrites": {
+								"type": "reference",
+								"name": "Options.directory",
+								"id": 204
+							}
+						},
+						{
+							"id": 131,
+							"name": "errorColor",
 							"kind": 1024,
 							"kindString": "Property",
 							"flags": {
@@ -3855,34 +3304,29 @@
 								"isOptional": true,
 								"__visited__": true
 							},
+							"comment": {
+								"shortText": "The color to use when highlighting image differences"
+							},
 							"sources": [
 								{
-									"fileName": "assert.ts",
-									"line": 15,
-									"character": 10
+									"fileName": "reporters/util/ReportWriter.ts",
+									"line": 272,
+									"character": 11
 								}
 							],
 							"type": {
-								"type": "union",
-								"types": [
-									{
-										"type": "intrinsic",
-										"name": "undefined"
-									},
-									{
-										"type": "intrinsic",
-										"name": "string"
-									}
-								]
+								"type": "reference",
+								"name": "ColorDescriptor",
+								"id": 46
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"name": "Options.directory",
-								"id": 215
+								"name": "Options.errorColor",
+								"id": 99
 							}
 						},
 						{
-							"id": 138,
+							"id": 130,
 							"name": "missingBaseline",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3894,7 +3338,7 @@
 							"sources": [
 								{
 									"fileName": "assert.ts",
-									"line": 17,
+									"line": 88,
 									"character": 16
 								}
 							],
@@ -3922,11 +3366,11 @@
 							"inheritedFrom": {
 								"type": "reference",
 								"name": "Options.missingBaseline",
-								"id": 217
+								"id": 206
 							}
 						},
 						{
-							"id": 137,
+							"id": 129,
 							"name": "regenerateBaselines",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3938,7 +3382,7 @@
 							"sources": [
 								{
 									"fileName": "assert.ts",
-									"line": 16,
+									"line": 87,
 									"character": 20
 								}
 							],
@@ -3962,28 +3406,80 @@
 							"inheritedFrom": {
 								"type": "reference",
 								"name": "Options.regenerateBaselines",
-								"id": 216
+								"id": 205
 							}
 						},
 						{
-							"id": 133,
+							"id": 125,
 							"name": "report",
 							"kind": 1024,
 							"kindString": "Property",
 							"flags": {
 								"isExported": true,
+								"isOptional": true,
 								"__visited__": true
+							},
+							"comment": {
+								"shortText": "If set to false, disable the reporter"
 							},
 							"sources": [
 								{
 									"fileName": "config.ts",
-									"line": 12,
+									"line": 13,
 									"character": 7
 								}
 							],
 							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "undefined"
+									},
+									{
+										"type": "intrinsic",
+										"name": "false"
+									}
+								]
+							}
+						},
+						{
+							"id": 132,
+							"name": "reportLocation",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isOptional": true,
+								"__visited__": true
+							},
+							"comment": {
+								"shortText": "Where in the base output directory to write reports"
+							},
+							"sources": [
+								{
+									"fileName": "reporters/util/ReportWriter.ts",
+									"line": 275,
+									"character": 15
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "undefined"
+									},
+									{
+										"type": "intrinsic",
+										"name": "string"
+									}
+								]
+							},
+							"inheritedFrom": {
 								"type": "reference",
-								"name": "ReportOptions"
+								"name": "Options.reportLocation",
+								"id": 100
 							}
 						}
 					],
@@ -3992,20 +3488,22 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								134,
-								135,
-								132,
-								136,
-								138,
-								137,
-								133
+								127,
+								128,
+								124,
+								126,
+								131,
+								130,
+								129,
+								125,
+								132
 							]
 						}
 					],
 					"sources": [
 						{
 							"fileName": "config.ts",
-							"line": 10,
+							"line": 8,
 							"character": 23
 						}
 					],
@@ -4013,12 +3511,17 @@
 						{
 							"type": "reference",
 							"name": "Options",
-							"id": 212
+							"id": 201
+						},
+						{
+							"type": "reference",
+							"name": "Options",
+							"id": 97
 						}
 					]
 				},
 				{
-					"id": 139,
+					"id": 133,
 					"name": "ComparatorConfig",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -4029,7 +3532,7 @@
 					"sources": [
 						{
 							"fileName": "config.ts",
-							"line": 8,
+							"line": 6,
 							"character": 28
 						}
 					],
@@ -4048,92 +3551,29 @@
 					}
 				},
 				{
-					"id": 153,
+					"id": 134,
 					"name": "config",
-					"kind": 32,
-					"kindString": "Variable",
-					"flags": {
-						"isExported": true,
-						"__visited__": true
-					},
-					"sources": [
-						{
-							"fileName": "config.ts",
-							"line": 39,
-							"character": 12
-						}
-					],
-					"type": {
-						"type": "reference",
-						"name": "Config",
-						"id": 131
-					},
-					"defaultValue": " mixin<Config>({}, defaults, visualConfig)"
-				},
-				{
-					"id": 140,
-					"name": "internConfig",
-					"kind": 32,
-					"kindString": "Variable",
-					"flags": {
-						"__visited__": true
-					},
-					"sources": [
-						{
-							"fileName": "config.ts",
-							"line": 15,
-							"character": 18
-						}
-					],
-					"type": {
-						"type": "intrinsic",
-						"name": "any"
-					},
-					"defaultValue": " (<any> intern).config || {}"
-				},
-				{
-					"id": 141,
-					"name": "visualConfig",
-					"kind": 32,
-					"kindString": "Variable",
-					"flags": {
-						"__visited__": true
-					},
-					"sources": [
-						{
-							"fileName": "config.ts",
-							"line": 16,
-							"character": 18
-						}
-					],
-					"type": {
-						"type": "reference",
-						"name": "Config",
-						"id": 131
-					},
-					"defaultValue": " internConfig.visual || {}"
-				},
-				{
-					"id": 142,
-					"name": "defaults",
 					"kind": 2097152,
 					"kindString": "Object literal",
 					"flags": {
+						"isExported": true,
+						"isConst": true,
 						"__visited__": true
 					},
 					"children": [
 						{
-							"id": 143,
+							"id": 135,
 							"name": "baselineLocation",
 							"kind": 32,
 							"kindString": "Variable",
 							"flags": {
+								"isExported": true,
 								"__visited__": true
 							},
 							"sources": [
 								{
 									"fileName": "config.ts",
-									"line": 18,
+									"line": 20,
 									"character": 17
 								}
 							],
@@ -4144,11 +3584,12 @@
 							"defaultValue": "\"baselines\""
 						},
 						{
-							"id": 148,
+							"id": 140,
 							"name": "directory",
 							"kind": 32,
 							"kindString": "Variable",
 							"flags": {
+								"isExported": true,
 								"__visited__": true
 							},
 							"sources": [
@@ -4165,41 +3606,66 @@
 							"defaultValue": "\"visual-test\""
 						},
 						{
-							"id": 149,
+							"id": 141,
 							"name": "missingBaseline",
 							"kind": 32,
 							"kindString": "Variable",
 							"flags": {
+								"isExported": true,
 								"__visited__": true
 							},
 							"sources": [
 								{
 									"fileName": "config.ts",
-									"line": 30,
+									"line": 29,
 									"character": 16
+								}
+							],
+							"type": {
+								"type": "stringLiteral",
+								"value": "skip"
+							},
+							"defaultValue": "\"skip\""
+						},
+						{
+							"id": 142,
+							"name": "reportLocation",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "config.ts",
+									"line": 31,
+									"character": 15
 								}
 							],
 							"type": {
 								"type": "intrinsic",
 								"name": "string"
 							},
-							"defaultValue": "\"skip\""
+							"defaultValue": "\"report\""
 						},
 						{
-							"id": 144,
+							"id": 136,
 							"name": "comparator",
 							"kind": 2097152,
 							"kindString": "Object literal",
 							"flags": {
+								"isExported": true,
 								"__visited__": true
 							},
 							"children": [
 								{
-									"id": 147,
+									"id": 139,
 									"name": "matchRatio",
 									"kind": 32,
 									"kindString": "Variable",
 									"flags": {
+										"isExported": true,
 										"__visited__": true
 									},
 									"sources": [
@@ -4216,17 +3682,18 @@
 									"defaultValue": "1"
 								},
 								{
-									"id": 145,
+									"id": 137,
 									"name": "pixelSkip",
 									"kind": 32,
 									"kindString": "Variable",
 									"flags": {
+										"isExported": true,
 										"__visited__": true
 									},
 									"sources": [
 										{
 											"fileName": "config.ts",
-											"line": 21,
+											"line": 23,
 											"character": 11
 										}
 									],
@@ -4237,17 +3704,18 @@
 									"defaultValue": "2"
 								},
 								{
-									"id": 146,
+									"id": 138,
 									"name": "pixelTolerance",
 									"kind": 32,
 									"kindString": "Variable",
 									"flags": {
+										"isExported": true,
 										"__visited__": true
 									},
 									"sources": [
 										{
 											"fileName": "config.ts",
-											"line": 23,
+											"line": 24,
 											"character": 16
 										}
 									],
@@ -4263,91 +3731,17 @@
 									"title": "Variables",
 									"kind": 32,
 									"children": [
-										147,
-										145,
-										146
+										139,
+										137,
+										138
 									]
 								}
 							],
 							"sources": [
 								{
 									"fileName": "config.ts",
-									"line": 20,
+									"line": 22,
 									"character": 11
-								}
-							],
-							"type": {
-								"type": "intrinsic",
-								"name": "object"
-							}
-						},
-						{
-							"id": 150,
-							"name": "report",
-							"kind": 2097152,
-							"kindString": "Object literal",
-							"flags": {
-								"__visited__": true
-							},
-							"children": [
-								{
-									"id": 151,
-									"name": "reportLocation",
-									"kind": 32,
-									"kindString": "Variable",
-									"flags": {
-										"__visited__": true
-									},
-									"sources": [
-										{
-											"fileName": "config.ts",
-											"line": 33,
-											"character": 16
-										}
-									],
-									"type": {
-										"type": "intrinsic",
-										"name": "string"
-									},
-									"defaultValue": "\"report\""
-								},
-								{
-									"id": 152,
-									"name": "reportUnusedBaselines",
-									"kind": 32,
-									"kindString": "Variable",
-									"flags": {
-										"__visited__": true
-									},
-									"sources": [
-										{
-											"fileName": "config.ts",
-											"line": 35,
-											"character": 23
-										}
-									],
-									"type": {
-										"type": "intrinsic",
-										"name": "boolean"
-									},
-									"defaultValue": "false"
-								}
-							],
-							"groups": [
-								{
-									"title": "Variables",
-									"kind": 32,
-									"children": [
-										151,
-										152
-									]
-								}
-							],
-							"sources": [
-								{
-									"fileName": "config.ts",
-									"line": 32,
-									"character": 7
 								}
 							],
 							"type": {
@@ -4361,25 +3755,25 @@
 							"title": "Variables",
 							"kind": 32,
 							"children": [
-								143,
-								148,
-								149
+								135,
+								140,
+								141,
+								142
 							]
 						},
 						{
 							"title": "Object literals",
 							"kind": 2097152,
 							"children": [
-								144,
-								150
+								136
 							]
 						}
 					],
 					"sources": [
 						{
 							"fileName": "config.ts",
-							"line": 17,
-							"character": 14
+							"line": 19,
+							"character": 12
 						}
 					],
 					"type": {
@@ -4393,30 +3787,21 @@
 					"title": "Interfaces",
 					"kind": 256,
 					"children": [
-						131
+						123
 					]
 				},
 				{
 					"title": "Type aliases",
 					"kind": 4194304,
 					"children": [
-						139
-					]
-				},
-				{
-					"title": "Variables",
-					"kind": 32,
-					"children": [
-						153,
-						140,
-						141
+						133
 					]
 				},
 				{
 					"title": "Object literals",
 					"kind": 2097152,
 					"children": [
-						142
+						134
 					]
 				}
 			],
@@ -4429,7 +3814,7 @@
 			]
 		},
 		{
-			"id": 316,
+			"id": 275,
 			"name": "\"helpers/resizeWindow\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -4440,17 +3825,16 @@
 			"originalName": "src/helpers/resizeWindow.ts",
 			"children": [
 				{
-					"id": 325,
+					"id": 286,
 					"name": "createResizer",
 					"kind": 64,
 					"kindString": "Function",
 					"flags": {
-						"isExported": true,
 						"__visited__": true
 					},
 					"signatures": [
 						{
-							"id": 326,
+							"id": 287,
 							"name": "createResizer",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -4458,12 +3842,11 @@
 								"__visited__": true
 							},
 							"comment": {
-								"shortText": "Create a resize method that caches the difference in width and height",
-								"returns": "\n"
+								"shortText": "Create a resize method that caches the difference in width and height"
 							},
 							"parameters": [
 								{
-									"id": 327,
+									"id": 288,
 									"name": "widthDifference",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -4486,7 +3869,7 @@
 									}
 								},
 								{
-									"id": 328,
+									"id": 289,
 									"name": "heightDifference",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -4518,86 +3901,22 @@
 					"sources": [
 						{
 							"fileName": "helpers/resizeWindow.ts",
-							"line": 60,
-							"character": 29
+							"line": 86,
+							"character": 22
 						}
 					]
 				},
 				{
-					"id": 329,
-					"name": "default",
-					"kind": 64,
-					"kindString": "Function",
-					"flags": {
-						"isExported": true,
-						"__visited__": true
-					},
-					"signatures": [
-						{
-							"id": 330,
-							"name": "default",
-							"kind": 4096,
-							"kindString": "Call signature",
-							"flags": {
-								"__visited__": true
-							},
-							"comment": {
-								"shortText": "A command helper for resizing a window"
-							},
-							"parameters": [
-								{
-									"id": 331,
-									"name": "width",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {
-										"__visited__": true
-									},
-									"type": {
-										"type": "intrinsic",
-										"name": "number"
-									}
-								},
-								{
-									"id": 332,
-									"name": "height",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {
-										"__visited__": true
-									},
-									"type": {
-										"type": "intrinsic",
-										"name": "number"
-									}
-								}
-							],
-							"type": {
-								"type": "reference",
-								"name": "(Anonymous function)"
-							}
-						}
-					],
-					"sources": [
-						{
-							"fileName": "helpers/resizeWindow.ts",
-							"line": 87,
-							"character": 1
-						}
-					]
-				},
-				{
-					"id": 321,
+					"id": 282,
 					"name": "findDifference",
 					"kind": 64,
 					"kindString": "Function",
 					"flags": {
-						"isExported": true,
 						"__visited__": true
 					},
 					"signatures": [
 						{
-							"id": 322,
+							"id": 283,
 							"name": "findDifference",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -4605,12 +3924,11 @@
 								"__visited__": true
 							},
 							"comment": {
-								"shortText": "Determine the difference between the window size and the inner window (document) size. This method will resize\nthe window in the process of determining the difference.",
-								"returns": "describing the difference between requested and actual document size\n"
+								"shortText": "Determine the difference between the window size and the inner window\n(document) size. This method will resize the window in the process of\ndetermining the difference."
 							},
 							"parameters": [
 								{
-									"id": 323,
+									"id": 284,
 									"name": "width",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -4626,7 +3944,7 @@
 									}
 								},
 								{
-									"id": 324,
+									"id": 285,
 									"name": "height",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -4634,7 +3952,7 @@
 										"__visited__": true
 									},
 									"comment": {
-										"text": "the desired height"
+										"text": "the desired height\n"
 									},
 									"type": {
 										"type": "intrinsic",
@@ -4651,13 +3969,77 @@
 					"sources": [
 						{
 							"fileName": "helpers/resizeWindow.ts",
-							"line": 42,
-							"character": 30
+							"line": 68,
+							"character": 23
 						}
 					]
 				},
 				{
-					"id": 317,
+					"id": 276,
+					"name": "resizeWindow",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true,
+						"__visited__": true
+					},
+					"signatures": [
+						{
+							"id": 277,
+							"name": "resizeWindow",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"__visited__": true
+							},
+							"comment": {
+								"shortText": "A command helper for resizing a window.",
+								"text": "This function takes a desired width and height and returns a function that\nwill resize the browser window, waiting until the resize operation is\ncomplete before finishing. As a helper function, it's meant to called in a\ncommand chain:\n\n```js\nreturn this.remote\n  .get('page.html')\n  .then(resizeWindow(1024, 768))\n```\n"
+							},
+							"parameters": [
+								{
+									"id": 278,
+									"name": "width",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"__visited__": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								},
+								{
+									"id": 279,
+									"name": "height",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"__visited__": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "(Anonymous function)"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "helpers/resizeWindow.ts",
+							"line": 17,
+							"character": 36
+						}
+					]
+				},
+				{
+					"id": 280,
 					"name": "waitForWindowResize",
 					"kind": 64,
 					"kindString": "Function",
@@ -4667,7 +4049,7 @@
 					},
 					"signatures": [
 						{
-							"id": 318,
+							"id": 281,
 							"name": "waitForWindowResize",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -4675,64 +4057,18 @@
 								"__visited__": true
 							},
 							"comment": {
-								"shortText": "Wait until the browser stops changing in size and report back the last stable width and height",
-								"returns": "an array in the shape of [ width, height ]\n"
+								"shortText": "A command helper that waits until the browser stops changing size. The last\nstable width and height is returned."
 							},
 							"type": {
-								"type": "reflection",
-								"declaration": {
-									"id": 319,
-									"name": "__type",
-									"kind": 65536,
-									"kindString": "Type literal",
-									"flags": {
-										"__visited__": true
-									},
-									"signatures": [
-										{
-											"id": 320,
-											"name": "__call",
-											"kind": 4096,
-											"kindString": "Call signature",
-											"flags": {
-												"__visited__": true
-											},
-											"type": {
-												"type": "reference",
-												"name": "Command",
-												"typeArguments": [
-													{
-														"type": "tuple",
-														"elements": [
-															{
-																"type": "intrinsic",
-																"name": "number"
-															},
-															{
-																"type": "intrinsic",
-																"name": "number"
-															}
-														]
-													}
-												]
-											}
-										}
-									],
-									"sources": [
-										{
-											"fileName": "helpers/resizeWindow.ts",
-											"line": 7,
-											"character": 38
-										}
-									]
-								}
+								"type": "reference",
+								"name": "(Anonymous function)"
 							}
 						}
 					],
 					"sources": [
 						{
 							"fileName": "helpers/resizeWindow.ts",
-							"line": 7,
+							"line": 26,
 							"character": 35
 						}
 					]
@@ -4743,10 +4079,10 @@
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						325,
-						329,
-						321,
-						317
+						286,
+						282,
+						276,
+						280
 					]
 				}
 			],
@@ -4759,7 +4095,7 @@
 			]
 		},
 		{
-			"id": 350,
+			"id": 328,
 			"name": "\"index\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -4770,16 +4106,17 @@
 			"originalName": "src/index.ts",
 			"children": [
 				{
-					"id": 354,
+					"id": 329,
 					"name": "helpers",
 					"kind": 2097152,
 					"kindString": "Object literal",
 					"flags": {
+						"isConst": true,
 						"__visited__": true
 					},
 					"children": [
 						{
-							"id": 355,
+							"id": 330,
 							"name": "resizeWindow",
 							"kind": 32,
 							"kindString": "Variable",
@@ -4789,14 +4126,14 @@
 							"sources": [
 								{
 									"fileName": "index.ts",
-									"line": 14,
+									"line": 8,
 									"character": 13
 								}
 							],
 							"type": {
 								"type": "reference",
-								"name": "\"/Users/jason/Documents/Work/src/intern/intern-visual/src/helpers/resizeWindow\"",
-								"id": 316
+								"name": "resizeWindow",
+								"id": 276
 							}
 						}
 					],
@@ -4805,89 +4142,15 @@
 							"title": "Variables",
 							"kind": 32,
 							"children": [
-								355
+								330
 							]
 						}
 					],
 					"sources": [
 						{
 							"fileName": "index.ts",
-							"line": 13,
+							"line": 7,
 							"character": 13
-						}
-					],
-					"type": {
-						"type": "intrinsic",
-						"name": "object"
-					}
-				},
-				{
-					"id": 351,
-					"name": "util",
-					"kind": 2097152,
-					"kindString": "Object literal",
-					"flags": {
-						"__visited__": true
-					},
-					"children": [
-						{
-							"id": 352,
-							"name": "file",
-							"kind": 32,
-							"kindString": "Variable",
-							"flags": {
-								"__visited__": true
-							},
-							"sources": [
-								{
-									"fileName": "index.ts",
-									"line": 9,
-									"character": 5
-								}
-							],
-							"type": {
-								"type": "reference",
-								"name": "\"/Users/jason/Documents/Work/src/intern/intern-visual/src/util/file\"",
-								"id": 1
-							}
-						},
-						{
-							"id": 353,
-							"name": "getRGBA",
-							"kind": 32,
-							"kindString": "Variable",
-							"flags": {
-								"__visited__": true
-							},
-							"sources": [
-								{
-									"fileName": "index.ts",
-									"line": 10,
-									"character": 8
-								}
-							],
-							"type": {
-								"type": "reference",
-								"name": "getRGBA",
-								"id": 58
-							}
-						}
-					],
-					"groups": [
-						{
-							"title": "Variables",
-							"kind": 32,
-							"children": [
-								352,
-								353
-							]
-						}
-					],
-					"sources": [
-						{
-							"fileName": "index.ts",
-							"line": 8,
-							"character": 10
 						}
 					],
 					"type": {
@@ -4901,8 +4164,7 @@
 					"title": "Object literals",
 					"kind": 2097152,
 					"children": [
-						354,
-						351
+						329
 					]
 				}
 			],
@@ -4915,25 +4177,7 @@
 			]
 		},
 		{
-			"id": 356,
-			"name": "\"main\"",
-			"kind": 1,
-			"kindString": "External module",
-			"flags": {
-				"isExported": true,
-				"__visited__": true
-			},
-			"originalName": "src/main.ts",
-			"sources": [
-				{
-					"fileName": "main.ts",
-					"line": 1,
-					"character": 0
-				}
-			]
-		},
-		{
-			"id": 357,
+			"id": 307,
 			"name": "\"reporters/VisualRegression\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -4944,22 +4188,20 @@
 			"originalName": "src/reporters/VisualRegression.ts",
 			"children": [
 				{
-					"id": 358,
+					"id": 308,
 					"name": "VisualRegression",
 					"kind": 128,
 					"kindString": "Class",
 					"flags": {
 						"isExported": true,
-						"hasExportAssignment": true,
 						"__visited__": true
 					},
 					"comment": {
-						"shortText": "A Visual Regression Test HTML reporter",
-						"text": "NOTE: This module proxies all functionality to the ReportWriter because a reporter must be provided to Intern\nusing CJS (export =) syntax. Because this module can only have one export all types, interfaces, and\nimplementation are in the ReportWriter module.\n"
+						"shortText": "A Visual Regression Test HTML reporter"
 					},
 					"children": [
 						{
-							"id": 360,
+							"id": 310,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -4969,7 +4211,7 @@
 							},
 							"signatures": [
 								{
-									"id": 361,
+									"id": 311,
 									"name": "new VisualRegression",
 									"kind": 16384,
 									"kindString": "Constructor signature",
@@ -4978,7 +4220,20 @@
 									},
 									"parameters": [
 										{
-											"id": 362,
+											"id": 312,
+											"name": "executor",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"__visited__": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "Executor"
+											}
+										},
+										{
+											"id": 313,
 											"name": "config",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4987,15 +4242,15 @@
 											},
 											"type": {
 												"type": "reference",
-												"name": "ReportConfig",
-												"id": 86
+												"name": "Options",
+												"id": 97
 											}
 										}
 									],
 									"type": {
 										"type": "reference",
 										"name": "VisualRegression",
-										"id": 358
+										"id": 308
 									}
 								}
 							],
@@ -5008,7 +4263,7 @@
 							]
 						},
 						{
-							"id": 359,
+							"id": 309,
 							"name": "reportWriter",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5030,7 +4285,7 @@
 							}
 						},
 						{
-							"id": 363,
+							"id": 314,
 							"name": "deprecated",
 							"kind": 2048,
 							"kindString": "Method",
@@ -5040,7 +4295,7 @@
 							},
 							"signatures": [
 								{
-									"id": 364,
+									"id": 315,
 									"name": "deprecated",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -5049,115 +4304,16 @@
 									},
 									"parameters": [
 										{
-											"id": 365,
-											"name": "name",
+											"id": 316,
+											"name": "message",
 											"kind": 32768,
 											"kindString": "Parameter",
 											"flags": {
 												"__visited__": true
-											},
-											"type": {
-												"type": "intrinsic",
-												"name": "string"
-											}
-										},
-										{
-											"id": 366,
-											"name": "replacement",
-											"kind": 32768,
-											"kindString": "Parameter",
-											"flags": {
-												"isOptional": true,
-												"__visited__": true
-											},
-											"type": {
-												"type": "union",
-												"types": [
-													{
-														"type": "intrinsic",
-														"name": "undefined"
-													},
-													{
-														"type": "intrinsic",
-														"name": "string"
-													}
-												]
-											}
-										},
-										{
-											"id": 367,
-											"name": "extra",
-											"kind": 32768,
-											"kindString": "Parameter",
-											"flags": {
-												"isOptional": true,
-												"__visited__": true
-											},
-											"type": {
-												"type": "union",
-												"types": [
-													{
-														"type": "intrinsic",
-														"name": "undefined"
-													},
-													{
-														"type": "intrinsic",
-														"name": "string"
-													}
-												]
-											}
-										}
-									],
-									"type": {
-										"type": "intrinsic",
-										"name": "void"
-									}
-								}
-							],
-							"sources": [
-								{
-									"fileName": "reporters/VisualRegression.ts",
-									"line": 20,
-									"character": 11
-								}
-							]
-						},
-						{
-							"id": 368,
-							"name": "fatalError",
-							"kind": 2048,
-							"kindString": "Method",
-							"flags": {
-								"isExported": true,
-								"__visited__": true
-							},
-							"signatures": [
-								{
-									"id": 369,
-									"name": "fatalError",
-									"kind": 4096,
-									"kindString": "Call signature",
-									"flags": {
-										"__visited__": true
-									},
-									"comment": {
-										"shortText": "This method is called when an error occurs within the test system that is non-recoverable\n(for example, a bug within Intern)."
-									},
-									"parameters": [
-										{
-											"id": 370,
-											"name": "error",
-											"kind": 32768,
-											"kindString": "Parameter",
-											"flags": {
-												"__visited__": true
-											},
-											"comment": {
-												"text": "\n"
 											},
 											"type": {
 												"type": "reference",
-												"name": "Error"
+												"name": "DeprecationMessage"
 											}
 										}
 									],
@@ -5170,14 +4326,14 @@
 							"sources": [
 								{
 									"fileName": "reporters/VisualRegression.ts",
-									"line": 36,
+									"line": 26,
 									"character": 11
 								}
 							]
 						},
 						{
-							"id": 371,
-							"name": "reporterError",
+							"id": 317,
+							"name": "error",
 							"kind": 2048,
 							"kindString": "Method",
 							"flags": {
@@ -5186,32 +4342,19 @@
 							},
 							"signatures": [
 								{
-									"id": 372,
-									"name": "reporterError",
+									"id": 318,
+									"name": "error",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {
 										"__visited__": true
 									},
 									"comment": {
-										"shortText": "This method is called when a reporter throws an error during execution of a command."
+										"shortText": "This method is called when an error occurs within the test system that\nis non-recoverable (for example, a bug within Intern)."
 									},
 									"parameters": [
 										{
-											"id": 373,
-											"name": "_reporter",
-											"kind": 32768,
-											"kindString": "Parameter",
-											"flags": {
-												"__visited__": true
-											},
-											"type": {
-												"type": "intrinsic",
-												"name": "any"
-											}
-										},
-										{
-											"id": 374,
+											"id": 319,
 											"name": "error",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5233,13 +4376,13 @@
 							"sources": [
 								{
 									"fileName": "reporters/VisualRegression.ts",
-									"line": 47,
-									"character": 14
+									"line": 42,
+									"character": 6
 								}
 							]
 						},
 						{
-							"id": 375,
+							"id": 320,
 							"name": "runEnd",
 							"kind": 2048,
 							"kindString": "Method",
@@ -5249,7 +4392,7 @@
 							},
 							"signatures": [
 								{
-									"id": 376,
+									"id": 321,
 									"name": "runEnd",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -5257,7 +4400,7 @@
 										"__visited__": true
 									},
 									"comment": {
-										"shortText": "This method is called after all test suites have finished running and the test system is preparing\nto shut down."
+										"shortText": "This method is called after all test suites have finished running and\nthe test system is preparing to shut down."
 									},
 									"type": {
 										"type": "intrinsic",
@@ -5268,13 +4411,13 @@
 							"sources": [
 								{
 									"fileName": "reporters/VisualRegression.ts",
-									"line": 60,
+									"line": 58,
 									"character": 7
 								}
 							]
 						},
 						{
-							"id": 377,
+							"id": 322,
 							"name": "suiteEnd",
 							"kind": 2048,
 							"kindString": "Method",
@@ -5284,7 +4427,7 @@
 							},
 							"signatures": [
 								{
-									"id": 378,
+									"id": 323,
 									"name": "suiteEnd",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -5296,16 +4439,13 @@
 									},
 									"parameters": [
 										{
-											"id": 379,
+											"id": 324,
 											"name": "suite",
 											"kind": 32768,
 											"kindString": "Parameter",
 											"flags": {
 												"__visited__": true
 											},
-											"comment": {
-												"text": "\n"
-											},
 											"type": {
 												"type": "reference",
 												"name": "Suite"
@@ -5313,12 +4453,31 @@
 										}
 									],
 									"type": {
-										"type": "reference",
-										"name": "Promise",
-										"typeArguments": [
+										"type": "union",
+										"types": [
 											{
 												"type": "intrinsic",
-												"name": "any"
+												"name": "undefined"
+											},
+											{
+												"type": "reference",
+												"name": "Promise",
+												"typeArguments": [
+													{
+														"type": "intrinsic",
+														"name": "void"
+													}
+												]
+											},
+											{
+												"type": "reference",
+												"name": "Promise",
+												"typeArguments": [
+													{
+														"type": "intrinsic",
+														"name": "Object"
+													}
+												]
 											}
 										]
 									}
@@ -5327,14 +4486,14 @@
 							"sources": [
 								{
 									"fileName": "reporters/VisualRegression.ts",
-									"line": 68,
+									"line": 65,
 									"character": 9
 								}
 							]
 						},
 						{
-							"id": 380,
-							"name": "suiteError",
+							"id": 325,
+							"name": "testEnd",
 							"kind": 2048,
 							"kindString": "Method",
 							"flags": {
@@ -5343,85 +4502,20 @@
 							},
 							"signatures": [
 								{
-									"id": 381,
-									"name": "suiteError",
+									"id": 326,
+									"name": "testEnd",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {
 										"__visited__": true
 									},
 									"comment": {
-										"shortText": "This method is called when an error occurs within one of the suite’s lifecycle methods (setup, beforeEach, afterEach, or teardown), or when an error occurs when a suite attempts to run a child test."
+										"shortText": "For fail:\n  1. write the diff image\n  2. optionally write the screenshot\n  3. write report",
+										"text": "For pass:\n  1. optionally write the diff image\n  2. optionally write the screenshot\n  3. write report\n\nFor skip:\n  1. write baseline\n  2. write report\n"
 									},
 									"parameters": [
 										{
-											"id": 382,
-											"name": "_suite",
-											"kind": 32768,
-											"kindString": "Parameter",
-											"flags": {
-												"__visited__": true
-											},
-											"type": {
-												"type": "reference",
-												"name": "Suite"
-											}
-										},
-										{
-											"id": 383,
-											"name": "error",
-											"kind": 32768,
-											"kindString": "Parameter",
-											"flags": {
-												"__visited__": true
-											},
-											"comment": {
-												"text": "\n"
-											},
-											"type": {
-												"type": "reference",
-												"name": "Error"
-											}
-										}
-									],
-									"type": {
-										"type": "intrinsic",
-										"name": "void"
-									}
-								}
-							],
-							"sources": [
-								{
-									"fileName": "reporters/VisualRegression.ts",
-									"line": 77,
-									"character": 11
-								}
-							]
-						},
-						{
-							"id": 384,
-							"name": "testFail",
-							"kind": 2048,
-							"kindString": "Method",
-							"flags": {
-								"isExported": true,
-								"__visited__": true
-							},
-							"signatures": [
-								{
-									"id": 385,
-									"name": "testFail",
-									"kind": 4096,
-									"kindString": "Call signature",
-									"flags": {
-										"__visited__": true
-									},
-									"comment": {
-										"shortText": "1. write the diff image\n2. optionally write the screenshot\n3. write report"
-									},
-									"parameters": [
-										{
-											"id": 386,
+											"id": 327,
 											"name": "test",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5431,7 +4525,7 @@
 											"type": {
 												"type": "reference",
 												"name": "VisualRegressionTest",
-												"id": 226
+												"id": 215
 											}
 										}
 									],
@@ -5450,122 +4544,8 @@
 							"sources": [
 								{
 									"fileName": "reporters/VisualRegression.ts",
-									"line": 91,
-									"character": 9
-								}
-							]
-						},
-						{
-							"id": 387,
-							"name": "testPass",
-							"kind": 2048,
-							"kindString": "Method",
-							"flags": {
-								"isExported": true,
-								"__visited__": true
-							},
-							"signatures": [
-								{
-									"id": 388,
-									"name": "testPass",
-									"kind": 4096,
-									"kindString": "Call signature",
-									"flags": {
-										"__visited__": true
-									},
-									"comment": {
-										"shortText": "1. optionally write the diff image\n2. optionally write the screenshot\n3. write report"
-									},
-									"parameters": [
-										{
-											"id": 389,
-											"name": "test",
-											"kind": 32768,
-											"kindString": "Parameter",
-											"flags": {
-												"__visited__": true
-											},
-											"type": {
-												"type": "reference",
-												"name": "VisualRegressionTest",
-												"id": 226
-											}
-										}
-									],
-									"type": {
-										"type": "reference",
-										"name": "Promise",
-										"typeArguments": [
-											{
-												"type": "intrinsic",
-												"name": "any"
-											}
-										]
-									}
-								}
-							],
-							"sources": [
-								{
-									"fileName": "reporters/VisualRegression.ts",
-									"line": 100,
-									"character": 9
-								}
-							]
-						},
-						{
-							"id": 390,
-							"name": "testSkip",
-							"kind": 2048,
-							"kindString": "Method",
-							"flags": {
-								"isExported": true,
-								"__visited__": true
-							},
-							"signatures": [
-								{
-									"id": 391,
-									"name": "testSkip",
-									"kind": 4096,
-									"kindString": "Call signature",
-									"flags": {
-										"__visited__": true
-									},
-									"comment": {
-										"shortText": "1. write baseline\n2. write report"
-									},
-									"parameters": [
-										{
-											"id": 392,
-											"name": "test",
-											"kind": 32768,
-											"kindString": "Parameter",
-											"flags": {
-												"__visited__": true
-											},
-											"type": {
-												"type": "reference",
-												"name": "VisualRegressionTest",
-												"id": 226
-											}
-										}
-									],
-									"type": {
-										"type": "reference",
-										"name": "Promise",
-										"typeArguments": [
-											{
-												"type": "intrinsic",
-												"name": "any"
-											}
-										]
-									}
-								}
-							],
-							"sources": [
-								{
-									"fileName": "reporters/VisualRegression.ts",
-									"line": 108,
-									"character": 9
+									"line": 92,
+									"character": 8
 								}
 							]
 						}
@@ -5575,29 +4555,25 @@
 							"title": "Constructors",
 							"kind": 512,
 							"children": [
-								360
+								310
 							]
 						},
 						{
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								359
+								309
 							]
 						},
 						{
 							"title": "Methods",
 							"kind": 2048,
 							"children": [
-								363,
-								368,
-								371,
-								375,
-								377,
-								380,
-								384,
-								387,
-								390
+								314,
+								317,
+								320,
+								322,
+								325
 							]
 						}
 					],
@@ -5605,7 +4581,7 @@
 						{
 							"fileName": "reporters/VisualRegression.ts",
 							"line": 13,
-							"character": 22
+							"character": 37
 						}
 					]
 				}
@@ -5615,7 +4591,7 @@
 					"title": "Classes",
 					"kind": 128,
 					"children": [
-						358
+						308
 					]
 				}
 			],
@@ -5628,7 +4604,7 @@
 			]
 		},
 		{
-			"id": 79,
+			"id": 81,
 			"name": "\"reporters/util/ReportWriter\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -5639,7 +4615,7 @@
 			"originalName": "src/reporters/util/ReportWriter.ts",
 			"children": [
 				{
-					"id": 105,
+					"id": 82,
 					"name": "default",
 					"kind": 128,
 					"kindString": "Class",
@@ -5649,7 +4625,7 @@
 					},
 					"children": [
 						{
-							"id": 106,
+							"id": 83,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -5659,7 +4635,7 @@
 							},
 							"signatures": [
 								{
-									"id": 107,
+									"id": 84,
 									"name": "new default",
 									"kind": 16384,
 									"kindString": "Constructor signature",
@@ -5668,8 +4644,8 @@
 									},
 									"parameters": [
 										{
-											"id": 108,
-											"name": "config",
+											"id": 85,
+											"name": "options",
 											"kind": 32768,
 											"kindString": "Parameter",
 											"flags": {
@@ -5677,28 +4653,29 @@
 											},
 											"type": {
 												"type": "reference",
-												"name": "ReportConfig",
-												"id": 86
-											}
+												"name": "Options",
+												"id": 97
+											},
+											"defaultValue": " {}"
 										}
 									],
 									"type": {
 										"type": "reference",
 										"name": "default",
-										"id": 105
+										"id": 82
 									}
 								}
 							],
 							"sources": [
 								{
 									"fileName": "reporters/util/ReportWriter.ts",
-									"line": 84,
-									"character": 65
+									"line": 29,
+									"character": 63
 								}
 							]
 						},
 						{
-							"id": 109,
+							"id": 86,
 							"name": "addNote",
 							"kind": 2048,
 							"kindString": "Method",
@@ -5708,7 +4685,7 @@
 							},
 							"signatures": [
 								{
-									"id": 110,
+									"id": 87,
 									"name": "addNote",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -5717,7 +4694,7 @@
 									},
 									"parameters": [
 										{
-											"id": 111,
+											"id": 88,
 											"name": "note",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5727,7 +4704,7 @@
 											"type": {
 												"type": "reference",
 												"name": "Note",
-												"id": 94
+												"id": 101
 											}
 										}
 									],
@@ -5740,13 +4717,13 @@
 							"sources": [
 								{
 									"fileName": "reporters/util/ReportWriter.ts",
-									"line": 98,
+									"line": 40,
 									"character": 8
 								}
 							]
 						},
 						{
-							"id": 118,
+							"id": 95,
 							"name": "end",
 							"kind": 2048,
 							"kindString": "Method",
@@ -5756,7 +4733,7 @@
 							},
 							"signatures": [
 								{
-									"id": 119,
+									"id": 96,
 									"name": "end",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -5778,13 +4755,13 @@
 							"sources": [
 								{
 									"fileName": "reporters/util/ReportWriter.ts",
-									"line": 283,
+									"line": 256,
 									"character": 4
 								}
 							]
 						},
 						{
-							"id": 115,
+							"id": 92,
 							"name": "writeSuite",
 							"kind": 2048,
 							"kindString": "Method",
@@ -5794,7 +4771,7 @@
 							},
 							"signatures": [
 								{
-									"id": 116,
+									"id": 93,
 									"name": "writeSuite",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -5803,7 +4780,7 @@
 									},
 									"parameters": [
 										{
-											"id": 117,
+											"id": 94,
 											"name": "suite",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5817,12 +4794,27 @@
 										}
 									],
 									"type": {
-										"type": "reference",
-										"name": "Promise",
-										"typeArguments": [
+										"type": "union",
+										"types": [
 											{
-												"type": "intrinsic",
-												"name": "any"
+												"type": "reference",
+												"name": "Promise",
+												"typeArguments": [
+													{
+														"type": "intrinsic",
+														"name": "void"
+													}
+												]
+											},
+											{
+												"type": "reference",
+												"name": "Promise",
+												"typeArguments": [
+													{
+														"type": "intrinsic",
+														"name": "Object"
+													}
+												]
 											}
 										]
 									}
@@ -5831,13 +4823,13 @@
 							"sources": [
 								{
 									"fileName": "reporters/util/ReportWriter.ts",
-									"line": 168,
+									"line": 128,
 									"character": 11
 								}
 							]
 						},
 						{
-							"id": 112,
+							"id": 89,
 							"name": "writeTest",
 							"kind": 2048,
 							"kindString": "Method",
@@ -5847,7 +4839,7 @@
 							},
 							"signatures": [
 								{
-									"id": 113,
+									"id": 90,
 									"name": "writeTest",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -5856,7 +4848,7 @@
 									},
 									"parameters": [
 										{
-											"id": 114,
+											"id": 91,
 											"name": "test",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5866,7 +4858,7 @@
 											"type": {
 												"type": "reference",
 												"name": "VisualRegressionTest",
-												"id": 226
+												"id": 215
 											}
 										}
 									],
@@ -5903,7 +4895,7 @@
 							"sources": [
 								{
 									"fileName": "reporters/util/ReportWriter.ts",
-									"line": 107,
+									"line": 50,
 									"character": 10
 								}
 							]
@@ -5914,30 +4906,30 @@
 							"title": "Constructors",
 							"kind": 512,
 							"children": [
-								106
+								83
 							]
 						},
 						{
 							"title": "Methods",
 							"kind": 2048,
 							"children": [
-								109,
-								118,
-								115,
-								112
+								86,
+								95,
+								92,
+								89
 							]
 						}
 					],
 					"sources": [
 						{
 							"fileName": "reporters/util/ReportWriter.ts",
-							"line": 60,
-							"character": 31
+							"line": 10,
+							"character": 53
 						}
 					]
 				},
 				{
-					"id": 94,
+					"id": 101,
 					"name": "Note",
 					"kind": 256,
 					"kindString": "Interface",
@@ -5947,7 +4939,7 @@
 					},
 					"children": [
 						{
-							"id": 95,
+							"id": 102,
 							"name": "level",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5958,7 +4950,7 @@
 							"sources": [
 								{
 									"fileName": "reporters/util/ReportWriter.ts",
-									"line": 31,
+									"line": 279,
 									"character": 6
 								}
 							],
@@ -5985,7 +4977,7 @@
 							}
 						},
 						{
-							"id": 96,
+							"id": 103,
 							"name": "message",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5996,7 +4988,7 @@
 							"sources": [
 								{
 									"fileName": "reporters/util/ReportWriter.ts",
-									"line": 32,
+									"line": 280,
 									"character": 8
 								}
 							],
@@ -6006,7 +4998,7 @@
 							}
 						},
 						{
-							"id": 97,
+							"id": 104,
 							"name": "type",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6017,7 +5009,7 @@
 							"sources": [
 								{
 									"fileName": "reporters/util/ReportWriter.ts",
-									"line": 33,
+									"line": 281,
 									"character": 5
 								}
 							],
@@ -6032,22 +5024,22 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								95,
-								96,
-								97
+								102,
+								103,
+								104
 							]
 						}
 					],
 					"sources": [
 						{
 							"fileName": "reporters/util/ReportWriter.ts",
-							"line": 30,
+							"line": 278,
 							"character": 21
 						}
 					]
 				},
 				{
-					"id": 80,
+					"id": 97,
 					"name": "Options",
 					"kind": 256,
 					"kindString": "Interface",
@@ -6055,40 +5047,12 @@
 						"isExported": true,
 						"__visited__": true
 					},
+					"comment": {
+						"shortText": "Report configuration properties"
+					},
 					"children": [
 						{
-							"id": 81,
-							"name": "baselineLocation",
-							"kind": 1024,
-							"kindString": "Property",
-							"flags": {
-								"isExported": true,
-								"isOptional": true,
-								"__visited__": true
-							},
-							"sources": [
-								{
-									"fileName": "reporters/util/ReportWriter.ts",
-									"line": 18,
-									"character": 17
-								}
-							],
-							"type": {
-								"type": "union",
-								"types": [
-									{
-										"type": "intrinsic",
-										"name": "undefined"
-									},
-									{
-										"type": "intrinsic",
-										"name": "string"
-									}
-								]
-							}
-						},
-						{
-							"id": 84,
+							"id": 98,
 							"name": "directory",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6097,10 +5061,13 @@
 								"isOptional": true,
 								"__visited__": true
 							},
+							"comment": {
+								"shortText": "The base output directory. This plugin's output directory is used by\ndefault."
+							},
 							"sources": [
 								{
 									"fileName": "reporters/util/ReportWriter.ts",
-									"line": 21,
+									"line": 269,
 									"character": 10
 								}
 							],
@@ -6119,7 +5086,7 @@
 							}
 						},
 						{
-							"id": 82,
+							"id": 99,
 							"name": "errorColor",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6128,21 +5095,24 @@
 								"isOptional": true,
 								"__visited__": true
 							},
+							"comment": {
+								"shortText": "The color to use when highlighting image differences"
+							},
 							"sources": [
 								{
 									"fileName": "reporters/util/ReportWriter.ts",
-									"line": 19,
+									"line": 272,
 									"character": 11
 								}
 							],
 							"type": {
 								"type": "reference",
 								"name": "ColorDescriptor",
-								"id": 41
+								"id": 46
 							}
 						},
 						{
-							"id": 83,
+							"id": 100,
 							"name": "reportLocation",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6151,10 +5121,13 @@
 								"isOptional": true,
 								"__visited__": true
 							},
+							"comment": {
+								"shortText": "Where in the base output directory to write reports"
+							},
 							"sources": [
 								{
 									"fileName": "reporters/util/ReportWriter.ts",
-									"line": 20,
+									"line": 275,
 									"character": 15
 								}
 							],
@@ -6171,41 +5144,6 @@
 									}
 								]
 							}
-						},
-						{
-							"id": 85,
-							"name": "reportUnusedBaselines",
-							"kind": 1024,
-							"kindString": "Property",
-							"flags": {
-								"isExported": true,
-								"isOptional": true,
-								"__visited__": true
-							},
-							"sources": [
-								{
-									"fileName": "reporters/util/ReportWriter.ts",
-									"line": 22,
-									"character": 22
-								}
-							],
-							"type": {
-								"type": "union",
-								"types": [
-									{
-										"type": "intrinsic",
-										"name": "undefined"
-									},
-									{
-										"type": "intrinsic",
-										"name": "true"
-									},
-									{
-										"type": "intrinsic",
-										"name": "false"
-									}
-								]
-							}
 						}
 					],
 					"groups": [
@@ -6213,290 +5151,29 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								81,
-								84,
-								82,
-								83,
-								85
+								98,
+								99,
+								100
 							]
 						}
 					],
 					"sources": [
 						{
 							"fileName": "reporters/util/ReportWriter.ts",
-							"line": 17,
+							"line": 264,
 							"character": 24
 						}
 					],
 					"extendedBy": [
 						{
 							"type": "reference",
-							"name": "ReportConfig",
-							"id": 86
+							"name": "Config",
+							"id": 123
 						}
 					]
 				},
 				{
-					"id": 86,
-					"name": "ReportConfig",
-					"kind": 256,
-					"kindString": "Interface",
-					"flags": {
-						"isExported": true,
-						"__visited__": true
-					},
-					"children": [
-						{
-							"id": 89,
-							"name": "baselineLocation",
-							"kind": 1024,
-							"kindString": "Property",
-							"flags": {
-								"isExported": true,
-								"isOptional": true,
-								"__visited__": true
-							},
-							"sources": [
-								{
-									"fileName": "reporters/util/ReportWriter.ts",
-									"line": 18,
-									"character": 17
-								}
-							],
-							"type": {
-								"type": "union",
-								"types": [
-									{
-										"type": "intrinsic",
-										"name": "undefined"
-									},
-									{
-										"type": "intrinsic",
-										"name": "string"
-									}
-								]
-							},
-							"inheritedFrom": {
-								"type": "reference",
-								"name": "Options.baselineLocation",
-								"id": 81
-							}
-						},
-						{
-							"id": 87,
-							"name": "console",
-							"kind": 1024,
-							"kindString": "Property",
-							"flags": {
-								"isExported": true,
-								"__visited__": true
-							},
-							"sources": [
-								{
-									"fileName": "reporters/util/ReportWriter.ts",
-									"line": 26,
-									"character": 8
-								}
-							],
-							"type": {
-								"type": "intrinsic",
-								"name": "any"
-							}
-						},
-						{
-							"id": 92,
-							"name": "directory",
-							"kind": 1024,
-							"kindString": "Property",
-							"flags": {
-								"isExported": true,
-								"isOptional": true,
-								"__visited__": true
-							},
-							"sources": [
-								{
-									"fileName": "reporters/util/ReportWriter.ts",
-									"line": 21,
-									"character": 10
-								}
-							],
-							"type": {
-								"type": "union",
-								"types": [
-									{
-										"type": "intrinsic",
-										"name": "undefined"
-									},
-									{
-										"type": "intrinsic",
-										"name": "string"
-									}
-								]
-							},
-							"inheritedFrom": {
-								"type": "reference",
-								"name": "Options.directory",
-								"id": 84
-							}
-						},
-						{
-							"id": 90,
-							"name": "errorColor",
-							"kind": 1024,
-							"kindString": "Property",
-							"flags": {
-								"isExported": true,
-								"isOptional": true,
-								"__visited__": true
-							},
-							"sources": [
-								{
-									"fileName": "reporters/util/ReportWriter.ts",
-									"line": 19,
-									"character": 11
-								}
-							],
-							"type": {
-								"type": "reference",
-								"name": "ColorDescriptor",
-								"id": 41
-							},
-							"inheritedFrom": {
-								"type": "reference",
-								"name": "Options.errorColor",
-								"id": 82
-							}
-						},
-						{
-							"id": 88,
-							"name": "output",
-							"kind": 1024,
-							"kindString": "Property",
-							"flags": {
-								"isExported": true,
-								"__visited__": true
-							},
-							"sources": [
-								{
-									"fileName": "reporters/util/ReportWriter.ts",
-									"line": 27,
-									"character": 7
-								}
-							],
-							"type": {
-								"type": "reference",
-								"name": "WritableStream"
-							}
-						},
-						{
-							"id": 91,
-							"name": "reportLocation",
-							"kind": 1024,
-							"kindString": "Property",
-							"flags": {
-								"isExported": true,
-								"isOptional": true,
-								"__visited__": true
-							},
-							"sources": [
-								{
-									"fileName": "reporters/util/ReportWriter.ts",
-									"line": 20,
-									"character": 15
-								}
-							],
-							"type": {
-								"type": "union",
-								"types": [
-									{
-										"type": "intrinsic",
-										"name": "undefined"
-									},
-									{
-										"type": "intrinsic",
-										"name": "string"
-									}
-								]
-							},
-							"inheritedFrom": {
-								"type": "reference",
-								"name": "Options.reportLocation",
-								"id": 83
-							}
-						},
-						{
-							"id": 93,
-							"name": "reportUnusedBaselines",
-							"kind": 1024,
-							"kindString": "Property",
-							"flags": {
-								"isExported": true,
-								"isOptional": true,
-								"__visited__": true
-							},
-							"sources": [
-								{
-									"fileName": "reporters/util/ReportWriter.ts",
-									"line": 22,
-									"character": 22
-								}
-							],
-							"type": {
-								"type": "union",
-								"types": [
-									{
-										"type": "intrinsic",
-										"name": "undefined"
-									},
-									{
-										"type": "intrinsic",
-										"name": "true"
-									},
-									{
-										"type": "intrinsic",
-										"name": "false"
-									}
-								]
-							},
-							"inheritedFrom": {
-								"type": "reference",
-								"name": "Options.reportUnusedBaselines",
-								"id": 85
-							}
-						}
-					],
-					"groups": [
-						{
-							"title": "Properties",
-							"kind": 1024,
-							"children": [
-								89,
-								87,
-								92,
-								90,
-								88,
-								91,
-								93
-							]
-						}
-					],
-					"sources": [
-						{
-							"fileName": "reporters/util/ReportWriter.ts",
-							"line": 25,
-							"character": 29
-						}
-					],
-					"extendedTypes": [
-						{
-							"type": "reference",
-							"name": "Options",
-							"id": 80
-						}
-					]
-				},
-				{
-					"id": 98,
+					"id": 105,
 					"name": "TestMetadata",
 					"kind": 256,
 					"kindString": "Interface",
@@ -6505,7 +5182,7 @@
 					},
 					"children": [
 						{
-							"id": 101,
+							"id": 108,
 							"name": "baseline",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6516,7 +5193,7 @@
 							"sources": [
 								{
 									"fileName": "reporters/util/ReportWriter.ts",
-									"line": 39,
+									"line": 287,
 									"character": 9
 								}
 							],
@@ -6535,7 +5212,7 @@
 							}
 						},
 						{
-							"id": 102,
+							"id": 109,
 							"name": "difference",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6546,7 +5223,7 @@
 							"sources": [
 								{
 									"fileName": "reporters/util/ReportWriter.ts",
-									"line": 40,
+									"line": 288,
 									"character": 11
 								}
 							],
@@ -6565,7 +5242,7 @@
 							}
 						},
 						{
-							"id": 100,
+							"id": 107,
 							"name": "directory",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6575,7 +5252,7 @@
 							"sources": [
 								{
 									"fileName": "reporters/util/ReportWriter.ts",
-									"line": 38,
+									"line": 286,
 									"character": 10
 								}
 							],
@@ -6585,7 +5262,7 @@
 							}
 						},
 						{
-							"id": 99,
+							"id": 106,
 							"name": "result",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6595,18 +5272,18 @@
 							"sources": [
 								{
 									"fileName": "reporters/util/ReportWriter.ts",
-									"line": 37,
+									"line": 285,
 									"character": 7
 								}
 							],
 							"type": {
 								"type": "reference",
 								"name": "AssertionResult",
-								"id": 218
+								"id": 207
 							}
 						},
 						{
-							"id": 103,
+							"id": 110,
 							"name": "screenshot",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6617,7 +5294,7 @@
 							"sources": [
 								{
 									"fileName": "reporters/util/ReportWriter.ts",
-									"line": 41,
+									"line": 289,
 									"character": 11
 								}
 							],
@@ -6636,7 +5313,7 @@
 							}
 						},
 						{
-							"id": 104,
+							"id": 111,
 							"name": "testDirectory",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6646,7 +5323,7 @@
 							"sources": [
 								{
 									"fileName": "reporters/util/ReportWriter.ts",
-									"line": 42,
+									"line": 290,
 									"character": 14
 								}
 							],
@@ -6661,25 +5338,25 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								101,
-								102,
-								100,
-								99,
-								103,
-								104
+								108,
+								109,
+								107,
+								106,
+								110,
+								111
 							]
 						}
 					],
 					"sources": [
 						{
 							"fileName": "reporters/util/ReportWriter.ts",
-							"line": 36,
+							"line": 284,
 							"character": 22
 						}
 					]
 				},
 				{
-					"id": 129,
+					"id": 120,
 					"name": "TestMember",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -6689,7 +5366,7 @@
 					"sources": [
 						{
 							"fileName": "reporters/util/ReportWriter.ts",
-							"line": 60,
+							"line": 308,
 							"character": 15
 						}
 					],
@@ -6708,37 +5385,38 @@
 					}
 				},
 				{
-					"id": 120,
-					"name": "require",
+					"id": 121,
+					"name": "img",
 					"kind": 32,
 					"kindString": "Variable",
 					"flags": {
+						"isConst": true,
 						"__visited__": true
 					},
 					"sources": [
 						{
 							"fileName": "reporters/util/ReportWriter.ts",
-							"line": 15,
-							"character": 21
+							"line": 310,
+							"character": 9
 						}
 					],
 					"type": {
-						"type": "reference",
-						"name": "IRequire"
-					}
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"defaultValue": "\n\t'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIIAAACACAMAAADwF' +\n\t'UHEAAADAFBMVEUAAAAAAAAAAABVVVVAQEBmZmZVVVVtbW1gYGBVVVVmZmZdXV1qampiYmJt' +\n\t'bW1mZmZwcHBpaWljY2Nra2tmZmZtbW1oaGhvb29qampwcHBsbGxoaGhtbW1qampvb29ra2t' +\n\t'wcHBsbGxxcXFtbW1qampubm5ra2tvb29sbGxwcHBtbW1xcXFubm5sbGxvb29tbW1wcHBtbW' +\n\t'1wcHBubm5xcXFvb29tbW1vb29tbW1wcHBubm5wcHBvb29xcXFvb29tbW1wcHBubm5wcHBub' +\n\t'm5xcXFvb29xcXFvb29ubm5wcHBubm5wcHBvb29xcXFvb29xcXFwcHBubm5wcHBwcHBvb29x' +\n\t'cXFvb29ubm5xcXFwcHBvb29wcHBwcHBvb29xcXFwcHBubm5wcHBvb29wcHBvb29xcXFvb29' +\n\t'xcXFwcHBvb29wcHBvb29wcHBvb29xcXFwcHBxcXFwcHBvb29wcHBvb29wcHBvb29xcXFwcH' +\n\t'BxcXFwcHBvb29wcHBubm5wcHBwcHBwcHBxcXFwcHBvb29wcHBvb29xcXFwcHBwcHBvb29xc' +\n\t'XFwcHBvb29wcHBwcHBxcXFwcHBxcXFwcHBxcXFwcHBvb29wcHBwcHBxcXFwcHBxcXFwcHBx' +\n\t'cXFwcHBwcHBwcHBxcXFwcHBxcXFwcHBxcXFwcHBwcHBxcXFwcHBxcXFwcHBxcXFwcHBwcHB' +\n\t'wcHBwcHBxcXFwcHBwcHBxcXFwcHBwcHBwcHBwcHBxcXFwcHBxcXFwcHBxcXFwcHBwcHBwcH' +\n\t'BwcHBxcXFwcHBxcXFwcHBxcXFwcHBwcHBxcXFwcHBxcXFxcXFwcHBwcHBxcXFwcHBwcHBxc' +\n\t'XFwcHBxcXFwcHBxcXFwcHBxcXFwcHBwcHBxcXFwcHBxcXFwcHBxcXFwcHBxcXFwcHBwcHBx' +\n\t'cXFwcHBxcXFwcHBxcXFwcHBxcXFxcXFwcHBxcXFwcHBxcXFwcHBxcXFxcXFwcHBxcXFxcXF' +\n\t'wcHBwcHBxcXFwcHBxcXFxcXFwcHBxcXFxcXFwcHBxcXF+cGExAAAA/3RSTlMAAQIDBAUGBw' +\n\t'gJCgsMDQ4PEBESExQVFhcYGRobHB0eHyAhIiMkJSYnKCkqKywtLi8wMTIzNDU2Nzg5Ojs8P' +\n\t'T4/QEFCQ0RFRkdISUpLTE1OT1BRUlRVVldYWFlaW11eX2BhYmNkZWZnaGlqa2xtbm9wcXJz' +\n\t'dHV2d3h5ent8fX9/gIKDhIWGh4iJi4yMjY6PkJGSk5SVlpeYmZqbnJ2en6Gio6Slpqeoqaq' +\n\t'rrK2ur7CxsrO0tre4ubq7vL2+v8DBwsPExcbHyMnKy8zNztDR0tLT1NXW19jZ2tvc3d7f4O' +\n\t'Hi4+Tl5ufo6err7O3u7/Dx8vPz9PX29/j5+fr6+/z8/f6oCt5hAAAJJUlEQVQYGcXBC0DU9' +\n\t'QEH8O9xgDwEM0BTYVn4thpmvpN02WqVpaXNYlPM0koW+cy0BepYG5Ca1lDLMrXyEenS6GFi' +\n\t'TiSxttTIFJsvFFB5TIEdg919+/3+/zu5x/9/AnF3nw+aI/C2qcs27T1RXlVdW1r45ZY/Txw' +\n\t'YAi8yDF68v47O6velPxAKrxi06iz11HyYeC08LPSJA3Sv9t27/OA5IXPPswmKpgbCMwKfOc' +\n\t'MmOpUUBA8YcYTNUDwzFK2s3UoLm6c0yQ+tKfoEm2//bWhNt+xm85mXt0MrMjxZweYrfhStK' +\n\t'fYrtsDWCLSiwEy2wKk70JomN7D5GlKMaEW/Y0vsikarCI0b8+zLb11kS5SNwM/Uc2LGJ6f4' +\n\t'c9Q9jhbzHzhjSwlbQbofWiJk3OZLbC1b26K52ozZcImt6etOaJaeWRVsbUe7oukGZFvoAad' +\n\t'6oYmi11roGSW3oikMz12mx5QPxdV12E5PqhiAq+lzmp51IQ7uxZXS00r7wp3uF+l5xbHQF1' +\n\t'hAbzgaBV2Z9I78UOiIrqOXfOQPbRn0mhVwENStXw8jhEmPjb7nnoenv1lFz3saNuGPvvGdh' +\n\t'eSlVZG44k56Xv2dkALHf2SizXehUPmn1dALyn4BXJ9eSnuzoVpH78gfsqGejrZDMY6+cwGK' +\n\t'AvrOeUix9KHjkCbQh/ZBeok+9CqkDPrQBEgr6EMxkNLoO/lQzKHvzIQigT5jiYEijj6TA1V' +\n\t'QA33lAVh9Sx857gerV+kjs2DzEH3jfFvYRFjoEy+h0R76QmV7NEqmL6TAToyFraD0wNbXXv' +\n\t'j9/fH94uKGjkneWEn3SsNgL48/h7lwU+qEW8PgqMN2ujUDDpLopIFNdGrl1IHB0NSd7hS1g' +\n\t'YP2NbTTUMGm2ngN9PgtoDvj4GQtr/jvGTbV5Sega/DXdGc3nMXT5p//YaPKwoPnqeuTPtA1' +\n\t'sZaNyg8fLqeDhji4+J6Kug/MVDXsfLZPWwhBNyZmV9OFZcsA6PL7C61MO6b1CIEQ0mPaDhN' +\n\t'tlsPVM5TObaOq/PkI2AlJPEEHJVm9oc+YTVXJ9HDYCZ9eQtXfjXARcp7k6b9SYXolAk6C5l' +\n\t'ykzYmldxjhzlIqLqeGwUlY6mUqlsLVIvLcUxZKZ4dAQ9d/UbGxJ65iChVFfaGhbxEVU+CiY' +\n\t'23db6soHYiBprbZlCwPwr3b6yh9EQFNEV9QMt0OF6uT8yntD4UOw3pKpeFwJ+AYpZwA6AjI' +\n\t'oXQsAM4ix1Mq7gKb0DFzl762ICESNkFfUVoEd5IoHWmPKwLvnpX5t5TJMbBqf4RSEpwF/EC' +\n\t'hdhCs+m6qoaJh569g1eUMhcudoC+shEJ5L9jErK6gav84qHqVUygJg5NnKKVBFbjCzEbbIq' +\n\t'B6lFIW9KVSSoaVYUENG+XdCEUypVQ4KaRwvh0UkV/SwbHeUBgKKJjCoMdYRuF4IFTBm+igL' +\n\t'B5S4HEKZUY46ElpBhRt9tLJqeugGEVpHPTEU0qAyvA+nVTdDCmBUjwczKFQEwrFKrrY6wfF' +\n\t'QQrroCeTwjk/qJ6ni6JwCH7nKGTAwR4K26Dob6GrRCgWU7joDx3HKKyGqvNluloEaTWFY7D' +\n\t'X3kxhChQ7qOGEP6QBlIZD0XnQ2OkvzPrDtMfi2kDRg9JoqFZQw+UoCKMp9YCdIZS6QIoyU8' +\n\t'tISIZSCtOAfvO3neUVDYUbk7oCYynUB0FhLKOWKRCC6imMhZ1JFEwGSInUtASK/RTWpJ+kq' +\n\t'4Kn/kjhJFTx1LQN0kkKc2FnNoV/Q5FBTZ9CsZWChdpMFPZB9TQ1HYeUTyEddlIp7IViAzUd' +\n\t'hiKLVuaDa5LGDOwSFtHp+psfWfjBUdpkQ7WImmohZVPIgp00Cp9B8SE1/QjFK5Qq3hkfDkd' +\n\t'dpuaYKa2HKpOaLP4Q1lN4E3bmUzgERRY17YViA4X8YGjpmk/hc6jmUFMJpM8pLIOd6RQuQj' +\n\t'Gfmt6DYheFVdC2kEIhVBOoqQBSIYWFsHMfpWBIA6lpChQ/UJgHbZMpVEIVZaaWNEiVFCbDT' +\n\t'jdKIyEZTlODuSOkKDOFh6BtGKXeUO2mlkEQ+lAaBjuGYgpLoEimhjehSKRg6QRtIdUU5kE1' +\n\t'mhp2QZpHoToE9rIoHIcisIguqqOh+JBCHvRkU8iD1S66sAyGlEchGw7upTQEigE1dJYARWQ' +\n\t'1hXnQk0jBEgvV9SV09iKkbhYKiXDQporCTqjG19NRClRLKPWGnigzhXdhNaySjt42QHqXgj' +\n\t'kKjtZS+g1UI8/TjulxqG4wUfgG+nIoWPrD6qYi2rGkGCD1t1DIgZNudRS+DYKq08oG2mzrC' +\n\t'6vNlO6HvoGUco2wapdWTZt/DIPCmEtpIJwtp/QObG6YnXvOwgsFC/vBZg6lXLizkVIGruj4' +\n\t'9MdnGlh5MHM4rDIobYSLDlWU5sJOQBDs3GemNBjudK+nNAn2jCFoNIlSfXe4mk3JPBU6RlV' +\n\t'SWgv30inVjoOOcSZK6dDyHhWv+kPL9HpKB0Lgnv9nlCwpBmgwpFgofeYPLSEFVHwaCxcRb1' +\n\t'BxNgZXc+1RKjZ3hovOW6g4ei20xZylom5ZFBwEP19OhWkorq5PJRXVi8PhIHxxNRUVfaCnx' +\n\t'/dUVbwxOghWxjsyT1NVNhJN0f8kVf/7MeeVeU+MHd47yoiAX68oo+rkrdB3zce0ubRjZcqT' +\n\t'k+evyC6lzaFYNM11eXRiMf2fNnnXwR3jEuraFo6mCnqbut4OwlUMzqWmwrFojlFF1HRgFJr' +\n\t'ggcN0UTzVH81zFzXdhCYxjlhynHZK1zwYjOZ6kJpmocl+OWfNnsLTxUfy178Ub0QLzKCmt+' +\n\t'A926kpF14TXUdNX8JrVlDbTnjL3RZqex1e0qmEOh6HdwTvoo76aHhFu93U8z68ouPX1DUE3' +\n\t'jCoiLqWwwuML9ZT13fB8Lxue6iv/BZ4XFhaLfVVDoOnGRKL6caZOHiY38Pf0J1dneFZxoTD' +\n\t'dKd2gREeFTnrKN36vBc8asQGE906eB88KWLm93Qvf6wBnuM3cl0t3apdNxyeYxi69Azd25c' +\n\t'cCY/xv3PZCbplyXshFh4TmbDuAt0qeT+xAzwlMD41z0x3Tm1KuskAjwl8ZEcJ9Z3LefmhLv' +\n\t'C89oMn/mnzIRMdnM1dPfOujvAqY+y9z2V9UVx16KPX504Y0A4t9BN3u2VcrggrbwAAAABJR' +\n\t'U5ErkJggg=='"
 				},
 				{
-					"id": 121,
+					"id": 112,
 					"name": "addSuffix",
 					"kind": 64,
 					"kindString": "Function",
 					"flags": {
-						"isExported": true,
 						"__visited__": true
 					},
 					"signatures": [
 						{
-							"id": 122,
+							"id": 113,
 							"name": "addSuffix",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -6747,7 +5425,7 @@
 							},
 							"parameters": [
 								{
-									"id": 123,
+									"id": 114,
 									"name": "filename",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -6760,7 +5438,7 @@
 									}
 								},
 								{
-									"id": 124,
+									"id": 115,
 									"name": "suffix",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -6783,13 +5461,13 @@
 					"sources": [
 						{
 							"fileName": "reporters/util/ReportWriter.ts",
-							"line": 45,
-							"character": 25
+							"line": 293,
+							"character": 18
 						}
 					]
 				},
 				{
-					"id": 125,
+					"id": 116,
 					"name": "constructDirectory",
 					"kind": 64,
 					"kindString": "Function",
@@ -6798,7 +5476,7 @@
 					},
 					"signatures": [
 						{
-							"id": 126,
+							"id": 117,
 							"name": "constructDirectory",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -6807,7 +5485,7 @@
 							},
 							"parameters": [
 								{
-									"id": 127,
+									"id": 118,
 									"name": "base",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -6820,7 +5498,7 @@
 									}
 								},
 								{
-									"id": 128,
+									"id": 119,
 									"name": "location",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -6842,7 +5520,7 @@
 					"sources": [
 						{
 							"fileName": "reporters/util/ReportWriter.ts",
-							"line": 51,
+							"line": 299,
 							"character": 27
 						}
 					]
@@ -6853,39 +5531,38 @@
 					"title": "Classes",
 					"kind": 128,
 					"children": [
-						105
+						82
 					]
 				},
 				{
 					"title": "Interfaces",
 					"kind": 256,
 					"children": [
-						94,
-						80,
-						86,
-						98
+						101,
+						97,
+						105
 					]
 				},
 				{
 					"title": "Type aliases",
 					"kind": 4194304,
 					"children": [
-						129
+						120
 					]
 				},
 				{
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						120
+						121
 					]
 				},
 				{
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						121,
-						125
+						112,
+						116
 					]
 				}
 			],
@@ -6898,7 +5575,7 @@
 			]
 		},
 		{
-			"id": 61,
+			"id": 63,
 			"name": "\"reporters/util/saveDifferenceImage\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -6909,7 +5586,7 @@
 			"originalName": "src/reporters/util/saveDifferenceImage.ts",
 			"children": [
 				{
-					"id": 62,
+					"id": 64,
 					"name": "Options",
 					"kind": 256,
 					"kindString": "Interface",
@@ -6919,7 +5596,7 @@
 					},
 					"children": [
 						{
-							"id": 64,
+							"id": 66,
 							"name": "backgroundColor",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6931,7 +5608,7 @@
 							"sources": [
 								{
 									"fileName": "reporters/util/saveDifferenceImage.ts",
-									"line": 9,
+									"line": 44,
 									"character": 16
 								}
 							],
@@ -6954,7 +5631,7 @@
 							}
 						},
 						{
-							"id": 63,
+							"id": 65,
 							"name": "errorColor",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6965,7 +5642,7 @@
 							"sources": [
 								{
 									"fileName": "reporters/util/saveDifferenceImage.ts",
-									"line": 8,
+									"line": 43,
 									"character": 11
 								}
 							],
@@ -6980,21 +5657,21 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								64,
-								63
+								66,
+								65
 							]
 						}
 					],
 					"sources": [
 						{
 							"fileName": "reporters/util/saveDifferenceImage.ts",
-							"line": 7,
+							"line": 42,
 							"character": 24
 						}
 					]
 				},
 				{
-					"id": 65,
+					"id": 72,
 					"name": "createImage",
 					"kind": 64,
 					"kindString": "Function",
@@ -7003,7 +5680,7 @@
 					},
 					"signatures": [
 						{
-							"id": 66,
+							"id": 73,
 							"name": "createImage",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -7012,7 +5689,7 @@
 							},
 							"parameters": [
 								{
-									"id": 67,
+									"id": 74,
 									"name": "width",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -7025,7 +5702,7 @@
 									}
 								},
 								{
-									"id": 68,
+									"id": 75,
 									"name": "height",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -7038,7 +5715,7 @@
 									}
 								},
 								{
-									"id": 69,
+									"id": 76,
 									"name": "options",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -7048,7 +5725,7 @@
 									"type": {
 										"type": "reference",
 										"name": "Options",
-										"id": 62
+										"id": 64
 									}
 								}
 							],
@@ -7061,13 +5738,13 @@
 					"sources": [
 						{
 							"fileName": "reporters/util/saveDifferenceImage.ts",
-							"line": 12,
+							"line": 47,
 							"character": 20
 						}
 					]
 				},
 				{
-					"id": 74,
+					"id": 67,
 					"name": "default",
 					"kind": 64,
 					"kindString": "Function",
@@ -7077,7 +5754,7 @@
 					},
 					"signatures": [
 						{
-							"id": 75,
+							"id": 68,
 							"name": "default",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -7086,7 +5763,7 @@
 							},
 							"parameters": [
 								{
-									"id": 76,
+									"id": 69,
 									"name": "report",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -7099,7 +5776,7 @@
 									}
 								},
 								{
-									"id": 77,
+									"id": 70,
 									"name": "filename",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -7112,7 +5789,7 @@
 									}
 								},
 								{
-									"id": 78,
+									"id": 71,
 									"name": "options",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -7122,7 +5799,7 @@
 									"type": {
 										"type": "reference",
 										"name": "Options",
-										"id": 62
+										"id": 64
 									}
 								}
 							],
@@ -7141,13 +5818,13 @@
 					"sources": [
 						{
 							"fileName": "reporters/util/saveDifferenceImage.ts",
-							"line": 39,
-							"character": 1
+							"line": 6,
+							"character": 40
 						}
 					]
 				},
 				{
-					"id": 70,
+					"id": 77,
 					"name": "savePng",
 					"kind": 64,
 					"kindString": "Function",
@@ -7156,7 +5833,7 @@
 					},
 					"signatures": [
 						{
-							"id": 71,
+							"id": 78,
 							"name": "savePng",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -7165,7 +5842,7 @@
 							},
 							"parameters": [
 								{
-									"id": 72,
+									"id": 79,
 									"name": "filename",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -7178,7 +5855,7 @@
 									}
 								},
 								{
-									"id": 73,
+									"id": 80,
 									"name": "png",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -7206,7 +5883,7 @@
 					"sources": [
 						{
 							"fileName": "reporters/util/saveDifferenceImage.ts",
-							"line": 26,
+							"line": 61,
 							"character": 16
 						}
 					]
@@ -7217,16 +5894,16 @@
 					"title": "Interfaces",
 					"kind": 256,
 					"children": [
-						62
+						64
 					]
 				},
 				{
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						65,
-						74,
-						70
+						72,
+						67,
+						77
 					]
 				}
 			],
@@ -7239,7 +5916,7 @@
 			]
 		},
 		{
-			"id": 333,
+			"id": 290,
 			"name": "\"test\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -7250,7 +5927,7 @@
 			"originalName": "src/test.ts",
 			"children": [
 				{
-					"id": 334,
+					"id": 291,
 					"name": "Options",
 					"kind": 256,
 					"kindString": "Interface",
@@ -7258,9 +5935,12 @@
 						"isExported": true,
 						"__visited__": true
 					},
+					"comment": {
+						"shortText": "Options for a visual regression test"
+					},
 					"children": [
 						{
-							"id": 342,
+							"id": 299,
 							"name": "baseline",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7272,7 +5952,7 @@
 							"sources": [
 								{
 									"fileName": "assert.ts",
-									"line": 13,
+									"line": 84,
 									"character": 9
 								}
 							],
@@ -7292,11 +5972,11 @@
 							"inheritedFrom": {
 								"type": "reference",
 								"name": "Options.baseline",
-								"id": 213
+								"id": 202
 							}
 						},
 						{
-							"id": 343,
+							"id": 300,
 							"name": "baselineLocation",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7308,7 +5988,7 @@
 							"sources": [
 								{
 									"fileName": "assert.ts",
-									"line": 14,
+									"line": 85,
 									"character": 17
 								}
 							],
@@ -7328,11 +6008,11 @@
 							"inheritedFrom": {
 								"type": "reference",
 								"name": "Options.baselineLocation",
-								"id": 214
+								"id": 203
 							}
 						},
 						{
-							"id": 338,
+							"id": 295,
 							"name": "callback",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7341,10 +6021,13 @@
 								"isOptional": true,
 								"__visited__": true
 							},
+							"comment": {
+								"shortText": "A callback to be called with the test result"
+							},
 							"sources": [
 								{
 									"fileName": "test.ts",
-									"line": 9,
+									"line": 45,
 									"character": 9
 								}
 							],
@@ -7358,7 +6041,7 @@
 									{
 										"type": "reflection",
 										"declaration": {
-											"id": 339,
+											"id": 296,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
@@ -7367,7 +6050,7 @@
 											},
 											"signatures": [
 												{
-													"id": 340,
+													"id": 297,
 													"name": "__call",
 													"kind": 4096,
 													"kindString": "Call signature",
@@ -7376,7 +6059,7 @@
 													},
 													"parameters": [
 														{
-															"id": 341,
+															"id": 298,
 															"name": "report",
 															"kind": 32768,
 															"kindString": "Parameter",
@@ -7386,7 +6069,7 @@
 															"type": {
 																"type": "reference",
 																"name": "AssertionResult",
-																"id": 218
+																"id": 207
 															}
 														}
 													],
@@ -7402,7 +6085,7 @@
 							}
 						},
 						{
-							"id": 344,
+							"id": 301,
 							"name": "directory",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7414,7 +6097,7 @@
 							"sources": [
 								{
 									"fileName": "assert.ts",
-									"line": 15,
+									"line": 86,
 									"character": 10
 								}
 							],
@@ -7434,11 +6117,11 @@
 							"inheritedFrom": {
 								"type": "reference",
 								"name": "Options.directory",
-								"id": 215
+								"id": 204
 							}
 						},
 						{
-							"id": 337,
+							"id": 294,
 							"name": "height",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7447,10 +6130,13 @@
 								"isOptional": true,
 								"__visited__": true
 							},
+							"comment": {
+								"shortText": "Desired browser height"
+							},
 							"sources": [
 								{
 									"fileName": "test.ts",
-									"line": 8,
+									"line": 42,
 									"character": 7
 								}
 							],
@@ -7469,7 +6155,7 @@
 							}
 						},
 						{
-							"id": 346,
+							"id": 303,
 							"name": "missingBaseline",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7481,7 +6167,7 @@
 							"sources": [
 								{
 									"fileName": "assert.ts",
-									"line": 17,
+									"line": 88,
 									"character": 16
 								}
 							],
@@ -7509,11 +6195,11 @@
 							"inheritedFrom": {
 								"type": "reference",
 								"name": "Options.missingBaseline",
-								"id": 217
+								"id": 206
 							}
 						},
 						{
-							"id": 345,
+							"id": 302,
 							"name": "regenerateBaselines",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7525,7 +6211,7 @@
 							"sources": [
 								{
 									"fileName": "assert.ts",
-									"line": 16,
+									"line": 87,
 									"character": 20
 								}
 							],
@@ -7549,11 +6235,11 @@
 							"inheritedFrom": {
 								"type": "reference",
 								"name": "Options.regenerateBaselines",
-								"id": 216
+								"id": 205
 							}
 						},
 						{
-							"id": 335,
+							"id": 292,
 							"name": "url",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7561,10 +6247,13 @@
 								"isExported": true,
 								"__visited__": true
 							},
+							"comment": {
+								"shortText": "The URL of the page that should be loaded"
+							},
 							"sources": [
 								{
 									"fileName": "test.ts",
-									"line": 6,
+									"line": 36,
 									"character": 4
 								}
 							],
@@ -7574,7 +6263,7 @@
 							}
 						},
 						{
-							"id": 336,
+							"id": 293,
 							"name": "width",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7583,10 +6272,13 @@
 								"isOptional": true,
 								"__visited__": true
 							},
+							"comment": {
+								"shortText": "Desired browser width"
+							},
 							"sources": [
 								{
 									"fileName": "test.ts",
-									"line": 7,
+									"line": 39,
 									"character": 6
 								}
 							],
@@ -7610,22 +6302,22 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								342,
-								343,
-								338,
-								344,
-								337,
-								346,
-								345,
-								335,
-								336
+								299,
+								300,
+								295,
+								301,
+								294,
+								303,
+								302,
+								292,
+								293
 							]
 						}
 					],
 					"sources": [
 						{
 							"fileName": "test.ts",
-							"line": 5,
+							"line": 34,
 							"character": 24
 						}
 					],
@@ -7633,13 +6325,13 @@
 						{
 							"type": "reference",
 							"name": "Options",
-							"id": 212
+							"id": 201
 						}
 					]
 				},
 				{
-					"id": 347,
-					"name": "default",
+					"id": 304,
+					"name": "visualTest",
 					"kind": 64,
 					"kindString": "Function",
 					"flags": {
@@ -7648,33 +6340,29 @@
 					},
 					"signatures": [
 						{
-							"id": 348,
-							"name": "default",
+							"id": 305,
+							"name": "visualTest",
 							"kind": 4096,
 							"kindString": "Call signature",
 							"flags": {
 								"__visited__": true
 							},
 							"comment": {
-								"shortText": "Create an Intern test from a series of options",
-								"returns": "a visual regression test\n"
+								"shortText": "Create a visual regression test from a series of options."
 							},
 							"parameters": [
 								{
-									"id": 349,
+									"id": 306,
 									"name": "options",
 									"kind": 32768,
 									"kindString": "Parameter",
 									"flags": {
 										"__visited__": true
 									},
-									"comment": {
-										"text": "options for the test"
-									},
 									"type": {
 										"type": "reference",
 										"name": "Options",
-										"id": 334
+										"id": 291
 									}
 								}
 							],
@@ -7687,8 +6375,8 @@
 					"sources": [
 						{
 							"fileName": "test.ts",
-							"line": 10,
-							"character": 1
+							"line": 12,
+							"character": 34
 						}
 					]
 				}
@@ -7698,14 +6386,14 @@
 					"title": "Interfaces",
 					"kind": 256,
 					"children": [
-						334
+						291
 					]
 				},
 				{
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						347
+						304
 					]
 				}
 			],
@@ -7739,8 +6427,8 @@
 					},
 					"children": [
 						{
-							"id": 3,
-							"name": "_remote",
+							"id": 8,
+							"name": "name",
 							"kind": 1024,
 							"kindString": "Property",
 							"flags": {
@@ -7751,8 +6439,62 @@
 							"sources": [
 								{
 									"fileName": "util/file.ts",
-									"line": 11,
-									"character": 8
+									"line": 22,
+									"character": 5
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "undefined"
+									},
+									{
+										"type": "intrinsic",
+										"name": "string"
+									}
+								]
+							}
+						},
+						{
+							"id": 9,
+							"name": "parent",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isOptional": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "util/file.ts",
+									"line": 23,
+									"character": 7
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "Hierarchy",
+								"id": 2
+							}
+						},
+						{
+							"id": 3,
+							"name": "remote",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isOptional": true,
+								"__visited__": true
+							},
+							"sources": [
+								{
+									"fileName": "util/file.ts",
+									"line": 17,
+									"character": 7
 								}
 							],
 							"type": {
@@ -7779,64 +6521,77 @@
 													"kind": 32,
 													"kindString": "Variable",
 													"flags": {
+														"isOptional": true,
 														"__visited__": true
 													},
 													"sources": [
 														{
 															"fileName": "util/file.ts",
-															"line": 12,
+															"line": 18,
 															"character": 17
 														}
 													],
 													"type": {
-														"type": "reflection",
-														"declaration": {
-															"id": 6,
-															"name": "__type",
-															"kind": 65536,
-															"kindString": "Type literal",
-															"flags": {
-																"__visited__": true
+														"type": "union",
+														"types": [
+															{
+																"type": "intrinsic",
+																"name": "undefined"
 															},
-															"children": [
-																{
-																	"id": 7,
-																	"name": "browserName",
-																	"kind": 32,
-																	"kindString": "Variable",
+															{
+																"type": "reflection",
+																"declaration": {
+																	"id": 6,
+																	"name": "__type",
+																	"kind": 65536,
+																	"kindString": "Type literal",
 																	"flags": {
 																		"__visited__": true
 																	},
-																	"sources": [
+																	"children": [
 																		{
-																			"fileName": "util/file.ts",
-																			"line": 13,
-																			"character": 14
+																			"id": 7,
+																			"name": "browserName",
+																			"kind": 32,
+																			"kindString": "Variable",
+																			"flags": {
+																				"isOptional": true,
+																				"__visited__": true
+																			},
+																			"sources": [
+																				{
+																					"fileName": "util/file.ts",
+																					"line": 19,
+																					"character": 14
+																				}
+																			],
+																			"type": {
+																				"type": "union",
+																				"types": [
+																					{
+																						"type": "intrinsic",
+																						"name": "undefined"
+																					},
+																					{
+																						"type": "intrinsic",
+																						"name": "string"
+																					}
+																				]
+																			}
 																		}
 																	],
-																	"type": {
-																		"type": "intrinsic",
-																		"name": "string"
-																	}
-																}
-															],
-															"groups": [
-																{
-																	"title": "Variables",
-																	"kind": 32,
-																	"children": [
-																		7
+																	"groups": [
+																		{
+																			"title": "Variables",
+																			"kind": 32,
+																			"children": [
+																				7
+																			]
+																		}
 																	]
 																}
-															],
-															"sources": [
-																{
-																	"fileName": "util/file.ts",
-																	"line": 12,
-																	"character": 18
-																}
-															]
-														}
+															}
+														]
 													}
 												}
 											],
@@ -7853,50 +6608,6 @@
 									}
 								]
 							}
-						},
-						{
-							"id": 8,
-							"name": "name",
-							"kind": 1024,
-							"kindString": "Property",
-							"flags": {
-								"isExported": true,
-								"__visited__": true
-							},
-							"sources": [
-								{
-									"fileName": "util/file.ts",
-									"line": 16,
-									"character": 5
-								}
-							],
-							"type": {
-								"type": "intrinsic",
-								"name": "string"
-							}
-						},
-						{
-							"id": 9,
-							"name": "parent",
-							"kind": 1024,
-							"kindString": "Property",
-							"flags": {
-								"isExported": true,
-								"isOptional": true,
-								"__visited__": true
-							},
-							"sources": [
-								{
-									"fileName": "util/file.ts",
-									"line": 17,
-									"character": 7
-								}
-							],
-							"type": {
-								"type": "reference",
-								"name": "Hierarchy",
-								"id": 2
-							}
 						}
 					],
 					"groups": [
@@ -7904,22 +6615,22 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								3,
 								8,
-								9
+								9,
+								3
 							]
 						}
 					],
 					"sources": [
 						{
 							"fileName": "util/file.ts",
-							"line": 10,
+							"line": 16,
 							"character": 26
 						}
 					]
 				},
 				{
-					"id": 28,
+					"id": 30,
 					"name": "copy",
 					"kind": 64,
 					"kindString": "Function",
@@ -7929,16 +6640,19 @@
 					},
 					"signatures": [
 						{
-							"id": 29,
+							"id": 31,
 							"name": "copy",
 							"kind": 4096,
 							"kindString": "Call signature",
 							"flags": {
 								"__visited__": true
 							},
+							"comment": {
+								"shortText": "Copy a file to a new location."
+							},
 							"parameters": [
 								{
-									"id": 30,
+									"id": 32,
 									"name": "source",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -7951,7 +6665,7 @@
 									}
 								},
 								{
-									"id": 31,
+									"id": 33,
 									"name": "target",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -7970,7 +6684,7 @@
 								"typeArguments": [
 									{
 										"type": "intrinsic",
-										"name": "string"
+										"name": "Object"
 									}
 								]
 							}
@@ -7979,7 +6693,7 @@
 					"sources": [
 						{
 							"fileName": "util/file.ts",
-							"line": 67,
+							"line": 93,
 							"character": 20
 						}
 					]
@@ -8002,6 +6716,9 @@
 							"flags": {
 								"__visited__": true
 							},
+							"comment": {
+								"shortText": "Given an Intern test, create a unique name for a baseline file."
+							},
 							"parameters": [
 								{
 									"id": 19,
@@ -8012,12 +6729,58 @@
 										"__visited__": true
 									},
 									"type": {
-										"type": "reference",
-										"name": "Test"
+										"type": "reflection",
+										"declaration": {
+											"id": 20,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {
+												"__visited__": true
+											},
+											"children": [
+												{
+													"id": 21,
+													"name": "name",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"__visited__": true
+													},
+													"sources": [
+														{
+															"fileName": "util/file.ts",
+															"line": 53,
+															"character": 48
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "string"
+													}
+												}
+											],
+											"groups": [
+												{
+													"title": "Variables",
+													"kind": 32,
+													"children": [
+														21
+													]
+												}
+											],
+											"sources": [
+												{
+													"fileName": "util/file.ts",
+													"line": 53,
+													"character": 41
+												}
+											]
+										}
 									}
 								},
 								{
-									"id": 20,
+									"id": 22,
 									"name": "count",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -8040,7 +6803,7 @@
 					"sources": [
 						{
 							"fileName": "util/file.ts",
-							"line": 39,
+							"line": 53,
 							"character": 35
 						}
 					]
@@ -8064,7 +6827,7 @@
 								"__visited__": true
 							},
 							"comment": {
-								"shortText": "Given an Intern test, create a unique filename path to store and retrieve a baseline"
+								"shortText": "Given an Intern test, create a unique path to contain baselines."
 							},
 							"parameters": [
 								{
@@ -8108,13 +6871,13 @@
 					"sources": [
 						{
 							"fileName": "util/file.ts",
-							"line": 25,
+							"line": 32,
 							"character": 32
 						}
 					]
 				},
 				{
-					"id": 32,
+					"id": 34,
 					"name": "load",
 					"kind": 64,
 					"kindString": "Function",
@@ -8124,16 +6887,19 @@
 					},
 					"signatures": [
 						{
-							"id": 33,
+							"id": 35,
 							"name": "load",
 							"kind": 4096,
 							"kindString": "Call signature",
 							"flags": {
 								"__visited__": true
 							},
+							"comment": {
+								"shortText": "Load data from a file into a target stream."
+							},
 							"typeParameter": [
 								{
-									"id": 34,
+									"id": 36,
 									"name": "T",
 									"kind": 131072,
 									"kindString": "Type parameter",
@@ -8148,7 +6914,7 @@
 							],
 							"parameters": [
 								{
-									"id": 35,
+									"id": 37,
 									"name": "source",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -8161,7 +6927,7 @@
 									}
 								},
 								{
-									"id": 36,
+									"id": 38,
 									"name": "target",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -8193,13 +6959,13 @@
 					"sources": [
 						{
 							"fileName": "util/file.ts",
-							"line": 90,
+							"line": 111,
 							"character": 20
 						}
 					]
 				},
 				{
-					"id": 21,
+					"id": 23,
 					"name": "mkdir",
 					"kind": 64,
 					"kindString": "Function",
@@ -8209,16 +6975,19 @@
 					},
 					"signatures": [
 						{
-							"id": 22,
+							"id": 24,
 							"name": "mkdir",
 							"kind": 4096,
 							"kindString": "Call signature",
 							"flags": {
 								"__visited__": true
 							},
+							"comment": {
+								"shortText": "Create a directory, including any parent directories."
+							},
 							"parameters": [
 								{
-									"id": 23,
+									"id": 25,
 									"name": "directory",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -8246,13 +7015,13 @@
 					"sources": [
 						{
 							"fileName": "util/file.ts",
-							"line": 44,
+							"line": 61,
 							"character": 21
 						}
 					]
 				},
 				{
-					"id": 37,
+					"id": 39,
 					"name": "remove",
 					"kind": 64,
 					"kindString": "Function",
@@ -8262,16 +7031,19 @@
 					},
 					"signatures": [
 						{
-							"id": 38,
+							"id": 40,
 							"name": "remove",
 							"kind": 4096,
 							"kindString": "Call signature",
 							"flags": {
 								"__visited__": true
 							},
+							"comment": {
+								"shortText": "Remove a file."
+							},
 							"parameters": [
 								{
-									"id": 39,
+									"id": 41,
 									"name": "target",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -8290,7 +7062,7 @@
 								"typeArguments": [
 									{
 										"type": "intrinsic",
-										"name": "any"
+										"name": "Object"
 									}
 								]
 							}
@@ -8299,7 +7071,7 @@
 					"sources": [
 						{
 							"fileName": "util/file.ts",
-							"line": 104,
+							"line": 126,
 							"character": 22
 						}
 					]
@@ -8346,13 +7118,13 @@
 					"sources": [
 						{
 							"fileName": "util/file.ts",
-							"line": 5,
+							"line": 11,
 							"character": 32
 						}
 					]
 				},
 				{
-					"id": 24,
+					"id": 26,
 					"name": "save",
 					"kind": 64,
 					"kindString": "Function",
@@ -8362,16 +7134,19 @@
 					},
 					"signatures": [
 						{
-							"id": 25,
+							"id": 27,
 							"name": "save",
 							"kind": 4096,
 							"kindString": "Call signature",
 							"flags": {
 								"__visited__": true
 							},
+							"comment": {
+								"shortText": "Save a file"
+							},
 							"parameters": [
 								{
-									"id": 26,
+									"id": 28,
 									"name": "filename",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -8384,7 +7159,7 @@
 									}
 								},
 								{
-									"id": 27,
+									"id": 29,
 									"name": "buffer",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -8412,7 +7187,7 @@
 								"typeArguments": [
 									{
 										"type": "intrinsic",
-										"name": "any"
+										"name": "Object"
 									}
 								]
 							}
@@ -8421,7 +7196,7 @@
 					"sources": [
 						{
 							"fileName": "util/file.ts",
-							"line": 56,
+							"line": 76,
 							"character": 20
 						}
 					]
@@ -8439,14 +7214,14 @@
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						28,
+						30,
 						17,
 						13,
-						32,
-						21,
-						37,
+						34,
+						23,
+						39,
 						10,
-						24
+						26
 					]
 				}
 			],
@@ -8459,7 +7234,7 @@
 			]
 		},
 		{
-			"id": 40,
+			"id": 42,
 			"name": "\"util/getRGBA\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -8470,7 +7245,7 @@
 			"originalName": "src/util/getRGBA.ts",
 			"children": [
 				{
-					"id": 41,
+					"id": 46,
 					"name": "ColorDescriptor",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -8481,7 +7256,7 @@
 					"sources": [
 						{
 							"fileName": "util/getRGBA.ts",
-							"line": 3,
+							"line": 28,
 							"character": 27
 						}
 					],
@@ -8515,17 +7290,18 @@
 					}
 				},
 				{
-					"id": 42,
+					"id": 47,
 					"name": "defaultColors",
 					"kind": 32,
 					"kindString": "Variable",
 					"flags": {
+						"isConst": true,
 						"__visited__": true
 					},
 					"sources": [
 						{
 							"fileName": "util/getRGBA.ts",
-							"line": 5,
+							"line": 30,
 							"character": 19
 						}
 					],
@@ -8536,10 +7312,10 @@
 							"name": "number"
 						}
 					},
-					"defaultValue": " [0, 0, 0, 0xFF]"
+					"defaultValue": " [0, 0, 0, 0xff]"
 				},
 				{
-					"id": 49,
+					"id": 54,
 					"name": "fromHex",
 					"kind": 64,
 					"kindString": "Function",
@@ -8548,7 +7324,7 @@
 					},
 					"signatures": [
 						{
-							"id": 50,
+							"id": 55,
 							"name": "fromHex",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -8557,7 +7333,7 @@
 							},
 							"parameters": [
 								{
-									"id": 51,
+									"id": 56,
 									"name": "color",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -8582,13 +7358,13 @@
 					"sources": [
 						{
 							"fileName": "util/getRGBA.ts",
-							"line": 23,
+							"line": 48,
 							"character": 16
 						}
 					]
 				},
 				{
-					"id": 55,
+					"id": 60,
 					"name": "fromObject",
 					"kind": 64,
 					"kindString": "Function",
@@ -8597,7 +7373,7 @@
 					},
 					"signatures": [
 						{
-							"id": 56,
+							"id": 61,
 							"name": "fromObject",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -8606,7 +7382,7 @@
 							},
 							"parameters": [
 								{
-									"id": 57,
+									"id": 62,
 									"name": "color",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -8620,24 +7396,21 @@
 								}
 							],
 							"type": {
-								"type": "array",
-								"elementType": {
-									"type": "intrinsic",
-									"name": "number"
-								}
+								"type": "reference",
+								"name": "RGBAColorArray"
 							}
 						}
 					],
 					"sources": [
 						{
 							"fileName": "util/getRGBA.ts",
-							"line": 54,
+							"line": 78,
 							"character": 19
 						}
 					]
 				},
 				{
-					"id": 52,
+					"id": 57,
 					"name": "fromString",
 					"kind": 64,
 					"kindString": "Function",
@@ -8646,7 +7419,7 @@
 					},
 					"signatures": [
 						{
-							"id": 53,
+							"id": 58,
 							"name": "fromString",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -8655,7 +7428,7 @@
 							},
 							"parameters": [
 								{
-									"id": 54,
+									"id": 59,
 									"name": "color",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -8689,13 +7462,13 @@
 					"sources": [
 						{
 							"fileName": "util/getRGBA.ts",
-							"line": 34,
+							"line": 60,
 							"character": 19
 						}
 					]
 				},
 				{
-					"id": 58,
+					"id": 43,
 					"name": "getRGBA",
 					"kind": 64,
 					"kindString": "Function",
@@ -8705,16 +7478,19 @@
 					},
 					"signatures": [
 						{
-							"id": 59,
+							"id": 44,
 							"name": "getRGBA",
 							"kind": 4096,
 							"kindString": "Call signature",
 							"flags": {
 								"__visited__": true
 							},
+							"comment": {
+								"shortText": "Convert a color descriptor to an RGBA value"
+							},
 							"parameters": [
 								{
-									"id": 60,
+									"id": 45,
 									"name": "color",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -8724,7 +7500,7 @@
 									"type": {
 										"type": "reference",
 										"name": "ColorDescriptor",
-										"id": 41
+										"id": 46
 									}
 								}
 							],
@@ -8746,13 +7522,13 @@
 					"sources": [
 						{
 							"fileName": "util/getRGBA.ts",
-							"line": 65,
+							"line": 11,
 							"character": 31
 						}
 					]
 				},
 				{
-					"id": 46,
+					"id": 51,
 					"name": "normalize",
 					"kind": 64,
 					"kindString": "Function",
@@ -8761,7 +7537,7 @@
 					},
 					"signatures": [
 						{
-							"id": 47,
+							"id": 52,
 							"name": "normalize",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -8770,7 +7546,7 @@
 							},
 							"parameters": [
 								{
-									"id": 48,
+									"id": 53,
 									"name": "color",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -8787,24 +7563,21 @@
 								}
 							],
 							"type": {
-								"type": "array",
-								"elementType": {
-									"type": "intrinsic",
-									"name": "number"
-								}
+								"type": "reference",
+								"name": "RGBAColorArray"
 							}
 						}
 					],
 					"sources": [
 						{
 							"fileName": "util/getRGBA.ts",
-							"line": 16,
+							"line": 41,
 							"character": 18
 						}
 					]
 				},
 				{
-					"id": 43,
+					"id": 48,
 					"name": "stringToInt",
 					"kind": 64,
 					"kindString": "Function",
@@ -8813,7 +7586,7 @@
 					},
 					"signatures": [
 						{
-							"id": 44,
+							"id": 49,
 							"name": "stringToInt",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -8822,7 +7595,7 @@
 							},
 							"parameters": [
 								{
-									"id": 45,
+									"id": 50,
 									"name": "radix",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -8845,7 +7618,7 @@
 					"sources": [
 						{
 							"fileName": "util/getRGBA.ts",
-							"line": 7,
+							"line": 32,
 							"character": 20
 						}
 					]
@@ -8856,26 +7629,26 @@
 					"title": "Type aliases",
 					"kind": 4194304,
 					"children": [
-						41
+						46
 					]
 				},
 				{
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						42
+						47
 					]
 				},
 				{
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						49,
-						55,
-						52,
-						58,
-						46,
-						43
+						54,
+						60,
+						57,
+						43,
+						51,
+						48
 					]
 				}
 			],
@@ -8893,20 +7666,19 @@
 			"title": "External modules",
 			"kind": 1,
 			"children": [
+				189,
 				200,
-				211,
-				186,
-				154,
-				130,
-				316,
-				350,
-				356,
-				357,
-				79,
-				61,
-				333,
+				175,
+				143,
+				122,
+				275,
+				328,
+				307,
+				81,
+				63,
+				290,
 				1,
-				40
+				42
 			]
 		}
 	]

@@ -1,6 +1,6 @@
 {
 	"name": "intern-visual",
-	"version": "0.1.3-pre",
+	"version": "0.2.0-pre",
 	"description": "Visual regression testing plugin for Intern",
 	"author": "Paul Shannon",
 	"license": "MPL-2.0",
@@ -23,16 +23,15 @@
 		"url": "https://github.com/theintern/intern-visual/issues"
 	},
 	"peerDependencies": {
-		"intern": ">=3.0.0 <4.0.0"
+		"intern": ">=4.2.0, <5.0.0"
 	},
 	"devDependencies": {
-		"@dojo/loader": "beta2",
-		"@theintern/dev": "~0.5.8",
-		"@types/node": "^6.0.48",
-		"@types/sinon": "^1.16.31",
+		"@theintern/dev": "~0.7.3",
+		"@theintern/leadfoot": "~2.1.0",
+		"@types/node": "~9.6.16",
 		"concurrently": "~3.5.0",
-		"intern": "~3.4.6",
-		"sinon": "^1.17.6"
+		"intern": "~4.2.0",
+		"stylus": "~0.54.5"
 	},
 	"dependencies": {
 		"@types/pngjs": "~3.3.0",
@@ -42,15 +41,18 @@
 		"build": "concurrently intern-dev-build intern-dev-api",
 		"clean": "intern-dev-clean",
 		"release": "intern-dev-release",
-		"test": "intern-dev-test",
-		"ci": "intern-dev-build && intern-dev-test all config=_build/tests/intern.ci"
+		"test": "intern",
+		"ci": "intern-dev-build && intern config=@ci"
 	},
 	"internDev": {
 		"resources": {
 			"_build": [
 				"src/*.d.ts",
-				"src/**/*.css",
-				"tests/**/*.html"
+				"src/**/*.css"
+			],
+			"_tests": [
+				"tests/**/*.html",
+				"src/**/*.css"
 			]
 		},
 		"stylus": [

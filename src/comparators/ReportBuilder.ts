@@ -16,19 +16,23 @@ export default class {
 
 	private _pixelDifferences: number[] = [];
 
-	private _error: Error;
+	private _error: Error | undefined;
 
-	private _start: [number, number];
+	private _start: [number, number] | undefined;
 
-	private _runningTime: number[];
+	private _runningTime: number[] | undefined;
 
-	constructor(baseline: ImageMetadata, actual: ImageMetadata, options: Options = {}) {
+	constructor(
+		baseline: ImageMetadata,
+		actual: ImageMetadata,
+		options: Options = {}
+	) {
 		this.baseline = baseline;
 		this.actual = actual;
 		this.matchRatio = (options.matchRatio || config.comparator.matchRatio)!;
 	}
 
-	get error(): Error {
+	get error(): Error | undefined {
 		return this._error;
 	}
 
@@ -51,7 +55,7 @@ export default class {
 		};
 	}
 
-	get runningTime(): number {
+	get runningTime(): number | undefined {
 		return this._runningTime && this._runningTime[0];
 	}
 

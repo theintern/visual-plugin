@@ -1,6 +1,12 @@
-import { mkdirSync, existsSync, writeFile, createReadStream, createWriteStream, unlink } from 'intern/dojo/node!fs';
-import { dirname, join, normalize, sep } from 'intern/dojo/node!path';
-import * as Test from 'intern/lib/Test';
+import {
+	mkdirSync,
+	existsSync,
+	writeFile,
+	createReadStream,
+	createWriteStream,
+	unlink
+} from 'fs';
+import { dirname, join, normalize, sep } from 'path';
 
 export function sanatizeFilename(name: string): string {
 	// TODO sanatize strings to a valid filename
@@ -8,39 +14,50 @@ export function sanatizeFilename(name: string): string {
 }
 
 export interface Hierarchy {
-	_remote?: {
-		environmentType: {
-			browserName: string
-		}
+	remote?: {
+		environmentType?: {
+			browserName?: string;
+		};
 	};
-	name: string;
+	name?: string;
 	parent?: Hierarchy;
 }
 
 /**
- * Given an Intern test, create a unique filename path to store and retrieve a baseline
+ * Given an Intern test, create a unique path to contain baselines.
+ *
  * @param leaf the current test
  * @param includeBrowser if the current browser should be returned
  */
-export function getTestDirectory(current: Hierarchy, includeBrowser: boolean = false): string {
+export function getTestDirectory(
+	current: Hierarchy,
+	includeBrowser: boolean = false
+): string {
 	const name: string[] = [];
 
-	for (; current.parent; current = current.parent) {
-		name.unshift(current.name);
+	while (current.parent) {
+		name.unshift(current.name!);
+		current = current.parent;
 	}
 
 	if (includeBrowser) {
-		name.unshift(current._remote!.environmentType.browserName);
+		name.unshift(current.remote!.environmentType!.browserName!);
 	}
 
 	return sanatizeFilename(name.join('/'));
 }
 
-export function getBaselineFilename(test: Test, count: number = 0) {
-	const suffix = count ? `_${ count }` : '';
-	return sanatizeFilename(`${ test.name }${ suffix }.png`);
+/**
+ * Given an Intern test, create a unique name for a baseline file.
+ */
+export function getBaselineFilename(test: { name: string }, count: number = 0) {
+	const suffix = count ? `_${count}` : '';
+	return sanatizeFilename(`${test.name}${suffix}.png`);
 }
 
+/**
+ * Create a directory, including any parent directories.
+ */
 export function mkdir(directory: string) {
 	const parts = normalize(directory).split(sep);
 	let dir = '';
@@ -53,61 +70,67 @@ export function mkdir(directory: string) {
 	return Promise.resolve();
 }
 
-export function save(filename: string, buffer: Buffer | string): Promise<any> {
-	return mkdir(dirname(filename))
-		.then(function () {
-			return new Promise(function (resolve, reject) {
-				writeFile(filename, buffer, function (err) {
-					err ? reject(err) : resolve();
-				});
+/**
+ * Save a file
+ */
+export function save(filename: string, buffer: Buffer | string) {
+	return mkdir(dirname(filename)).then(() => {
+		return new Promise((resolve, reject) => {
+			writeFile(filename, buffer, error => {
+				if (error) {
+					reject(error);
+				} else {
+					resolve();
+				}
 			});
 		});
+	});
 }
 
-export function copy(source: string, target: string): Promise<string> {
-	return mkdir(dirname(target))
-		.then<string>(function () {
-			return new Promise(function (resolve, reject) {
-				const inStream = createReadStream(source);
-				const outStream = createWriteStream(target);
+/**
+ * Copy a file to a new location.
+ */
+export function copy(source: string, target: string) {
+	return mkdir(dirname(target)).then(() => {
+		return new Promise((resolve, reject) => {
+			const inStream = createReadStream(source);
+			inStream.on('error', error => reject(error));
 
-				inStream.on('error', function (error: Error) {
-					reject(error);
-				});
+			const outStream = createWriteStream(target);
+			outStream.on('error', error => reject(error));
+			outStream.on('close', () => resolve());
 
-				outStream.on('error', function (error: Error) {
-					reject(error);
-				});
-				outStream.on('close', function () {
-					resolve(target);
-				});
-
-				inStream.pipe(outStream);
-			});
+			inStream.pipe(outStream);
 		});
+	});
 }
 
-export function load<T extends NodeJS.WritableStream>(source: string, target: T) {
-	return new Promise(function (resolve, reject) {
+/**
+ * Load data from a file into a target stream.
+ */
+export function load<T extends NodeJS.WritableStream>(
+	source: string,
+	target: T
+) {
+	return new Promise(function(resolve, reject) {
 		const inStream = createReadStream(source);
-		inStream.on('error', function (error: Error) {
-			reject(error);
-		});
-		inStream.on('close', function () {
-			resolve(target);
-		});
-
+		inStream.on('error', error => reject(error));
+		inStream.on('close', () => resolve());
 		inStream.pipe(target);
 	});
 }
 
-export function remove(target: string): Promise<any> {
-	return new Promise(function (resolve, reject) {
-		unlink(target, function (err) {
-			if (err && err.code !== 'ENOENT') {
-				reject(err);
+/**
+ * Remove a file.
+ */
+export function remove(target: string) {
+	return new Promise((resolve, reject) => {
+		unlink(target, error => {
+			if (error && error.code !== 'ENOENT') {
+				reject(error);
+			} else {
+				resolve();
 			}
-			resolve();
 		});
 	});
 }

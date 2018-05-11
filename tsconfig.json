@@ -2,15 +2,11 @@
 	"extends": "./node_modules/@theintern/dev/tsconfig-base.json",
 	"compilerOptions": {
 		"declaration": true,
-		"module": "umd",
+		"module": "commonjs",
 		"outDir": "_build/",
 		"rootDir": ".",
-		"lib": ["dom", "es5", "es2015.promise"],
-		"typeRoots": ["./node_modules/@types", "./types"],
-		"types": ["pngjs"]
+		"lib": ["dom", "es2015"],
+		"types": ["intern"]
 	},
-	"files": [
-		"./types/extras.d.ts"
-	],
 	"include": ["./src/**/*.ts"]
 }

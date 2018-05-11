@@ -1,114 +1,95 @@
-import Suite = require('intern/lib/Suite');
-import { getErrorMessage } from 'intern/lib/util';
+import { DeprecationMessage } from 'intern/lib/executors/Executor';
+import Executor from 'intern/lib/executors/Node';
+import Suite from 'intern/lib/Suite';
 import { VisualRegressionTest } from '../assert';
-import ReportWriter, { ReportConfig } from './util/ReportWriter';
+import ReportWriter, { Options } from './util/ReportWriter';
+
+// NOTE: Due to legacy implmentation details, all types, interfaces, and
+// implementation are currently in the ReportWriter module.
 
 /**
  * A Visual Regression Test HTML reporter
- *
- * NOTE: This module proxies all functionality to the ReportWriter because a reporter must be provided to Intern
- * using CJS (export =) syntax. Because this module can only have one export all types, interfaces, and
- * implementation are in the ReportWriter module.
  */
-class VisualRegression {
+export default class VisualRegression {
 	protected reportWriter: ReportWriter;
 
-	constructor(config: ReportConfig) {
+	constructor(executor: Executor, config: Options) {
 		this.reportWriter = new ReportWriter(config);
+
+		executor.on('deprecated', message => this.deprecated(message));
+		executor.on('error', error => this.error(error));
+		executor.on('runEnd', () => this.runEnd());
+		executor.on('suiteEnd', suite => <Promise<void>>this.suiteEnd(suite));
+		executor.on('testEnd', test => <Promise<void>>this.testEnd(test));
 	}
 
-	deprecated(name: string, replacement?: string, extra?: string) {
+	deprecated(message: DeprecationMessage) {
 		this.reportWriter.addNote({
 			level: 'warn',
 			type: 'deprecated',
-			message: `${ name } is deprecated.${ replacement ?
-				` Use ${ replacement } instead.` :
-				' Please open a ticket if you require access to this feature.'
-				}${ extra ? ` ${ extra }` : ''}`
+			message: `${message.original} is deprecated.${
+				message.replacement
+					? ` Use ${message.replacement} instead.`
+					: ' Please open a ticket if you require access to this feature.'
+			}${message.message ? ` ${message.message}` : ''}`
 		});
 	}
 
 	/**
-	 * This method is called when an error occurs within the test system that is non-recoverable
-	 * (for example, a bug within Intern).
-	 * @param error
+	 * This method is called when an error occurs within the test system that
+	 * is non-recoverable (for example, a bug within Intern).
 	 */
-	fatalError(error: Error): void {
-		this.reportWriter.addNote({
-			level: 'fatal',
-			type: 'fatal error',
-			message: getErrorMessage(error)
-		});
+	error(error: Error): void {
+		// This handler can be called before reportWriter has been initialized
+		// if there are errors during reportWriter initialization.
+		if (this.reportWriter) {
+			this.reportWriter.addNote({
+				level: 'fatal',
+				type: 'fatal error',
+				message: intern.formatError(error)
+			});
+		}
 	}
 
 	/**
-	 * This method is called when a reporter throws an error during execution of a command.
+	 * This method is called after all test suites have finished running and
+	 * the test system is preparing to shut down.
 	 */
-	reporterError(_reporter: any, error: Error): void {
-		this.reportWriter.addNote({
-			level: 'error',
-			type: 'reporter error',
-			message: getErrorMessage(error)
-		});
-	}
-
-	/**
-	 * This method is called after all test suites have finished running and the test system is preparing
-	 * to shut down.
-	 * @param executor
-	 */
-	runEnd(): void {
+	runEnd() {
 		this.reportWriter.end();
 	}
 
 	/**
 	 * This method is called when a test suite has finished running.
-	 * @param suite
 	 */
-	suiteEnd(suite: Suite): Promise<any> {
-		return this.reportWriter.writeSuite(suite);
+	suiteEnd(suite: Suite) {
+		if (suite.error) {
+			this.reportWriter.addNote({
+				level: 'error',
+				message: intern.formatError(suite.error),
+				type: 'suite error'
+			});
+		} else {
+			return this.reportWriter.writeSuite(suite);
+		}
 	}
 
 	/**
-	 * This method is called when an error occurs within one of the suite’s lifecycle methods (setup, beforeEach, afterEach, or teardown), or when an error occurs when a suite attempts to run a child test.
-	 * @param suite
-	 * @param error
+	 * For fail:
+	 *   1. write the diff image
+	 *   2. optionally write the screenshot
+	 *   3. write report
+	 *
+	 * For pass:
+	 *   1. optionally write the diff image
+	 *   2. optionally write the screenshot
+	 *   3. write report
+	 *
+	 * For skip:
+	 *   1. write baseline
+	 *   2. write report
 	 */
-	suiteError(_suite: Suite, error: Error): void {
-		this.reportWriter.addNote({
-			level: 'error',
-			message: getErrorMessage(error),
-			type: 'suite error'
-
-		});
-	}
-
-	/**
-	 * 1. write the diff image
-	 * 2. optionally write the screenshot
-	 * 3. write report
-	 */
-	testFail(test: VisualRegressionTest): Promise<any> {
-		return this.reportWriter.writeTest(test);
-	}
-
-	/**
-	 * 1. optionally write the diff image
-	 * 2. optionally write the screenshot
-	 * 3. write report
-	 */
-	testPass(test: VisualRegressionTest): Promise<any> {
-		return this.reportWriter.writeTest(test);
-	}
-
-	/**
-	 * 1. write baseline
-	 * 2. write report
-	 */
-	testSkip(test: VisualRegressionTest): Promise<any> {
+	testEnd(test: VisualRegressionTest): Promise<any> {
 		return this.reportWriter.writeTest(test);
 	}
 }
-
-// ReporterManager looks at the root export as the report, so we need to export using CJS format here :\
-export = VisualRegression;
