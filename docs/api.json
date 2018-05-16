@@ -312,7 +312,7 @@
 							"sources": [
 								{
 									"fileName": "assert.ts",
-									"line": 95,
+									"line": 119,
 									"character": 9
 								}
 							],
@@ -333,7 +333,7 @@
 							"sources": [
 								{
 									"fileName": "assert.ts",
-									"line": 96,
+									"line": 120,
 									"character": 15
 								}
 							],
@@ -354,7 +354,7 @@
 							"sources": [
 								{
 									"fileName": "assert.ts",
-									"line": 97,
+									"line": 121,
 									"character": 6
 								}
 							],
@@ -375,7 +375,7 @@
 							"sources": [
 								{
 									"fileName": "assert.ts",
-									"line": 98,
+									"line": 122,
 									"character": 18
 								}
 							],
@@ -396,7 +396,7 @@
 							"sources": [
 								{
 									"fileName": "assert.ts",
-									"line": 99,
+									"line": 123,
 									"character": 8
 								}
 							],
@@ -419,7 +419,7 @@
 							"sources": [
 								{
 									"fileName": "assert.ts",
-									"line": 100,
+									"line": 124,
 									"character": 7
 								}
 							],
@@ -440,7 +440,7 @@
 							"sources": [
 								{
 									"fileName": "assert.ts",
-									"line": 101,
+									"line": 125,
 									"character": 11
 								}
 							],
@@ -477,7 +477,7 @@
 					"sources": [
 						{
 							"fileName": "assert.ts",
-							"line": 94,
+							"line": 118,
 							"character": 32
 						}
 					]
@@ -505,10 +505,13 @@
 								"isOptional": true,
 								"__visited__": true
 							},
+							"comment": {
+								"shortText": "The full path if the test baseline image. If not specified, `baseline`\nis computed from `directory`, `baselineLocation`, and the test name."
+							},
 							"sources": [
 								{
 									"fileName": "assert.ts",
-									"line": 84,
+									"line": 88,
 									"character": 9
 								}
 							],
@@ -536,10 +539,13 @@
 								"isOptional": true,
 								"__visited__": true
 							},
+							"comment": {
+								"shortText": "The location of baselines within the output directory. The default is\n'baselines'."
+							},
 							"sources": [
 								{
 									"fileName": "assert.ts",
-									"line": 85,
+									"line": 94,
 									"character": 17
 								}
 							],
@@ -567,10 +573,13 @@
 								"isOptional": true,
 								"__visited__": true
 							},
+							"comment": {
+								"shortText": "The directory that all other output will be written to. The default is\n'visual-test'."
+							},
 							"sources": [
 								{
 									"fileName": "assert.ts",
-									"line": 86,
+									"line": 100,
 									"character": 10
 								}
 							],
@@ -598,10 +607,13 @@
 								"isOptional": true,
 								"__visited__": true
 							},
+							"comment": {
+								"shortText": "What to do if a test baseline is missing\n  fail: fail the test\n  ignore: ignore the missing baseline\n  skip: skip the test\n  snapshot: take a snapshot to serve as the new baseline"
+							},
 							"sources": [
 								{
 									"fileName": "assert.ts",
-									"line": 88,
+									"line": 112,
 									"character": 16
 								}
 							],
@@ -637,10 +649,13 @@
 								"isOptional": true,
 								"__visited__": true
 							},
+							"comment": {
+								"shortText": "If true, overwrite existing baselines"
+							},
 							"sources": [
 								{
 									"fileName": "assert.ts",
-									"line": 87,
+									"line": 103,
 									"character": 20
 								}
 							],
@@ -1479,7 +1494,7 @@
 							"sources": [
 								{
 									"fileName": "assert.ts",
-									"line": 108,
+									"line": 132,
 									"character": 14
 								}
 							],
@@ -1899,7 +1914,7 @@
 					"sources": [
 						{
 							"fileName": "assert.ts",
-							"line": 107,
+							"line": 131,
 							"character": 37
 						}
 					],
@@ -2063,7 +2078,7 @@
 					"sources": [
 						{
 							"fileName": "assert.ts",
-							"line": 122,
+							"line": 146,
 							"character": 23
 						}
 					]
@@ -2143,7 +2158,7 @@
 					"sources": [
 						{
 							"fileName": "assert.ts",
-							"line": 111,
+							"line": 135,
 							"character": 25
 						}
 					]
@@ -3178,10 +3193,13 @@
 								"isOptional": true,
 								"__visited__": true
 							},
+							"comment": {
+								"shortText": "The full path if the test baseline image. If not specified, `baseline`\nis computed from `directory`, `baselineLocation`, and the test name."
+							},
 							"sources": [
 								{
 									"fileName": "assert.ts",
-									"line": 84,
+									"line": 88,
 									"character": 9
 								}
 							],
@@ -3214,10 +3232,13 @@
 								"isOptional": true,
 								"__visited__": true
 							},
+							"comment": {
+								"shortText": "The location of baselines within the output directory. The default is\n'baselines'."
+							},
 							"sources": [
 								{
 									"fileName": "assert.ts",
-									"line": 85,
+									"line": 94,
 									"character": 17
 								}
 							],
@@ -3335,10 +3356,13 @@
 								"isOptional": true,
 								"__visited__": true
 							},
+							"comment": {
+								"shortText": "What to do if a test baseline is missing\n  fail: fail the test\n  ignore: ignore the missing baseline\n  skip: skip the test\n  snapshot: take a snapshot to serve as the new baseline"
+							},
 							"sources": [
 								{
 									"fileName": "assert.ts",
-									"line": 88,
+									"line": 112,
 									"character": 16
 								}
 							],
@@ -3379,10 +3403,13 @@
 								"isOptional": true,
 								"__visited__": true
 							},
+							"comment": {
+								"shortText": "If true, overwrite existing baselines"
+							},
 							"sources": [
 								{
 									"fileName": "assert.ts",
-									"line": 87,
+									"line": 103,
 									"character": 20
 								}
 							],
@@ -3454,12 +3481,12 @@
 								"__visited__": true
 							},
 							"comment": {
-								"shortText": "Where in the base output directory to write reports"
+								"shortText": "Where in the base output directory to write reports. The default is\n'report'."
 							},
 							"sources": [
 								{
 									"fileName": "reporters/util/ReportWriter.ts",
-									"line": 275,
+									"line": 278,
 									"character": 15
 								}
 							],
@@ -4104,6 +4131,9 @@
 				"__visited__": true
 			},
 			"originalName": "src/index.ts",
+			"comment": {
+				"shortText": "This is the public API for intern-visual."
+			},
 			"children": [
 				{
 					"id": 329,
@@ -4126,7 +4156,7 @@
 							"sources": [
 								{
 									"fileName": "index.ts",
-									"line": 8,
+									"line": 12,
 									"character": 13
 								}
 							],
@@ -4149,7 +4179,7 @@
 					"sources": [
 						{
 							"fileName": "index.ts",
-							"line": 7,
+							"line": 11,
 							"character": 13
 						}
 					],
@@ -4950,7 +4980,7 @@
 							"sources": [
 								{
 									"fileName": "reporters/util/ReportWriter.ts",
-									"line": 279,
+									"line": 282,
 									"character": 6
 								}
 							],
@@ -4988,7 +5018,7 @@
 							"sources": [
 								{
 									"fileName": "reporters/util/ReportWriter.ts",
-									"line": 280,
+									"line": 283,
 									"character": 8
 								}
 							],
@@ -5009,7 +5039,7 @@
 							"sources": [
 								{
 									"fileName": "reporters/util/ReportWriter.ts",
-									"line": 281,
+									"line": 284,
 									"character": 5
 								}
 							],
@@ -5033,7 +5063,7 @@
 					"sources": [
 						{
 							"fileName": "reporters/util/ReportWriter.ts",
-							"line": 278,
+							"line": 281,
 							"character": 21
 						}
 					]
@@ -5122,12 +5152,12 @@
 								"__visited__": true
 							},
 							"comment": {
-								"shortText": "Where in the base output directory to write reports"
+								"shortText": "Where in the base output directory to write reports. The default is\n'report'."
 							},
 							"sources": [
 								{
 									"fileName": "reporters/util/ReportWriter.ts",
-									"line": 275,
+									"line": 278,
 									"character": 15
 								}
 							],
@@ -5193,7 +5223,7 @@
 							"sources": [
 								{
 									"fileName": "reporters/util/ReportWriter.ts",
-									"line": 287,
+									"line": 290,
 									"character": 9
 								}
 							],
@@ -5223,7 +5253,7 @@
 							"sources": [
 								{
 									"fileName": "reporters/util/ReportWriter.ts",
-									"line": 288,
+									"line": 291,
 									"character": 11
 								}
 							],
@@ -5252,7 +5282,7 @@
 							"sources": [
 								{
 									"fileName": "reporters/util/ReportWriter.ts",
-									"line": 286,
+									"line": 289,
 									"character": 10
 								}
 							],
@@ -5272,7 +5302,7 @@
 							"sources": [
 								{
 									"fileName": "reporters/util/ReportWriter.ts",
-									"line": 285,
+									"line": 288,
 									"character": 7
 								}
 							],
@@ -5294,7 +5324,7 @@
 							"sources": [
 								{
 									"fileName": "reporters/util/ReportWriter.ts",
-									"line": 289,
+									"line": 292,
 									"character": 11
 								}
 							],
@@ -5323,7 +5353,7 @@
 							"sources": [
 								{
 									"fileName": "reporters/util/ReportWriter.ts",
-									"line": 290,
+									"line": 293,
 									"character": 14
 								}
 							],
@@ -5350,7 +5380,7 @@
 					"sources": [
 						{
 							"fileName": "reporters/util/ReportWriter.ts",
-							"line": 284,
+							"line": 287,
 							"character": 22
 						}
 					]
@@ -5366,7 +5396,7 @@
 					"sources": [
 						{
 							"fileName": "reporters/util/ReportWriter.ts",
-							"line": 308,
+							"line": 311,
 							"character": 15
 						}
 					],
@@ -5396,7 +5426,7 @@
 					"sources": [
 						{
 							"fileName": "reporters/util/ReportWriter.ts",
-							"line": 310,
+							"line": 313,
 							"character": 9
 						}
 					],
@@ -5461,7 +5491,7 @@
 					"sources": [
 						{
 							"fileName": "reporters/util/ReportWriter.ts",
-							"line": 293,
+							"line": 296,
 							"character": 18
 						}
 					]
@@ -5520,7 +5550,7 @@
 					"sources": [
 						{
 							"fileName": "reporters/util/ReportWriter.ts",
-							"line": 299,
+							"line": 302,
 							"character": 27
 						}
 					]
@@ -5949,10 +5979,13 @@
 								"isOptional": true,
 								"__visited__": true
 							},
+							"comment": {
+								"shortText": "The full path if the test baseline image. If not specified, `baseline`\nis computed from `directory`, `baselineLocation`, and the test name."
+							},
 							"sources": [
 								{
 									"fileName": "assert.ts",
-									"line": 84,
+									"line": 88,
 									"character": 9
 								}
 							],
@@ -5985,10 +6018,13 @@
 								"isOptional": true,
 								"__visited__": true
 							},
+							"comment": {
+								"shortText": "The location of baselines within the output directory. The default is\n'baselines'."
+							},
 							"sources": [
 								{
 									"fileName": "assert.ts",
-									"line": 85,
+									"line": 94,
 									"character": 17
 								}
 							],
@@ -6094,10 +6130,13 @@
 								"isOptional": true,
 								"__visited__": true
 							},
+							"comment": {
+								"shortText": "The directory that all other output will be written to. The default is\n'visual-test'."
+							},
 							"sources": [
 								{
 									"fileName": "assert.ts",
-									"line": 86,
+									"line": 100,
 									"character": 10
 								}
 							],
@@ -6164,10 +6203,13 @@
 								"isOptional": true,
 								"__visited__": true
 							},
+							"comment": {
+								"shortText": "What to do if a test baseline is missing\n  fail: fail the test\n  ignore: ignore the missing baseline\n  skip: skip the test\n  snapshot: take a snapshot to serve as the new baseline"
+							},
 							"sources": [
 								{
 									"fileName": "assert.ts",
-									"line": 88,
+									"line": 112,
 									"character": 16
 								}
 							],
@@ -6208,10 +6250,13 @@
 								"isOptional": true,
 								"__visited__": true
 							},
+							"comment": {
+								"shortText": "If true, overwrite existing baselines"
+							},
 							"sources": [
 								{
 									"fileName": "assert.ts",
-									"line": 87,
+									"line": 103,
 									"character": 20
 								}
 							],

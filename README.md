@@ -161,13 +161,13 @@ options:
 
 ```json
 "plugins": {
-	"script": "intern-visual",
-	"options": {
-		"missingBaseline": "snapshot",
-		"directory": "visual",
-		"reportLocation": "htmlreport",
-		"errorColor": "#FF7200"
-	}
+    "script": "intern-visual",
+    "options": {
+        "missingBaseline": "snapshot",
+        "directory": "visual",
+        "reportLocation": "htmlreport",
+        "errorColor": "#FF7200"
+    }
 }
 ```
 
@@ -176,12 +176,12 @@ The reporter can be disabled by setting the `report` configuration option to
 
 ```json
 "plugins": {
-	"script": "intern-visual",
-	"options": {
-		"missingBaseline": "snapshot",
-		"directory": "visual",
-		"report": false
-	}
+    "script": "intern-visual",
+    "options": {
+        "missingBaseline": "snapshot",
+        "directory": "visual",
+        "report": false
+    }
 }
 ```
 

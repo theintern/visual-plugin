@@ -271,7 +271,10 @@ export interface Options {
 	/** The color to use when highlighting image differences */
 	errorColor?: ColorDescriptor;
 
-	/** Where in the base output directory to write reports */
+	/**
+	 * Where in the base output directory to write reports. The default is
+	 * 'report'.
+	 */
 	reportLocation?: string;
 }
 

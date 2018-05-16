@@ -1,3 +1,7 @@
+/**
+ * This is the public API for intern-visual.
+ */ /** */
+
 import assertVisuals from './assert';
 import config, { Config } from './config';
 import visualTest from './test';

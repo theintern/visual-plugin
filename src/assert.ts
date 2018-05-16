@@ -81,10 +81,34 @@ export default function assertVisuals(
  * Options for visual assertions
  */
 export interface Options {
+	/**
+	 * The full path if the test baseline image. If not specified, `baseline`
+	 * is computed from `directory`, `baselineLocation`, and the test name.
+	 */
 	baseline?: string;
+
+	/**
+	 * The location of baselines within the output directory. The default is
+	 * 'baselines'.
+	 */
 	baselineLocation?: string;
+
+	/**
+	 * The directory that all other output will be written to. The default is
+	 * 'visual-test'.
+	 */
 	directory?: string;
+
+	/** If true, overwrite existing baselines */
 	regenerateBaselines?: boolean;
+
+	/**
+	 * What to do if a test baseline is missing
+	 *   fail: fail the test
+	 *   ignore: ignore the missing baseline
+	 *   skip: skip the test
+	 *   snapshot: take a snapshot to serve as the new baseline
+	 */
 	missingBaseline?: 'fail' | 'ignore' | 'skip' | 'snapshot';
 }
 
