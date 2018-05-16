@@ -1,12 +1,18 @@
 # intern-visual
 
-This project adds support for visual regression testing to
-[Intern](https://theintern.io).
+<!-- prettier-ignore-start -->
+<!-- start-github-only -->
+<br><p align="center"><img src="https://cdn.rawgit.com/theintern/intern-visual/master/docs/logo.svg" alt="Intern Visual logo" height="128"></p><br>
+<!-- end-github-only -->
 
 <!-- start-github-only -->
 
 [![Build Status](https://travis-ci.org/theintern/intern-visual.svg?branch=master)](https://travis-ci.org/theintern/intern-visual)<!-- end-github-only -->
 [![Intern](http://theintern.github.io/images/intern-v4.svg)](https://github.com/theintern/intern/)
+<!-- prettier-ignore-end -->
+
+This project adds support for visual regression testing to
+[Intern](https://theintern.io).
 
 <!-- vim-markdown-toc GFM -->
 
