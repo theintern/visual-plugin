@@ -40,7 +40,7 @@ to detect visual regressions.
 
 For example, here's a simple login page:
 
-<img alt="good login page" src="./docs/good.png" width="245" />
+<p align="center"><img src="https://cdn.rawgit.com/theintern/intern-visual/master/docs/good.png" alt="Good login sample" width="245"></p><br>
 
 Assume you’ve created a visual test called “login page” for this page. The first
 time the test is run it will save a snapshot image (a _baseline_) of the page.
@@ -48,14 +48,14 @@ time the test is run it will save a snapshot image (a _baseline_) of the page.
 At some point, someone may change a style that has a side effect of making `h1`
 tags use a serif font. Now the the login page looks like this:
 
-<img alt="bad login page" src="./docs/bad.png" width="245" />
+<p align="center"><img src="https://cdn.rawgit.com/theintern/intern-visual/master/docs/bad.png" alt="Bad login sample" width="245"></p><br>
 
 Normal unit tests aren‘t going to see anything wrong here, because the content
 is the same. However, the next time the visual test is run for that page it will
 fail because the page no longer looks the same. A report will be generated that
 highlights the changes:
 
-<img alt="visual assertion report" src="./docs/report.png" />
+<p align="center"><img src="https://cdn.rawgit.com/theintern/intern-visual/master/docs/report.png" alt="Visual assertion report"></p><br>
 
 ## Installation
 
