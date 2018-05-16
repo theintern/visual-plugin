@@ -104,10 +104,11 @@ export interface Options {
 
 	/**
 	 * What to do if a test baseline is missing
-	 *   fail: fail the test
-	 *   ignore: ignore the missing baseline
-	 *   skip: skip the test
-	 *   snapshot: take a snapshot to serve as the new baseline
+	 *
+	 * * fail: fail the test
+	 * * ignore: ignore the missing baseline
+	 * * skip: skip the test
+	 * * snapshot: take a snapshot to serve as the new baseline
 	 */
 	missingBaseline?: 'fail' | 'ignore' | 'skip' | 'snapshot';
 }

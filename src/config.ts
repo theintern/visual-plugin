@@ -16,6 +16,9 @@ export interface Config extends AssertOptions, ReportOptions {
 	directory: string;
 }
 
+/**
+ * The default config
+ */
 const config: Config = {
 	baselineLocation: 'baselines',
 

@@ -1,5 +1,7 @@
 /**
- * This is the public API for intern-visual.
+ * This module exports the public API for intern-visual, registers
+ * intern-visual as an Intern plugin, and installs the visual regression
+ * reporter.
  */ /** */
 
 import assertVisuals from './assert';
