@@ -7,7 +7,7 @@
 	},
 	"children": [
 		{
-			"id": 189,
+			"id": 191,
 			"name": "\"VisualRegressionError\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -18,7 +18,7 @@
 			"originalName": "src/VisualRegressionError.ts",
 			"children": [
 				{
-					"id": 190,
+					"id": 192,
 					"name": "VisualRegressionError",
 					"kind": 128,
 					"kindString": "Class",
@@ -28,7 +28,7 @@
 					},
 					"children": [
 						{
-							"id": 192,
+							"id": 194,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -38,7 +38,7 @@
 							},
 							"signatures": [
 								{
-									"id": 193,
+									"id": 195,
 									"name": "new VisualRegressionError",
 									"kind": 16384,
 									"kindString": "Constructor signature",
@@ -47,7 +47,7 @@
 									},
 									"parameters": [
 										{
-											"id": 194,
+											"id": 196,
 											"name": "message",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -60,7 +60,7 @@
 											}
 										},
 										{
-											"id": 195,
+											"id": 197,
 											"name": "report",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -76,7 +76,7 @@
 									"type": {
 										"type": "reference",
 										"name": "VisualRegressionError",
-										"id": 190
+										"id": 192
 									}
 								}
 							],
@@ -89,7 +89,7 @@
 							]
 						},
 						{
-							"id": 191,
+							"id": 193,
 							"name": "report",
 							"kind": 1024,
 							"kindString": "Property",
@@ -110,7 +110,7 @@
 							}
 						},
 						{
-							"id": 199,
+							"id": 201,
 							"name": "Error",
 							"kind": 1024,
 							"kindString": "Property",
@@ -132,7 +132,7 @@
 							}
 						},
 						{
-							"id": 197,
+							"id": 199,
 							"name": "message",
 							"kind": 1024,
 							"kindString": "Property",
@@ -158,7 +158,7 @@
 							}
 						},
 						{
-							"id": 196,
+							"id": 198,
 							"name": "name",
 							"kind": 1024,
 							"kindString": "Property",
@@ -184,7 +184,7 @@
 							}
 						},
 						{
-							"id": 198,
+							"id": 200,
 							"name": "stack",
 							"kind": 1024,
 							"kindString": "Property",
@@ -229,18 +229,18 @@
 							"title": "Constructors",
 							"kind": 512,
 							"children": [
-								192
+								194
 							]
 						},
 						{
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								191,
+								193,
+								201,
 								199,
-								197,
-								196,
-								198
+								198,
+								200
 							]
 						}
 					],
@@ -264,7 +264,7 @@
 					"title": "Classes",
 					"kind": 128,
 					"children": [
-						190
+						192
 					]
 				}
 			],
@@ -277,7 +277,7 @@
 			]
 		},
 		{
-			"id": 200,
+			"id": 202,
 			"name": "\"assert\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -288,7 +288,7 @@
 			"originalName": "src/assert.ts",
 			"children": [
 				{
-					"id": 207,
+					"id": 209,
 					"name": "AssertionResult",
 					"kind": 256,
 					"kindString": "Interface",
@@ -301,7 +301,7 @@
 					},
 					"children": [
 						{
-							"id": 208,
+							"id": 210,
 							"name": "baseline",
 							"kind": 1024,
 							"kindString": "Property",
@@ -312,7 +312,7 @@
 							"sources": [
 								{
 									"fileName": "assert.ts",
-									"line": 119,
+									"line": 120,
 									"character": 9
 								}
 							],
@@ -322,7 +322,7 @@
 							}
 						},
 						{
-							"id": 209,
+							"id": 211,
 							"name": "baselineExists",
 							"kind": 1024,
 							"kindString": "Property",
@@ -333,7 +333,7 @@
 							"sources": [
 								{
 									"fileName": "assert.ts",
-									"line": 120,
+									"line": 121,
 									"character": 15
 								}
 							],
@@ -343,7 +343,7 @@
 							}
 						},
 						{
-							"id": 210,
+							"id": 212,
 							"name": "count",
 							"kind": 1024,
 							"kindString": "Property",
@@ -354,7 +354,7 @@
 							"sources": [
 								{
 									"fileName": "assert.ts",
-									"line": 121,
+									"line": 122,
 									"character": 6
 								}
 							],
@@ -364,7 +364,7 @@
 							}
 						},
 						{
-							"id": 211,
+							"id": 213,
 							"name": "generatedBaseline",
 							"kind": 1024,
 							"kindString": "Property",
@@ -375,7 +375,7 @@
 							"sources": [
 								{
 									"fileName": "assert.ts",
-									"line": 122,
+									"line": 123,
 									"character": 18
 								}
 							],
@@ -385,7 +385,7 @@
 							}
 						},
 						{
-							"id": 212,
+							"id": 214,
 							"name": "options",
 							"kind": 1024,
 							"kindString": "Property",
@@ -396,18 +396,18 @@
 							"sources": [
 								{
 									"fileName": "assert.ts",
-									"line": 123,
+									"line": 124,
 									"character": 8
 								}
 							],
 							"type": {
 								"type": "reference",
 								"name": "Options",
-								"id": 201
+								"id": 203
 							}
 						},
 						{
-							"id": 213,
+							"id": 215,
 							"name": "report",
 							"kind": 1024,
 							"kindString": "Property",
@@ -419,7 +419,7 @@
 							"sources": [
 								{
 									"fileName": "assert.ts",
-									"line": 124,
+									"line": 125,
 									"character": 7
 								}
 							],
@@ -429,7 +429,7 @@
 							}
 						},
 						{
-							"id": 214,
+							"id": 216,
 							"name": "screenshot",
 							"kind": 1024,
 							"kindString": "Property",
@@ -440,7 +440,7 @@
 							"sources": [
 								{
 									"fileName": "assert.ts",
-									"line": 125,
+									"line": 126,
 									"character": 11
 								}
 							],
@@ -464,26 +464,26 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								208,
-								209,
 								210,
 								211,
 								212,
 								213,
-								214
+								214,
+								215,
+								216
 							]
 						}
 					],
 					"sources": [
 						{
 							"fileName": "assert.ts",
-							"line": 118,
+							"line": 119,
 							"character": 32
 						}
 					]
 				},
 				{
-					"id": 201,
+					"id": 203,
 					"name": "Options",
 					"kind": 256,
 					"kindString": "Interface",
@@ -496,7 +496,7 @@
 					},
 					"children": [
 						{
-							"id": 202,
+							"id": 204,
 							"name": "baseline",
 							"kind": 1024,
 							"kindString": "Property",
@@ -530,7 +530,7 @@
 							}
 						},
 						{
-							"id": 203,
+							"id": 205,
 							"name": "baselineLocation",
 							"kind": 1024,
 							"kindString": "Property",
@@ -564,7 +564,7 @@
 							}
 						},
 						{
-							"id": 204,
+							"id": 206,
 							"name": "directory",
 							"kind": 1024,
 							"kindString": "Property",
@@ -598,7 +598,7 @@
 							}
 						},
 						{
-							"id": 206,
+							"id": 208,
 							"name": "missingBaseline",
 							"kind": 1024,
 							"kindString": "Property",
@@ -608,12 +608,13 @@
 								"__visited__": true
 							},
 							"comment": {
-								"shortText": "What to do if a test baseline is missing\n  fail: fail the test\n  ignore: ignore the missing baseline\n  skip: skip the test\n  snapshot: take a snapshot to serve as the new baseline"
+								"shortText": "What to do if a test baseline is missing",
+								"text": "* fail: fail the test\n* ignore: ignore the missing baseline\n* skip: skip the test\n* snapshot: take a snapshot to serve as the new baseline\n"
 							},
 							"sources": [
 								{
 									"fileName": "assert.ts",
-									"line": 112,
+									"line": 113,
 									"character": 16
 								}
 							],
@@ -640,7 +641,7 @@
 							}
 						},
 						{
-							"id": 205,
+							"id": 207,
 							"name": "regenerateBaselines",
 							"kind": 1024,
 							"kindString": "Property",
@@ -683,11 +684,11 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								202,
-								203,
 								204,
+								205,
 								206,
-								205
+								208,
+								207
 							]
 						}
 					],
@@ -702,17 +703,17 @@
 						{
 							"type": "reference",
 							"name": "Config",
-							"id": 123
+							"id": 125
 						},
 						{
 							"type": "reference",
 							"name": "Options",
-							"id": 291
+							"id": 293
 						}
 					]
 				},
 				{
-					"id": 215,
+					"id": 217,
 					"name": "VisualRegressionTest",
 					"kind": 256,
 					"kindString": "Interface",
@@ -725,7 +726,7 @@
 					},
 					"children": [
 						{
-							"id": 229,
+							"id": 231,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -735,7 +736,7 @@
 							},
 							"signatures": [
 								{
-									"id": 230,
+									"id": 232,
 									"name": "new VisualRegressionTest",
 									"kind": 16384,
 									"kindString": "Constructor signature",
@@ -744,7 +745,7 @@
 									},
 									"parameters": [
 										{
-											"id": 231,
+											"id": 233,
 											"name": "options",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -761,7 +762,7 @@
 													{
 														"type": "reflection",
 														"declaration": {
-															"id": 232,
+															"id": 234,
 															"name": "__type",
 															"kind": 65536,
 															"kindString": "Type literal",
@@ -770,7 +771,7 @@
 															},
 															"children": [
 																{
-																	"id": 234,
+																	"id": 236,
 																	"name": "hasPassed",
 																	"kind": 32,
 																	"kindString": "Variable",
@@ -804,7 +805,7 @@
 																	}
 																},
 																{
-																	"id": 233,
+																	"id": 235,
 																	"name": "timeElapsed",
 																	"kind": 32,
 																	"kindString": "Variable",
@@ -839,8 +840,8 @@
 																	"title": "Variables",
 																	"kind": 32,
 																	"children": [
-																		234,
-																		233
+																		236,
+																		235
 																	]
 																}
 															],
@@ -860,7 +861,7 @@
 									"type": {
 										"type": "reference",
 										"name": "VisualRegressionTest",
-										"id": 215
+										"id": 217
 									},
 									"inheritedFrom": {
 										"type": "reference",
@@ -881,7 +882,7 @@
 							}
 						},
 						{
-							"id": 222,
+							"id": 224,
 							"name": "_hasPassed",
 							"kind": 1024,
 							"kindString": "Property",
@@ -907,7 +908,7 @@
 							}
 						},
 						{
-							"id": 223,
+							"id": 225,
 							"name": "_isAsync",
 							"kind": 1024,
 							"kindString": "Property",
@@ -933,7 +934,7 @@
 							}
 						},
 						{
-							"id": 225,
+							"id": 227,
 							"name": "_runTask",
 							"kind": 1024,
 							"kindString": "Property",
@@ -974,7 +975,7 @@
 							}
 						},
 						{
-							"id": 226,
+							"id": 228,
 							"name": "_timeElapsed",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1009,7 +1010,7 @@
 							}
 						},
 						{
-							"id": 224,
+							"id": 226,
 							"name": "_timeout",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1044,7 +1045,7 @@
 							}
 						},
 						{
-							"id": 227,
+							"id": 229,
 							"name": "_timer",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1079,7 +1080,7 @@
 							}
 						},
 						{
-							"id": 228,
+							"id": 230,
 							"name": "_usesRemote",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1105,7 +1106,7 @@
 							}
 						},
 						{
-							"id": 221,
+							"id": 223,
 							"name": "error",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1139,7 +1140,7 @@
 							}
 						},
 						{
-							"id": 235,
+							"id": 237,
 							"name": "executor",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1164,7 +1165,7 @@
 							}
 						},
 						{
-							"id": 236,
+							"id": 238,
 							"name": "hasPassed",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1189,7 +1190,7 @@
 							}
 						},
 						{
-							"id": 237,
+							"id": 239,
 							"name": "id",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1214,7 +1215,7 @@
 							}
 						},
 						{
-							"id": 238,
+							"id": 240,
 							"name": "isAsync",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1239,7 +1240,7 @@
 							}
 						},
 						{
-							"id": 217,
+							"id": 219,
 							"name": "name",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1264,7 +1265,7 @@
 							}
 						},
 						{
-							"id": 218,
+							"id": 220,
 							"name": "parent",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1289,7 +1290,7 @@
 							}
 						},
 						{
-							"id": 239,
+							"id": 241,
 							"name": "parentId",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1314,7 +1315,7 @@
 							}
 						},
 						{
-							"id": 240,
+							"id": 242,
 							"name": "remote",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1339,7 +1340,7 @@
 							}
 						},
 						{
-							"id": 241,
+							"id": 243,
 							"name": "sessionId",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1364,7 +1365,7 @@
 							}
 						},
 						{
-							"id": 219,
+							"id": 221,
 							"name": "skipped",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1398,7 +1399,7 @@
 							}
 						},
 						{
-							"id": 220,
+							"id": 222,
 							"name": "test",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1423,7 +1424,7 @@
 							}
 						},
 						{
-							"id": 242,
+							"id": 244,
 							"name": "timeElapsed",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1457,7 +1458,7 @@
 							}
 						},
 						{
-							"id": 243,
+							"id": 245,
 							"name": "timeout",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1482,7 +1483,7 @@
 							}
 						},
 						{
-							"id": 216,
+							"id": 218,
 							"name": "visualResults",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1494,7 +1495,7 @@
 							"sources": [
 								{
 									"fileName": "assert.ts",
-									"line": 132,
+									"line": 133,
 									"character": 14
 								}
 							],
@@ -1503,12 +1504,12 @@
 								"elementType": {
 									"type": "reference",
 									"name": "AssertionResult",
-									"id": 207
+									"id": 209
 								}
 							}
 						},
 						{
-							"id": 244,
+							"id": 246,
 							"name": "async",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1518,7 +1519,7 @@
 							},
 							"signatures": [
 								{
-									"id": 245,
+									"id": 247,
 									"name": "async",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1527,7 +1528,7 @@
 									},
 									"parameters": [
 										{
-											"id": 246,
+											"id": 248,
 											"name": "timeout",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1550,7 +1551,7 @@
 											}
 										},
 										{
-											"id": 247,
+											"id": 249,
 											"name": "numCallsUntilResolution",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1602,7 +1603,7 @@
 							}
 						},
 						{
-							"id": 248,
+							"id": 250,
 							"name": "restartTimeout",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1612,7 +1613,7 @@
 							},
 							"signatures": [
 								{
-									"id": 249,
+									"id": 251,
 									"name": "restartTimeout",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1621,7 +1622,7 @@
 									},
 									"parameters": [
 										{
-											"id": 250,
+											"id": 252,
 											"name": "timeout",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1667,7 +1668,7 @@
 							}
 						},
 						{
-							"id": 251,
+							"id": 253,
 							"name": "run",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1677,7 +1678,7 @@
 							},
 							"signatures": [
 								{
-									"id": 252,
+									"id": 254,
 									"name": "run",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1713,7 +1714,7 @@
 							}
 						},
 						{
-							"id": 253,
+							"id": 255,
 							"name": "skip",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1723,7 +1724,7 @@
 							},
 							"signatures": [
 								{
-									"id": 254,
+									"id": 256,
 									"name": "skip",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1732,7 +1733,7 @@
 									},
 									"parameters": [
 										{
-											"id": 255,
+											"id": 257,
 											"name": "message",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1778,7 +1779,7 @@
 							}
 						},
 						{
-							"id": 256,
+							"id": 258,
 							"name": "toJSON",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1788,7 +1789,7 @@
 							},
 							"signatures": [
 								{
-									"id": 257,
+									"id": 259,
 									"name": "toJSON",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1798,7 +1799,7 @@
 									"type": {
 										"type": "reflection",
 										"declaration": {
-											"id": 258,
+											"id": 260,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
@@ -1807,7 +1808,7 @@
 											},
 											"indexSignature": [
 												{
-													"id": 259,
+													"id": 261,
 													"name": "__index",
 													"kind": 8192,
 													"kindString": "Index signature",
@@ -1816,7 +1817,7 @@
 													},
 													"parameters": [
 														{
-															"id": 260,
+															"id": 262,
 															"name": "key",
 															"kind": 32768,
 															"kindString": "Parameter",
@@ -1868,53 +1869,53 @@
 							"title": "Constructors",
 							"kind": 512,
 							"children": [
-								229
+								231
 							]
 						},
 						{
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								222,
-								223,
-								225,
-								226,
 								224,
+								225,
 								227,
 								228,
-								221,
-								235,
-								236,
+								226,
+								229,
+								230,
+								223,
 								237,
 								238,
-								217,
-								218,
 								239,
 								240,
-								241,
 								219,
 								220,
+								241,
 								242,
 								243,
-								216
+								221,
+								222,
+								244,
+								245,
+								218
 							]
 						},
 						{
 							"title": "Methods",
 							"kind": 2048,
 							"children": [
-								244,
-								248,
-								251,
+								246,
+								250,
 								253,
-								256
+								255,
+								258
 							]
 						}
 					],
 					"sources": [
 						{
 							"fileName": "assert.ts",
-							"line": 131,
+							"line": 132,
 							"character": 37
 						}
 					],
@@ -1932,7 +1933,7 @@
 					]
 				},
 				{
-					"id": 261,
+					"id": 263,
 					"name": "assertVisuals",
 					"kind": 64,
 					"kindString": "Function",
@@ -1942,7 +1943,7 @@
 					},
 					"signatures": [
 						{
-							"id": 262,
+							"id": 264,
 							"name": "assertVisuals",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -1954,7 +1955,7 @@
 							},
 							"parameters": [
 								{
-									"id": 263,
+									"id": 265,
 									"name": "test",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -1967,11 +1968,11 @@
 									"type": {
 										"type": "reference",
 										"name": "VisualRegressionTest",
-										"id": 215
+										"id": 217
 									}
 								},
 								{
-									"id": 264,
+									"id": 266,
 									"name": "options",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -1984,7 +1985,7 @@
 									"type": {
 										"type": "reference",
 										"name": "Options",
-										"id": 201
+										"id": 203
 									},
 									"defaultValue": " config"
 								}
@@ -2004,7 +2005,7 @@
 					]
 				},
 				{
-					"id": 270,
+					"id": 272,
 					"name": "compareVisuals",
 					"kind": 64,
 					"kindString": "Function",
@@ -2013,7 +2014,7 @@
 					},
 					"signatures": [
 						{
-							"id": 271,
+							"id": 273,
 							"name": "compareVisuals",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -2022,7 +2023,7 @@
 							},
 							"parameters": [
 								{
-									"id": 272,
+									"id": 274,
 									"name": "baseline",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -2035,7 +2036,7 @@
 									}
 								},
 								{
-									"id": 273,
+									"id": 275,
 									"name": "screenshot",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -2048,7 +2049,7 @@
 									}
 								},
 								{
-									"id": 274,
+									"id": 276,
 									"name": "result",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -2058,7 +2059,7 @@
 									"type": {
 										"type": "reference",
 										"name": "AssertionResult",
-										"id": 207
+										"id": 209
 									}
 								}
 							],
@@ -2069,7 +2070,7 @@
 									{
 										"type": "reference",
 										"name": "AssertionResult",
-										"id": 207
+										"id": 209
 									}
 								]
 							}
@@ -2078,13 +2079,13 @@
 					"sources": [
 						{
 							"fileName": "assert.ts",
-							"line": 146,
+							"line": 147,
 							"character": 23
 						}
 					]
 				},
 				{
-					"id": 265,
+					"id": 267,
 					"name": "generateBaseline",
 					"kind": 64,
 					"kindString": "Function",
@@ -2093,7 +2094,7 @@
 					},
 					"signatures": [
 						{
-							"id": 266,
+							"id": 268,
 							"name": "generateBaseline",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -2102,7 +2103,7 @@
 							},
 							"parameters": [
 								{
-									"id": 267,
+									"id": 269,
 									"name": "baseline",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -2115,7 +2116,7 @@
 									}
 								},
 								{
-									"id": 268,
+									"id": 270,
 									"name": "screenshot",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -2128,7 +2129,7 @@
 									}
 								},
 								{
-									"id": 269,
+									"id": 271,
 									"name": "result",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -2138,7 +2139,7 @@
 									"type": {
 										"type": "reference",
 										"name": "AssertionResult",
-										"id": 207
+										"id": 209
 									}
 								}
 							],
@@ -2149,7 +2150,7 @@
 									{
 										"type": "reference",
 										"name": "AssertionResult",
-										"id": 207
+										"id": 209
 									}
 								]
 							}
@@ -2158,7 +2159,7 @@
 					"sources": [
 						{
 							"fileName": "assert.ts",
-							"line": 135,
+							"line": 136,
 							"character": 25
 						}
 					]
@@ -2169,18 +2170,18 @@
 					"title": "Interfaces",
 					"kind": 256,
 					"children": [
-						207,
-						201,
-						215
+						209,
+						203,
+						217
 					]
 				},
 				{
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						261,
-						270,
-						265
+						263,
+						272,
+						267
 					]
 				}
 			],
@@ -2193,7 +2194,7 @@
 			]
 		},
 		{
-			"id": 175,
+			"id": 177,
 			"name": "\"comparators/PngJsImageComparator\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -2204,7 +2205,7 @@
 			"originalName": "src/comparators/PngJsImageComparator.ts",
 			"children": [
 				{
-					"id": 179,
+					"id": 181,
 					"name": "PngJsImageComparator",
 					"kind": 128,
 					"kindString": "Class",
@@ -2214,7 +2215,7 @@
 					},
 					"children": [
 						{
-							"id": 182,
+							"id": 184,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -2224,7 +2225,7 @@
 							},
 							"signatures": [
 								{
-									"id": 183,
+									"id": 185,
 									"name": "new PngJsImageComparator",
 									"kind": 16384,
 									"kindString": "Constructor signature",
@@ -2233,7 +2234,7 @@
 									},
 									"parameters": [
 										{
-											"id": 184,
+											"id": 186,
 											"name": "options",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2243,7 +2244,7 @@
 											"type": {
 												"type": "reference",
 												"name": "Options",
-												"id": 176
+												"id": 178
 											},
 											"defaultValue": " {}"
 										}
@@ -2251,7 +2252,7 @@
 									"type": {
 										"type": "reference",
 										"name": "PngJsImageComparator",
-										"id": 179
+										"id": 181
 									}
 								}
 							],
@@ -2264,7 +2265,7 @@
 							]
 						},
 						{
-							"id": 180,
+							"id": 182,
 							"name": "pixelSkip",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2285,7 +2286,7 @@
 							}
 						},
 						{
-							"id": 181,
+							"id": 183,
 							"name": "pixelTolerance",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2306,7 +2307,7 @@
 							}
 						},
 						{
-							"id": 185,
+							"id": 187,
 							"name": "compare",
 							"kind": 2048,
 							"kindString": "Method",
@@ -2316,7 +2317,7 @@
 							},
 							"signatures": [
 								{
-									"id": 186,
+									"id": 188,
 									"name": "compare",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -2325,7 +2326,7 @@
 									},
 									"parameters": [
 										{
-											"id": 187,
+											"id": 189,
 											"name": "baseline",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2338,7 +2339,7 @@
 											}
 										},
 										{
-											"id": 188,
+											"id": 190,
 											"name": "actual",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2377,22 +2378,22 @@
 							"title": "Constructors",
 							"kind": 512,
 							"children": [
-								182
+								184
 							]
 						},
 						{
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								180,
-								181
+								182,
+								183
 							]
 						},
 						{
 							"title": "Methods",
 							"kind": 2048,
 							"children": [
-								185
+								187
 							]
 						}
 					],
@@ -2411,7 +2412,7 @@
 					]
 				},
 				{
-					"id": 176,
+					"id": 178,
 					"name": "Options",
 					"kind": 256,
 					"kindString": "Interface",
@@ -2421,7 +2422,7 @@
 					},
 					"children": [
 						{
-							"id": 177,
+							"id": 179,
 							"name": "pixelSkip",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2452,7 +2453,7 @@
 							}
 						},
 						{
-							"id": 178,
+							"id": 180,
 							"name": "pixelTolerance",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2488,8 +2489,8 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								177,
-								178
+								179,
+								180
 							]
 						}
 					],
@@ -2507,14 +2508,14 @@
 					"title": "Classes",
 					"kind": 128,
 					"children": [
-						179
+						181
 					]
 				},
 				{
 					"title": "Interfaces",
 					"kind": 256,
 					"children": [
-						176
+						178
 					]
 				}
 			],
@@ -2527,7 +2528,7 @@
 			]
 		},
 		{
-			"id": 143,
+			"id": 145,
 			"name": "\"comparators/ReportBuilder\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -2538,7 +2539,7 @@
 			"originalName": "src/comparators/ReportBuilder.ts",
 			"children": [
 				{
-					"id": 146,
+					"id": 148,
 					"name": "default",
 					"kind": 128,
 					"kindString": "Class",
@@ -2548,7 +2549,7 @@
 					},
 					"children": [
 						{
-							"id": 151,
+							"id": 153,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -2558,7 +2559,7 @@
 							},
 							"signatures": [
 								{
-									"id": 152,
+									"id": 154,
 									"name": "new default",
 									"kind": 16384,
 									"kindString": "Constructor signature",
@@ -2567,7 +2568,7 @@
 									},
 									"parameters": [
 										{
-											"id": 153,
+											"id": 155,
 											"name": "baseline",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2580,7 +2581,7 @@
 											}
 										},
 										{
-											"id": 154,
+											"id": 156,
 											"name": "actual",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2593,7 +2594,7 @@
 											}
 										},
 										{
-											"id": 155,
+											"id": 157,
 											"name": "options",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2603,7 +2604,7 @@
 											"type": {
 												"type": "reference",
 												"name": "Options",
-												"id": 144
+												"id": 146
 											},
 											"defaultValue": " {}"
 										}
@@ -2611,7 +2612,7 @@
 									"type": {
 										"type": "reference",
 										"name": "default",
-										"id": 146
+										"id": 148
 									}
 								}
 							],
@@ -2624,7 +2625,7 @@
 							]
 						},
 						{
-							"id": 148,
+							"id": 150,
 							"name": "actual",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2645,7 +2646,7 @@
 							}
 						},
 						{
-							"id": 149,
+							"id": 151,
 							"name": "baseline",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2666,7 +2667,7 @@
 							}
 						},
 						{
-							"id": 150,
+							"id": 152,
 							"name": "log",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2691,7 +2692,7 @@
 							"defaultValue": " []"
 						},
 						{
-							"id": 147,
+							"id": 149,
 							"name": "matchRatio",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2712,7 +2713,7 @@
 							}
 						},
 						{
-							"id": 156,
+							"id": 158,
 							"name": "error",
 							"kind": 262144,
 							"kindString": "Accessor",
@@ -2722,7 +2723,7 @@
 							},
 							"getSignature": [
 								{
-									"id": 157,
+									"id": 159,
 									"name": "__get",
 									"kind": 524288,
 									"kindString": "Get signature",
@@ -2753,7 +2754,7 @@
 							]
 						},
 						{
-							"id": 158,
+							"id": 160,
 							"name": "report",
 							"kind": 262144,
 							"kindString": "Accessor",
@@ -2763,7 +2764,7 @@
 							},
 							"getSignature": [
 								{
-									"id": 159,
+									"id": 161,
 									"name": "__get",
 									"kind": 524288,
 									"kindString": "Get signature",
@@ -2785,7 +2786,7 @@
 							]
 						},
 						{
-							"id": 160,
+							"id": 162,
 							"name": "runningTime",
 							"kind": 262144,
 							"kindString": "Accessor",
@@ -2795,7 +2796,7 @@
 							},
 							"getSignature": [
 								{
-									"id": 161,
+									"id": 163,
 									"name": "__get",
 									"kind": 524288,
 									"kindString": "Get signature",
@@ -2826,7 +2827,7 @@
 							]
 						},
 						{
-							"id": 173,
+							"id": 175,
 							"name": "recordEnd",
 							"kind": 2048,
 							"kindString": "Method",
@@ -2836,7 +2837,7 @@
 							},
 							"signatures": [
 								{
-									"id": 174,
+									"id": 176,
 									"name": "recordEnd",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -2858,7 +2859,7 @@
 							]
 						},
 						{
-							"id": 165,
+							"id": 167,
 							"name": "recordError",
 							"kind": 2048,
 							"kindString": "Method",
@@ -2868,7 +2869,7 @@
 							},
 							"signatures": [
 								{
-									"id": 166,
+									"id": 168,
 									"name": "recordError",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -2877,7 +2878,7 @@
 									},
 									"parameters": [
 										{
-											"id": 167,
+											"id": 169,
 											"name": "error",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2905,7 +2906,7 @@
 							]
 						},
 						{
-							"id": 162,
+							"id": 164,
 							"name": "recordLog",
 							"kind": 2048,
 							"kindString": "Method",
@@ -2915,7 +2916,7 @@
 							},
 							"signatures": [
 								{
-									"id": 163,
+									"id": 165,
 									"name": "recordLog",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -2924,7 +2925,7 @@
 									},
 									"parameters": [
 										{
-											"id": 164,
+											"id": 166,
 											"name": "item",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2952,7 +2953,7 @@
 							]
 						},
 						{
-							"id": 168,
+							"id": 170,
 							"name": "recordPixelDifference",
 							"kind": 2048,
 							"kindString": "Method",
@@ -2962,7 +2963,7 @@
 							},
 							"signatures": [
 								{
-									"id": 169,
+									"id": 171,
 									"name": "recordPixelDifference",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -2971,7 +2972,7 @@
 									},
 									"parameters": [
 										{
-											"id": 170,
+											"id": 172,
 											"name": "pixel",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2999,7 +3000,7 @@
 							]
 						},
 						{
-							"id": 171,
+							"id": 173,
 							"name": "recordStart",
 							"kind": 2048,
 							"kindString": "Method",
@@ -3009,7 +3010,7 @@
 							},
 							"signatures": [
 								{
-									"id": 172,
+									"id": 174,
 									"name": "recordStart",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -3036,37 +3037,37 @@
 							"title": "Constructors",
 							"kind": 512,
 							"children": [
-								151
+								153
 							]
 						},
 						{
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								148,
-								149,
 								150,
-								147
+								151,
+								152,
+								149
 							]
 						},
 						{
 							"title": "Accessors",
 							"kind": 262144,
 							"children": [
-								156,
 								158,
-								160
+								160,
+								162
 							]
 						},
 						{
 							"title": "Methods",
 							"kind": 2048,
 							"children": [
-								173,
-								165,
-								162,
-								168,
-								171
+								175,
+								167,
+								164,
+								170,
+								173
 							]
 						}
 					],
@@ -3079,7 +3080,7 @@
 					]
 				},
 				{
-					"id": 144,
+					"id": 146,
 					"name": "Options",
 					"kind": 256,
 					"kindString": "Interface",
@@ -3089,7 +3090,7 @@
 					},
 					"children": [
 						{
-							"id": 145,
+							"id": 147,
 							"name": "matchRatio",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3125,7 +3126,7 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								145
+								147
 							]
 						}
 					],
@@ -3143,14 +3144,14 @@
 					"title": "Classes",
 					"kind": 128,
 					"children": [
-						146
+						148
 					]
 				},
 				{
 					"title": "Interfaces",
 					"kind": 256,
 					"children": [
-						144
+						146
 					]
 				}
 			],
@@ -3163,7 +3164,7 @@
 			]
 		},
 		{
-			"id": 122,
+			"id": 124,
 			"name": "\"config\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -3174,7 +3175,7 @@
 			"originalName": "src/config.ts",
 			"children": [
 				{
-					"id": 123,
+					"id": 125,
 					"name": "Config",
 					"kind": 256,
 					"kindString": "Interface",
@@ -3184,7 +3185,7 @@
 					},
 					"children": [
 						{
-							"id": 127,
+							"id": 129,
 							"name": "baseline",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3219,11 +3220,11 @@
 							"inheritedFrom": {
 								"type": "reference",
 								"name": "Options.baseline",
-								"id": 202
+								"id": 204
 							}
 						},
 						{
-							"id": 128,
+							"id": 130,
 							"name": "baselineLocation",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3258,11 +3259,11 @@
 							"inheritedFrom": {
 								"type": "reference",
 								"name": "Options.baselineLocation",
-								"id": 203
+								"id": 205
 							}
 						},
 						{
-							"id": 124,
+							"id": 126,
 							"name": "comparator",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3283,11 +3284,11 @@
 							"type": {
 								"type": "reference",
 								"name": "ComparatorConfig",
-								"id": 133
+								"id": 135
 							}
 						},
 						{
-							"id": 126,
+							"id": 128,
 							"name": "directory",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3312,11 +3313,11 @@
 							"overwrites": {
 								"type": "reference",
 								"name": "Options.directory",
-								"id": 204
+								"id": 206
 							}
 						},
 						{
-							"id": 131,
+							"id": 133,
 							"name": "errorColor",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3330,8 +3331,8 @@
 							},
 							"sources": [
 								{
-									"fileName": "reporters/util/ReportWriter.ts",
-									"line": 272,
+									"fileName": "reporters/VisualRegression.ts",
+									"line": 336,
 									"character": 11
 								}
 							],
@@ -3343,11 +3344,11 @@
 							"inheritedFrom": {
 								"type": "reference",
 								"name": "Options.errorColor",
-								"id": 99
+								"id": 101
 							}
 						},
 						{
-							"id": 130,
+							"id": 132,
 							"name": "missingBaseline",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3357,12 +3358,13 @@
 								"__visited__": true
 							},
 							"comment": {
-								"shortText": "What to do if a test baseline is missing\n  fail: fail the test\n  ignore: ignore the missing baseline\n  skip: skip the test\n  snapshot: take a snapshot to serve as the new baseline"
+								"shortText": "What to do if a test baseline is missing",
+								"text": "* fail: fail the test\n* ignore: ignore the missing baseline\n* skip: skip the test\n* snapshot: take a snapshot to serve as the new baseline\n"
 							},
 							"sources": [
 								{
 									"fileName": "assert.ts",
-									"line": 112,
+									"line": 113,
 									"character": 16
 								}
 							],
@@ -3390,11 +3392,11 @@
 							"inheritedFrom": {
 								"type": "reference",
 								"name": "Options.missingBaseline",
-								"id": 206
+								"id": 208
 							}
 						},
 						{
-							"id": 129,
+							"id": 131,
 							"name": "regenerateBaselines",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3433,11 +3435,11 @@
 							"inheritedFrom": {
 								"type": "reference",
 								"name": "Options.regenerateBaselines",
-								"id": 205
+								"id": 207
 							}
 						},
 						{
-							"id": 125,
+							"id": 127,
 							"name": "report",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3471,7 +3473,7 @@
 							}
 						},
 						{
-							"id": 132,
+							"id": 134,
 							"name": "reportLocation",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3485,8 +3487,8 @@
 							},
 							"sources": [
 								{
-									"fileName": "reporters/util/ReportWriter.ts",
-									"line": 278,
+									"fileName": "reporters/VisualRegression.ts",
+									"line": 342,
 									"character": 15
 								}
 							],
@@ -3506,7 +3508,7 @@
 							"inheritedFrom": {
 								"type": "reference",
 								"name": "Options.reportLocation",
-								"id": 100
+								"id": 102
 							}
 						}
 					],
@@ -3515,15 +3517,15 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								127,
-								128,
-								124,
-								126,
-								131,
-								130,
 								129,
-								125,
-								132
+								130,
+								126,
+								128,
+								133,
+								132,
+								131,
+								127,
+								134
 							]
 						}
 					],
@@ -3538,17 +3540,17 @@
 						{
 							"type": "reference",
 							"name": "Options",
-							"id": 201
+							"id": 203
 						},
 						{
 							"type": "reference",
 							"name": "Options",
-							"id": 97
+							"id": 99
 						}
 					]
 				},
 				{
-					"id": 133,
+					"id": 135,
 					"name": "ComparatorConfig",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -3578,7 +3580,7 @@
 					}
 				},
 				{
-					"id": 134,
+					"id": 136,
 					"name": "config",
 					"kind": 2097152,
 					"kindString": "Object literal",
@@ -3587,9 +3589,12 @@
 						"isConst": true,
 						"__visited__": true
 					},
+					"comment": {
+						"shortText": "The default config"
+					},
 					"children": [
 						{
-							"id": 135,
+							"id": 137,
 							"name": "baselineLocation",
 							"kind": 32,
 							"kindString": "Variable",
@@ -3600,7 +3605,7 @@
 							"sources": [
 								{
 									"fileName": "config.ts",
-									"line": 20,
+									"line": 23,
 									"character": 17
 								}
 							],
@@ -3611,7 +3616,7 @@
 							"defaultValue": "\"baselines\""
 						},
 						{
-							"id": 140,
+							"id": 142,
 							"name": "directory",
 							"kind": 32,
 							"kindString": "Variable",
@@ -3622,7 +3627,7 @@
 							"sources": [
 								{
 									"fileName": "config.ts",
-									"line": 28,
+									"line": 31,
 									"character": 10
 								}
 							],
@@ -3633,7 +3638,7 @@
 							"defaultValue": "\"visual-test\""
 						},
 						{
-							"id": 141,
+							"id": 143,
 							"name": "missingBaseline",
 							"kind": 32,
 							"kindString": "Variable",
@@ -3644,7 +3649,7 @@
 							"sources": [
 								{
 									"fileName": "config.ts",
-									"line": 29,
+									"line": 32,
 									"character": 16
 								}
 							],
@@ -3655,7 +3660,7 @@
 							"defaultValue": "\"skip\""
 						},
 						{
-							"id": 142,
+							"id": 144,
 							"name": "reportLocation",
 							"kind": 32,
 							"kindString": "Variable",
@@ -3666,7 +3671,7 @@
 							"sources": [
 								{
 									"fileName": "config.ts",
-									"line": 31,
+									"line": 34,
 									"character": 15
 								}
 							],
@@ -3677,7 +3682,7 @@
 							"defaultValue": "\"report\""
 						},
 						{
-							"id": 136,
+							"id": 138,
 							"name": "comparator",
 							"kind": 2097152,
 							"kindString": "Object literal",
@@ -3687,7 +3692,7 @@
 							},
 							"children": [
 								{
-									"id": 139,
+									"id": 141,
 									"name": "matchRatio",
 									"kind": 32,
 									"kindString": "Variable",
@@ -3698,7 +3703,7 @@
 									"sources": [
 										{
 											"fileName": "config.ts",
-											"line": 25,
+											"line": 28,
 											"character": 12
 										}
 									],
@@ -3709,7 +3714,7 @@
 									"defaultValue": "1"
 								},
 								{
-									"id": 137,
+									"id": 139,
 									"name": "pixelSkip",
 									"kind": 32,
 									"kindString": "Variable",
@@ -3720,7 +3725,7 @@
 									"sources": [
 										{
 											"fileName": "config.ts",
-											"line": 23,
+											"line": 26,
 											"character": 11
 										}
 									],
@@ -3731,7 +3736,7 @@
 									"defaultValue": "2"
 								},
 								{
-									"id": 138,
+									"id": 140,
 									"name": "pixelTolerance",
 									"kind": 32,
 									"kindString": "Variable",
@@ -3742,7 +3747,7 @@
 									"sources": [
 										{
 											"fileName": "config.ts",
-											"line": 24,
+											"line": 27,
 											"character": 16
 										}
 									],
@@ -3758,16 +3763,16 @@
 									"title": "Variables",
 									"kind": 32,
 									"children": [
+										141,
 										139,
-										137,
-										138
+										140
 									]
 								}
 							],
 							"sources": [
 								{
 									"fileName": "config.ts",
-									"line": 22,
+									"line": 25,
 									"character": 11
 								}
 							],
@@ -3782,24 +3787,24 @@
 							"title": "Variables",
 							"kind": 32,
 							"children": [
-								135,
-								140,
-								141,
-								142
+								137,
+								142,
+								143,
+								144
 							]
 						},
 						{
 							"title": "Object literals",
 							"kind": 2097152,
 							"children": [
-								136
+								138
 							]
 						}
 					],
 					"sources": [
 						{
 							"fileName": "config.ts",
-							"line": 19,
+							"line": 22,
 							"character": 12
 						}
 					],
@@ -3814,21 +3819,21 @@
 					"title": "Interfaces",
 					"kind": 256,
 					"children": [
-						123
+						125
 					]
 				},
 				{
 					"title": "Type aliases",
 					"kind": 4194304,
 					"children": [
-						133
+						135
 					]
 				},
 				{
 					"title": "Object literals",
 					"kind": 2097152,
 					"children": [
-						134
+						136
 					]
 				}
 			],
@@ -3841,7 +3846,7 @@
 			]
 		},
 		{
-			"id": 275,
+			"id": 277,
 			"name": "\"helpers/resizeWindow\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -3852,7 +3857,7 @@
 			"originalName": "src/helpers/resizeWindow.ts",
 			"children": [
 				{
-					"id": 286,
+					"id": 288,
 					"name": "createResizer",
 					"kind": 64,
 					"kindString": "Function",
@@ -3861,7 +3866,7 @@
 					},
 					"signatures": [
 						{
-							"id": 287,
+							"id": 289,
 							"name": "createResizer",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -3873,7 +3878,7 @@
 							},
 							"parameters": [
 								{
-									"id": 288,
+									"id": 290,
 									"name": "widthDifference",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -3896,7 +3901,7 @@
 									}
 								},
 								{
-									"id": 289,
+									"id": 291,
 									"name": "heightDifference",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -3934,7 +3939,7 @@
 					]
 				},
 				{
-					"id": 282,
+					"id": 284,
 					"name": "findDifference",
 					"kind": 64,
 					"kindString": "Function",
@@ -3943,7 +3948,7 @@
 					},
 					"signatures": [
 						{
-							"id": 283,
+							"id": 285,
 							"name": "findDifference",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -3955,7 +3960,7 @@
 							},
 							"parameters": [
 								{
-									"id": 284,
+									"id": 286,
 									"name": "width",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -3971,7 +3976,7 @@
 									}
 								},
 								{
-									"id": 285,
+									"id": 287,
 									"name": "height",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -4002,7 +4007,7 @@
 					]
 				},
 				{
-					"id": 276,
+					"id": 278,
 					"name": "resizeWindow",
 					"kind": 64,
 					"kindString": "Function",
@@ -4012,7 +4017,7 @@
 					},
 					"signatures": [
 						{
-							"id": 277,
+							"id": 279,
 							"name": "resizeWindow",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -4025,7 +4030,7 @@
 							},
 							"parameters": [
 								{
-									"id": 278,
+									"id": 280,
 									"name": "width",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -4038,7 +4043,7 @@
 									}
 								},
 								{
-									"id": 279,
+									"id": 281,
 									"name": "height",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -4066,7 +4071,7 @@
 					]
 				},
 				{
-					"id": 280,
+					"id": 282,
 					"name": "waitForWindowResize",
 					"kind": 64,
 					"kindString": "Function",
@@ -4076,7 +4081,7 @@
 					},
 					"signatures": [
 						{
-							"id": 281,
+							"id": 283,
 							"name": "waitForWindowResize",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -4106,10 +4111,10 @@
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						286,
-						282,
-						276,
-						280
+						288,
+						284,
+						278,
+						282
 					]
 				}
 			],
@@ -4122,7 +4127,7 @@
 			]
 		},
 		{
-			"id": 328,
+			"id": 309,
 			"name": "\"index\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -4132,11 +4137,11 @@
 			},
 			"originalName": "src/index.ts",
 			"comment": {
-				"shortText": "This is the public API for intern-visual."
+				"shortText": "This module exports the public API for intern-visual, registers\nintern-visual as an Intern plugin, and installs the visual regression\nreporter."
 			},
 			"children": [
 				{
-					"id": 329,
+					"id": 310,
 					"name": "helpers",
 					"kind": 2097152,
 					"kindString": "Object literal",
@@ -4146,7 +4151,7 @@
 					},
 					"children": [
 						{
-							"id": 330,
+							"id": 311,
 							"name": "resizeWindow",
 							"kind": 32,
 							"kindString": "Variable",
@@ -4156,14 +4161,14 @@
 							"sources": [
 								{
 									"fileName": "index.ts",
-									"line": 12,
+									"line": 14,
 									"character": 13
 								}
 							],
 							"type": {
 								"type": "reference",
 								"name": "resizeWindow",
-								"id": 276
+								"id": 278
 							}
 						}
 					],
@@ -4172,14 +4177,14 @@
 							"title": "Variables",
 							"kind": 32,
 							"children": [
-								330
+								311
 							]
 						}
 					],
 					"sources": [
 						{
 							"fileName": "index.ts",
-							"line": 11,
+							"line": 13,
 							"character": 13
 						}
 					],
@@ -4194,7 +4199,7 @@
 					"title": "Object literals",
 					"kind": 2097152,
 					"children": [
-						329
+						310
 					]
 				}
 			],
@@ -4207,7 +4212,7 @@
 			]
 		},
 		{
-			"id": 307,
+			"id": 81,
 			"name": "\"reporters/VisualRegression\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -4218,7 +4223,7 @@
 			"originalName": "src/reporters/VisualRegression.ts",
 			"children": [
 				{
-					"id": 308,
+					"id": 82,
 					"name": "VisualRegression",
 					"kind": 128,
 					"kindString": "Class",
@@ -4231,7 +4236,7 @@
 					},
 					"children": [
 						{
-							"id": 310,
+							"id": 83,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -4241,7 +4246,7 @@
 							},
 							"signatures": [
 								{
-									"id": 311,
+									"id": 84,
 									"name": "new VisualRegression",
 									"kind": 16384,
 									"kindString": "Constructor signature",
@@ -4250,7 +4255,7 @@
 									},
 									"parameters": [
 										{
-											"id": 312,
+											"id": 85,
 											"name": "executor",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4263,8 +4268,8 @@
 											}
 										},
 										{
-											"id": 313,
-											"name": "config",
+											"id": 86,
+											"name": "options",
 											"kind": 32768,
 											"kindString": "Parameter",
 											"flags": {
@@ -4273,49 +4278,27 @@
 											"type": {
 												"type": "reference",
 												"name": "Options",
-												"id": 97
+												"id": 99
 											}
 										}
 									],
 									"type": {
 										"type": "reference",
 										"name": "VisualRegression",
-										"id": 308
+										"id": 82
 									}
 								}
 							],
 							"sources": [
 								{
 									"fileName": "reporters/VisualRegression.ts",
-									"line": 14,
-									"character": 38
+									"line": 34,
+									"character": 63
 								}
 							]
 						},
 						{
-							"id": 309,
-							"name": "reportWriter",
-							"kind": 1024,
-							"kindString": "Property",
-							"flags": {
-								"isExported": true,
-								"isProtected": true,
-								"__visited__": true
-							},
-							"sources": [
-								{
-									"fileName": "reporters/VisualRegression.ts",
-									"line": 14,
-									"character": 23
-								}
-							],
-							"type": {
-								"type": "reference",
-								"name": "ReportWriter"
-							}
-						},
-						{
-							"id": 314,
+							"id": 87,
 							"name": "deprecated",
 							"kind": 2048,
 							"kindString": "Method",
@@ -4325,7 +4308,7 @@
 							},
 							"signatures": [
 								{
-									"id": 315,
+									"id": 88,
 									"name": "deprecated",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -4334,7 +4317,7 @@
 									},
 									"parameters": [
 										{
-											"id": 316,
+											"id": 89,
 											"name": "message",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4356,13 +4339,13 @@
 							"sources": [
 								{
 									"fileName": "reporters/VisualRegression.ts",
-									"line": 26,
+									"line": 50,
 									"character": 11
 								}
 							]
 						},
 						{
-							"id": 317,
+							"id": 90,
 							"name": "error",
 							"kind": 2048,
 							"kindString": "Method",
@@ -4372,7 +4355,7 @@
 							},
 							"signatures": [
 								{
-									"id": 318,
+									"id": 91,
 									"name": "error",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -4384,7 +4367,7 @@
 									},
 									"parameters": [
 										{
-											"id": 319,
+											"id": 92,
 											"name": "error",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4406,48 +4389,13 @@
 							"sources": [
 								{
 									"fileName": "reporters/VisualRegression.ts",
-									"line": 42,
+									"line": 66,
 									"character": 6
 								}
 							]
 						},
 						{
-							"id": 320,
-							"name": "runEnd",
-							"kind": 2048,
-							"kindString": "Method",
-							"flags": {
-								"isExported": true,
-								"__visited__": true
-							},
-							"signatures": [
-								{
-									"id": 321,
-									"name": "runEnd",
-									"kind": 4096,
-									"kindString": "Call signature",
-									"flags": {
-										"__visited__": true
-									},
-									"comment": {
-										"shortText": "This method is called after all test suites have finished running and\nthe test system is preparing to shut down."
-									},
-									"type": {
-										"type": "intrinsic",
-										"name": "void"
-									}
-								}
-							],
-							"sources": [
-								{
-									"fileName": "reporters/VisualRegression.ts",
-									"line": 58,
-									"character": 7
-								}
-							]
-						},
-						{
-							"id": 322,
+							"id": 93,
 							"name": "suiteEnd",
 							"kind": 2048,
 							"kindString": "Method",
@@ -4457,7 +4405,7 @@
 							},
 							"signatures": [
 								{
-									"id": 323,
+									"id": 94,
 									"name": "suiteEnd",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -4469,7 +4417,7 @@
 									},
 									"parameters": [
 										{
-											"id": 324,
+											"id": 95,
 											"name": "suite",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4516,13 +4464,13 @@
 							"sources": [
 								{
 									"fileName": "reporters/VisualRegression.ts",
-									"line": 65,
+									"line": 77,
 									"character": 9
 								}
 							]
 						},
 						{
-							"id": 325,
+							"id": 96,
 							"name": "testEnd",
 							"kind": 2048,
 							"kindString": "Method",
@@ -4532,7 +4480,7 @@
 							},
 							"signatures": [
 								{
-									"id": 326,
+									"id": 97,
 									"name": "testEnd",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -4545,7 +4493,7 @@
 									},
 									"parameters": [
 										{
-											"id": 327,
+											"id": 98,
 											"name": "test",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4555,7 +4503,7 @@
 											"type": {
 												"type": "reference",
 												"name": "VisualRegressionTest",
-												"id": 215
+												"id": 217
 											}
 										}
 									],
@@ -4574,359 +4522,8 @@
 							"sources": [
 								{
 									"fileName": "reporters/VisualRegression.ts",
-									"line": 92,
+									"line": 104,
 									"character": 8
-								}
-							]
-						}
-					],
-					"groups": [
-						{
-							"title": "Constructors",
-							"kind": 512,
-							"children": [
-								310
-							]
-						},
-						{
-							"title": "Properties",
-							"kind": 1024,
-							"children": [
-								309
-							]
-						},
-						{
-							"title": "Methods",
-							"kind": 2048,
-							"children": [
-								314,
-								317,
-								320,
-								322,
-								325
-							]
-						}
-					],
-					"sources": [
-						{
-							"fileName": "reporters/VisualRegression.ts",
-							"line": 13,
-							"character": 37
-						}
-					]
-				}
-			],
-			"groups": [
-				{
-					"title": "Classes",
-					"kind": 128,
-					"children": [
-						308
-					]
-				}
-			],
-			"sources": [
-				{
-					"fileName": "reporters/VisualRegression.ts",
-					"line": 1,
-					"character": 0
-				}
-			]
-		},
-		{
-			"id": 81,
-			"name": "\"reporters/util/ReportWriter\"",
-			"kind": 1,
-			"kindString": "External module",
-			"flags": {
-				"isExported": true,
-				"__visited__": true
-			},
-			"originalName": "src/reporters/util/ReportWriter.ts",
-			"children": [
-				{
-					"id": 82,
-					"name": "default",
-					"kind": 128,
-					"kindString": "Class",
-					"flags": {
-						"isExported": true,
-						"__visited__": true
-					},
-					"children": [
-						{
-							"id": 83,
-							"name": "constructor",
-							"kind": 512,
-							"kindString": "Constructor",
-							"flags": {
-								"isExported": true,
-								"__visited__": true
-							},
-							"signatures": [
-								{
-									"id": 84,
-									"name": "new default",
-									"kind": 16384,
-									"kindString": "Constructor signature",
-									"flags": {
-										"__visited__": true
-									},
-									"parameters": [
-										{
-											"id": 85,
-											"name": "options",
-											"kind": 32768,
-											"kindString": "Parameter",
-											"flags": {
-												"__visited__": true
-											},
-											"type": {
-												"type": "reference",
-												"name": "Options",
-												"id": 97
-											},
-											"defaultValue": " {}"
-										}
-									],
-									"type": {
-										"type": "reference",
-										"name": "default",
-										"id": 82
-									}
-								}
-							],
-							"sources": [
-								{
-									"fileName": "reporters/util/ReportWriter.ts",
-									"line": 29,
-									"character": 63
-								}
-							]
-						},
-						{
-							"id": 86,
-							"name": "addNote",
-							"kind": 2048,
-							"kindString": "Method",
-							"flags": {
-								"isExported": true,
-								"__visited__": true
-							},
-							"signatures": [
-								{
-									"id": 87,
-									"name": "addNote",
-									"kind": 4096,
-									"kindString": "Call signature",
-									"flags": {
-										"__visited__": true
-									},
-									"parameters": [
-										{
-											"id": 88,
-											"name": "note",
-											"kind": 32768,
-											"kindString": "Parameter",
-											"flags": {
-												"__visited__": true
-											},
-											"type": {
-												"type": "reference",
-												"name": "Note",
-												"id": 101
-											}
-										}
-									],
-									"type": {
-										"type": "intrinsic",
-										"name": "void"
-									}
-								}
-							],
-							"sources": [
-								{
-									"fileName": "reporters/util/ReportWriter.ts",
-									"line": 40,
-									"character": 8
-								}
-							]
-						},
-						{
-							"id": 95,
-							"name": "end",
-							"kind": 2048,
-							"kindString": "Method",
-							"flags": {
-								"isExported": true,
-								"__visited__": true
-							},
-							"signatures": [
-								{
-									"id": 96,
-									"name": "end",
-									"kind": 4096,
-									"kindString": "Call signature",
-									"flags": {
-										"__visited__": true
-									},
-									"type": {
-										"type": "reference",
-										"name": "Promise",
-										"typeArguments": [
-											{
-												"type": "intrinsic",
-												"name": "any"
-											}
-										]
-									}
-								}
-							],
-							"sources": [
-								{
-									"fileName": "reporters/util/ReportWriter.ts",
-									"line": 256,
-									"character": 4
-								}
-							]
-						},
-						{
-							"id": 92,
-							"name": "writeSuite",
-							"kind": 2048,
-							"kindString": "Method",
-							"flags": {
-								"isExported": true,
-								"__visited__": true
-							},
-							"signatures": [
-								{
-									"id": 93,
-									"name": "writeSuite",
-									"kind": 4096,
-									"kindString": "Call signature",
-									"flags": {
-										"__visited__": true
-									},
-									"parameters": [
-										{
-											"id": 94,
-											"name": "suite",
-											"kind": 32768,
-											"kindString": "Parameter",
-											"flags": {
-												"__visited__": true
-											},
-											"type": {
-												"type": "reference",
-												"name": "Suite"
-											}
-										}
-									],
-									"type": {
-										"type": "union",
-										"types": [
-											{
-												"type": "reference",
-												"name": "Promise",
-												"typeArguments": [
-													{
-														"type": "intrinsic",
-														"name": "void"
-													}
-												]
-											},
-											{
-												"type": "reference",
-												"name": "Promise",
-												"typeArguments": [
-													{
-														"type": "intrinsic",
-														"name": "Object"
-													}
-												]
-											}
-										]
-									}
-								}
-							],
-							"sources": [
-								{
-									"fileName": "reporters/util/ReportWriter.ts",
-									"line": 128,
-									"character": 11
-								}
-							]
-						},
-						{
-							"id": 89,
-							"name": "writeTest",
-							"kind": 2048,
-							"kindString": "Method",
-							"flags": {
-								"isExported": true,
-								"__visited__": true
-							},
-							"signatures": [
-								{
-									"id": 90,
-									"name": "writeTest",
-									"kind": 4096,
-									"kindString": "Call signature",
-									"flags": {
-										"__visited__": true
-									},
-									"parameters": [
-										{
-											"id": 91,
-											"name": "test",
-											"kind": 32768,
-											"kindString": "Parameter",
-											"flags": {
-												"__visited__": true
-											},
-											"type": {
-												"type": "reference",
-												"name": "VisualRegressionTest",
-												"id": 215
-											}
-										}
-									],
-									"type": {
-										"type": "union",
-										"types": [
-											{
-												"type": "reference",
-												"name": "Promise",
-												"typeArguments": [
-													{
-														"type": "intrinsic",
-														"name": "void"
-													}
-												]
-											},
-											{
-												"type": "reference",
-												"name": "Promise",
-												"typeArguments": [
-													{
-														"type": "array",
-														"elementType": {
-															"type": "intrinsic",
-															"name": "void"
-														}
-													}
-												]
-											}
-										]
-									}
-								}
-							],
-							"sources": [
-								{
-									"fileName": "reporters/util/ReportWriter.ts",
-									"line": 50,
-									"character": 10
 								}
 							]
 						}
@@ -4943,23 +4540,23 @@
 							"title": "Methods",
 							"kind": 2048,
 							"children": [
-								86,
-								95,
-								92,
-								89
+								87,
+								90,
+								93,
+								96
 							]
 						}
 					],
 					"sources": [
 						{
-							"fileName": "reporters/util/ReportWriter.ts",
-							"line": 10,
-							"character": 53
+							"fileName": "reporters/VisualRegression.ts",
+							"line": 17,
+							"character": 37
 						}
 					]
 				},
 				{
-					"id": 101,
+					"id": 103,
 					"name": "Note",
 					"kind": 256,
 					"kindString": "Interface",
@@ -4969,7 +4566,7 @@
 					},
 					"children": [
 						{
-							"id": 102,
+							"id": 104,
 							"name": "level",
 							"kind": 1024,
 							"kindString": "Property",
@@ -4979,8 +4576,8 @@
 							},
 							"sources": [
 								{
-									"fileName": "reporters/util/ReportWriter.ts",
-									"line": 282,
+									"fileName": "reporters/VisualRegression.ts",
+									"line": 346,
 									"character": 6
 								}
 							],
@@ -5007,7 +4604,7 @@
 							}
 						},
 						{
-							"id": 103,
+							"id": 105,
 							"name": "message",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5017,8 +4614,8 @@
 							},
 							"sources": [
 								{
-									"fileName": "reporters/util/ReportWriter.ts",
-									"line": 283,
+									"fileName": "reporters/VisualRegression.ts",
+									"line": 347,
 									"character": 8
 								}
 							],
@@ -5028,7 +4625,7 @@
 							}
 						},
 						{
-							"id": 104,
+							"id": 106,
 							"name": "type",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5038,8 +4635,8 @@
 							},
 							"sources": [
 								{
-									"fileName": "reporters/util/ReportWriter.ts",
-									"line": 284,
+									"fileName": "reporters/VisualRegression.ts",
+									"line": 348,
 									"character": 5
 								}
 							],
@@ -5054,22 +4651,22 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								102,
-								103,
-								104
+								104,
+								105,
+								106
 							]
 						}
 					],
 					"sources": [
 						{
-							"fileName": "reporters/util/ReportWriter.ts",
-							"line": 281,
+							"fileName": "reporters/VisualRegression.ts",
+							"line": 345,
 							"character": 21
 						}
 					]
 				},
 				{
-					"id": 97,
+					"id": 99,
 					"name": "Options",
 					"kind": 256,
 					"kindString": "Interface",
@@ -5082,7 +4679,7 @@
 					},
 					"children": [
 						{
-							"id": 98,
+							"id": 100,
 							"name": "directory",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5096,8 +4693,8 @@
 							},
 							"sources": [
 								{
-									"fileName": "reporters/util/ReportWriter.ts",
-									"line": 269,
+									"fileName": "reporters/VisualRegression.ts",
+									"line": 333,
 									"character": 10
 								}
 							],
@@ -5116,7 +4713,7 @@
 							}
 						},
 						{
-							"id": 99,
+							"id": 101,
 							"name": "errorColor",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5130,8 +4727,8 @@
 							},
 							"sources": [
 								{
-									"fileName": "reporters/util/ReportWriter.ts",
-									"line": 272,
+									"fileName": "reporters/VisualRegression.ts",
+									"line": 336,
 									"character": 11
 								}
 							],
@@ -5142,7 +4739,7 @@
 							}
 						},
 						{
-							"id": 100,
+							"id": 102,
 							"name": "reportLocation",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5156,8 +4753,8 @@
 							},
 							"sources": [
 								{
-									"fileName": "reporters/util/ReportWriter.ts",
-									"line": 278,
+									"fileName": "reporters/VisualRegression.ts",
+									"line": 342,
 									"character": 15
 								}
 							],
@@ -5181,16 +4778,16 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								98,
-								99,
-								100
+								100,
+								101,
+								102
 							]
 						}
 					],
 					"sources": [
 						{
-							"fileName": "reporters/util/ReportWriter.ts",
-							"line": 264,
+							"fileName": "reporters/VisualRegression.ts",
+							"line": 328,
 							"character": 24
 						}
 					],
@@ -5198,12 +4795,12 @@
 						{
 							"type": "reference",
 							"name": "Config",
-							"id": 123
+							"id": 125
 						}
 					]
 				},
 				{
-					"id": 105,
+					"id": 107,
 					"name": "TestMetadata",
 					"kind": 256,
 					"kindString": "Interface",
@@ -5212,7 +4809,7 @@
 					},
 					"children": [
 						{
-							"id": 108,
+							"id": 110,
 							"name": "baseline",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5222,8 +4819,8 @@
 							},
 							"sources": [
 								{
-									"fileName": "reporters/util/ReportWriter.ts",
-									"line": 290,
+									"fileName": "reporters/VisualRegression.ts",
+									"line": 354,
 									"character": 9
 								}
 							],
@@ -5242,7 +4839,7 @@
 							}
 						},
 						{
-							"id": 109,
+							"id": 111,
 							"name": "difference",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5252,8 +4849,8 @@
 							},
 							"sources": [
 								{
-									"fileName": "reporters/util/ReportWriter.ts",
-									"line": 291,
+									"fileName": "reporters/VisualRegression.ts",
+									"line": 355,
 									"character": 11
 								}
 							],
@@ -5272,7 +4869,7 @@
 							}
 						},
 						{
-							"id": 107,
+							"id": 109,
 							"name": "directory",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5281,8 +4878,8 @@
 							},
 							"sources": [
 								{
-									"fileName": "reporters/util/ReportWriter.ts",
-									"line": 289,
+									"fileName": "reporters/VisualRegression.ts",
+									"line": 353,
 									"character": 10
 								}
 							],
@@ -5292,7 +4889,7 @@
 							}
 						},
 						{
-							"id": 106,
+							"id": 108,
 							"name": "result",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5301,19 +4898,19 @@
 							},
 							"sources": [
 								{
-									"fileName": "reporters/util/ReportWriter.ts",
-									"line": 288,
+									"fileName": "reporters/VisualRegression.ts",
+									"line": 352,
 									"character": 7
 								}
 							],
 							"type": {
 								"type": "reference",
 								"name": "AssertionResult",
-								"id": 207
+								"id": 209
 							}
 						},
 						{
-							"id": 110,
+							"id": 112,
 							"name": "screenshot",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5323,8 +4920,8 @@
 							},
 							"sources": [
 								{
-									"fileName": "reporters/util/ReportWriter.ts",
-									"line": 292,
+									"fileName": "reporters/VisualRegression.ts",
+									"line": 356,
 									"character": 11
 								}
 							],
@@ -5343,7 +4940,7 @@
 							}
 						},
 						{
-							"id": 111,
+							"id": 113,
 							"name": "testDirectory",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5352,8 +4949,8 @@
 							},
 							"sources": [
 								{
-									"fileName": "reporters/util/ReportWriter.ts",
-									"line": 293,
+									"fileName": "reporters/VisualRegression.ts",
+									"line": 357,
 									"character": 14
 								}
 							],
@@ -5368,25 +4965,25 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								108,
-								109,
-								107,
-								106,
 								110,
-								111
+								111,
+								109,
+								108,
+								112,
+								113
 							]
 						}
 					],
 					"sources": [
 						{
-							"fileName": "reporters/util/ReportWriter.ts",
-							"line": 287,
+							"fileName": "reporters/VisualRegression.ts",
+							"line": 351,
 							"character": 22
 						}
 					]
 				},
 				{
-					"id": 120,
+					"id": 122,
 					"name": "TestMember",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -5395,8 +4992,8 @@
 					},
 					"sources": [
 						{
-							"fileName": "reporters/util/ReportWriter.ts",
-							"line": 311,
+							"fileName": "reporters/VisualRegression.ts",
+							"line": 375,
 							"character": 15
 						}
 					],
@@ -5415,7 +5012,7 @@
 					}
 				},
 				{
-					"id": 121,
+					"id": 123,
 					"name": "img",
 					"kind": 32,
 					"kindString": "Variable",
@@ -5425,8 +5022,8 @@
 					},
 					"sources": [
 						{
-							"fileName": "reporters/util/ReportWriter.ts",
-							"line": 313,
+							"fileName": "reporters/VisualRegression.ts",
+							"line": 377,
 							"character": 9
 						}
 					],
@@ -5437,7 +5034,7 @@
 					"defaultValue": "\n\t'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIIAAACACAMAAADwF' +\n\t'UHEAAADAFBMVEUAAAAAAAAAAABVVVVAQEBmZmZVVVVtbW1gYGBVVVVmZmZdXV1qampiYmJt' +\n\t'bW1mZmZwcHBpaWljY2Nra2tmZmZtbW1oaGhvb29qampwcHBsbGxoaGhtbW1qampvb29ra2t' +\n\t'wcHBsbGxxcXFtbW1qampubm5ra2tvb29sbGxwcHBtbW1xcXFubm5sbGxvb29tbW1wcHBtbW' +\n\t'1wcHBubm5xcXFvb29tbW1vb29tbW1wcHBubm5wcHBvb29xcXFvb29tbW1wcHBubm5wcHBub' +\n\t'm5xcXFvb29xcXFvb29ubm5wcHBubm5wcHBvb29xcXFvb29xcXFwcHBubm5wcHBwcHBvb29x' +\n\t'cXFvb29ubm5xcXFwcHBvb29wcHBwcHBvb29xcXFwcHBubm5wcHBvb29wcHBvb29xcXFvb29' +\n\t'xcXFwcHBvb29wcHBvb29wcHBvb29xcXFwcHBxcXFwcHBvb29wcHBvb29wcHBvb29xcXFwcH' +\n\t'BxcXFwcHBvb29wcHBubm5wcHBwcHBwcHBxcXFwcHBvb29wcHBvb29xcXFwcHBwcHBvb29xc' +\n\t'XFwcHBvb29wcHBwcHBxcXFwcHBxcXFwcHBxcXFwcHBvb29wcHBwcHBxcXFwcHBxcXFwcHBx' +\n\t'cXFwcHBwcHBwcHBxcXFwcHBxcXFwcHBxcXFwcHBwcHBxcXFwcHBxcXFwcHBxcXFwcHBwcHB' +\n\t'wcHBwcHBxcXFwcHBwcHBxcXFwcHBwcHBwcHBwcHBxcXFwcHBxcXFwcHBxcXFwcHBwcHBwcH' +\n\t'BwcHBxcXFwcHBxcXFwcHBxcXFwcHBwcHBxcXFwcHBxcXFxcXFwcHBwcHBxcXFwcHBwcHBxc' +\n\t'XFwcHBxcXFwcHBxcXFwcHBxcXFwcHBwcHBxcXFwcHBxcXFwcHBxcXFwcHBxcXFwcHBwcHBx' +\n\t'cXFwcHBxcXFwcHBxcXFwcHBxcXFxcXFwcHBxcXFwcHBxcXFwcHBxcXFxcXFwcHBxcXFxcXF' +\n\t'wcHBwcHBxcXFwcHBxcXFxcXFwcHBxcXFxcXFwcHBxcXF+cGExAAAA/3RSTlMAAQIDBAUGBw' +\n\t'gJCgsMDQ4PEBESExQVFhcYGRobHB0eHyAhIiMkJSYnKCkqKywtLi8wMTIzNDU2Nzg5Ojs8P' +\n\t'T4/QEFCQ0RFRkdISUpLTE1OT1BRUlRVVldYWFlaW11eX2BhYmNkZWZnaGlqa2xtbm9wcXJz' +\n\t'dHV2d3h5ent8fX9/gIKDhIWGh4iJi4yMjY6PkJGSk5SVlpeYmZqbnJ2en6Gio6Slpqeoqaq' +\n\t'rrK2ur7CxsrO0tre4ubq7vL2+v8DBwsPExcbHyMnKy8zNztDR0tLT1NXW19jZ2tvc3d7f4O' +\n\t'Hi4+Tl5ufo6err7O3u7/Dx8vPz9PX29/j5+fr6+/z8/f6oCt5hAAAJJUlEQVQYGcXBC0DU9' +\n\t'QEH8O9xgDwEM0BTYVn4thpmvpN02WqVpaXNYlPM0koW+cy0BepYG5Ca1lDLMrXyEenS6GFi' +\n\t'TiSxttTIFJsvFFB5TIEdg919+/3+/zu5x/9/AnF3nw+aI/C2qcs27T1RXlVdW1r45ZY/Txw' +\n\t'YAi8yDF68v47O6velPxAKrxi06iz11HyYeC08LPSJA3Sv9t27/OA5IXPPswmKpgbCMwKfOc' +\n\t'MmOpUUBA8YcYTNUDwzFK2s3UoLm6c0yQ+tKfoEm2//bWhNt+xm85mXt0MrMjxZweYrfhStK' +\n\t'fYrtsDWCLSiwEy2wKk70JomN7D5GlKMaEW/Y0vsikarCI0b8+zLb11kS5SNwM/Uc2LGJ6f4' +\n\t'c9Q9jhbzHzhjSwlbQbofWiJk3OZLbC1b26K52ozZcImt6etOaJaeWRVsbUe7oukGZFvoAad' +\n\t'6oYmi11roGSW3oikMz12mx5QPxdV12E5PqhiAq+lzmp51IQ7uxZXS00r7wp3uF+l5xbHQF1' +\n\t'hAbzgaBV2Z9I78UOiIrqOXfOQPbRn0mhVwENStXw8jhEmPjb7nnoenv1lFz3saNuGPvvGdh' +\n\t'eSlVZG44k56Xv2dkALHf2SizXehUPmn1dALyn4BXJ9eSnuzoVpH78gfsqGejrZDMY6+cwGK' +\n\t'AvrOeUix9KHjkCbQh/ZBeok+9CqkDPrQBEgr6EMxkNLoO/lQzKHvzIQigT5jiYEijj6TA1V' +\n\t'QA33lAVh9Sx857gerV+kjs2DzEH3jfFvYRFjoEy+h0R76QmV7NEqmL6TAToyFraD0wNbXXv' +\n\t'j9/fH94uKGjkneWEn3SsNgL48/h7lwU+qEW8PgqMN2ujUDDpLopIFNdGrl1IHB0NSd7hS1g' +\n\t'YP2NbTTUMGm2ngN9PgtoDvj4GQtr/jvGTbV5Sega/DXdGc3nMXT5p//YaPKwoPnqeuTPtA1' +\n\t'sZaNyg8fLqeDhji4+J6Kug/MVDXsfLZPWwhBNyZmV9OFZcsA6PL7C61MO6b1CIEQ0mPaDhN' +\n\t'tlsPVM5TObaOq/PkI2AlJPEEHJVm9oc+YTVXJ9HDYCZ9eQtXfjXARcp7k6b9SYXolAk6C5l' +\n\t'ykzYmldxjhzlIqLqeGwUlY6mUqlsLVIvLcUxZKZ4dAQ9d/UbGxJ65iChVFfaGhbxEVU+CiY' +\n\t'23db6soHYiBprbZlCwPwr3b6yh9EQFNEV9QMt0OF6uT8yntD4UOw3pKpeFwJ+AYpZwA6AjI' +\n\t'oXQsAM4ix1Mq7gKb0DFzl762ICESNkFfUVoEd5IoHWmPKwLvnpX5t5TJMbBqf4RSEpwF/EC' +\n\t'hdhCs+m6qoaJh569g1eUMhcudoC+shEJ5L9jErK6gav84qHqVUygJg5NnKKVBFbjCzEbbIq' +\n\t'B6lFIW9KVSSoaVYUENG+XdCEUypVQ4KaRwvh0UkV/SwbHeUBgKKJjCoMdYRuF4IFTBm+igL' +\n\t'B5S4HEKZUY46ElpBhRt9tLJqeugGEVpHPTEU0qAyvA+nVTdDCmBUjwczKFQEwrFKrrY6wfF' +\n\t'QQrroCeTwjk/qJ6ni6JwCH7nKGTAwR4K26Dob6GrRCgWU7joDx3HKKyGqvNluloEaTWFY7D' +\n\t'X3kxhChQ7qOGEP6QBlIZD0XnQ2OkvzPrDtMfi2kDRg9JoqFZQw+UoCKMp9YCdIZS6QIoyU8' +\n\t'tISIZSCtOAfvO3neUVDYUbk7oCYynUB0FhLKOWKRCC6imMhZ1JFEwGSInUtASK/RTWpJ+kq' +\n\t'4Kn/kjhJFTx1LQN0kkKc2FnNoV/Q5FBTZ9CsZWChdpMFPZB9TQ1HYeUTyEddlIp7IViAzUd' +\n\t'hiKLVuaDa5LGDOwSFtHp+psfWfjBUdpkQ7WImmohZVPIgp00Cp9B8SE1/QjFK5Qq3hkfDkd' +\n\t'dpuaYKa2HKpOaLP4Q1lN4E3bmUzgERRY17YViA4X8YGjpmk/hc6jmUFMJpM8pLIOd6RQuQj' +\n\t'Gfmt6DYheFVdC2kEIhVBOoqQBSIYWFsHMfpWBIA6lpChQ/UJgHbZMpVEIVZaaWNEiVFCbDT' +\n\t'jdKIyEZTlODuSOkKDOFh6BtGKXeUO2mlkEQ+lAaBjuGYgpLoEimhjehSKRg6QRtIdUU5kE1' +\n\t'mhp2QZpHoToE9rIoHIcisIguqqOh+JBCHvRkU8iD1S66sAyGlEchGw7upTQEigE1dJYARWQ' +\n\t'1hXnQk0jBEgvV9SV09iKkbhYKiXDQporCTqjG19NRClRLKPWGnigzhXdhNaySjt42QHqXgj' +\n\t'kKjtZS+g1UI8/TjulxqG4wUfgG+nIoWPrD6qYi2rGkGCD1t1DIgZNudRS+DYKq08oG2mzrC' +\n\t'6vNlO6HvoGUco2wapdWTZt/DIPCmEtpIJwtp/QObG6YnXvOwgsFC/vBZg6lXLizkVIGruj4' +\n\t'9MdnGlh5MHM4rDIobYSLDlWU5sJOQBDs3GemNBjudK+nNAn2jCFoNIlSfXe4mk3JPBU6RlV' +\n\t'SWgv30inVjoOOcSZK6dDyHhWv+kPL9HpKB0Lgnv9nlCwpBmgwpFgofeYPLSEFVHwaCxcRb1' +\n\t'BxNgZXc+1RKjZ3hovOW6g4ei20xZylom5ZFBwEP19OhWkorq5PJRXVi8PhIHxxNRUVfaCnx' +\n\t'/dUVbwxOghWxjsyT1NVNhJN0f8kVf/7MeeVeU+MHd47yoiAX68oo+rkrdB3zce0ubRjZcqT' +\n\t'k+evyC6lzaFYNM11eXRiMf2fNnnXwR3jEuraFo6mCnqbut4OwlUMzqWmwrFojlFF1HRgFJr' +\n\t'ggcN0UTzVH81zFzXdhCYxjlhynHZK1zwYjOZ6kJpmocl+OWfNnsLTxUfy178Ub0QLzKCmt+' +\n\t'A926kpF14TXUdNX8JrVlDbTnjL3RZqex1e0qmEOh6HdwTvoo76aHhFu93U8z68ouPX1DUE3' +\n\t'jCoiLqWwwuML9ZT13fB8Lxue6iv/BZ4XFhaLfVVDoOnGRKL6caZOHiY38Pf0J1dneFZxoTD' +\n\t'dKd2gREeFTnrKN36vBc8asQGE906eB88KWLm93Qvf6wBnuM3cl0t3apdNxyeYxi69Azd25c' +\n\t'cCY/xv3PZCbplyXshFh4TmbDuAt0qeT+xAzwlMD41z0x3Tm1KuskAjwl8ZEcJ9Z3LefmhLv' +\n\t'C89oMn/mnzIRMdnM1dPfOujvAqY+y9z2V9UVx16KPX504Y0A4t9BN3u2VcrggrbwAAAABJR' +\n\t'U5ErkJggg=='"
 				},
 				{
-					"id": 112,
+					"id": 114,
 					"name": "addSuffix",
 					"kind": 64,
 					"kindString": "Function",
@@ -5446,7 +5043,7 @@
 					},
 					"signatures": [
 						{
-							"id": 113,
+							"id": 115,
 							"name": "addSuffix",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -5455,7 +5052,7 @@
 							},
 							"parameters": [
 								{
-									"id": 114,
+									"id": 116,
 									"name": "filename",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -5468,7 +5065,7 @@
 									}
 								},
 								{
-									"id": 115,
+									"id": 117,
 									"name": "suffix",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -5490,14 +5087,14 @@
 					],
 					"sources": [
 						{
-							"fileName": "reporters/util/ReportWriter.ts",
-							"line": 296,
+							"fileName": "reporters/VisualRegression.ts",
+							"line": 360,
 							"character": 18
 						}
 					]
 				},
 				{
-					"id": 116,
+					"id": 118,
 					"name": "constructDirectory",
 					"kind": 64,
 					"kindString": "Function",
@@ -5506,7 +5103,7 @@
 					},
 					"signatures": [
 						{
-							"id": 117,
+							"id": 119,
 							"name": "constructDirectory",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -5515,7 +5112,7 @@
 							},
 							"parameters": [
 								{
-									"id": 118,
+									"id": 120,
 									"name": "base",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -5528,7 +5125,7 @@
 									}
 								},
 								{
-									"id": 119,
+									"id": 121,
 									"name": "location",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -5549,8 +5146,8 @@
 					],
 					"sources": [
 						{
-							"fileName": "reporters/util/ReportWriter.ts",
-							"line": 302,
+							"fileName": "reporters/VisualRegression.ts",
+							"line": 366,
 							"character": 27
 						}
 					]
@@ -5568,37 +5165,37 @@
 					"title": "Interfaces",
 					"kind": 256,
 					"children": [
-						101,
-						97,
-						105
+						103,
+						99,
+						107
 					]
 				},
 				{
 					"title": "Type aliases",
 					"kind": 4194304,
 					"children": [
-						120
+						122
 					]
 				},
 				{
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						121
+						123
 					]
 				},
 				{
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						112,
-						116
+						114,
+						118
 					]
 				}
 			],
 			"sources": [
 				{
-					"fileName": "reporters/util/ReportWriter.ts",
+					"fileName": "reporters/VisualRegression.ts",
 					"line": 1,
 					"character": 0
 				}
@@ -5946,7 +5543,7 @@
 			]
 		},
 		{
-			"id": 290,
+			"id": 292,
 			"name": "\"test\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -5957,7 +5554,7 @@
 			"originalName": "src/test.ts",
 			"children": [
 				{
-					"id": 291,
+					"id": 293,
 					"name": "Options",
 					"kind": 256,
 					"kindString": "Interface",
@@ -5970,7 +5567,7 @@
 					},
 					"children": [
 						{
-							"id": 299,
+							"id": 301,
 							"name": "baseline",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6005,11 +5602,11 @@
 							"inheritedFrom": {
 								"type": "reference",
 								"name": "Options.baseline",
-								"id": 202
+								"id": 204
 							}
 						},
 						{
-							"id": 300,
+							"id": 302,
 							"name": "baselineLocation",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6044,11 +5641,11 @@
 							"inheritedFrom": {
 								"type": "reference",
 								"name": "Options.baselineLocation",
-								"id": 203
+								"id": 205
 							}
 						},
 						{
-							"id": 295,
+							"id": 297,
 							"name": "callback",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6077,7 +5674,7 @@
 									{
 										"type": "reflection",
 										"declaration": {
-											"id": 296,
+											"id": 298,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
@@ -6086,7 +5683,7 @@
 											},
 											"signatures": [
 												{
-													"id": 297,
+													"id": 299,
 													"name": "__call",
 													"kind": 4096,
 													"kindString": "Call signature",
@@ -6095,7 +5692,7 @@
 													},
 													"parameters": [
 														{
-															"id": 298,
+															"id": 300,
 															"name": "report",
 															"kind": 32768,
 															"kindString": "Parameter",
@@ -6105,7 +5702,7 @@
 															"type": {
 																"type": "reference",
 																"name": "AssertionResult",
-																"id": 207
+																"id": 209
 															}
 														}
 													],
@@ -6121,7 +5718,7 @@
 							}
 						},
 						{
-							"id": 301,
+							"id": 303,
 							"name": "directory",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6156,11 +5753,11 @@
 							"inheritedFrom": {
 								"type": "reference",
 								"name": "Options.directory",
-								"id": 204
+								"id": 206
 							}
 						},
 						{
-							"id": 294,
+							"id": 296,
 							"name": "height",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6194,7 +5791,7 @@
 							}
 						},
 						{
-							"id": 303,
+							"id": 305,
 							"name": "missingBaseline",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6204,12 +5801,13 @@
 								"__visited__": true
 							},
 							"comment": {
-								"shortText": "What to do if a test baseline is missing\n  fail: fail the test\n  ignore: ignore the missing baseline\n  skip: skip the test\n  snapshot: take a snapshot to serve as the new baseline"
+								"shortText": "What to do if a test baseline is missing",
+								"text": "* fail: fail the test\n* ignore: ignore the missing baseline\n* skip: skip the test\n* snapshot: take a snapshot to serve as the new baseline\n"
 							},
 							"sources": [
 								{
 									"fileName": "assert.ts",
-									"line": 112,
+									"line": 113,
 									"character": 16
 								}
 							],
@@ -6237,11 +5835,11 @@
 							"inheritedFrom": {
 								"type": "reference",
 								"name": "Options.missingBaseline",
-								"id": 206
+								"id": 208
 							}
 						},
 						{
-							"id": 302,
+							"id": 304,
 							"name": "regenerateBaselines",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6280,11 +5878,11 @@
 							"inheritedFrom": {
 								"type": "reference",
 								"name": "Options.regenerateBaselines",
-								"id": 205
+								"id": 207
 							}
 						},
 						{
-							"id": 292,
+							"id": 294,
 							"name": "url",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6308,7 +5906,7 @@
 							}
 						},
 						{
-							"id": 293,
+							"id": 295,
 							"name": "width",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6347,15 +5945,15 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								299,
-								300,
-								295,
 								301,
-								294,
-								303,
 								302,
-								292,
-								293
+								297,
+								303,
+								296,
+								305,
+								304,
+								294,
+								295
 							]
 						}
 					],
@@ -6370,12 +5968,12 @@
 						{
 							"type": "reference",
 							"name": "Options",
-							"id": 201
+							"id": 203
 						}
 					]
 				},
 				{
-					"id": 304,
+					"id": 306,
 					"name": "visualTest",
 					"kind": 64,
 					"kindString": "Function",
@@ -6385,7 +5983,7 @@
 					},
 					"signatures": [
 						{
-							"id": 305,
+							"id": 307,
 							"name": "visualTest",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -6397,7 +5995,7 @@
 							},
 							"parameters": [
 								{
-									"id": 306,
+									"id": 308,
 									"name": "options",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -6407,7 +6005,7 @@
 									"type": {
 										"type": "reference",
 										"name": "Options",
-										"id": 291
+										"id": 293
 									}
 								}
 							],
@@ -6431,14 +6029,14 @@
 					"title": "Interfaces",
 					"kind": 256,
 					"children": [
-						291
+						293
 					]
 				},
 				{
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						304
+						306
 					]
 				}
 			],
@@ -7711,17 +7309,16 @@
 			"title": "External modules",
 			"kind": 1,
 			"children": [
-				189,
-				200,
-				175,
-				143,
-				122,
-				275,
-				328,
-				307,
+				191,
+				202,
+				177,
+				145,
+				124,
+				277,
+				309,
 				81,
 				63,
-				290,
+				292,
 				1,
 				42
 			]

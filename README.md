@@ -91,18 +91,19 @@ To run our visual regression tests:
 
 ## API and architecture
 
-Intern-visual exports four modules:
+Intern-visual has three main exports:
 
-*   `test` is a function that will create a complete visual regression test
-    based on an options obect
-*   `assert` is a function that can be used to make visual assertions in tests
+*   `visualTest` is a function that will create a complete visual regression
+    test based on an options obect
+*   `assertVisuals` is a function that can be used to make visual assertions in
+    tests
 *   `helpers` is an object of functional test helper functions
-*   `config` is the current config of the plugin
 
 ### visualTest
 
-`visualTest` is a function that creates a complete visual regression test from a
-set of options.
+[visualTest](https://theintern.io/docs.html#intern-visual/1/api/test/visualtest)
+is a function that creates a complete visual regression test from a set of
+[options](https://theintern.io/docs.html#intern-visual/1/api/test/options).
 
 ```ts
 import { visualTest }  from 'intern-visual';
@@ -117,14 +118,12 @@ registerSuite('mySuite', {
 });
 ```
 
-See the API docs for the full set of
-[options](https://theintern.io/docs.html#intern-visual/1/api/test/options).
-
 ### assertVisuals
 
-`assertVisuals` is a Leadfoot helper function that can be used to provide visual
-assertion functionality within an existing Intern test. It provides the
-assertion functionality of `visualTest` but without the surrounding logic.
+[assertVisuals](https://theintern.io/docs.html#intern-visual/1/api/assert/assertvisuals)
+is a Leadfoot helper function that can be used to provide visual assertion
+functionality within an existing Intern test. It provides the assertion
+functionality of `visualTest` but without the surrounding logic.
 
 ```ts
 import { assertVisuals } from 'intern-visual';
