@@ -2,7 +2,7 @@
 
 <!-- prettier-ignore-start -->
 <!-- start-github-only -->
-<br><p align="center"><img src="https://cdn.rawgit.com/theintern/intern-visual/master/docs/logo.svg" alt="Intern Visual logo" height="128"></p><br>
+<br><p align="center"><img src="https://cdn.rawgit.com/theintern/intern-visual/5115be20a45bec46da24e030c9887968b098c36a/docs/logo.svg" alt="Intern Visual logo" height="128"></p><br>
 <!-- end-github-only -->
 
 <!-- start-github-only -->
