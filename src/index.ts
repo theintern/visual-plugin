@@ -1,6 +1,6 @@
 /**
- * This module exports the public API for intern-visual, registers
- * intern-visual as an Intern plugin, and installs the visual regression
+ * This module exports the public API for visual-plugin, registers
+ * visual-plugin as an Intern plugin, and installs the visual regression
  * reporter.
  */ /** */
 
@@ -16,7 +16,7 @@ const helpers = {
 
 export { assertVisuals, config, helpers, visualTest };
 
-intern.registerPlugin('intern-visual', options => {
+intern.registerPlugin('visual', options => {
 	const opts: Config = <Config>options || {};
 	Object.assign(config, opts);
 

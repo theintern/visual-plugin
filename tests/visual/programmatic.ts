@@ -1,5 +1,5 @@
 /**
- * This suite shows how to use the low-level APIs provided by intern-visual.
+ * This suite shows how to use the low-level APIs provided by visual-plugin.
  */
 
 import { existsSync } from 'fs';

@@ -1,13 +1,12 @@
-# intern-visual
+# visual-plugin
 
 <!-- prettier-ignore-start -->
 <!-- start-github-only -->
-<br><p align="center"><img src="https://cdn.rawgit.com/theintern/intern-visual/5115be20a45bec46da24e030c9887968b098c36a/docs/logo.svg" alt="Intern Visual logo" height="128"></p><br>
+<br><p align="center"><img src="https://cdn.rawgit.com/theintern/visual-plugin/5115be20a45bec46da24e030c9887968b098c36a/docs/logo.svg" alt="Intern Visual logo" height="128"></p><br>
 <!-- end-github-only -->
 
 <!-- start-github-only -->
-
-[![Build Status](https://travis-ci.org/theintern/intern-visual.svg?branch=master)](https://travis-ci.org/theintern/intern-visual)<!-- end-github-only -->
+[![Build Status](https://travis-ci.org/theintern/visual-plugin.svg?branch=master)](https://travis-ci.org/theintern/visual-plugin)<!-- end-github-only -->
 [![Intern](http://theintern.github.io/images/intern-v4.svg)](https://github.com/theintern/intern/)
 <!-- prettier-ignore-end -->
 
@@ -30,7 +29,7 @@ This project adds support for visual regression testing to
 
 ## Overview
 
-A visual regression test compares a screenshot of a webpage with a previously
+A visual regression test compares a screenshot of a web page with a previously
 generated baseline providing the ability to make automated comparisons against a
 known-good version to ensure nothing has changed.
 
@@ -46,29 +45,29 @@ to detect visual regressions.
 
 For example, here's a simple login page:
 
-<p align="center"><img src="https://cdn.rawgit.com/theintern/intern-visual/master/docs/good.png" alt="Good login sample" width="245"></p><br>
+<p align="center"><img src="https://cdn.rawgit.com/theintern/visual-plugin/master/docs/good.png" alt="Good login sample" width="245"></p><br>
 
 Assume you’ve created a visual test called “login page” for this page. The first
 time the test is run it will save a snapshot image (a _baseline_) of the page.
 
 At some point, someone may change a style that has a side effect of making `h1`
-tags use a serif font. Now the the login page looks like this:
+tags use a serif font. Now the login page looks like this:
 
-<p align="center"><img src="https://cdn.rawgit.com/theintern/intern-visual/master/docs/bad.png" alt="Bad login sample" width="245"></p><br>
+<p align="center"><img src="https://cdn.rawgit.com/theintern/visual-plugin/master/docs/bad.png" alt="Bad login sample" width="245"></p><br>
 
 Normal unit tests aren‘t going to see anything wrong here, because the content
 is the same. However, the next time the visual test is run for that page it will
 fail because the page no longer looks the same. A report will be generated that
 highlights the changes:
 
-<p align="center"><img src="https://cdn.rawgit.com/theintern/intern-visual/master/docs/report.png" alt="Visual assertion report"></p><br>
+<p align="center"><img src="https://cdn.rawgit.com/theintern/visual-plugin/master/docs/report.png" alt="Visual assertion report"></p><br>
 
 ## Installation
 
-The `intern-visual` package should be installed as a peer of Intern
+This package should be installed as a peer of Intern
 
 ```
-$ npm install intern intern-visual --save-dev
+$ npm install intern @theintern/visual-plugin --save-dev
 ```
 
 ## Quick start
@@ -91,7 +90,7 @@ To run our visual regression tests:
 
 ## API and architecture
 
-Intern-visual has three main exports:
+This plugin has three main exports:
 
 *   `visualTest` is a function that will create a complete visual regression
     test based on an options obect
@@ -101,12 +100,12 @@ Intern-visual has three main exports:
 
 ### visualTest
 
-[visualTest](https://theintern.io/docs.html#intern-visual/1/api/test/visualtest)
+[visualTest](https://theintern.io/docs.html#visual-plugin/1/api/test/visualtest)
 is a function that creates a complete visual regression test from a set of
-[options](https://theintern.io/docs.html#intern-visual/1/api/test/options).
+[options](https://theintern.io/docs.html#visual-plugin/1/api/test/options).
 
 ```ts
-import { visualTest }  from 'intern-visual';
+import { visualTest }  from '@theintern/visual-plugin';
 
 registerSuite('mySuite', {
     test: visualTest({
@@ -120,13 +119,13 @@ registerSuite('mySuite', {
 
 ### assertVisuals
 
-[assertVisuals](https://theintern.io/docs.html#intern-visual/1/api/assert/assertvisuals)
+[assertVisuals](https://theintern.io/docs.html#visual-plugin/1/api/assert/assertvisuals)
 is a Leadfoot helper function that can be used to provide visual assertion
 functionality within an existing Intern test. It provides the assertion
 functionality of `visualTest` but without the surrounding logic.
 
 ```ts
-import { assertVisuals } from 'intern-visual';
+import { assertVisuals } from '@theintern/visual-plugin';
 
 registerSuite('mySuite', {
     test() {
@@ -144,18 +143,18 @@ registerSuite('mySuite', {
 ```
 
 See the API docs for the full set of
-[options](https://theintern.io/docs.html#intern-visual/1/api/assert/options-1).
+[options](https://theintern.io/docs.html#visual-plugin/1/api/assert/options-1).
 
 ### helpers
 
 The `helpers` export currently contains one function,
-[resizeWindow](https://theintern.io/docs.html#intern-visual/1/api/helpers%2FresizeWindow/resizeWindow).
+[resizeWindow](https://theintern.io/docs.html#visual-plugin/1/api/helpers%2FresizeWindow/resizeWindow).
 This is a convenience function that will resize a browser window and wait for
 the resize operation to complete.
 
 ### Reporting results
 
-By default intern-visual will generate an HTML report of visual regression test
+By default this plugin will generate an HTML report of visual regression test
 results in the plugin’s output directory. The reporter supports a couple of
 options:
 
@@ -166,7 +165,7 @@ options:
 
 ```json
 "plugins": {
-    "script": "intern-visual",
+    "script": "@theintern/visual-plugin",
     "options": {
         "missingBaseline": "snapshot",
         "directory": "visual",
@@ -181,7 +180,7 @@ The reporter can be disabled by setting the `report` configuration option to
 
 ```json
 "plugins": {
-    "script": "intern-visual",
+    "script": "@theintern/visual-plugin",
     "options": {
         "missingBaseline": "snapshot",
         "directory": "visual",

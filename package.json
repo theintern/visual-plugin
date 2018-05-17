@@ -1,14 +1,14 @@
 {
-	"name": "intern-visual",
+	"name": "@theintern/visual-plugin",
 	"version": "0.2.0-pre",
 	"description": "Visual regression testing plugin for Intern",
 	"author": "Paul Shannon",
 	"license": "MPL-2.0",
-	"homepage": "https://github.com/theintern/intern-visual#readme",
+	"homepage": "https://github.com/theintern/visual-plugin#readme",
 	"main": "index.js",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/theintern/intern-visual.git"
+		"url": "git+https://github.com/theintern/visual-plugin.git"
 	},
 	"keywords": [
 		"intern",
@@ -20,7 +20,7 @@
 		"visual testing"
 	],
 	"bugs": {
-		"url": "https://github.com/theintern/intern-visual/issues"
+		"url": "https://github.com/theintern/visual-plugin/issues"
 	},
 	"peerDependencies": {
 		"intern": ">=4.2.0, <5.0.0"

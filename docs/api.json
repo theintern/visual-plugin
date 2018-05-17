@@ -1,6 +1,6 @@
 {
 	"id": 0,
-	"name": "intern-visual",
+	"name": "@theintern/visual-plugin",
 	"kind": 0,
 	"flags": {
 		"__visited__": true
@@ -4137,7 +4137,7 @@
 			},
 			"originalName": "src/index.ts",
 			"comment": {
-				"shortText": "This module exports the public API for intern-visual, registers\nintern-visual as an Intern plugin, and installs the visual regression\nreporter."
+				"shortText": "This module exports the public API for visual-plugin, registers\nvisual-plugin as an Intern plugin, and installs the visual regression\nreporter."
 			},
 			"children": [
 				{

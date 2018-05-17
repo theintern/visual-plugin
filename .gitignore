@@ -3,6 +3,7 @@
 /src/**/*.css
 dist
 _build/
+_publish/
 _tests/
 /node_modules
 .baseDir.ts
