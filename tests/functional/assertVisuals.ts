@@ -21,7 +21,7 @@ const { registerSuite } = intern.getPlugin('interface.object');
 const { assert } = intern.getPlugin('chai');
 const basicPageUrl = '_tests/tests/support/pages/basic.html';
 
-registerSuite('programmatic', {
+registerSuite('assertVisuals', {
 	'no baselines generated': {
 		'defaults missingBaseline = skip; test is skipped'() {
 			const test: VisualRegressionTest = this;

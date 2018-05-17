@@ -1,8 +1,3 @@
-/**
- * This suite shows how to use the high-level `visualTest` helper to create
- * visual snapshot tests.
- */
-
 import { visualTest } from '../../src/index';
 
 const { registerSuite } = intern.getPlugin('interface.object');

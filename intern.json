@@ -17,7 +17,7 @@
 	"functionalCoverage": true,
 	"functionalSuites": [
 		"_tests/tests/functional/**/*.js",
-		"_tests/tests/visual/**/*.js"
+		"_tests/tests/example/**/*.js"
 	],
 	"plugins": "_tests/tests/globalUi.js",
 	"reporters": [
