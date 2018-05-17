@@ -15,10 +15,7 @@
 	],
 	"filterErrorStack": true,
 	"functionalCoverage": true,
-	"functionalSuites": [
-		"_tests/tests/functional/**/*.js",
-		"_tests/tests/example/**/*.js"
-	],
+	"functionalSuites": "_tests/tests/functional/**/*.js",
 	"plugins": "_tests/tests/globalUi.js",
 	"reporters": [
 		{
