@@ -15,11 +15,11 @@ env:
     - INTERN_ARGS="environments=node coverage="
 matrix:
   exclude:
-	# Exlude the matrix run with current node and the @ci args
+    # Exlude the matrix run with current node and the @ci args
     - node_js: 'node'
       env: INTERN_ARGS="config=@ci"
-	# Exlude the matrix run with LTS node and the non-coverage args
+    # Exlude the matrix run with LTS node and the non-coverage args
     - node_js: 'lts/*'
       env: INTERN_ARGS="environments=node coverage="
 script:
-  - npm install && npm run
+  - npm install && npm run ci

@@ -42,7 +42,7 @@
     "clean": "intern-dev-clean",
     "release": "intern-dev-release",
     "test": "intern",
-    "ci": "intern-dev-build && intern config=@ci"
+    "ci": "intern-dev-build && intern"
   },
   "internDev": {
     "resources": {
