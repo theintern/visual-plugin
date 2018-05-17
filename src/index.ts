@@ -25,7 +25,13 @@ intern.registerPlugin('visual', options => {
 		reporter = new VisualRegression(intern, config);
 	}
 
+	// All the standard exports, as well as the reporter, are available on the
+	// registered plugin.
 	return {
-		reporter
+		reporter,
+		assertVisuals,
+		config,
+		helpers,
+		visualTest
 	};
 });
