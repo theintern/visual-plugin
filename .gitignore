@@ -12,4 +12,5 @@ html-report
 /typings
 .grunt
 npm-debug.log
-visual-test
+visual-test/
+example-test/

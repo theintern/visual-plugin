@@ -14,7 +14,7 @@ registerSuite('example tests', {
 		url: basicPageUrl,
 		width: 640,
 		height: 480,
-		missingBaseline: 'ignore'
+		missingBaseline: 'snapshot'
 	}),
 
 	'custom visual test'() {
@@ -24,7 +24,7 @@ registerSuite('example tests', {
 			.takeScreenshot()
 			.then(
 				assertVisuals(this, {
-					missingBaseline: 'ignore'
+					missingBaseline: 'snapshot'
 				})
 			);
 	}

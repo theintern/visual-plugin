@@ -74,9 +74,9 @@ $ npm install intern @theintern/visual-plugin --save-dev
 
 Ok! You want to see all the great things visual regression testing can do and
 how to do it! See some real test code by looking in the
-[tests/visual](./tests/visual) directory.
+[tests/example](./tests/example) directory.
 
-To run our visual regression tests:
+To run the example tests:
 
 1.  Clone this project
 1.  Install package dependencies
@@ -85,8 +85,13 @@ To run our visual regression tests:
     ```
 1.  Run the tests
     ```
-    npm test
+    npm test config=@example
     ```
+
+If you want to see what an error looks like, modify the HTML file used by the
+tests, in `_tests/tests/support/pages/basic.html`. For example, change the
+paragraph text, or change the background color from pink to green. Then re-run
+the test. It will fail, and a report will be generated in `visual-tests/report`.
 
 ## API and architecture
 

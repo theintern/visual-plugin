@@ -55,6 +55,19 @@
 			],
 			"tunnel": "browserstack",
 			"maxConcurrency": 1
+		},
+
+		"example": {
+			"environments": "chrome",
+			"functionalSuites": "_tests/tests/example/**/*.js",
+			"coverage": [],
+			"reporters": "runner",
+			"plugins": {
+				"script": "_tests/src",
+				"options": {
+					"directory": "example-test"
+				}
+			}
 		}
 	}
 }
