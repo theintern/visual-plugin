@@ -1,62 +1,62 @@
 {
-	"name": "@theintern/visual-plugin",
-	"version": "0.2.0-pre",
-	"description": "Visual regression testing plugin for Intern",
-	"author": "Paul Shannon",
-	"license": "MPL-2.0",
-	"homepage": "https://github.com/theintern/visual-plugin#readme",
-	"main": "index.js",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/theintern/visual-plugin.git"
-	},
-	"keywords": [
-		"intern",
-		"plugin",
-		"visual",
-		"testing",
-		"test",
-		"visual regression",
-		"visual testing"
-	],
-	"bugs": {
-		"url": "https://github.com/theintern/visual-plugin/issues"
-	},
-	"peerDependencies": {
-		"intern": ">=4.2.0, <5.0.0"
-	},
-	"devDependencies": {
-		"@theintern/dev": "~0.7.3",
-		"@theintern/leadfoot": "~2.1.0",
-		"@types/node": "~9.6.16",
-		"concurrently": "~3.5.0",
-		"intern": "~4.2.0",
-		"stylus": "~0.54.5"
-	},
-	"dependencies": {
-		"@types/pngjs": "~3.3.0",
-		"pngjs": "~3.3.0"
-	},
-	"scripts": {
-		"build": "concurrently intern-dev-build intern-dev-api",
-		"clean": "intern-dev-clean",
-		"release": "intern-dev-release",
-		"test": "intern",
-		"ci": "intern-dev-build && intern config=@ci"
-	},
-	"internDev": {
-		"resources": {
-			"_build": [
-				"src/*.d.ts",
-				"src/**/*.css"
-			],
-			"_tests": [
-				"tests/**/*.html",
-				"src/**/*.css"
-			]
-		},
-		"stylus": [
-			"src/reporters/util/assets/main.styl"
-		]
-	}
+  "name": "@theintern/visual-plugin",
+  "version": "0.2.0",
+  "description": "Visual regression testing plugin for Intern",
+  "author": "Paul Shannon",
+  "license": "MPL-2.0",
+  "homepage": "https://github.com/theintern/visual-plugin#readme",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theintern/visual-plugin.git"
+  },
+  "keywords": [
+    "intern",
+    "plugin",
+    "visual",
+    "testing",
+    "test",
+    "visual regression",
+    "visual testing"
+  ],
+  "bugs": {
+    "url": "https://github.com/theintern/visual-plugin/issues"
+  },
+  "peerDependencies": {
+    "intern": ">=4.2.0, <5.0.0"
+  },
+  "devDependencies": {
+    "@theintern/dev": "~0.7.3",
+    "@theintern/leadfoot": "~2.1.0",
+    "@types/node": "~9.6.16",
+    "concurrently": "~3.5.0",
+    "intern": "~4.2.0",
+    "stylus": "~0.54.5"
+  },
+  "dependencies": {
+    "@types/pngjs": "~3.3.0",
+    "pngjs": "~3.3.0"
+  },
+  "scripts": {
+    "build": "concurrently intern-dev-build intern-dev-api",
+    "clean": "intern-dev-clean",
+    "release": "intern-dev-release",
+    "test": "intern",
+    "ci": "intern-dev-build && intern config=@ci"
+  },
+  "internDev": {
+    "resources": {
+      "_build": [
+        "src/*.d.ts",
+        "src/**/*.css"
+      ],
+      "_tests": [
+        "tests/**/*.html",
+        "src/**/*.css"
+      ]
+    },
+    "stylus": [
+      "src/reporters/util/assets/main.styl"
+    ]
+  }
 }
