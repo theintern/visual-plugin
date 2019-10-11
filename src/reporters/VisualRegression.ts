@@ -26,6 +26,16 @@ export default class VisualRegression {
 	private reportLocation: string;
 
 	/**
+	 * Only display visual regressions in the report
+	 */
+	private onlyReportErrors: boolean;
+
+	/**
+	 * Prefix the test name in the report with the parent test suite names
+	 */
+	private prefixTestName: boolean;
+
+	/**
 	 * Notes exported to index.html
 	 * @private
 	 */
@@ -40,6 +50,9 @@ export default class VisualRegression {
 		);
 
 		this.errorColor = getRGBA(options.errorColor || '#F00')!;
+
+		this.onlyReportErrors = options.onlyReportErrors || false;
+		this.prefixTestName = options.prefixTestName || false;
 
 		executor.on('deprecated', message => this.deprecated(message));
 		executor.on('error', error => this.error(error));
@@ -114,9 +127,13 @@ export default class VisualRegression {
 			return Promise.resolve();
 		}
 
-		const results: AssertionResult[] = test.visualResults!;
+		let results: AssertionResult[] = test.visualResults!;
 		const testDirectory = getTestDirectory(test.parent);
 		const directory = join(this.reportLocation, testDirectory);
+
+		if (this.onlyReportErrors) {
+			results = results.filter((result) => result.report && !result.report.isPassing);
+		}
 
 		return Promise.all(
 			results.map(result => {
@@ -280,13 +297,19 @@ export default class VisualRegression {
 	}
 
 	private createComparisonHeader(test: Test) {
+		let label = test.name;
+		if (this.prefixTestName) {
+			let testDirectory = getTestDirectory(test.parent);
+			label = join(testDirectory, label);
+		}
+
 		const result = test.skipped
 			? 'skiped'
 			: test.hasPassed
 				? 'passed'
 				: 'failed';
 		return `
-			<header class="${result}">${test.name}</header>
+			<header class="${result}">${label}</header>
 		`;
 	}
 
@@ -340,6 +363,16 @@ export interface Options {
 	 * 'report'.
 	 */
 	reportLocation?: string;
+
+	/**
+	 * Only display visual regressions in the report
+	 */
+	onlyReportErrors?: boolean;
+
+	/**
+	 * Prefix the test name in the report with the parent test suite names
+	 */
+	prefixTestName?: boolean;
 }
 
 export interface Note {
