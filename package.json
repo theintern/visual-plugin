@@ -30,7 +30,7 @@
     "@theintern/leadfoot": "~2.1.0",
     "@types/node": "~9.6.16",
     "concurrently": "~3.5.0",
-    "intern": "~4.2.0",
+    "intern": "~4.10.1",
     "stylus": "~0.54.5"
   },
   "dependencies": {
